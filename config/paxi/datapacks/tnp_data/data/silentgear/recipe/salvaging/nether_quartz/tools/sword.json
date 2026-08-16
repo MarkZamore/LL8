@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "ae2:nether_quartz_sword"
+  },
+  "results": [
+    {
+      "id": "minecraft:quartz",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick"
+    }
+  ]
+}
+

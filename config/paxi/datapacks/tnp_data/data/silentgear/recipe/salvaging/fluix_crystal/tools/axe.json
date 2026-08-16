@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "ae2:fluix_axe"
+  },
+  "results": [
+    {
+      "id": "ae2:fluix_block",
+      "count": 1
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

@@ -1,0 +1,16 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": {
+    "item": "modern_industrialization:titanium_ingot"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "modern_industrialization:titanium_dust"
+      }
+    }
+  ]
+}

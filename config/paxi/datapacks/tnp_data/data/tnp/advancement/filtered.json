@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "enderio:basic_filter"
+    },
+    "title": "Craft any EIO Filter",
+    "description": "Used by quests (ignore).",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "enderio:advanced_filter",
+              "enderio:basic_filter",
+              "enderio:big_advanced_item_filter",
+              "enderio:big_item_filter",
+              "enderio:chemical_filter",
+              "enderio:entity_filter",
+              "enderio:fluid_filter",
+              "enderio:redstone_and_filter",
+              "enderio:redstone_counting_filter",
+              "enderio:redstone_filter_base",
+              "enderio:redstone_nand_filter",
+              "enderio:redstone_nor_filter",
+              "enderio:redstone_not_filter",
+              "enderio:redstone_or_filter",
+              "enderio:redstone_sensor_filter",
+              "enderio:redstone_timer_filter",
+              "enderio:redstone_toggle_filter",
+              "enderio:redstone_xnor_filter",
+              "enderio:redstone_xor_filter"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

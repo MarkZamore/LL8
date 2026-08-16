@@ -1,0 +1,28 @@
+{
+  "parent": "tombstone:event/root",
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "tombstone:spring_bloom"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "tombstone.advancement.spring_bloom.desc"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "id": "minecraft:peony"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "tombstone.advancement.spring_bloom.title"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

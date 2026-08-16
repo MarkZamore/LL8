@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "id": "chococraft:gysahl_green",
+      "count": 2
+    },
+    {
+      "id": "chococraft:gysahl_green_seeds",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "chococraft:gysahl_green_seeds"
+  },
+  "soil": {
+    "item": "minecraft:dirt"
+  },
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "chococraft:gysahl_green"
+  }
+}

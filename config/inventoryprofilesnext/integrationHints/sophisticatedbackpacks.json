@@ -1,0 +1,15 @@
+{
+    "net.p3pp3rf1y.sophisticatedbackpacks.client.gui.BackpackScreen": {
+        "ignore": true,
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 24,
+                "top": -770
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 12,
+                "bottom": 774
+            }
+        }
+    }
+}

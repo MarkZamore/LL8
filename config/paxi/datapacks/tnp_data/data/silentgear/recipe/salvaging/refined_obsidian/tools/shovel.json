@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:refined_obsidian_shovel"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_refined_obsidian",
+      "count": 1
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

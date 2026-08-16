@@ -1,0 +1,24 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "actuallyadditions:iron_aiot"
+  },
+  "results": [
+    {
+      "id": "minecraft:iron_axe"
+    },
+    {
+      "id": "minecraft:iron_pickaxe"
+    },
+    {
+      "id": "minecraft:iron_sword"
+    },
+    {
+      "id": "minecraft:iron_shovel"
+    },
+    {
+      "id": "minecraft:iron_hoe"
+    }
+  ]
+}
+

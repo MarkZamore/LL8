@@ -1,0 +1,87 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    " AAA   ",
+    "ABCBA  ",
+    "ADKFA  ",
+    "ARGEA  ",
+    "AHOIA A",
+    " AJA BA",
+    "  AAAAB"
+  ],
+  "key": {
+    "A": {
+      "item": "immersiveengineering:ersatz_leather"
+    },
+    "B": {
+      "item": "evilcraft:golden_string"
+    },
+    "C": {
+      "item": "moblassos:hostile_lasso"
+    },
+    "D": {
+      "item": "moblassos:diamond_lasso"
+    },
+    "O": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:lapis_lazuli"
+      },
+      "type": "neoforge:components"
+    },
+    "K": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:diamond"
+      },
+      "type": "neoforge:components"
+    },
+    "E": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:emerald"
+      },
+      "type": "neoforge:components"
+    },
+    "R": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:gold"
+      },
+      "type": "neoforge:components"
+    },
+    "F": {
+      "item": "moblassos:emerald_lasso"
+    },
+    "G": {
+      "items": "mekanism:ultimate_fluid_tank",
+      "components": {
+        "mekanism:fluids": {
+          "fluid_tanks": [
+            {
+              "id": "reliquary:xp_still",
+              "amount": 256000
+            }
+          ]
+        }
+      },
+      "type": "neoforge:components"
+    },
+    "H": {
+      "item": "moblassos:golden_lasso"
+    },
+    "I": {
+      "item": "moblassos:aqua_lasso"
+    },
+    "J": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:amethyst"
+      },
+      "type": "neoforge:components"
+    }
+  },
+  "result": {
+    "id": "moblassos:creative_lasso"
+  }
+}

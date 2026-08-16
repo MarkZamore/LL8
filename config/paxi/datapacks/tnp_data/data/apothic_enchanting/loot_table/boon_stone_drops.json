@@ -1,0 +1,667 @@
+{
+    "type": "minecraft:advancement_location",
+    "pools": [
+        {
+            "bonus_rolls": {
+                "type": "minecraft:uniform",
+                "max": 0.02,
+                "min": 0.0
+            },
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "minecraft:silk_touch",
+                                        "levels": {
+                                            "min": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                 {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.2
+                            }
+                        }
+                    ],
+                    "max": 10,
+                    "min": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "modern_industrialization:lignite_coal"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 3,
+                    "quality": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "mekanism:raw_tin"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 3,
+                    "quality": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "mekanism:raw_osmium"
+                    },
+                    "weight": 90
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 3,
+                    "quality": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "mekanism:raw_uranium"
+                    },
+                    "weight": 65
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 3,
+                    "quality": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "mekanism:raw_lead"
+                    },
+                    "weight": 80
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 3,
+                    "quality": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "occultism:raw_silver"
+                    },
+                    "weight": 60
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 3,
+                    "quality": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "modern_industrialization:raw_nickel"
+                    },
+                    "weight": 75
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 3,
+                    "quality": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "create:raw_zinc"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 2,
+                    "quality": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:redstone"
+                    },
+                    "weight": 18
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 3,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:raw_copper"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 3,
+                    "quality": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:raw_iron"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.2
+                            }
+                        }
+                    ],
+                    "max": 10,
+                    "min": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:coal"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 2,
+                    "quality": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:raw_gold"
+                    },
+                    "weight": 20
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 7,
+                    "min": 2,
+                    "quality": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:lapis_lazuli"
+                    },
+                    "weight": 20
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 2,
+                    "min": 1,
+                    "quality": 3,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:diamond"
+                    },
+                    "weight": 5
+                }
+            ],
+            "functions": [
+                {
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:binomial_with_bonus_count",
+                    "function": "minecraft:apply_bonus",
+                    "parameters": {
+                        "extra": 0,
+                        "probability": 0.08
+                    }
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": {
+                "type": "minecraft:uniform",
+                "max": 0.02,
+                "min": 0.0
+            },
+            "conditions": [
+                {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "minecraft:silk_touch",
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 5,
+                    "min": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "modern_industrialization:lignite_coal_ore"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "mekanism:tin_ore"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "mekanism:osmium_ore"
+                    },
+                    "weight": 90
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "quality": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "mekanism:uranium_ore"
+                    },
+                    "weight": 65
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "mekanism:lead_ore"
+                    },
+                    "weight": 80
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "quality": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "occultism:silver_ore"
+                    },
+                    "weight": 60
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "modern_industrialization:nickel_ore"
+                    },
+                    "weight": 75
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "create:zinc_ore"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 5,
+                    "min": 2,
+                    "quality": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:redstone_ore"
+                    },
+                    "weight": 18
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:copper_ore"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "quality": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:iron_ore"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 5,
+                    "min": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:coal_ore"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "quality": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:gold_ore"
+                    },
+                    "weight": 20
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 5,
+                    "min": 2,
+                    "quality": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:lapis_ore"
+                    },
+                    "weight": 20
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 1,
+                    "min": 1,
+                    "quality": 3,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:diamond_ore"
+                    },
+                    "weight": 5
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "biomes": "#minecraft:is_mountain",
+                                "position": {
+                                    "y": {
+                                        "min": 32.0
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "minecraft:silk_touch",
+                                                "levels": {
+                                                    "min": 1
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.08
+                            }
+                        }
+                    ],
+                    "max": 2,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:emerald"
+                    },
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 85
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "biomes": "#minecraft:is_mountain",
+                                "position": {
+                                    "y": {
+                                        "min": 32.0
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:match_tool",
+                            "predicate": {
+                                "predicates": {
+                                    "minecraft:enchantments": [
+                                        {
+                                            "enchantments": "minecraft:silk_touch",
+                                            "levels": {
+                                                "min": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 1,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:emerald_ore"
+                    },
+                    "weight": 15
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 85
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "apothic_enchanting:boon_stone_drops"
+}

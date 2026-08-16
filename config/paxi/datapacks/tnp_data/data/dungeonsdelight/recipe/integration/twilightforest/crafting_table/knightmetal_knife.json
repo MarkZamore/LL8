@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "c:ingots/knightmetal"
+    },
+    "X": {
+      "item": "farmersdelight:iron_knife"
+    }
+  },
+  "pattern": [
+    "#",
+    "X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dungeonsdelight:knightmetal_knife"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": {
+    "tag": "c:ingots/lead"
+  },
+  "output": {
+    "output": {
+      "item": "mekanism:dust_lead"
+    },
+    "percentages": [
+      1.0
+    ],
+    "percentagesAdvanced": [
+      1.0
+    ]
+  }
+}

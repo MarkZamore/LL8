@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "twilightforest:ironwood_chestplate"
+  },
+  "results": [
+    {
+      "id": "twilightforest:ironwood_ingot",
+      "count": 8
+    }
+  ]
+}
+

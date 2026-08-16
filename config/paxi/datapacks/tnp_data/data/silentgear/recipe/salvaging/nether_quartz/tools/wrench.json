@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "ae2:nether_quartz_wrench"
+  },
+  "results": [
+    {
+      "id": "minecraft:quartz",
+      "count": 5
+    }
+  ]
+}
+

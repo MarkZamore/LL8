@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "irons_spellbooks:priest_chestplate"
+  },
+  "results": [
+    {
+      "id": "irons_spellbooks:magic_cloth",
+      "count": 8
+    },
+    {
+      "id": "irons_spellbooks:holy_rune",
+      "count": 1
+    }
+  ]
+}
+

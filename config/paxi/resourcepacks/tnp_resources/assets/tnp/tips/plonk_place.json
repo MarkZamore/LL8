@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "You can place items/blocks on the ground/walls as displays with default keybind: P. Acts as an invisible item frame."
+  }
+}

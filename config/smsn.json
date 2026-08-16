@@ -1,0 +1,20 @@
+{
+  "aetherMoaSkinsFeature": true,
+  "immersiveEngineeringSpecialRevolvers": true,
+  "ipnUpdateCheckAndUserTracking": false,
+  "petrolparkBadgeCheck": false,
+  "supplementariesCreditsCheck": false,
+  "bagusLibSupportersCheck": false,
+  "placeboTrails": false,
+  "placeboWings": false,
+  "irisUpdateCheck": false,
+  "actuallyAdditionsSpecialPeopleStuff": false,
+  "exposureGoldenCameraSkin": false,
+  "titaniumReward": false,
+  "ribbitsSupporterHat": false,
+  "xaeroMapVersionCheck": true,
+  "xaeroMapPatreonCheck": false,
+  "mruApi": false,
+  "projecteUUIDCheck": false,
+  "immersiveCavesDiscordMessage": false
+}

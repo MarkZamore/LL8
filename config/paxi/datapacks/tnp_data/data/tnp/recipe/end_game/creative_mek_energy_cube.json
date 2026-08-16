@@ -1,0 +1,94 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABAABAABA",
+    "BCDEFEDCB",
+    "ADGHIHGDA",
+    "AEHJJJHEA",
+    "BFIJKJIFB",
+    "AEHJJJHEA",
+    "ADGHIHGDA",
+    "BCDEFEDCB",
+    "ABAABAABA"
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:frame"
+    },
+    "B": {
+      "item": "mekanism:steel_casing"
+    },
+    "C": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "D": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "E": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "F": {
+      "item": "extendedcrafting:nether_star_block"
+    },
+    "G": {
+      "items": "mekanism:ultimate_energy_cube",
+      "components": {
+        "mekanism:energy": {
+          "energy_containers": [
+            256000000
+          ]
+        }
+      },
+      "type": "neoforge:components"
+    },
+    "H": {
+      "item": "extendedcrafting:crystaltine_block"
+    },
+    "I": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "J": {
+      "item": "extendedcrafting:flux_star_block"
+    },
+    "K": {
+      "item": "extendedcrafting:ultimate_singularity"
+    }
+  },
+  "result": {
+      "id": "mekanism:creative_energy_cube",
+      "components": {
+        "mekanism:side_config": {
+          "config": {
+            "items": {
+              "side": {
+                "top": "input",
+                "right": "input",
+                "front": "output",
+                "left": "input",
+                "bottom": "input",
+                "back": "input"
+              }
+            },
+            "energy": {
+              "side": {
+                "top": "output",
+                "right": "output",
+                "front": "output",
+                "left": "output",
+                "bottom": "output",
+                "back": "output"
+              },
+              "eject": true
+            }
+          }
+        },
+        "mekanism:energy": {
+          "energy_containers": [
+            9223372036854775807
+          ]
+        }
+      },
+      "type": "neoforge:components"
+    }
+  }
+}

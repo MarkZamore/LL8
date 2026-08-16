@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:froststeel_hoe"
+  },
+  "results": [
+    {
+      "id": "undergarden:froststeel_ingot",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

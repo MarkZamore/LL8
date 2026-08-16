@@ -1,0 +1,81 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "EBATDTABE",
+    "BCTLFMTCB",
+    "ATGHIHGTA",
+    "TNHJJJHOT",
+    "DFIJKJIFD",
+    "TPHJJJHQT",
+    "ATGHIHGTA",
+    "BCTRFSTCB",
+    "EBATDTABE"
+  ],
+  "key": {
+    "A": {
+      "item": "omnigrid:omni_utility_housing"
+    },
+    "B": {
+      "item": "omnigrid:operation_core_housing"
+    },
+    "C": {
+      "item": "omnigrid:command_core_housing"
+    },
+    "D": {
+      "item": "omnigrid:precision_core_housing"
+    },
+    "E": {
+      "item": "omnigrid:energy_upgrade"
+    },
+    "F": {
+      "item": "extendedcrafting:nether_star_block"
+    },
+    "H": {
+      "item": "refinedtypes:infinite_energy_storage_part"
+ 
+    },
+    "G": {
+      "item": "extradisks:infinite_item_storage_part"
+    },
+    "I": {
+      "item": "extradisks:infinite_fluid_storage_part"
+    },
+    "J": {
+      "item": "extendedcrafting:flux_star_block"
+    },
+    "K": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+	 "L": {
+      "item": "omnigrid:omni_curios_1"
+    },
+	 "M": {
+      "item": "omnigrid:omni_curios_2"
+    },
+	 "N": {
+      "item": "omnigrid:omni_curios_3"
+    },
+	 "O": {
+      "item": "omnigrid:omni_curios_4"
+    },
+	 "P": {
+      "item": "omnigrid:omni_curios_5"
+    },
+	 "Q": {
+      "item": "omnigrid:omni_water_generator"
+    },
+	 "R": {
+      "item": "omnigrid:omni_cobble_generator"
+    },
+	 "S": {
+      "item": "omnigrid:omni_shield"
+    },
+    "T": {
+      "item": "extendedcrafting:crystaltine_block"
+    }
+	
+  },
+  "result": {
+    "id": "omnigrid:omni_creative"
+  }
+}

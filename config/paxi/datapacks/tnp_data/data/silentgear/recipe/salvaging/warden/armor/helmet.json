@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "deeperdarker:warden_helmet"
+  },
+  "results": [
+    {
+      "id": "deeperdarker:warden_carapace",
+      "count": 1
+    },
+    {
+      "id": "minecraft:netherite_ingot",
+      "count": 1
+    }
+  ]
+}
+

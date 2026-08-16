@@ -1,0 +1,46 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "item": "mekanism:ingot_bronze"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:bronze"
+    },
+    {
+      "item": "mekanism:ingot_bronze"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:bronze"
+    },
+    {
+      "item": "mekanism:ingot_bronze"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:bronze"
+    },
+    {
+      "item": "mekanism:ingot_bronze"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:bronze"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:bronze"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:bronze_seeds"
+  }
+}

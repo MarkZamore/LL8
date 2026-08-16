@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:ores/aluminum"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "modern_industrialization:aluminum_dust"
+    },
+    "count": 2
+  }
+}

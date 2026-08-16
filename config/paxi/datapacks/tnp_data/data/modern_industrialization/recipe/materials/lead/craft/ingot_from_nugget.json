@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "tag": "c:nuggets/lead"
+    },
+    "y": {
+      "item": "mekanism:nugget_lead"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanism:ingot_lead"
+  }
+}

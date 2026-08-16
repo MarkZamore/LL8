@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:froststeel_helmet"
+  },
+  "results": [
+    {
+      "id": "undergarden:froststeel_ingot",
+      "count": 5
+    }
+  ]
+}
+

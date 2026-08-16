@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sticks",
+  "key": {
+    "i": {
+      "tag": "c:ingots/bronze"
+    }
+  },
+  "pattern": [
+    "i",
+    "i"
+  ],
+  "result": {
+    "id": "modern_industrialization:bronze_rod",
+    "count": 1
+  }
+}

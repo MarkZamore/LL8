@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Are chunks loading slow? Pre-generating your world will help with that. Use the mod: Chunky. It is already included in the pack!"
+  }
+}

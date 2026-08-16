@@ -1,0 +1,54 @@
+#List of ranks
+[[ranks]]
+	tier = 0
+	numAffixes = 0
+	defaultColor = "#FFFFFF"
+	weight = 1860
+	growthFactor = 0
+	effects = []
+	presetAffixes = []
+#List of ranks
+[[ranks]]
+	tier = 1
+	numAffixes = 1
+	defaultColor = "#D1F4FF"
+	weight = 40
+	growthFactor = 4
+	effects = []
+	presetAffixes = []
+#List of ranks
+[[ranks]]
+	tier = 2
+	numAffixes = 2
+	defaultColor = "#00A2FF"
+	weight = 24
+	growthFactor = 10
+	effects = []
+	presetAffixes = []
+#List of ranks
+[[ranks]]
+	tier = 3
+	numAffixes = 3
+	defaultColor = "#FFFF00"
+	weight = 15
+	growthFactor = 15
+	effects = []
+	presetAffixes = ["champions:enkindling"]
+#List of ranks
+[[ranks]]
+	tier = 4
+	numAffixes = 4
+	defaultColor = "#0AFFFF"
+	weight = 8
+	growthFactor = 18
+	effects = []
+	presetAffixes = ["champions:enkindling"]
+#List of ranks
+[[ranks]]
+	tier = 5
+	numAffixes = 6
+	defaultColor = "#FF00A6"
+	weight = 6
+	growthFactor = 20
+	effects = []
+	presetAffixes = ["champions:enkindling"]

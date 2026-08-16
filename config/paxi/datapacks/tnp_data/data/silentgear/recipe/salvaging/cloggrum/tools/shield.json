@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:cloggrum_shield"
+  },
+  "results": [
+    {
+      "id": "undergarden:cloggrum_ingot",
+      "count": 6
+    },
+    {
+      "id": "minecraft:oak_planks"
+    }
+  ]
+}
+

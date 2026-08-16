@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "modular_angelring:angel_ring"
+    },
+    "title": "Flying through the wind!",
+    "description": "Acquire or craft an Angel Ring",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "modular_angelring:angel_ring"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

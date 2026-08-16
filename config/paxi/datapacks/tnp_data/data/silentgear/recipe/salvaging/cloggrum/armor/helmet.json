@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:cloggrum_helmet"
+  },
+  "results": [
+    {
+      "id": "undergarden:cloggrum_ingot",
+      "count": 5
+    }
+  ]
+}
+

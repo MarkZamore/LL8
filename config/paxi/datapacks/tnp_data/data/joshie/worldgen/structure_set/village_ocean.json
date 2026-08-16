@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "joshie:village_ocean",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 67250481,
+    "spacing": 34,
+    "separation": 8
+  }
+}

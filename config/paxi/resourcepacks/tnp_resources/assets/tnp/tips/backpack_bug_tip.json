@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Unable to open your backpack, inventory acting strange? This is a rare de-sync problem with @Curios & @Sophisticated Backpacks. Simply relog or restart your game to fix it."
+  }
+}

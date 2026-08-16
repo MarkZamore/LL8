@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mekanism:deepslate_lead_ore"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanism:lead_ore"
+  }
+}

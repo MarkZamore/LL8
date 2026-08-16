@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/iron"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/iron"
+      }
+    }
+  ],
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "tag": "c:ingots/iron"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "mekanism:dust_iron"
+  }
+}

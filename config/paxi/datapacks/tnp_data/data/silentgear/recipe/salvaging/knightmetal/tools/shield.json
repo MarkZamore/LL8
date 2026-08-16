@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "twilightforest:knightmetal_shield"
+  },
+  "results": [
+    {
+      "id": "twilightforest:knightmetal_ingot",
+      "count": 3
+    },
+    {
+      "id": "twilightforest:towerwood",
+      "count": 2
+    },
+    {
+      "id": "twilightforest:knightmetal_ring",
+      "count": 1
+    }
+  ]
+}
+

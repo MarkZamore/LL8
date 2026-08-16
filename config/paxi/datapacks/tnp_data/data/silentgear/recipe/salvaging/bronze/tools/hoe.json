@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:bronze_hoe"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_bronze",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

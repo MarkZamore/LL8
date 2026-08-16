@@ -1,0 +1,110 @@
+{
+  "display": {
+    "icon": {
+      "id": "aquaculture:atlantic_cod_bucket"
+    },
+    "title": "Bucketed!",
+    "description": "Bucket every single fish & jellyfish from Aquaculture.",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aquaculture:blackfish_bucket"
+          },
+          {
+            "items": "aquaculture:pacific_halibut_bucket"
+          },
+          {
+            "items": "aquaculture:atlantic_halibut_bucket"
+          },
+          {
+            "items": "aquaculture:atlantic_herring_bucket"
+          },
+          {
+            "items": "aquaculture:pink_salmon_bucket"
+          },
+          {
+            "items": "aquaculture:pollock_bucket"
+          },
+          {
+            "items": "aquaculture:rainbow_trout_bucket"
+          },
+          {
+            "items": "aquaculture:bayad_bucket"
+          },
+          {
+            "items": "aquaculture:boulti_bucket"
+          },
+          {
+            "items": "aquaculture:capitaine_bucket"
+          },
+          {
+            "items": "aquaculture:synodontis_bucket"
+          },
+          {
+            "items": "aquaculture:smallmouth_bass_bucket"
+          },
+          {
+            "items": "aquaculture:bluegill_bucket"
+          },
+          {
+            "items": "aquaculture:brown_trout_bucket"
+          },
+          {
+            "items": "aquaculture:carp_bucket"
+          },
+          {
+            "items": "aquaculture:catfish_bucket"
+          },
+          {
+            "items": "aquaculture:gar_bucket"
+          },
+          {
+            "items": "aquaculture:minnow_bucket"
+          },
+          {
+            "items": "aquaculture:muskellunge_bucket"
+          },
+          {
+            "items": "aquaculture:perch_bucket"
+          },
+          {
+            "items": "aquaculture:arapaima_bucket"
+          },
+          {
+            "items": "aquaculture:piranha_bucket"
+          },
+          {
+            "items": "aquaculture:tambaqui_bucket"
+          },
+          {
+            "items": "aquaculture:brown_shrooma_bucket"
+          },
+          {
+            "items": "aquaculture:red_shrooma_bucket"
+          },
+          {
+            "items": "aquaculture:jellyfish_bucket"
+          },
+          {
+            "items": "aquaculture:red_grouper_bucket"
+          },
+          {
+            "items": "aquaculture:tuna_bucket"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

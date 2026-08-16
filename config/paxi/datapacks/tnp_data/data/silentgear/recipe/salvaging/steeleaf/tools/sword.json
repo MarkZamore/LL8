@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "twilightforest:steeleaf_sword"
+  },
+  "results": [
+    {
+      "id": "twilightforest:steeleaf_ingot",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick"
+    }
+  ]
+}
+

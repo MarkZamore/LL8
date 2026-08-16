@@ -1,0 +1,10 @@
+#House weights (spawn frequency)
+[weights]
+	#Miner house spawn chance
+	# Default: 10
+	# Range: > 0
+	minerHouseWeight = 10
+	#Netherologist house spawn chance
+	# Default: 10
+	# Range: > 0
+	netherologistHouseWeight = 10

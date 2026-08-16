@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " I ",
+        "IMI",
+        " I "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "M": {
+            "item": "ppfluids:low_fluid_extraction_module"
+        }
+    },
+    "result": {
+        "id": "ppfluids:medium_fluid_extraction_module"
+    }
+}

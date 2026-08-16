@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "fire_pit_s",
+    "pattern": [
+      "##",
+      "XX"
+      ],
+  "key": {
+      "#": [
+        {
+            "tag": "tnp:any_fire"
+        },
+        {
+            "tag": "tnp:any_fire"
+        }
+    ]
+      ,
+      "X": {
+        "item": "minecraft:polished_granite"
+      }
+    },
+    "result":{
+        "id":"additional_lights:fire_pit_s_polished_granite",
+        "count":1
+      }
+}

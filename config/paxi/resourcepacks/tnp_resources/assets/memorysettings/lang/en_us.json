@@ -1,0 +1,10 @@
+{
+  "warning.32bit": "You're using 32-bit java on a 64-bit system, please install 64-bit java!",
+  "warning.toomuch": "More memory allocated(%s mb) than recommended for TNP Limitless 7, maximum is: %s mb.The recommended amount for your system is: %s mb.\n",
+  "warning.toolow": "Less memory allocated(%s mb) than recommended for TNP Limitless 7, minimum is: %s mb. The recommended amount for your system is:  %s mb.\n",
+  "warning.overrecommended": "More memory allocated(%s mb) than recommended for your system, recommended is: %s mb.\n",
+  "warning.underrecommended": "Less memory allocated(%s mb) than recommended for your system, recommended is: %s mb.\n",
+  "warning.recommendedbelowmin": "Recommended %s for your system is lower than the required minimum of %s mb for TNP Limitless 7. You may experience issues like frequent stutters.\n",
+  "button.howto": "How to allocate more? Open guide.",
+  "button.stopremind": "I know what I'm doing, stop showing."
+}

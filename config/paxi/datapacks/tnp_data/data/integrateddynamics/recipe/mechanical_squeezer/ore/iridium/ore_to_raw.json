@@ -1,0 +1,30 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": {
+    "tag": "c:ores/iridium"
+  },
+  "output_items": [
+    {
+      "item": {
+        "id": "modern_industrialization:raw_iridium",
+        "count": 3
+      }
+    },
+    {
+      "item": {
+        "id": "modern_industrialization:raw_iridium",
+        "count": 2
+      },
+      "chance": 0.5
+    },
+    {
+      "item": {
+        "id": "modern_industrialization:raw_iridium",
+        "count": 2
+      },
+      "chance": 0.5
+    }
+  ],
+  "duration": 40,
+  "neoforge:conditions": []
+}

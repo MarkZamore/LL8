@@ -1,0 +1,19 @@
+{
+  "type": "oritech:pulverizer",
+  "fluidInputAmount": 0,
+  "fluidInputVariant": "minecraft:empty",
+  "fluidOutputAmount": 0,
+  "fluidOutputVariant": "minecraft:empty",
+  "ingredients": [
+    {
+      "tag": "c:ores/antimony"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "id": "modern_industrialization:raw_antimony"
+    }
+  ],
+  "time": 200
+}

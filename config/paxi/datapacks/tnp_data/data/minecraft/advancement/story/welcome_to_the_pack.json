@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": "Welcome to TNP Limitless 8!",
+    "description": "Spawn into the world. Which welcomes you to the modpack!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

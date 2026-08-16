@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "item": "minecraft:coal"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "item": "mekanism:dust_coal"
+  }
+}

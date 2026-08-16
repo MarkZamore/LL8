@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "c:ores/crimson_iron"
+  },
+  "result": {
+    "item": "silentgear:crimson_iron_dust"
+  }
+}

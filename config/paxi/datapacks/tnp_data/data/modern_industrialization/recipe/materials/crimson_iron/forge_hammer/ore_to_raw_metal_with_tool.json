@@ -1,0 +1,11 @@
+{
+  "type": "modern_industrialization:forge_hammer",
+  "damage": 20,
+  "ingredient": {
+    "tag": "c:ores/crimson_iron"
+  },
+  "result": {
+    "count": 3,
+    "id": "silentgear:raw_crimson_iron"
+  }
+}

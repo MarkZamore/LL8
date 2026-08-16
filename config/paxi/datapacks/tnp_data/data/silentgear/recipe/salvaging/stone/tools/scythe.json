@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "pickletweaks:stone_scythe"
+  },
+  "results": [
+    {
+      "id": "minecraft:cobblestone",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 3
+    }
+  ]
+}
+

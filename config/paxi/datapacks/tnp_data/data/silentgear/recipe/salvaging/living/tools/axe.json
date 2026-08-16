@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "rootsclassic:living_axe"
+  },
+  "results": [
+    {
+      "id": "rootsclassic:verdant_sprig",
+      "count": 1
+    },
+    {
+      "id": "rootsclassic:oak_bark",
+      "count": 2
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "count": 1
+    }
+  ]
+}
+

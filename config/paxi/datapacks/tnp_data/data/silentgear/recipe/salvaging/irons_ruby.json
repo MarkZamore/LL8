@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "irons_jewelry:ruby"
+  },
+  "results": [
+    {
+      "count": 1,
+      "id": "silentgems:ruby"
+    }
+  ]
+}

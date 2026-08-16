@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "naturesaura:sky_sword"
+  },
+  "results": [
+    {
+      "id": "naturesaura:sky_ingot",
+      "count": 2
+    },
+    {
+      "id": "naturesaura:ancient_stick"
+    }
+  ]
+}
+

@@ -1,0 +1,22 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "item": "modern_industrialization:monazite_crushed_dust"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "tag": "c:dusts/monazite"
+      }
+    },
+    {
+      "chance": 0.25,
+      "item": {
+        "count": 1,
+      "tag": "c:dusts/monazite"
+      }
+    }
+  ]
+}

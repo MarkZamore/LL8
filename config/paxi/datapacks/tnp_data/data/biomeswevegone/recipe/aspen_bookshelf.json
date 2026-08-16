@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:aspen_planks"
+    },
+    {
+      "tag": "c:bookshelves"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "biomeswevegone:aspen_bookshelf"
+  }
+}

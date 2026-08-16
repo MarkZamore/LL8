@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "c:raw_materials/yellorium"
+  },
+  "result": {
+    "item": "bigreactors:yellorium_dust"
+  }
+}

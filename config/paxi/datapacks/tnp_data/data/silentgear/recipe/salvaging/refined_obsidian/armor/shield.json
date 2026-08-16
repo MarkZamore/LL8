@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:refined_obsidian_shield"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_refined_obsidian",
+      "count": 6
+    },
+    {
+      "id": "minecraft:shield"
+    }
+  ]
+}
+

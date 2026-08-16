@@ -1,0 +1,13 @@
+{
+  "minecraft:item.trident.thunder": 0.5,
+  "inventoryprofilesnext:tool_refill_step_ping": 0.30583756345177665,
+  "the_bumblezone:biomes.beehive_ambience": 0.0,
+  "minecraft:ui.toast.challenge_complete": 0.1,
+  "minecraft:entity.ender_dragon.death": 0.1,
+  "minecraft:entity.lightning_bolt.thunder": 0.25,
+  "minecraft:ui.toast.in": 0.15228426395939088,
+  "minecraft:ui.toast.out": 0.15228426395939088,
+  "minecraft:entity.lightning_bolt.impact": 0.2,
+  "subtle_effects:environment.firefly.buzz": 0.01509137055837563,
+  "subtle_effects:block.water.drip": 0.0
+}

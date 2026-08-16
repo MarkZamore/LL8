@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "w": {
+      "tag": "c:gems/diamond"
+    }
+  },
+  "pattern": [
+    " w",
+    "s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "extradelight:diamond_spoon"
+  }
+}

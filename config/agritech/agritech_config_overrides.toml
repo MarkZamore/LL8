@@ -1,0 +1,65 @@
+# AgriTech Override Configuration
+# This file allows you to add custom crops and soils without modifying the core configuration.
+# Any entries here will override existing configurations for the same items/blocks. For instance, the growth modififier for minecraft:farmland can be overwritten here.
+
+# How to use:
+# 1. Add [crops.your_crop_name] sections for new crops or to override existing ones
+# 2. Add [soils.your_soil_name] sections for new soils or to override existing ones
+# 3. Save the file and restart your game
+
+# IMPORTANT: Make sure to verify the exact item and block IDs from your mods
+# Incorrect IDs will be skipped with a warning message in the log
+# The mod uses resource location format (e.g., "minecraft:dirt" not just "dirt")
+# The easiest way to check IDs is with F3+H enabled (shows tooltip IDs) or via JEI/REI
+
+# Example crops:
+
+# [crops.example_wheat]
+# seed = "examplemod:wheat_seeds"
+# soil = [
+#   "minecraft:farmland",
+#   "examplemod:rich_soil"
+# ]
+# # There are two ways to specify drops:
+# # 1. Simple drops with default settings:
+# drops = [
+#   "examplemod:wheat",
+#   "examplemod:wheat_seeds"
+# ]
+# min_count = 1  # Minimum drop count for all simple drops (default: 1)
+# max_count = 3  # Maximum drop count for all simple drops (default: 1)
+# chance = 0.75  # Drop chance for all simple drops (default: 1.0)
+
+# # 2. Detailed drops with individual settings (use this for multiple drops with different chances):
+# # [crops.example_wheat_advanced]
+# # seed = "examplemod:wheat_seeds"
+# # soil = ["minecraft:farmland"]
+# # drops = [
+# #   { item = "examplemod:wheat", min_count = 1, max_count = 3, chance = 1.0 },
+# #   { item = "examplemod:wheat_seeds", min_count = 1, max_count = 2, chance = 0.3 }
+# # ]
+
+# Example soils:
+
+# [soils.example_rich_soil]
+# block = "examplemod:rich_soil"
+# growth_modifier = 0.8  # Growth speed multiplier (default: 0.5)
+
+# REAL EXAMPLE - Uncomment to use
+# This example adds support for a mod's herb crop
+
+# [crops.herb_crop]
+# seed = "herbmod:herb_seeds"
+# soil = [
+#   "minecraft:farmland",
+#   "minecraft:dirt",
+#   "minecraft:clay"
+# ]
+# drops = [
+#   { item = "herbmod:herb", min_count = 1, max_count = 3, chance = 1.0 },
+#   { item = "herbmod:herb_seeds", min_count = 1, max_count = 2, chance = 0.3 }
+# ]
+
+# [soils.enriched_soil]
+# block = "herbmod:enriched_soil"
+# growth_modifier = 1.25

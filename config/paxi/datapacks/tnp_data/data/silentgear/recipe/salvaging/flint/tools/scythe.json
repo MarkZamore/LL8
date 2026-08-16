@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "pickletweaks:flint_scythe"
+  },
+  "results": [
+    {
+      "id": "minecraft:flint",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 3
+    }
+  ]
+}
+

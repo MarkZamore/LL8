@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:tools/cutters"
+    },
+    {
+      "tag": "c:plates/energized_copper"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "energizedpower:energized_copper_wire"
+  }
+}

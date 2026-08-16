@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:refined_glowstone_pickaxe"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_refined_glowstone",
+      "count": 3
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

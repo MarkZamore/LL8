@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "zeta:flag",
+      "flag": "variant_furnaces"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aether:holystone"
+    },
+    {
+      "item": "minecraft:furnace"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ascended_quark:holystone_furnace"
+  }
+}

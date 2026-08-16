@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cognition:cognitive_sword"
+  },
+  "results": [
+    {
+      "id": "cognition:cognitive_alloy"
+    },
+    {
+      "id": "minecraft:iron_sword"
+    }
+  ]
+}
+

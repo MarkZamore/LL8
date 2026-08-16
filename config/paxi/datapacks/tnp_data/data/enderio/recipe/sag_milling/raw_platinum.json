@@ -1,0 +1,22 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "tag": "c:raw_materials/platinum"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "tag": "c:dusts/platinum"
+      }
+    },
+    {
+      "chance": 0.25,
+      "item": {
+        "count": 1,
+      "tag": "c:dusts/platinum"
+      }
+    }
+  ]
+}

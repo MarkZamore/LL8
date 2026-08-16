@@ -1,0 +1,17 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": {
+    "tag": "c:ingots/copper"
+  },
+  "output": {
+    "output": {
+      "item": "mekanism:dust_copper"
+    },
+    "percentages": [
+      1.0
+    ],
+    "percentagesAdvanced": [
+      1.0
+    ]
+  }
+}

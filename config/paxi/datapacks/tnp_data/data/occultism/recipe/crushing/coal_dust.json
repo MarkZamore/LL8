@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/coal"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 4,
+    "id": "minecraft:coal"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Awakened Draconium",
+  "colors": [
+    "CF4C0D",
+    "FCC000"
+  ],
+  "ingredient": {
+    "tag": "c:storage_blocks/draconium_awakened"
+  },
+  "inUltimateSingularity": false
+}

@@ -1,0 +1,21 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": {
+    "tag": "c:obsidians"
+  },
+  "output": {
+    "output": {
+      "item": "mekanism:dust_obsidian"
+    },
+    "percentages": [
+      1.0,
+      1.0
+    ],
+    "percentagesAdvanced": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+}

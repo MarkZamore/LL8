@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:bronze_shield"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_bronze",
+      "count": 6
+    },
+    {
+      "id": "minecraft:shield"
+    }
+  ]
+}
+

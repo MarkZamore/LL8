@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "forbidden_arcanus:tyr_helmet"
+  },
+  "results": [
+    {
+      "id": "forbidden_arcanus:aquatic_dragon_scale",
+      "count": 4
+    },
+    {
+      "id": "forbidden_arcanus:golden_dragon_scale"
+    }
+  ]
+}
+

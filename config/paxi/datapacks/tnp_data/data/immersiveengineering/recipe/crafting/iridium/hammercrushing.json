@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "c:ores/iridium"
+  },
+  "result": {
+    "item": "modern_industrialization:iridium_dust"
+  }
+}

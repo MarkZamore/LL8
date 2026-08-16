@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "forbidden_arcanus:darkstone"
+    },
+  "result": {
+    "id": "forbidden_arcanus:darkstone_wall",
+    "count": 1
+}

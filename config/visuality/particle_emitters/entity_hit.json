@@ -1,0 +1,36 @@
+{
+  "enabled": true,
+  "min_amount": 1,
+  "max_amount": 20,
+  "entries": [
+    {
+      "entity": [
+        "minecraft:wither_skeleton",
+        "earthmobsmod:wither_skeleton_wolf",
+        "mekanismadditions:baby_wither_skeleton"
+      ],
+      "particle": {
+        "type": "visuality:wither_bone"
+      }
+    },
+    {
+      "entity": [
+        "minecraft:chicken",
+        "earthmobsmod:fancy_chicken",
+        "earthmobsmod:duck"
+      ],
+      "particle": {
+        "type": "visuality:feather"
+      }
+    },
+    {
+      "entity": [
+        "minecraft:villager",
+        "minecraft:wandering_trader"
+      ],
+      "particle": {
+        "type": "visuality:emerald"
+      }
+    }
+  ]
+}

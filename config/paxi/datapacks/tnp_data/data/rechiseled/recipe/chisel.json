@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BA",
+    "  "
+  ],
+  "key": {
+    "A": {
+      "tag": "c:ingots/iron"
+    },
+    "B": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "rechiseled:chisel"
+  }
+}

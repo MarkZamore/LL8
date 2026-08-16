@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "processing_time": 500,
+  "results": [
+    {
+      "count": 4,
+      "id": "mekanism:dust_obsidian"
+    }
+  ]
+}

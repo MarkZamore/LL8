@@ -1,0 +1,30 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": {
+    "tag": "c:ores/azure_silver"
+  },
+  "output_items": [
+    {
+      "item": {
+        "id": "silentgear:raw_azure_silver",
+        "count": 3
+      }
+    },
+    {
+      "item": {
+        "id": "silentgear:raw_azure_silver",
+        "count": 2
+      },
+      "chance": 0.5
+    },
+    {
+      "item": {
+        "id": "silentgear:raw_azure_silver",
+        "count": 2
+      },
+      "chance": 0.5
+    }
+  ],
+  "duration": 40,
+  "neoforge:conditions": []
+}

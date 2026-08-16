@@ -1,0 +1,12 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "tag": "c:ingots/energite"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "oritech:energite_dust"
+  }
+}

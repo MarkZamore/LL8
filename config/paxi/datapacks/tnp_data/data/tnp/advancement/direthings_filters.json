@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "justdirethings:upgrade_oreminer"
+    },
+    "title": "Craft any Filter",
+    "description": "Used by quests (ignore).",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "justdirethings:upgrade_mobscanner",
+              "justdirethings:upgrade_oreminer",
+              "justdirethings:upgrade_orescanner",
+              "justdirethings:upgrade_lawnmower",
+              "justdirethings:upgrade_skysweeper",
+              "justdirethings:upgrade_treefeller",
+              "justdirethings:upgrade_leafbreaker",
+              "justdirethings:upgrade_runspeed",
+              "justdirethings:upgrade_walkspeed",
+              "justdirethings:upgrade_stepheight",
+              "justdirethings:upgrade_extinguish",
+              "justdirethings:upgrade_groundstomp",
+              "justdirethings:upgrade_swimspeed",
+              "justdirethings:upgrade_cauterizewounds",
+              "justdirethings:upgrade_hammer",
+              "justdirethings:upgrade_smoker",
+              "justdirethings:upgrade_smelter",
+              "justdirethings:upgrade_potionarrow",
+              "justdirethings:upgrade_invulnerability",
+              "justdirethings:upgrade_mindfog",
+              "justdirethings:upgrade_jumpboost",
+              "justdirethings:upgrade_stupefy",
+              "justdirethings:upgrade_splash",
+              "justdirethings:upgrade_elytra",
+              "justdirethings:upgrade_dropteleport",
+              "justdirethings:upgrade_negatefalldamage",
+              "justdirethings:upgrade_nightvision",
+              "justdirethings:upgrade_decoy",
+              "justdirethings:upgrade_lingering",
+              "justdirethings:upgrade_homing",
+              "justdirethings:upgrade_waterbreathing",
+              "justdirethings:upgrade_orexray",
+              "justdirethings:upgrade_time_protection",
+              "justdirethings:upgrade_epicarrow",
+              "justdirethings:upgrade_debuffremover",
+              "justdirethings:upgrade_deathprotection",
+              "justdirethings:upgrade_phase",
+              "justdirethings:upgrade_lavaimmunity",
+              "justdirethings:upgrade_flight",
+              "justdirethings:upgrade_noai",
+              "justdirethings:upgrade_earthquake",
+              "justdirethings:upgrade_instabreak",
+              "justdirethings:upgrade_glowing"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

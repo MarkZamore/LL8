@@ -1,0 +1,17 @@
+{
+  "type": "cobblegengalore:blockgen",
+  "result": {
+    "id": "minecraft:netherrack",
+    "count": 1
+  },
+  "speed": 2,
+  "left": {
+    "Name": "minecraft:lava"
+  },
+  "right": {
+    "Name": "minecraft:lava"
+  },
+  "modifier": {
+    "Name": "minecraft:netherrack"
+  }
+}

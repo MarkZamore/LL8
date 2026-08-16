@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mythsandlegends:ancient_vestiges",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 15483927,
+    "spacing": 64,
+    "separation": 50
+  }
+}

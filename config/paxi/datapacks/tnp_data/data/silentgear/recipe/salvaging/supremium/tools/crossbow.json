@@ -1,0 +1,20 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mysticalagriculture:supremium_crossbow"
+  },
+  "results": [
+    {
+      "id": "mysticalagriculture:imperium_crossbow"
+    },
+    {
+      "id": "mysticalagriculture:supremium_gemstone",
+      "count": 2
+    },
+    {
+      "id": "mysticalagriculture:supremium_ingot",
+      "count": 2
+    }
+  ]
+}
+

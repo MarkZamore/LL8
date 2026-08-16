@@ -1,0 +1,95 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABBCDCBBA",
+    "AEFGHIFJA",
+    "AKLMMMNKA",
+    "AOPMQMPRA",
+    "ASTMMMTUA",
+    "ACCCVCCCA",
+    "ACWWXWWCA",
+    "ACCWCWCCA",
+    "BBBCCCBBB"
+  ],
+  "key": {
+    "A": {
+      "item": "glassential:glass_ethereal"
+    },
+    "B": {
+      "item": "ars_nouveau:sourcestone"
+    },
+    "C": {
+      "item": "ars_nouveau:starbuncle_shards"
+    },
+    "D": {
+      "item": "ars_nouveau:whirlisprig_charm"
+    },
+    "E": {
+      "item": "ars_elemental:water_focus"
+    },
+    "F": {
+      "item": "ars_nouveau:relay_collector"
+    },
+    "G": {
+      "item": "ars_nouveau:starbuncle_charm"
+    },
+    "H": {
+      "item": "ars_elemental:necrotic_focus"
+    },
+    "I": {
+      "item": "ars_nouveau:drygmy_charm"
+    },
+    "J": {
+      "item": "ars_elemental:air_focus"
+    },
+    "K": {
+      "item": "ars_nouveau:relay"
+    },
+    "L": {
+      "item": "georenouveau:gold_geore_golem_charm"
+    },
+    "M": {
+      "items": "ars_nouveau:source_jar",
+      "components": {
+        "ars_nouveau:block_fill_contents": 10000
+      },
+      "type": "neoforge:components"
+    },
+    "N": {
+      "item": "ars_nouveau:amethyst_golem_charm"
+    },
+    "O": {
+      "item": "ars_nouveau:bookwyrm_charm"
+    },
+    "P": {
+      "item": "ars_nouveau:relay_warp"
+    },
+    "Q": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+    "R": {
+      "item": "ars_nouveau:wixie_charm"
+    },
+    "S": {
+      "item": "ars_elemental:earth_focus"
+    },
+    "T": {
+      "item": "ars_nouveau:relay_deposit"
+    },
+    "U": {
+      "item": "ars_elemental:fire_focus"
+    },
+    "V": {
+      "item": "ars_nouveau:archmage_spell_book"
+    },
+    "W": {
+      "item": "ars_nouveau:source_gem_block"
+    },
+    "X": {
+      "item": "ars_additions:golden_charm"
+    }
+  },
+  "result": {
+    "id": "ars_nouveau:creative_source_jar"
+  }
+}

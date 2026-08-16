@@ -1,0 +1,24 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cataclysm:bulwark_of_the_flame"
+  },
+  "results": [
+    {
+      "id": "cataclysm:ignitium_ingot",
+      "count": 2
+    },
+    {
+      "id": "minecraft:blaze_rod",
+      "count": 2
+    },
+    {
+      "id": "minecraft:nether_brick",
+      "count": 2
+    },
+    {
+      "id": "minecraft:shield"
+    }
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": {
+    "tag": "c:gems/entro"
+  },
+  "output": {
+    "output": {
+      "item": "extendedae:entro_dust"
+    },
+    "percentages": [
+      1.0
+    ],
+    "percentagesAdvanced": [
+      1.0
+    ]
+  }
+}

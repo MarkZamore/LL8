@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "pickletweaks:emerald_boots"
+  },
+  "results": [
+    {
+      "id": "minecraft:emerald",
+      "count": 4
+    }
+  ]
+}
+

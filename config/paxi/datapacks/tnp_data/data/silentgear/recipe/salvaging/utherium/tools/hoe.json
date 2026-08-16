@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:utherium_hoe"
+  },
+  "results": [
+    {
+      "id": "undergarden:utherium_crystal",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

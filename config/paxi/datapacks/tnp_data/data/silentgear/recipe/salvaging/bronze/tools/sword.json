@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:bronze_sword"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_bronze",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick"
+    }
+  ]
+}
+

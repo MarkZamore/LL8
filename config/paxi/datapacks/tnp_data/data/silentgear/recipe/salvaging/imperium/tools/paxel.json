@@ -1,0 +1,22 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mysticalagradditions:imperium_paxel"
+  },
+  "results": [
+    {
+      "id": "mysticalagriculture:imperium_axe"
+    },
+    {
+      "id": "mysticalagriculture:imperium_pickaxe"
+    },
+    {
+      "id": "mysticalagriculture:imperium_shovel"
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

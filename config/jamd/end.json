@@ -1,0 +1,901 @@
+{
+  "oreMultiplier": 1.0,
+  "ores": [
+     {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mysticalagradditions:end_prosperity_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 6,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 8,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgear:azure_silver_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 8,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "rftoolsbase:dimensionalshard_end"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_ruby_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_carnelian_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_topaz_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_citrine_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 6,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_heliodor_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_moldavite_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_peridot_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 6,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_turquoise_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_kyanite_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_sapphire_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 6,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_iolite_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 6,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_alexandrite_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_ammolite_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_rose_quartz_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_black_diamond_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 4,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "silentgems:end_white_diamond_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 4,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "draconicevolution:end_draconium_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 3,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 1,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "enigmaticlegacyplus:etherium_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 8,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 11,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "mysticalagradditions:end_inferium_ore"
+          }
+        }
+      ]
+    },   {
+      "ore_size": 9,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "absolute": 0
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "c:end_stones",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "bigreactors:anglesite_ore"
+          }
+        }
+      ]
+    }
+  ]
+}

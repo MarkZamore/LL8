@@ -1,0 +1,30 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": {
+    "tag": "c:ores/yellorite"
+  },
+  "output_items": [
+    {
+      "item": {
+        "id": "bigreactors:raw_yellorium",
+        "count": 3
+      }
+    },
+    {
+      "item": {
+        "id": "bigreactors:raw_yellorium",
+        "count": 2
+      },
+      "chance": 0.5
+    },
+    {
+      "item": {
+        "id": "bigreactors:raw_yellorium",
+        "count": 2
+      },
+      "chance": 0.5
+    }
+  ],
+  "duration": 40,
+  "neoforge:conditions": []
+}

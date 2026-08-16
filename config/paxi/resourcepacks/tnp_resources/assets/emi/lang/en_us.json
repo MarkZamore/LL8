@@ -1,0 +1,5 @@
+{
+  "emi.reloading.error": "§6EMI initialization halted, hold on.. relog if stuck.",
+  "emi.reloading.worry": "§eSlight delay.. hang in there!",
+  "emi.reloading": "EMI Reloading... expect unstable fps..."
+}

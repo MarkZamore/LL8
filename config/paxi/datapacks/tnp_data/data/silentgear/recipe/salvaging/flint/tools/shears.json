@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "pickletweaks:flint_shears"
+  },
+  "results": [
+    {
+      "id": "minecraft:flint",
+      "count": 2
+    }
+  ]
+}
+

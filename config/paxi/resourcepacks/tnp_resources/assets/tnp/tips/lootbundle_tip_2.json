@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Lots of Energy items from Loot Bundles come fully charged. If you are low on Energy you can place most Energy charged items from Loot Bundles in @Mekanism machines and they will extract Energy from those items to power themselves!"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "aether:zanite_boots"
+  },
+  "results": [
+    {
+      "id": "aether:zanite_gemstone",
+      "count": 4
+    }
+  ]
+}
+

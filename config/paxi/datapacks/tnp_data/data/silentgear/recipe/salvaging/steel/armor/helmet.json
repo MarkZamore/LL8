@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:steel_helmet"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_steel",
+      "count": 5
+    }
+  ]
+}
+

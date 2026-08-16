@@ -1,0 +1,18 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:raw_materials/yellorium"
+  },
+  "result": {
+    "item": "bigreactors:yellorium_dust"
+  },
+  "secondaries": [
+    {
+      "chance": 0.33333334,
+      "output": {
+        "item": "bigreactors:yellorium_dust"
+      }
+    }
+  ]
+}

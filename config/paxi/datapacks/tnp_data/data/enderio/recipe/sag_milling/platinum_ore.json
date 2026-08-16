@@ -1,0 +1,29 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "tag": "c:ores/platinum"
+  },
+  "outputs": [
+    {
+      "item": {
+      "count": 2,
+      "id": "modern_industrialization:raw_platinum"
+      }
+    },
+    {
+      "chance": 0.33,
+      "item": {
+        "count": 1,
+      "id": "modern_industrialization:raw_platinum"
+      }
+    },
+    {
+      "chance": 0.15,
+      "item": {
+        "count": 1,
+      "id": "minecraft:cobblestone"
+      }
+    }
+  ]
+}

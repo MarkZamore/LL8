@@ -1,0 +1,20 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cataclysm:meat_shredder"
+  },
+  "results": [
+    {
+      "id": "cataclysm:witherite_ingot",
+      "count": 2
+    },
+    {
+      "id": "minecraft:redstone",
+      "count": 2
+    },
+    {
+      "id": "minecraft:iron_block"
+    }
+  ]
+}
+

@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "twilightforest:fiery_chestplate"
+  },
+  "results": [
+    {
+      "id": "twilightforest:fiery_ingot",
+      "count": 8
+    }
+  ]
+}
+

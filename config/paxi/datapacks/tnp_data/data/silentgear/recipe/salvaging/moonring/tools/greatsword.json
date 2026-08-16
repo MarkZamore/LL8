@@ -1,0 +1,20 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "eternal_starlight:moonring_greatsword"
+  },
+  "results": [
+    {
+      "id": "eternal_starlight:tenacious_petal",
+      "count": 5
+    },
+    {
+      "id": "eternal_starlight:golem_steel_ingot"
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 3
+    }
+  ]
+}
+

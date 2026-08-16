@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Placing torches on all sides of a spawner (including top) will disable the spawner entirely."
+  }
+}

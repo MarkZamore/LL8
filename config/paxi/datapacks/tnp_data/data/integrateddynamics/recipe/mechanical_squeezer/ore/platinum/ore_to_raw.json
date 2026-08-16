@@ -1,0 +1,30 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": {
+    "tag": "c:ores/platinum"
+  },
+  "output_items": [
+    {
+      "item": {
+        "id": "modern_industrialization:raw_platinum",
+        "count": 3
+      }
+    },
+    {
+      "item": {
+        "id": "modern_industrialization:raw_platinum",
+        "count": 2
+      },
+      "chance": 0.5
+    },
+    {
+      "item": {
+        "id": "modern_industrialization:raw_platinum",
+        "count": 2
+      },
+      "chance": 0.5
+    }
+  ],
+  "duration": 40,
+  "neoforge:conditions": []
+}

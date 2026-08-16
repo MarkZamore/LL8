@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:lapis_lazuli_chestplate"
+  },
+  "results": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "count": 8
+    }
+  ]
+}
+

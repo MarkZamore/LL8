@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "twilightforest:phantom_helmet"
+  },
+  "results": [
+    {
+      "id": "minecraft:phantom_membrane",
+      "count": 5
+    }
+  ]
+}
+

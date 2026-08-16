@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GBG",
+        "BMB",
+        "GBG"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:gold_ingot"
+        },
+        "M": {
+            "item": "ppfluids:medium_fluid_filter_module"
+        },
+        "B": {
+            "item": "minecraft:iron_bars"
+        }
+    },
+    "result": {
+        "id": "ppfluids:high_fluid_filter_module"
+    }
+}

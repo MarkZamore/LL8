@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "tropicraft:zirconium_axe"
+  },
+  "results": [
+    {
+      "id": "tropicraft:zirconium_gem",
+      "count": 3
+    },
+    {
+      "id": "tropicraft:bamboo_stick",
+      "count": 2
+    }
+  ]
+}

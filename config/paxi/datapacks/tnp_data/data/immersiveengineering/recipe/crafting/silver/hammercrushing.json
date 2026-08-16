@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "c:ores/silver"
+  },
+  "result": {
+    "item": "occultism:silver_dust"
+  }
+}

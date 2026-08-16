@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cognition:enlightened_amulet"
+  },
+  "results": [
+    {
+      "id": "minecraft:string",
+      "count": 3
+    },
+    {
+      "id": "cognition:cognitive_crystal",
+      "count": 1
+    }
+  ]
+}
+

@@ -1,0 +1,30 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": {
+    "tag": "c:ores/crimson_iron"
+  },
+  "output_items": [
+    {
+      "item": {
+        "id": "silentgear:raw_crimson_iron",
+        "count": 3
+      }
+    },
+    {
+      "item": {
+        "id": "silentgear:raw_crimson_iron",
+        "count": 2
+      },
+      "chance": 0.5
+    },
+    {
+      "item": {
+        "id": "silentgear:raw_crimson_iron",
+        "count": 2
+      },
+      "chance": 0.5
+    }
+  ],
+  "duration": 40,
+  "neoforge:conditions": []
+}

@@ -1,0 +1,17 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": {
+    "tag": "c:ingots/crimson_iron"
+  },
+  "output": {
+    "output": {
+      "item": "silentgear:crimson_iron_dust"
+    },
+    "percentages": [
+      1.0
+    ],
+    "percentagesAdvanced": [
+      1.0
+    ]
+  }
+}

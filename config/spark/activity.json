@@ -1,0 +1,119 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Gbergz",
+      "uniqueId": "ec3fbd50-08b1-441b-b457-99f13a711017"
+    },
+    "time": 1784468490681,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Gbergz\\curseforge\\minecraft\\Instances\\Limitless-8-Indev\\config\\spark\\heap-2026-07-19_15.41.14.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gbergz",
+      "uniqueId": "ec3fbd50-08b1-441b-b457-99f13a711017"
+    },
+    "time": 1783678331641,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/WAf5aHH9RK"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gbergz",
+      "uniqueId": "ec3fbd50-08b1-441b-b457-99f13a711017"
+    },
+    "time": 1783677730148,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/y7Qc6cbipn"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gbergz",
+      "uniqueId": "ec3fbd50-08b1-441b-b457-99f13a711017"
+    },
+    "time": 1783677729425,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pHgpHZKafu"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gbergz",
+      "uniqueId": "ec3fbd50-08b1-441b-b457-99f13a711017"
+    },
+    "time": 1783458000196,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/K47HBTeTQu"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gbergz",
+      "uniqueId": "ec3fbd50-08b1-441b-b457-99f13a711017"
+    },
+    "time": 1783456677170,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/FXGoV8d579"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gbergz",
+      "uniqueId": "ec3fbd50-08b1-441b-b457-99f13a711017"
+    },
+    "time": 1783456676247,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/1o6zub6G30"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gbergz",
+      "uniqueId": "ec3fbd50-08b1-441b-b457-99f13a711017"
+    },
+    "time": 1783456672050,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/MhZZtI6wuL"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gbergz",
+      "uniqueId": "ec3fbd50-08b1-441b-b457-99f13a711017"
+    },
+    "time": 1782897151000,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Gbergz\\curseforge\\minecraft\\Instances\\Limitless-8-Indev\\config\\spark\\heapsummary-2026-07-01_11.12.30.sparkheap"
+    }
+  }
+]

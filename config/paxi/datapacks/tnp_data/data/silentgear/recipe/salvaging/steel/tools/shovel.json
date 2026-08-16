@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:steel_shovel"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_steel",
+      "count": 1
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

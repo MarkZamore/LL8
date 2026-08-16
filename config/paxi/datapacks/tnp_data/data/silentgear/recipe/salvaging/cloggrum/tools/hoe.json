@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:cloggrum_hoe"
+  },
+  "results": [
+    {
+      "id": "undergarden:cloggrum_ingot",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

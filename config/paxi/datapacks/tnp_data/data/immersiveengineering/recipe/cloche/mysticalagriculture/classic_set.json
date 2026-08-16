@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "id": "mysticalagriculture:classic_set_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:classic_set_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:imperium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "mysticalagriculture:classic_set_crop"  
+  }
+}

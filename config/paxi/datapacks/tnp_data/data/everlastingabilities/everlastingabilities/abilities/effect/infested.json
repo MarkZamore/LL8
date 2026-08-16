@@ -1,0 +1,13 @@
+{
+  "type": "everlastingabilities:effect",
+  "target": "self",
+  "name": "ability.everlastingabilities.infested_self",
+  "rarity": "uncommon",
+  "max_level": 1,
+  "xp_per_level": 50,
+  "effect": "minecraft:infested",
+  "obtainable_on_player_spawn": false,
+  "obtainable_on_mob_spawn": false,
+  "obtainable_on_craft": false,
+  "obtainable_on_loot": false
+}

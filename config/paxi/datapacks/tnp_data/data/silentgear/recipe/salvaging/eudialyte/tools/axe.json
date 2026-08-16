@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "tropicraft:eudialyte_axe"
+  },
+  "results": [
+    {
+      "id": "tropicraft:eudialyte_gem",
+      "count": 3
+    },
+    {
+      "id": "tropicraft:bamboo_stick",
+      "count": 2
+    }
+  ]
+}

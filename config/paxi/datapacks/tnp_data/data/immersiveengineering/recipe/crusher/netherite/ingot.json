@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 3000,
+  "input": {
+    "tag": "c:ingots/netherite"
+  },
+  "result": {
+    "item": "mekanism:dust_netherite"
+  }
+}

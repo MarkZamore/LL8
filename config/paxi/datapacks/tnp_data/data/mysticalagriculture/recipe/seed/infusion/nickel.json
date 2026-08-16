@@ -1,0 +1,46 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "item": "modern_industrialization:nickel_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:nickel"
+    },
+    {
+      "item": "modern_industrialization:nickel_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:nickel"
+    },
+    {
+      "item": "modern_industrialization:nickel_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:nickel"
+    },
+    {
+      "item": "modern_industrialization:nickel_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:nickel"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:nickel"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:nickel_seeds"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "tag": "c:ingots/azure_electrum"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "silentgear:azure_electrum_dust"
+  }
+}

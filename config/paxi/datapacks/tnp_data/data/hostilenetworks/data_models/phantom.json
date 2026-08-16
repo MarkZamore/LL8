@@ -1,0 +1,27 @@
+{
+    "entity": "minecraft:phantom",
+    "variants": [
+		"occultism:possessed_phantom",
+		"witherstormmod:sickened_phantom",
+		"upgrade_aquatic:flare",
+		"alexsmobs:spectre"
+	],
+    "name": {
+        "translate": "entity.minecraft.phantom",
+        "color": "#0AB405"
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.phantom",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:phantom_membrane",
+            "count": 8
+        }
+    ]
+}

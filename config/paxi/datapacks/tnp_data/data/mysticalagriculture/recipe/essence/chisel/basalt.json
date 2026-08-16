@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chisel"
+    },
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:basalt"
+    }
+  ],
+  "pattern": [
+    "EEE",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:basalt_essence"
+    }
+  },
+  "result": {
+    "id": "minecraft:basalt",
+    "count": 8
+  }
+}

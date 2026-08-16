@@ -1,0 +1,17 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": {
+    "tag": "c:ingots/steel"
+  },
+  "output": {
+    "output": {
+      "item": "mekanism:dust_steel"
+    },
+    "percentages": [
+      1.0
+    ],
+    "percentagesAdvanced": [
+      1.0
+    ]
+  }
+}

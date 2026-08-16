@@ -1,0 +1,16 @@
+#Whether to allow linking within the same dimension, even with books that don't have the IntraAge Link Effect applied.
+alwaysAllowIntraAgeLinking = false
+#How many experience levels it costs to use a linking book. Stacks with points option.
+# Default: 0
+# Range: > 0
+linkingCostLevels = 5
+#Whether to give the guidebook to every player when they first join.
+giveGuidebookOnFirstJoin = false
+#The maximum render distance (in chunks) of a linking panel.
+# Default: 4
+# Range: > 0
+linkingPanelChunkRenderDistance = 4
+#If Immersive Portals is present, uses it to render Linking Portals.
+useImmersivePortalsForLinkingPortals = true
+#Whether to give a Relto book to every player when they first join.
+giveReltoBookOnFirstJoin = false

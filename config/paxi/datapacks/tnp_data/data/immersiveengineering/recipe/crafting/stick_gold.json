@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sticks",
+  "key": {
+    "i": {
+      "tag": "c:ingots/gold"
+    }
+  },
+  "pattern": [
+    "i",
+    "i"
+  ],
+  "result": {
+    "id": "modern_industrialization:gold_rod",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:refined_glowstone_sword"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_refined_glowstone",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick"
+    }
+  ]
+}
+

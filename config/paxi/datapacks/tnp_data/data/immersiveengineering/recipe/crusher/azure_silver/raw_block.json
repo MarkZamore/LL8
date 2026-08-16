@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 54000,
+  "input": {
+    "item": "silentgear:raw_azure_silver_block"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "silentgear:azure_silver_dust"
+    },
+    "count": 12
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "advancednetherite:netherite_emerald_axe"
+  },
+  "results": [
+    {
+      "id": "advancednetherite:netherite_emerald_ingot",
+      "count": 1
+    },
+    {
+      "id": "advancednetherite:netherite_gold_axe",
+      "count": 1
+    }
+  ]
+}
+

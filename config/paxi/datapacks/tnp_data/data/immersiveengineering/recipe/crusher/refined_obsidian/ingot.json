@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 3000,
+  "input": {
+    "tag": "c:ingots/refined_obsidian"
+  },
+  "result": {
+    "item": "mekanism:dust_refined_obsidian"
+  }
+}

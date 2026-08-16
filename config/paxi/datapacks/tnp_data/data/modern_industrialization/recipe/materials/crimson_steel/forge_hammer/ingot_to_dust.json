@@ -1,0 +1,10 @@
+{
+  "type": "modern_industrialization:forge_hammer",
+  "ingredient": {
+    "tag": "c:ingots/crimson_steel"
+  },
+  "result": {
+    "count": 1,
+    "id": "silentgear:crimson_steel_dust"
+  }
+}

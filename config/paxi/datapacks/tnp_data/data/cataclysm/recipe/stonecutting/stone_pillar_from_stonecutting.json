@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "minecraft:stone"
+    }
+  ],
+    "id": "cataclysm:stone_pillar",
+    "count": 1
+  }
+}

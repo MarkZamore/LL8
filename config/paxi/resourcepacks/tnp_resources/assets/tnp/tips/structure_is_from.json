@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Need to check what mod a structure is from? Use the command: /wits while standing inside of it!"
+  }
+}

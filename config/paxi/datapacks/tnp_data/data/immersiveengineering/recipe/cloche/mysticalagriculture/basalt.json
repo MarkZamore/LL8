@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "id": "mysticalagriculture:basalt_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:basalt_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:prudentium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "mysticalagriculture:basalt_crop"
+  }
+}

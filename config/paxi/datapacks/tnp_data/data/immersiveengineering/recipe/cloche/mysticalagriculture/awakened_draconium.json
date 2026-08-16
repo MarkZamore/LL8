@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "id": "mysticalagriculture:awakened_draconium_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:awakened_draconium_seeds"
+  },
+  "soil": {
+    "item": "mysticalagradditions:insanium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "mysticalagriculture:awakened_draconium_crop"
+  }
+}

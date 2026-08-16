@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "modern_industrialization:aluminum_ingot"
+    },
+    "s": {
+      "tag": "c:ingots/aluminum"
+    }
+  },
+  "pattern": [
+    "sss",
+    "sis",
+    "sss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "modern_industrialization:aluminum_block"
+  }
+}

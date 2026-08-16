@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:obsidians"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "mekanism:dust_obsidian"
+    },
+    "count": 4
+  }
+}

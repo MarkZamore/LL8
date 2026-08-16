@@ -1,0 +1,76 @@
+{
+    "thelm.packagedauto.client.screen.EncoderScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 42
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 42
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 42
+            }
+        }
+    },
+    "thelm.packagedauto.client.screen.PackagerExtensionScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -40,
+                "bottom": -13
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -28,
+                "bottom": -25
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -16,
+                "bottom": -37
+            }
+        }
+    },
+    "thelm.packagedauto.client.screen.UnpackagerScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -40,
+                "bottom": -12
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -28,
+                "bottom": -24
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -16,
+                "bottom": -36
+            }
+        }
+    },
+    "thelm.packagedauto.client.screen.CrafterScreen": {
+        "playerSideOnly": true
+    },
+    "thelm.packagedauto.client.screen.FluidPackageFillerScreen": {
+        "playerSideOnly": true
+    },
+    "thelm.packagedauto.menu.PackagerMenu": {
+        "ignore": true
+    },
+    "thelm.packagedauto.client.screen.PackagerScreen": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -40,
+                "bottom": -13
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -28,
+                "bottom": -25
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -16,
+                "bottom": -37
+            }
+        }
+    }
+}

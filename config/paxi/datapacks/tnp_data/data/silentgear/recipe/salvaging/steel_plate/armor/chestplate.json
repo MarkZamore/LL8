@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "immersiveengineering:armor_steel_chestplate"
+  },
+  "results": [
+    {
+      "id": "immersiveengineering:plate_steel",
+      "count": 8
+    }
+  ]
+}
+

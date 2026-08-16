@@ -1,0 +1,22 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mysticalagradditions:supremium_paxel"
+  },
+  "results": [
+    {
+      "id": "mysticalagriculture:supremium_axe"
+    },
+    {
+      "id": "mysticalagriculture:supremium_pickaxe"
+    },
+    {
+      "id": "mysticalagriculture:supremium_shovel"
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

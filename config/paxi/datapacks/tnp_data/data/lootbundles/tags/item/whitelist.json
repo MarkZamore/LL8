@@ -1,0 +1,2497 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ae2:fluid_storage_cell_16k",
+      "required": false
+    },
+    {
+      "id": "ae2:fluid_storage_cell_1k",
+      "required": false
+    },
+    {
+      "id": "ae2:fluid_storage_cell_4k",
+      "required": false
+    },
+    {
+      "id": "ae2:item_storage_cell_16k",
+      "required": false
+    },
+    {
+      "id": "ae2:item_storage_cell_1k",
+      "required": false
+    },
+    {
+      "id": "ae2:item_storage_cell_4k",
+      "required": false
+    },
+    {
+      "id": "ae2:spatial_storage_cell_128",
+      "required": false
+    },
+    {
+      "id": "ae2:spatial_storage_cell_16",
+      "required": false
+    },
+    {
+      "id": "ae2:spatial_storage_cell_2",
+      "required": false
+    },
+    {
+      "id": "cataclysm:athame",
+      "required": false
+    },
+    {
+      "id": "cataclysm:bulwark_of_the_flame",
+      "required": false
+    },
+    {
+      "id": "cataclysm:coral_bardiche",
+      "required": false
+    },
+    {
+      "id": "cataclysm:coral_spear",
+      "required": false
+    },
+    {
+      "id": "cataclysm:gauntlet_of_bulwark",
+      "required": false
+    },
+    {
+      "id": "cataclysm:gauntlet_of_guard",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_boots",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_chestplate",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_helmet",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignitium_leggings",
+      "required": false
+    },
+    {
+      "id": "cataclysm:infernal_forge",
+      "required": false
+    },
+    {
+      "id": "cataclysm:monstrous_helm",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_incinerator",
+      "required": false
+    },
+    {
+      "id": "cataclysm:tidal_claws",
+      "required": false
+    },
+    {
+      "id": "cataclysm:void_assault_shoulder_weapon",
+      "required": false
+    },
+    {
+      "id": "cataclysm:void_forge",
+      "required": false
+    },
+    {
+      "id": "cataclysm:wither_assault_shoulder_weapon",
+      "required": false
+    },
+    {
+      "id": "enderio:advanced_capacitor_bank",
+      "required": false
+    },
+    {
+      "id": "enderio:alloy_smelter",
+      "required": false
+    },
+    {
+      "id": "enderio:crafter",
+      "required": false
+    },
+    {
+      "id": "enderio:dark_steel_sword",
+      "required": false
+    },
+    {
+      "id": "enderio:drain",
+      "required": false
+    },
+    {
+      "id": "enderio:electromagnet",
+      "required": false
+    },
+    {
+      "id": "enderio:enchanter",
+      "required": false
+    },
+    {
+      "id": "enderio:energetic_photovoltaic_module",
+      "required": false
+    },
+    {
+      "id": "enderio:frank_n_zombie",
+      "required": false
+    },
+    {
+      "id": "enderio:impulse_hopper",
+      "required": false
+    },
+    {
+      "id": "enderio:octadic_capacitor",
+      "required": false
+    },
+    {
+      "id": "enderio:painting_machine",
+      "required": false
+    },
+    {
+      "id": "enderio:powered_spawner",
+      "required": false
+    },
+    {
+      "id": "enderio:primitive_alloy_smelter",
+      "required": false
+    },
+    {
+      "id": "enderio:pulsating_photovoltaic_module",
+      "required": false
+    },
+    {
+      "id": "enderio:sag_mill",
+      "required": false
+    },
+    {
+      "id": "enderio:sentient_ender",
+      "required": false
+    },
+    {
+      "id": "enderio:slice_and_splice",
+      "required": false
+    },
+    {
+      "id": "enderio:soul_binder",
+      "required": false
+    },
+    {
+      "id": "enderio:soul_engine",
+      "required": false
+    },
+    {
+      "id": "enderio:staff_of_levity",
+      "required": false
+    },
+    {
+      "id": "enderio:staff_of_travelling",
+      "required": false
+    },
+    {
+      "id": "enderio:stirling_generator",
+      "required": false
+    },
+    {
+      "id": "enderio:travel_anchor",
+      "required": false
+    },
+    {
+      "id": "enderio:vibrant_photovoltaic_module",
+      "required": false
+    },
+    {
+      "id": "enderio:wired_charger",
+      "required": false
+    },
+    {
+      "id": "exchangers:amethyst_exchanger",
+      "required": false
+    },
+    {
+      "id": "exchangers:bee_exchanger",
+      "required": false
+    },
+    {
+      "id": "exchangers:diamond_exchanger",
+      "required": false
+    },
+    {
+      "id": "exchangers:emerald_exchanger",
+      "required": false
+    },
+    {
+      "id": "exchangers:end_exchanger",
+      "required": false
+    },
+    {
+      "id": "exchangers:netherite_exchanger",
+      "required": false
+    },
+    {
+      "id": "exchangers:obsidian_exchanger",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:horn_of_sight",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:imbuing_table",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:platinum_infused_hatchet",
+      "required": false
+    },
+    {
+      "id": "moblassos:aqua_lasso",
+      "required": false
+    },
+    {
+      "id": "moblassos:diamond_lasso",
+      "required": false
+    },
+    {
+      "id": "moblassos:emerald_lasso",
+      "required": false
+    },
+    {
+      "id": "moblassos:golden_lasso",
+      "required": false
+    },
+    {
+      "id": "moblassos:hostile_lasso",
+      "required": false
+    },
+    {
+      "id": "outer_end:cobalt_crystal_boots",
+      "required": false
+    },
+    {
+      "id": "outer_end:cobalt_crystal_chestplate",
+      "required": false
+    },
+    {
+      "id": "outer_end:cobalt_crystal_helmet",
+      "required": false
+    },
+    {
+      "id": "outer_end:cobalt_crystal_helmet",
+      "required": false
+    },
+    {
+      "id": "outer_end:cobalt_crystal_leggings",
+      "required": false
+    },
+    {
+      "id": "outer_end:mint_crystal_boots" ,
+      "required": false
+    },
+    {
+      "id": "outer_end:mint_crystal_chestplate",
+      "required": false
+    },
+    {
+      "id": "outer_end:mint_crystal_helmet",
+      "required": false
+    },
+    {
+      "id": "outer_end:mint_crystal_leggings",
+      "required": false
+    },
+    {
+      "id": "outer_end:rose_crystal_boots",
+      "required": false
+    },
+    {
+      "id": "outer_end:rose_crystal_chestplate",
+      "required": false
+    },
+    {
+      "id": "outer_end:rose_crystal_helmet",
+      "required": false
+    },
+    {
+      "id": "outer_end:rose_crystal_leggings",
+      "required": false
+    },
+    {
+      "id": "outer_end:shulker_shield",
+      "required": false
+    },
+    {
+      "id": "outer_end:sinker_dagger",
+      "required": false
+    },
+    {
+      "id": "outer_end:sinker_shuriken",
+      "required": false
+    },
+    {
+      "id": "simplyswords:arcanethyst",
+      "required": false
+    },
+    {
+      "id": "simplyswords:awakened_lichblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:bramblethorn",
+      "required": false
+    },
+    {
+      "id": "simplyswords:brimstone_claymore",
+      "required": false
+    },
+    {
+      "id": "simplyswords:dormant_relic",
+      "required": false
+    },
+    {
+      "id": "simplyswords:emberblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:empowered_remnant",
+      "required": false
+    },
+    {
+      "id": "simplyswords:frostfall",
+      "required": false
+    },
+    {
+      "id": "simplyswords:harbinger",
+      "required": false
+    },
+    {
+      "id": "simplyswords:hearthflame",
+      "required": false
+    },
+    {
+      "id": "simplyswords:icewhisper",
+      "required": false
+    },
+    {
+      "id": "simplyswords:livyatan",
+      "required": false
+    },
+    {
+      "id": "simplyswords:mjolnir",
+      "required": false
+    },
+    {
+      "id": "simplyswords:molten_edge",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherfused_gem",
+      "required": false
+    },
+    {
+      "id": "simplyswords:righteous_relic",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runefused_gem",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_tablet",
+      "required": false
+    },
+    {
+      "id": "simplyswords:shadowsting",
+      "required": false
+    },
+    {
+      "id": "simplyswords:slumbering_lichblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:soulkeeper",
+      "required": false
+    },
+    {
+      "id": "simplyswords:soulpyre",
+      "required": false
+    },
+    {
+      "id": "simplyswords:soulrender",
+      "required": false
+    },
+    {
+      "id": "simplyswords:soulstealer",
+      "required": false
+    },
+    {
+      "id": "simplyswords:stormbringer",
+      "required": false
+    },
+    {
+      "id": "simplyswords:storms_edge",
+      "required": false
+    },
+    {
+      "id": "simplyswords:sunfire",
+      "required": false
+    },
+    {
+      "id": "simplyswords:sword_on_a_stick",
+      "required": false
+    },
+    {
+      "id": "simplyswords:tainted_relic",
+      "required": false
+    },
+    {
+      "id": "simplyswords:thunderbrand",
+      "required": false
+    },
+    {
+      "id": "simplyswords:toxic_longsword",
+      "required": false
+    },
+    {
+      "id": "simplyswords:twisted_blade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:waking_lichblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:watcher_claymore",
+      "required": false
+    },
+    {
+      "id": "simplyswords:watching_warglaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:whisperwind",
+      "required": false
+    },
+    {
+      "id": "sledgehammers:diamond_knob",
+      "required": false
+    },
+    {
+      "id": "sledgehammers:diamond_sledgehammer",
+      "required": false
+    },
+    {
+      "id": "sledgehammers:gold_sledgehammer",
+      "required": false
+    },
+    {
+      "id": "sledgehammers:iron_sledgehammer",
+      "required": false
+    },
+    {
+      "id": "sledgehammers:netherite_knob",
+      "required": false
+    },
+    {
+      "id": "sledgehammers:netherite_sledgehammer",
+      "required": false
+    },
+    {
+      "id": "sledgehammers:stone_sledgehammer",
+      "required": false
+    },
+    {
+      "id": "sledgehammers:wood_sledgehammer",
+      "required": false
+    },
+    {
+      "id": "pickletweaks:emerald_chestplate",
+      "required": false
+    }, 
+    {
+      "id": "pickletweaks:emerald_leggings",
+      "required": false
+    }, 
+    {
+      "id": "pickletweaks:emerald_boots",
+      "required": false
+    }, 
+    {
+      "id": "pickletweaks:netherite_scythe",
+      "required": false
+    }, 
+    {
+      "id": "pickletweaks:emerald_scythe",
+      "required": false
+    }, 
+    {
+      "id": "pickletweaks:emerald_sword",
+      "required": false
+    }, 
+    {
+      "id": "pickletweaks:emerald_pickaxe",
+      "required": false
+    }, 
+    {
+      "id": "pickletweaks:emerald_shovel",
+      "required": false
+    }, 
+    {
+      "id": "pickletweaks:emerald_axe",
+      "required": false
+    }, 
+    {
+      "id": "pickletweaks:magnet",
+      "required": false
+    }, 
+    {
+      "id": "pickletweaks:emerald_helmet",
+      "required": false
+    },
+    {
+      "id": "thermal:charge_bench",
+      "required": false
+    },
+    {
+      "id": "thermal:device_collector",
+      "required": false
+    },
+    {
+      "id": "thermal:device_composter",
+      "required": false
+    },
+    {
+      "id": "thermal:device_fisher",
+      "required": false
+    },
+    {
+      "id": "thermal:device_nullifier",
+      "required": false
+    },
+    {
+      "id": "thermal:device_potion_diffuser",
+      "required": false
+    },
+    {
+      "id": "thermal:device_rock_gen",
+      "required": false
+    },
+    {
+      "id": "thermal:device_tree_extractor",
+      "required": false
+    },
+    {
+      "id": "thermal:device_water_gen",
+      "required": false
+    },
+    {
+      "id": "thermal:dynamo_compression",
+      "required": false
+    },
+    {
+      "id": "thermal:dynamo_disenchantment",
+      "required": false
+    },
+    {
+      "id": "thermal:dynamo_gourmand",
+      "required": false
+    },
+    {
+      "id": "thermal:dynamo_lapidary",
+      "required": false
+    },
+    {
+      "id": "thermal:dynamo_magmatic",
+      "required": false
+    },
+    {
+      "id": "thermal:dynamo_numismatic",
+      "required": false
+    },
+    {
+      "id": "thermal:dynamo_stirling",
+      "required": false
+    },
+    {
+      "id": "thermal:energy_cell",
+      "required": false
+    },
+    {
+      "id": "thermal:energy_cell_frame",
+      "required": false
+    },
+    {
+      "id": "thermal:fluid_cell",
+      "required": false
+    },
+    {
+      "id": "thermal:fluid_cell_frame",
+      "required": false
+    },
+    {
+      "id": "thermal:flux_capacitor",
+      "required": false
+    },
+    {
+      "id": "thermal:flux_drill",
+      "required": false
+    },
+    {
+      "id": "thermal:flux_magnet",
+      "required": false
+    },
+    {
+      "id": "thermal:flux_saw",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_bottler",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_brewer",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_centrifuge",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_chiller",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_crafter",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_crucible",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_crystallizer",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_frame",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_furnace",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_insolator",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_press",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_pulverizer",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_pyrolyzer",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_refinery",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_sawmill",
+      "required": false
+    },
+    {
+      "id": "thermal:machine_smelter",
+      "required": false
+    },
+    {
+      "id": "justdirethings:gooblock_tier1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:gooblock_tier2",
+      "required": false
+    },
+    {
+      "id": "justdirethings:gooblock_tier3",
+      "required": false
+    },
+    {
+      "id": "justdirethings:goosoil_tier1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:goosoil_tier2",
+      "required": false
+    },
+    {
+      "id": "justdirethings:goosoil_tier3",
+      "required": false
+    },
+    {
+      "id": "justdirethings:ferricore_sword",
+      "required": false
+    },
+    {
+      "id": "justdirethings:ferricore_pickaxe",
+      "required": false
+    },
+    {
+      "id": "justdirethings:ferricore_shovel",
+      "required": false
+    },
+    {
+      "id": "justdirethings:ferricore_axe",
+      "required": false
+    },
+    {
+      "id": "justdirethings:ferricore_hoe",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blazegold_sword",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blazegold_pickaxe",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blazegold_shovel",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blazegold_axe",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blazegold_hoe",
+      "required": false
+    },
+    {
+      "id": "justdirethings:ferricore_helmet",
+      "required": false
+    },
+    {
+      "id": "justdirethings:ferricore_chestplate",
+      "required": false
+    },
+    {
+      "id": "justdirethings:ferricore_leggings",
+      "required": false
+    },
+    {
+      "id": "justdirethings:ferricore_boots",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blazegold_helmet",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blazegold_chestplate",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blazegold_leggings",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blazegold_boots",
+      "required": false
+    },
+    {
+      "id": "justdirethings:bow_ferricore",
+      "required": false
+    },
+    {
+      "id": "justdirethings:bow_blazegold",
+      "required": false
+    },
+    {
+      "id": "justdirethings:totem_of_death_recall",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blazejet_wand",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blockbreakert1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blockplacert1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:clickert1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:sensort1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:droppert1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blockswappert1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:fluidplacert1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:fluidcollectort1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:generatort1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:generatorfluidt1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:ferricore_ingot",
+      "required": false
+    },
+    {
+      "id": "justdirethings:blazegold_ingot",
+      "required": false
+    },
+    {
+      "id": "justdirethings:raw_ferricore",
+      "required": false
+    },
+    {
+      "id": "justdirethings:raw_blazegold",
+      "required": false
+    },
+    {
+      "id": "justdirethings:coal_t1",
+      "required": false
+    },
+    {
+      "id": "justdirethings:coal_t2",
+      "required": false
+    },
+    {
+      "id": "justdirethings:template_ferricore",
+      "required": false
+    },
+    {
+      "id": "justdirethings:template_blazegold",
+      "required": false
+    },
+    {
+      "id": "justdirethings:creaturecatcher",
+      "required": false
+    },
+    {
+      "id": "justdirethings:machinesettingscopier",
+      "required": false
+    },
+    {
+      "id": "justdirethings:portalgun",
+      "required": false
+    },
+    {
+      "id": "justdirethings:portalgun_v2",
+      "required": false
+    },
+    {
+      "id": "justdirethings:energytransmitter",
+      "required": false
+    },
+    {
+      "id": "justdirethings:playeraccessor",
+      "required": false
+    },
+    {
+      "id": "justdirethings:celestigem_paxel",
+      "required": false
+    },
+    {
+      "id": "cobblegengalore:block_gen_stone",
+      "required": false
+    },
+    {
+      "id": "cobblegengalore:block_gen_copper",
+      "required": false
+    },
+    {
+      "id": "cobblegengalore:block_gen_iron",
+      "required": false
+    },
+    {
+      "id": "constructionstick:wooden_stick",
+      "required": false
+    },
+    {
+      "id": "constructionstick:copper_stick",
+      "required": false
+    },
+    {
+      "id": "constructionstick:iron_stick",
+      "required": false
+    },
+    {
+      "id": "constructionstick:template_angel",
+      "required": false
+    },
+    {
+      "id": "constructionstick:template_battery",
+      "required": false
+    },
+    {
+      "id": "cognition:accelerator",
+      "required": false
+    },
+    {
+      "id": "cognition:linear_accelerator",
+      "required": false
+    },
+    {
+      "id": "cognition:molecular_metamorpher",
+      "required": false
+    },
+    {
+      "id": "cognition:precision_dispeller",
+      "required": false
+    },
+    {
+      "id": "cognition:experience_fountain",
+      "required": false
+    },
+    {
+      "id": "modularrouters:xp_vacuum_augment",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_compacting_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:advanced_pump_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:stack_upgrade_tier_1",
+      "required": false
+    },
+    {
+      "id": "modularrouters:muffler_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:stonecutter_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:stack_augment",
+      "required": false
+    },
+    {
+      "id": "refinedstorage:1k_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedstorage:4k_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedstorage:16k_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedstorage:1k_storage_disk",
+      "required": false
+    },
+    {
+      "id": "refinedstorage:4k_storage_disk",
+      "required": false
+    },
+    {
+      "id": "refinedstorage:16k_storage_disk",
+      "required": false
+    },
+    {
+      "id": "refinedstorage:64b_fluid_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedstorage:256b_fluid_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedstorage:1024b_fluid_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedstorage:64b_fluid_storage_disk",
+      "required": false
+    },
+    {
+      "id": "refinedstorage:256b_fluid_storage_disk",
+      "required": false
+    },
+    {
+      "id": "refinedtypes:64k_energy_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedtypes:256k_energy_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedtypes:64k_energy_storage_disk",
+      "required": false
+    },
+    {
+      "id": "refinedtypes:256k_energy_storage_disk",
+      "required": false
+    },
+    {
+      "id": "refinedtypes:64b_source_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedtypes:256b_source_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedtypes:64b_source_storage_disk",
+      "required": false
+    },
+    {
+      "id": "refinedtypes:256b_source_storage_disk",
+      "required": false
+    },
+    {
+      "id": "refinedstorage_mekanism_integration:64b_chemical_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedstorage_mekanism_integration:256b_chemical_storage_part",
+      "required": false
+    },
+    {
+      "id": "refinedstorage_mekanism_integration:64b_chemical_storage_disk",
+      "required": false
+    },
+    {
+      "id": "refinedstorage_mekanism_integration:256b_chemical_storage_disk",
+      "required": false
+    },
+    {
+      "id": "refinedstorage_quartz_arsenal:wireless_crafting_grid",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:iron_to_netherite_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:fluid_module",
+      "required": false
+    },
+    {
+      "id": "modularrouters:extruder_module_1",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:advanced_hopper_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_deposit_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:copper_to_diamond_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:pump_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:stack_upgrade_tier_1_plus",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_tool_swapper_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:fluid_module_2",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:advanced_feeding_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:fluid_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:crafting_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:sender_module_3",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:stack_upgrade_tier_4",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:xp_pump_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:advanced_compacting_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:puller_module_2",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_restock_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:pushing_augment",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:gold_to_netherite_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:regulator_augment",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:copper_to_iron_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:copper_to_netherite_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:backpack",
+      "required": false
+    },
+    {
+      "id": "modularrouters:pickup_delay_augment",
+      "required": false
+    },
+    {
+      "id": "modularrouters:sender_module_1",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:advanced_alchemy_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:filter_round_robin_augment",
+      "required": false
+    },
+    {
+      "id": "modularrouters:energy_distributor_module",
+      "required": false
+    },
+    {
+      "id": "modularrouters:activator_module",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:advanced_jukebox_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:vacuum_module",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:gold_to_diamond_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:placer_module",
+      "required": false
+    },
+    {
+      "id": "modularrouters:redstone_augment",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:tank_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:basic_to_gold_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:anvil_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:mimic_augment",
+      "required": false
+    },
+    {
+      "id": "modularrouters:void_module",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:stack_upgrade_starter_tier",
+      "required": false
+    },
+    {
+      "id": "modularrouters:stack_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:flinger_module",
+      "required": false
+    },
+    {
+      "id": "modularrouters:range_down_augment",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_alchemy_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:iron_to_diamond_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:stack_upgrade_tier_1",
+      "required": false
+    },
+    {
+      "id": "modularrouters:sender_module_2",
+      "required": false
+    },
+    {
+      "id": "modularrouters:blast_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:basic_to_diamond_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:energy_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_jukebox_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:energy_output_module",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:stack_upgrade_tier_3",
+      "required": false
+    },
+    {
+      "id": "modularrouters:detector_module",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:stack_upgrade_tier_2",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:advanced_magnet_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:gold_backpack",
+      "required": false
+    },
+    {
+      "id": "modularrouters:camouflage_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:advanced_filter_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_feeding_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_void_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:dropper_module",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_filter_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:extruder_module_2",
+      "required": false
+    },
+    {
+      "id": "modularrouters:sync_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:player_module",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:stack_upgrade_tier_2",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:diamond_backpack",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_magnet_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:advanced_void_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:battery_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:range_up_augment",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:advanced_pickup_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:stack_upgrade_tier_4",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:iron_backpack",
+      "required": false
+    },
+    {
+      "id": "modularrouters:distributor_module",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:diamond_to_netherite_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:security_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:smithing_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_refill_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:basic_to_copper_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:speed_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:breaker_module",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:basic_to_netherite_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "modularrouters:fast_pickup_augment",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:basic_to_iron_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:stack_upgrade_tier_5",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:copper_backpack",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:copper_to_gold_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:iron_to_gold_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:netherite_backpack",
+      "required": false
+    },
+    {
+      "id": "modularrouters:puller_module_1",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:stack_upgrade_tier_3",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_pickup_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedbackpacks:advanced_pump_upgrade",
+      "required": false
+    },
+    {
+      "id": "sophisticatedstorage:basic_tier_upgrade",
+      "required": false
+    },
+    {
+      "id": "cognition:experience_obelisk",
+      "required": false
+    },
+    {
+      "id": "cognition:fortuitous_amulet",
+      "required": false
+    },
+    {
+      "id": "cognition:cognitive_alloy_block",
+      "required": false
+    },
+    {
+      "id": "rftoolsbuilder:builder",
+      "required": false
+    },
+    {
+      "id": "rftoolsbuilder:shield_block1",
+      "required": false
+    },
+    {
+      "id": "rftoolsbuilder:shield_block2",
+      "required": false
+    },
+    {
+      "id": "solargeneration:solar_panel_leadstone",
+      "required": false
+    },
+    {
+      "id": "solargeneration:solar_panel_hardened",
+      "required": false
+    },
+    {
+      "id": "solargeneration:solar_panel_redstone",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_sword",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_pickaxe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_axe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_hoe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_shovel",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_scythe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_hammer",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_helmet",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_chestplate",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_leggings",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:thermal_springstone_boots",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_sword",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_pickaxe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_axe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_hoe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_shovel",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_scythe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_helmet",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_chestplate",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_leggings",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_boots",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:glacite_shield",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:swamp_silver_sword",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:swamp_silver_pickaxe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:swamp_silver_axe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:swamp_silver_sickle",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:swamp_silver_helmet",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:swamp_silver_chestplate",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:swamp_silver_leggings",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:swamp_silver_boots",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:energy_sword",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:moonring_bow",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:mechanical_crossbow",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:crystal_crossbow",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:moonring_greatsword",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:petal_scythe",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:wand_of_teleportation",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:crescent_spear",
+      "required": false
+    },
+    {
+      "id": "torchmaster:feral_flare_lantern",
+      "required": false
+    },
+    {
+      "id": "energizedpower:battery_box",
+      "required": false
+    },
+    {
+      "id": "energizedpower:powered_furnace",
+      "required": false
+    },
+    {
+      "id": "energizedpower:auto_crafter",
+      "required": false
+    },
+    {
+      "id": "energizedpower:crusher",
+      "required": false
+    },
+    {
+      "id": "energizedpower:pulverizer",
+      "required": false
+    },
+    {
+      "id": "energizedpower:sawmill",
+      "required": false
+    },
+    {
+      "id": "energizedpower:compressor",
+      "required": false
+    },
+    {
+      "id": "energizedpower:metal_press",
+      "required": false
+    },
+    {
+      "id": "energizedpower:auto_press_mold_maker",
+      "required": false
+    },
+    {
+      "id": "energizedpower:auto_stonecutter",
+      "required": false
+    },
+    {
+      "id": "energizedpower:assembling_machine",
+      "required": false
+    },
+    {
+      "id": "energizedpower:induction_smelter",
+      "required": false
+    },
+    {
+      "id": "energizedpower:plant_growth_chamber",
+      "required": false
+    },
+    {
+      "id": "energizedpower:block_placer",
+      "required": false
+    },
+    {
+      "id": "energizedpower:fluid_tank_small",
+      "required": false
+    },
+    {
+      "id": "energizedpower:fluid_tank_medium",
+      "required": false
+    },
+    {
+      "id": "energizedpower:fluid_tank_large",
+      "required": false
+    },
+    {
+      "id": "energizedpower:fluid_pump",
+      "required": false
+    },
+    {
+      "id": "energizedpower:charger",
+      "required": false
+    },
+    {
+      "id": "energizedpower:uncharger",
+      "required": false
+    },
+    {
+      "id": "energizedpower:crystal_growth_chamber",
+      "required": false
+    },
+    {
+      "id": "energizedpower:teleporter",
+      "required": false
+    },
+    {
+      "id": "energizedpower:solar_panel_1",
+      "required": false
+    },
+    {
+      "id": "energizedpower:solar_panel_2",
+      "required": false
+    },
+    {
+      "id": "energizedpower:solar_panel_3",
+      "required": false
+    },
+    {
+      "id": "oritech:basic_generator_block",
+      "required": false
+    },
+    {
+      "id": "oritech:pulverizer_block",
+      "required": false
+    },
+    {
+      "id": "oritech:small_storage_block",
+      "required": false
+    },
+    {
+      "id": "oritech:small_tank_block",
+      "required": false
+    },
+    {
+      "id": "oritech:fertilizer_block",
+      "required": false
+    },
+    {
+      "id": "oritech:treefeller_block",
+      "required": false
+    },
+    {
+      "id": "oritech:chainsaw",
+      "required": false
+    },
+    {
+      "id": "oritech:hand_drill",
+      "required": false
+    },
+    {
+      "id": "oritech:machine_efficiency_addon",
+      "required": false
+    },
+    {
+      "id": "oritech:machine_capacitor_addon",
+      "required": false
+    },
+    {
+      "id": "oritech:machine_acceptor_addon",
+      "required": false
+    },
+    {
+      "id": "supplementaries:globe",
+      "required": false
+    },
+    {
+      "id": "supplementaries:hourglass",
+      "required": false
+    },
+    {
+      "id": "agritech:agritech_planter_block",
+      "required": false
+    },
+    {
+      "id": "agritech:agritech_hopping_planter_block",
+      "required": false
+    },
+    {
+      "id": "agritechtrees:agritech_trees_planter_block",
+      "required": false
+    },
+    {
+      "id": "agritechtrees:agritech_trees_hopping_planter_block",
+      "required": false
+    },
+    {
+      "id": "aquaculturedelight:neptunium_knife",
+      "required": false
+    },
+    {
+      "id": "enderdrives:ender_disk_1k",
+      "required": false
+    },
+    {
+      "id": "enderdrives:ender_disk_4k",
+      "required": false
+    },
+    {
+      "id": "enderdrives:ender_disk_16k",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:steam_mining_drill",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:iron_tank",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:bronze_tank",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:steel_tank",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:iron_barrel",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:bronze_barrel",
+      "required": false
+    },
+    {
+      "id": "modern_industrialization:steel_barrel",
+      "required": false
+    },
+    {
+      "id": "chisel:chisel",
+      "required": false
+    },
+    {
+      "id": "rechiseled:chisel",
+      "required": false
+    },
+    {
+      "id": "modular_angelring:inertia_module",
+      "required": false
+    },
+    {
+      "id": "modular_angelring:mining_module",
+      "required": false
+    },
+    {
+      "id": "modular_angelring:speed_module",
+      "required": false
+    },
+    {
+      "id": "modular_angelring:night_vision_module",
+      "required": false
+    },
+    {
+      "id": "modular_angelring:magnet_module",
+      "required": false
+    },
+    {
+      "id": "netherdepthsupgrade:lava_fishing_rod",
+      "required": false
+    },
+    {
+      "id": "netherdepthsupgrade:soul_sucker_boots",
+      "required": false
+    },
+    {
+      "id": "instrumentus:kiln",
+      "required": false
+    },
+    {
+      "id": "instrumentus:netherite_sickle",
+      "required": false
+    },
+    {
+      "id": "instrumentus:energy_paxel",
+      "required": false
+    },
+    {
+      "id": "instrumentus:energy_shears",
+      "required": false
+    },
+    {
+      "id": "instrumentus:energy_sickle",
+      "required": false
+    },
+    {
+      "id": "instrumentus:energy_hammer",
+      "required": false
+    },
+    {
+      "id": "instrumentus:energy_knife",
+      "required": false
+    },
+    {
+      "id": "instrumentus:energy_pickaxe",
+      "required": false
+    },
+    {
+      "id": "instrumentus:energy_axe",
+      "required": false
+    },
+    {
+      "id": "instrumentus:energy_shovel",
+      "required": false
+    },
+    {
+      "id": "instrumentus:energy_hoe",
+      "required": false
+    },
+    {
+      "id": "instrumentus:energy_excavator",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_helmet",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_chestplate",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_leggings",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_boots",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_sword",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_pickaxe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_shovel",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:warden_axe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_helmet",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_chestplate",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_leggings",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_boots",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_sword",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_pickaxe",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_shovel",
+      "required": false
+    },
+    {
+      "id": "deeperdarker:resonarium_axe",
+      "required": false
+    },
+    {
+      "id": "enderzoology:enderios",
+      "required": false
+    },
+    {
+      "id": "enderzoology:ender_charge",
+      "required": false
+    },
+    {
+      "id": "enderzoology:confusing_charge",
+      "required": false
+    },
+    {
+      "id": "enderzoology:concussion_charge",
+      "required": false
+    },
+    {
+      "id": "enderzoology:hunting_bow",
+      "required": false
+    },
+    {
+      "id": "utilitarian:angel_block",
+      "required": false
+    },
+    {
+      "id": "utilitarian:sound_muffler",
+      "required": false
+    },
+    {
+      "id": "utilitarian:fluid_hopper",
+      "required": false
+    },
+    {
+      "id": "tankstorage:tank_1",
+      "required": false
+    },
+    {
+      "id": "tankstorage:tank_2",
+      "required": false
+    },
+    {
+      "id": "tankstorage:tank_3",
+      "required": false
+    },
+    {
+      "id": "luggage:luggage",
+      "required": false
+    },
+    {
+      "id": "luggage:ender_luggage",
+      "required": false
+    },
+    {
+      "id": "gag:time_sand_pouch",
+      "required": false
+    },
+    {
+      "id": "gag:escape_rope",
+      "required": false
+    },
+    {
+      "id": "gag:hearthstone",
+      "required": false
+    },
+    {
+      "id": "gag:no_solicitors",
+      "required": false
+    },
+    {
+      "id": "productivebees:honey_generator",
+      "required": false
+    },
+    {
+      "id": "productivebees:catcher",
+      "required": false
+    },
+    {
+      "id": "productivebees:incubator",
+      "required": false
+    },
+    {
+      "id": "productivebees:bottler",
+      "required": false
+    },
+    {
+      "id": "productivebees:centrifuge",
+      "required": false
+    },
+    {
+      "id": "productivebees:powered_centrifuge",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:hydro_pump",
+      "required": false
+    },
+    {
+      "id": "justdynathings:revitalizer",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:planter",
+      "required": false
+    },
+    {
+      "id": "stellaris:oxygen_distributor",
+      "required": false
+    },
+    {
+      "id": "stellaris:moon_globe",
+      "required": false
+    },
+    {
+      "id": "stellaris:space_suit_boots",
+      "required": false
+    },
+    {
+      "id": "stellaris:radioactive_generator",
+      "required": false
+    },
+    {
+      "id": "justhammers:netherite_destructor_hammer",
+      "required": false
+    },
+    {
+      "id": "stellaris:mercury_globe",
+      "required": false
+    },
+    {
+      "id": "justhammers:iron_hammer",
+      "required": false
+    },
+    {
+      "id": "stellaris:t2_bank",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:collector",
+      "required": false
+    },
+    {
+      "id": "stellaris:space_suit_helmet",
+      "required": false
+    },
+    {
+      "id": "justhammers:netherite_impact_hammer",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:water_block",
+      "required": false
+    },
+    {
+      "id": "stellaris:mars_globe",
+      "required": false
+    },
+    {
+      "id": "stellaris:venus_globe",
+      "required": false
+    },
+    {
+      "id": "justhammers:netherite_reinforced_impact_hammer",
+      "required": false
+    },
+    {
+      "id": "stellaris:water_separator",
+      "required": false
+    },
+    {
+      "id": "stellaris:battery",
+      "required": false
+    },
+    {
+      "id": "stellaris:solar_panel",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:ignition_plate",
+      "required": false
+    },
+    {
+      "id": "stellaris:space_suit_chestplate",
+      "required": false
+    },
+    {
+      "id": "stellaris:vacuumator",
+      "required": false
+    },
+    {
+      "id": "malum:soul_stained_steel_sword",
+      "required": false
+    },
+    {
+      "id": "justdynathings:swapper_wand",
+      "required": false
+    },
+    {
+      "id": "justdynathings:picker_wand",
+      "required": false
+    },
+    {
+      "id": "stellaris:pumpjack",
+      "required": false
+    },
+    {
+      "id": "createaddition:electric_motor",
+      "required": false
+    },
+    {
+      "id": "supplementaries:globe_sepia",
+      "required": false
+    },
+    {
+      "id": "justdynathings:ferricore_solar_panel",
+      "required": false
+    },
+    {
+      "id": "justhammers:netherite_hammer",
+      "required": false
+    },
+    {
+      "id": "stellaris:coal_generator",
+      "required": false
+    },
+    {
+      "id": "justhammers:diamond_reinforced_impact_hammer",
+      "required": false
+    },
+    {
+      "id": "stellaris:space_suit_leggings",
+      "required": false
+    },
+    {
+      "id": "justdynathings:celestigem_solar_panel",
+      "required": false
+    },
+    {
+      "id": "snowyspirit:snow_globe",
+      "required": false
+    },
+    {
+      "id": "flowtech:mob_catcher",
+      "required": false
+    },
+    {
+      "id": "justdynathings:thermo_generator",
+      "required": false
+    },
+    {
+      "id": "justhammers:iron_impact_hammer",
+      "required": false
+    },
+    {
+      "id": "stellaris:fluid_cell",
+      "required": false
+    },
+    {
+      "id": "justhammers:diamond_impact_hammer",
+      "required": false
+    },
+    {
+      "id": "animal_pen:aquarium_block",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:extractor",
+      "required": false
+    },
+    {
+      "id": "justhammers:diamond_hammer",
+      "required": false
+    },
+    {
+      "id": "flowtech:flowtech_collector",
+      "required": false
+    },
+    {
+      "id": "justdynathings:ferricore_anvil",
+      "required": false
+    },
+    {
+      "id": "supplementaries:globe",
+      "required": false
+    },
+    {
+      "id": "agritech:hopping_upgrade",
+      "required": false
+    },
+    {
+      "id": "justdynathings:blazegold_anvil",
+      "required": false
+    },
+    {
+      "id": "stellaris:diesel_generator",
+      "required": false
+    },
+    {
+      "id": "stellaris:earth_globe",
+      "required": false
+    },
+    {
+      "id": "justhammers:netherite_reinforced_hammer",
+      "required": false
+    },
+    {
+      "id": "justhammers:iron_reinforced_hammer",
+      "required": false
+    },
+    {
+      "id": "stellaris:rocket_station",
+      "required": false
+    },
+    {
+      "id": "flowtech:flowtech_controller",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:void_container",
+      "required": false
+    },
+    {
+      "id": "animal_pen:animal_pen_oak",
+      "required": false
+    },
+    {
+      "id": "stellaris:t1_bank",
+      "required": false
+    },
+    {
+      "id": "justhammers:diamond_destructor_hammer",
+      "required": false
+    },
+    {
+      "id": "stellaris:upgrade_station",
+      "required": false
+    },
+    {
+      "id": "justhammers:iron_destructor_hammer",
+      "required": false
+    },
+    {
+      "id": "stellaris:fuel_refinery",
+      "required": false
+    },
+    {
+      "id": "justdynathings:blazegold_solar_panel",
+      "required": false
+    },
+    {
+      "id": "justhammers:diamond_reinforced_hammer",
+      "required": false
+    },
+    {
+      "id": "createaddition:tesla_coil",
+      "required": false
+    },
+    {
+      "id": "omnigrid:omni_grid",
+      "required": false
+    },
+    {
+      "id": "agritech:agritech_hopping_planter_block",
+      "required": false
+    },
+    {
+      "id": "justdynathings:blackhole",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:fabricator",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:fluid_void",
+      "required": false
+    },
+    {
+      "id": "xycraft_machines:light_field",
+      "required": false
+    },
+    {
+      "id": "createaddition:alternator",
+      "required": false
+    },
+    {
+      "id": "createaddition:rolling_mill",
+      "required": false
+    },
+    {
+      "id": "justhammers:iron_reinforced_impact_hammer",
+      "required": false
+    },
+    {
+      "id": "productivebees:breeding_chamber",
+      "required": false
+    },
+    {
+      "id": "productivebees:gene_indexer",
+      "required": false
+    },
+    {
+      "id": "productivebees:bee_nest_diamond_helmet",
+      "required": false
+    },
+    {
+      "id": "generatorgalore:copper_generator",
+      "required": false
+    },
+    {
+      "id": "generatorgalore:diamond_generator",
+      "required": false
+    },
+    {
+      "id": "generatorgalore:halitosis_generator",
+      "required": false
+    },
+    {
+      "id": "generatorgalore:honey_generator",
+      "required": false
+    },
+    {
+      "id": "generatorgalore:iron_generator",
+      "required": false
+    },
+    {
+      "id": "generatorgalore:potion_generator",
+      "required": false
+    },
+    {
+      "id": "generatorgalore:obsidian_generator",
+      "required": false
+    },
+    {
+      "id": "bankstorage:bank_1",
+      "required": false
+    },
+    {
+      "id": "bankstorage:bank_2",
+      "required": false
+    },
+    {
+      "id": "bankstorage:bank_3",
+      "required": false
+    },
+    {
+      "id": "thermal:tinker_bench",
+      "required": false
+    } 
+  ]
+}

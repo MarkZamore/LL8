@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "justdirethings:blazegold_helmet"
+  },
+  "results": [
+    {
+      "id": "justdirethings:blazegold_ingot",
+      "count": 5
+    }
+  ]
+}
+

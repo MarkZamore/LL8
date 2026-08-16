@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "twilightforest:phantom_chestplate"
+  },
+  "results": [
+    {
+      "id": "minecraft:phantom_membrane",
+      "count": 8
+    }
+  ]
+}
+

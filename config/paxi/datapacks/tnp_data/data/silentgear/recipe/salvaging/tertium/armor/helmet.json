@@ -1,0 +1,20 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mysticalagriculture:tertium_helmet"
+  },
+  "results": [
+    {
+      "id": "mysticalagriculture:prudentium_helmet"
+    },
+    {
+      "id": "mysticalagriculture:tertium_gemstone",
+      "count": 2
+    },
+    {
+      "id": "mysticalagriculture:tertium_ingot",
+      "count": 2
+    }
+  ]
+}
+

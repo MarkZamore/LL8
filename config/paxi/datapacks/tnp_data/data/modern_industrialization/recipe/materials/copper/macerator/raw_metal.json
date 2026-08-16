@@ -1,0 +1,22 @@
+{
+  "type": "modern_industrialization:macerator",
+  "duration": 50,
+  "eu": 2,
+  "item_inputs": [
+    {
+      "amount": 1,
+      "tag": "c:raw_materials/copper"
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 1,
+      "item": "mekanism:dust_copper"
+    },
+    {
+      "amount": 1,
+      "item": "mekanism:dust_copper",
+      "probability": 0.5
+    }
+  ]
+}

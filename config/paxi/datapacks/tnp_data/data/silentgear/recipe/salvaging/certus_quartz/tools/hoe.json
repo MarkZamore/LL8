@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "ae2:certus_quartz_hoe"
+  },
+  "results": [
+    {
+      "id": "ae2:certus_quartz_crystal",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

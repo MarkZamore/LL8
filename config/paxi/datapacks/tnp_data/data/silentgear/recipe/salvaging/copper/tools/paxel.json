@@ -1,0 +1,22 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "instrumentus:copper_paxel"
+  },
+  "results": [
+    {
+      "id": "instrumentus:copper_axe"
+    },
+    {
+      "id": "instrumentus:copper_pickaxe"
+    },
+    {
+      "id": "instrumentus:copper_shovel"
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

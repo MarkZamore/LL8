@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "up": "block/end_stone_bricks",
+        "down": "block/end_stone_bricks",
+        "north": "jamd:block/end_portal",
+        "south": "jamd:block/end_portal",
+        "east": "jamd:block/end_portal",
+        "west": "jamd:block/end_portal",
+        "particle": "jamd:block/end_portal"
+    }
+}

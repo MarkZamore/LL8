@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "biomeswevegone:ironwood_planks"
+    },
+    {
+      "tag": "c:player_workstations/crafting_tables"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "biomeswevegone:ironwood_crafting_table"
+  }
+}

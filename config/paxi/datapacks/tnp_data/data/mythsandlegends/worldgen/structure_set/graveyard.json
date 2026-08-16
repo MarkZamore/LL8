@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "mythsandlegends:graveyard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 40691852,
+    "spacing": 64,
+    "separation": 50
+  }
+}

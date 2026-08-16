@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GAG",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fantasy_armor:moon_crystal"
+  }
+}

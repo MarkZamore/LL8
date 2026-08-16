@@ -1,0 +1,10 @@
+{
+  "type": "smelting",
+  "ingredient": {
+    "item": "forbidden_arcanus:edelwood_log"
+  },
+  "result": {
+    "id": "forbidden_arcanus:dark_matter",
+  "experience": 0.4,
+  "cookingtime": 400
+}

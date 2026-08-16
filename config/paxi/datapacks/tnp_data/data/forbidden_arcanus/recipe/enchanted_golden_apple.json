@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "###",
+        "#X#",
+        "###"
+    
+    ],
+    
+    "key":
+    {
+        "#":
+        {
+            "item": "forbidden_arcanus:deorum_ingot"
+        },
+        "X":
+        {
+            "item": "minecraft:apple"
+        }
+    },
+    
+  "result": {
+    "id": "minecraft:enchanted_golden_apple"
+    }
+}

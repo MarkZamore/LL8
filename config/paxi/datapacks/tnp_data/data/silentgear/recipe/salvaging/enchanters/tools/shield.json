@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "ars_nouveau:enchanters_shield"
+  },
+  "results": [
+    {
+      "id": "ars_nouveau:source_gem_block",
+      "count": 2
+    },
+    {
+      "id": "minecraft:gold_block",
+      "count": 2
+    },
+    {
+      "id": "minecraft:iron_ingot",
+      "count": 1
+    }
+  ]
+}
+

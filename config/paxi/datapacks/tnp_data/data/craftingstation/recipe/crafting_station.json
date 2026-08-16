@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "crafting_station",
+  "ingredients": [
+    {
+      "tag": "c:player_workstations/crafting_tables"
+    }
+  ],
+  "result": {
+    "id": "craftingstation:crafting_station"
+  }
+}

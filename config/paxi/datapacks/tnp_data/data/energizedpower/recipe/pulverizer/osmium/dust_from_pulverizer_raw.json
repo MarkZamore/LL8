@@ -1,0 +1,19 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": {
+    "tag": "c:raw_materials/osmium"
+  },
+  "output": {
+    "output": {
+      "item": "mekanism:dust_osmium"
+    },
+    "percentages": [
+      1.0,
+      0.25
+    ],
+    "percentagesAdvanced": [
+      1.0,
+      0.5
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "tag": "c:ingots/nickel"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "modern_industrialization:nickel_dust"
+  }
+}

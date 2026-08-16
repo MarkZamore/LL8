@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/diamond"
+  },
+  "result": {
+    "type": "occultism:tag",
+    "count": 4,
+    "tag": "c:gems/diamond"
+  }
+}

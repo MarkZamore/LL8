@@ -1,0 +1,10 @@
+{
+  "type": "modern_industrialization:forge_hammer",
+  "ingredient": {
+    "tag": "c:ingots/tyrian_steel"
+  },
+  "result": {
+    "count": 1,
+    "id": "silentgear:tyrian_steel_dust"
+  }
+}

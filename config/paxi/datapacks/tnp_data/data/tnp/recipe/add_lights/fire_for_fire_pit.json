@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "minecraft:coals"
+  },
+  "result": {
+    "count": 2,
+    "id": "additional_lights:fire_for_fire_pit_s"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sticks",
+  "key": {
+    "i": {
+      "tag": "c:ingots/brass"
+    }
+  },
+  "pattern": [
+    "i",
+    "i"
+  ],
+  "result": {
+    "id": "createaddition:brass_rod",
+    "count": 1
+  }
+}

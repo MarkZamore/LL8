@@ -1,0 +1,20 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cataclysm:the_incinerator"
+  },
+  "results": [
+    {
+      "id": "cataclysm:ignitium_ingot",
+      "count": 2
+    },
+    {
+      "id": "minecraft:blaze_rod",
+      "count": 4
+    },
+    {
+      "id": "minecraft:netherite_sword"
+    }
+  ]
+}
+

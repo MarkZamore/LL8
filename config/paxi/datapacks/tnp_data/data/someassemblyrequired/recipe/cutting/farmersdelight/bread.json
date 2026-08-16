@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "someassemblyrequired:bread_slice"
+      }
+    },
+    {
+      "item": {
+        "count": 2,
+        "id": "extradelight:bread_slice"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

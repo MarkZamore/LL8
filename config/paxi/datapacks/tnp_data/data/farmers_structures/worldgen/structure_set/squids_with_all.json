@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "farmers_structures:squids",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 96503418,
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 8
+    },
+    "spacing": 38,
+    "separation": 22
+  }
+}

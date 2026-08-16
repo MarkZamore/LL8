@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "pattern": [
+    "aa",
+    "  "
+  ],
+  "result": {
+    "count": 18,
+    "id": "solargeneration:lapis_shard"
+  }
+}

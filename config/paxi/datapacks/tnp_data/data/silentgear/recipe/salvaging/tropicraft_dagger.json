@@ -1,0 +1,14 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "tropicraft:dagger"
+  },
+  "results": [
+    {
+      "id": "tropicraft:chunk"
+    },
+    {
+      "id": "tropicraft:bamboo_stick"
+    }
+  ]
+}

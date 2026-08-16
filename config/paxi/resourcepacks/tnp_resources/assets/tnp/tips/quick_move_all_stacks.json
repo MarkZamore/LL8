@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Did you know? You can Shift-control click an item to quick-move all stacks of that item type. (Example: all cobblestone from a chest into your inventory.)"
+  }
+}

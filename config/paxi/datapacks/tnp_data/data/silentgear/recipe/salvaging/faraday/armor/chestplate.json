@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "immersiveengineering:armor_faraday_chestplate"
+  },
+  "results": [
+    {
+      "id": "immersiveengineering:plate_aluminum",
+      "count": 8
+    }
+  ]
+}
+

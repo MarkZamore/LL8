@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 2400,
+  "input": {
+    "item": "minecraft:charcoal"
+  },
+  "result": {
+    "item": "mekanism:dust_charcoal"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LDL",
+        "GMG",
+        "LGL"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:gold_ingot"
+        },
+        "M": {
+            "item": "ppfluids:medium_fluid_retrieval_module"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "L": {
+            "item": "minecraft:lapis_block"
+        }
+    },
+    "result": {
+        "id": "ppfluids:high_fluid_retrieval_module"
+    }
+}

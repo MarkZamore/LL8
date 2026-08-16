@@ -1,0 +1,2 @@
+# Add the keywords you want to filter separated by commas
+Filters = [[net.luckystudio.spelunkers_charm.block.custom.GeyserBlock:tick:124]: Tick]

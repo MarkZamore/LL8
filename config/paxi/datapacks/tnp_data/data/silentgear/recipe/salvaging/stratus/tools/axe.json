@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "deep_aether:stratus_axe"
+  },
+  "results": [
+    {
+      "id": "deep_aether:stratus_ingot",
+      "count": 1
+    },
+    {
+      "id": "aether:gravitite_axe"
+    }
+  ]
+}
+

@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 54000,
+  "input": {
+    "item": "modern_industrialization:raw_titanium_block"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "modern_industrialization:titanium_dust"
+    },
+    "count": 12
+  }
+}

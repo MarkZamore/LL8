@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cognition:cognitive_helmet"
+  },
+  "results": [
+    {
+      "id": "cognition:cognitive_alloy",
+      "count": 1
+    },
+    {
+      "id": "minecraft:iron_helmet",
+      "count": 1
+    }
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cataclysm:cursium_chestplate"
+  },
+  "results": [
+    {
+      "id": "cataclysm:cursium_ingot",
+      "count": 1
+    },
+    {
+      "id": "minecraft:netherite_chestplate",
+      "count": 1
+    }
+  ]
+}
+

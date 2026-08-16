@@ -1,0 +1,22 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": {
+    "tag": "c:ores/iesnium"
+  },
+  "output_items": [
+    {
+      "item": {
+        "id": "occultism:raw_iesnium",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "occultism:raw_iesnium"
+      },
+      "chance": 0.75
+    }
+  ],
+  "duration": 40,
+  "neoforge:conditions": []
+}

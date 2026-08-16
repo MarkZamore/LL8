@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/nickel"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "modern_industrialization:nickel_dust"
+  }
+}

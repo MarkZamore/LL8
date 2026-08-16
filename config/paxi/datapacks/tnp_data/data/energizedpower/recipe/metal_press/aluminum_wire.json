@@ -1,0 +1,13 @@
+{
+  "type": "energizedpower:metal_press",
+  "ingredient": {
+    "tag": "c:plates/aluminum"
+  },
+  "output": {
+    "count": 3,
+    "item": "immersiveengineering:wire_aluminum"
+  },
+  "pressMold": {
+    "item": "energizedpower:wire_press_mold"
+  }
+}

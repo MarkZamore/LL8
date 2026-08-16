@@ -1,0 +1,12 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "irons_jewelry:topaz"
+  },
+  "results": [
+    {
+      "count": 1,
+      "id": "silentgems:topaz"
+    }
+  ]
+}

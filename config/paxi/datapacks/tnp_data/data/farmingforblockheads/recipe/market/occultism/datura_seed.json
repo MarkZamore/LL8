@@ -1,0 +1,8 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:seeds",
+  "preset": "occultism:seeds",
+  "result": {
+    "item": "occultism:datura_seeds"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.01,
+  "group": "synergy",
+  "ingredient": {
+    "item": "mekanism:block_steel"
+  },
+  "result": {
+    "count": 1,
+    "id": "synergy:rustic_metal"
+  }
+}

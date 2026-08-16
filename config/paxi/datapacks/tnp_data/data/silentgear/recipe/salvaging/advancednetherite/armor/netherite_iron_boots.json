@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "advancednetherite:netherite_iron_boots"
+  },
+  "results": [
+    {
+      "id": "advancednetherite:netherite_iron_ingot",
+      "count": 1
+    },
+    {
+      "id": "minecraft:netherite_boots",
+      "count": 1
+    }
+  ]
+}
+

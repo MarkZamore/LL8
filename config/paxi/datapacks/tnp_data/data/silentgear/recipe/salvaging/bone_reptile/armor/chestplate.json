@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cataclysm:bone_reptile_chestplate"
+  },
+  "results": [
+    {
+      "id": "cataclysm:ancient_metal_ingot",
+      "count": 4
+    },
+    {
+      "id": "cataclysm:koboleton_bone",
+      "count": 4
+    }
+  ]
+}
+

@@ -1,0 +1,22 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "tag": "c:raw_materials/crimson_iron"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "id": "silentgear:crimson_iron_dust"
+      }
+    },
+    {
+      "chance": 0.25,
+      "item": {
+        "count": 1,
+      "id": "silentgear:crimson_iron_dust"
+      }
+    }
+  ]
+}

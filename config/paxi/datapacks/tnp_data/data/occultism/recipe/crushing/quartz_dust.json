@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/quartz"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 4,
+    "id": "minecraft:quartz"
+  }
+}

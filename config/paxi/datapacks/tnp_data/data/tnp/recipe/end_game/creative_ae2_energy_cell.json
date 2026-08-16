@@ -1,0 +1,62 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABCBDBCBA",
+    "BEFGHGFEB",
+    "CFIJIJIFC",
+    "BGJKLKJGB",
+    "DHILMLIHD",
+    "BGJKLKJGB",
+    "CFIJIJIFC",
+    "BEFGHGFEB",
+    "ABCBDBCBA"
+  ],
+  "key": {
+    "A": {
+      "item": "ae2:quantum_link"
+    },
+    "B": {
+      "item": "ae2:spatial_anchor"
+    },
+    "C": {
+      "item": "ae2:controller"
+    },
+    "D": {
+      "item": "ae2:fluix_block"
+    },
+    "E": {
+      "item": "ae2:molecular_assembler"
+    },
+    "F": {
+      "item": "ae2:energy_acceptor"
+    },
+    "G": {
+      "item": "extendedcrafting:crystaltine_block"
+    },
+    "H": {
+      "item": "extendedcrafting:nether_star_block"
+    },
+    "I": {
+      "items": "megacells:mega_energy_cell",
+      "components": {
+        "ae2:stored_energy": 1.28E7
+      },
+      "type": "neoforge:components"
+    },
+    "J": {
+      "item": "ae2:quantum_ring"
+    },
+    "K": {
+      "item": "ae2:not_so_mysterious_cube"
+    },
+    "L": {
+      "item": "extendedcrafting:flux_star_block"
+    },
+    "M": {
+      "item": "extendedcrafting:ultimate_singularity"
+    }
+  },
+  "result": {
+    "id": "ae2:creative_energy_cell"
+  }
+}

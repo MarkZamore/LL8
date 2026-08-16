@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "justdirethings:ferricore_axe"
+  },
+  "results": [
+    {
+      "id": "justdirethings:ferricore_ingot",
+      "count": 3
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

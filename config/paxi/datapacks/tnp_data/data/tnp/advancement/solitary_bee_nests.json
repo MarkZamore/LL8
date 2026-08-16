@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "productivebees:oak_wood_nest"
+    },
+    "title": "Acquire any Solitary Bee Nests",
+    "description": "Used by quests (ignore).",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "productivebees:oak_wood_nest",
+              "productivebees:spruce_wood_nest",
+              "productivebees:dark_oak_wood_nest",
+              "productivebees:birch_wood_nest",
+              "productivebees:jungle_wood_nest",
+              "productivebees:acacia_wood_nest",
+              "productivebees:cherry_wood_nest",
+              "productivebees:mangrove_wood_nest",
+              "productivebees:stone_nest",
+              "productivebees:coarse_dirt_nest",
+              "productivebees:sand_nest",
+              "productivebees:snow_nest",
+              "productivebees:gravel_nest",
+              "productivebees:sugar_cane_nest",
+              "productivebees:glowstone_nest",
+              "productivebees:soul_sand_nest",
+              "productivebees:nether_quartz_nest",
+              "productivebees:nether_gold_nest",
+              "productivebees:nether_brick_nest",
+              "productivebees:end_stone_nest",
+              "productivebees:obsidian_nest"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

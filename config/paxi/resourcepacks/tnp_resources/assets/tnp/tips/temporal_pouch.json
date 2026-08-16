@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Need to speed up something that doesn't have an upgrade available? Craft a Temporal Pouch. It collects in-game time while in inventory which you can then use to accelerate the tickrate on blocks or machines."
+  }
+}

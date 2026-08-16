@@ -1,0 +1,258 @@
+{
+  "configVersion": 1,
+  "enabled": true,
+  "rules": [
+    {
+      "name": "Suppress missing blockstate model variant warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Exception loading blockstate definition: '.+' missing model for variant: '.+'",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress missing model warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Unable to load model: '.+' referenced from: .+: java\\.io\\.FileNotFoundException: .+\\.json",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress missing model texture warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Missing textures in model .+:\\s*minecraft:textures/.+\\.png:.+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress invalid blockstate property value warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Exception loading blockstate definition: '.+' in resourcepack: '.+' for variant: '.+': Unknown value: '.+' for blockstate property: '.+' \\[.+\\]",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress invalid sprite frame index warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Invalid frame index on sprite .+ frame \\d+: \\d+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Diagonal Blocks incompatible model warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Block '.+' is using incompatible model '.+' and should be added to the '.+' block tag\\. The model will not appear correctly under some circumstances!",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Puzzles Lib model bake warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Unable to bake model: '.+': java\\.lang\\.RuntimeException: Unknown value '.+' for property '.+' on 'Block\\{.+\\}' in '.+'",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Zeta recipe scan errors",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Failed to scan recipe .+\\. This should be reported to .+!",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Immersive Engineering recipe analysis warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Couldn't fully analyze \\d+ .+, missing knowledge for \\{.+\\}",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Feeder Helmet recipe creation logs",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Feeder Helmet created feeder_module recipe for .+:.+ with id '.+:.+'",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress NeoForge mob category mismatch warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Detected .+:.+ that was registered with .+ mob category but was added under .+ mob category for .+:.+ biome! Mobs should be added to biomes under the same mob category that the mob was registered as to prevent mob cap spawning issues\\.",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress recipe unknown registry key errors",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Error parsing recipe .+: Unknown registry key in ResourceKey\\[.+ / .+\\]: .+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress recipe too many fluid inputs errors",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Error parsing recipe .+: Recipe has more fluid inputs \\(\\d+\\) than supported \\(\\d+\\)\\.",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress JSON resource parse errors",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Couldn't parse data file .+ from .+\\.json",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress recipe parsing error loading recipe",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Parsing error loading recipe [^\\s]+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress RecipeManager complex recipe parse errors",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Error parsing recipe .+: Failed to parse either\\..*",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress LootDataType parse errors",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Couldn't parse element ResourceKey\\[.+\\]:.+ - .+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress HammerLib built tags",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Built tags for registry .+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress KubeJS recipe fallback warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "KubeRecipe\\.java#\\d+: Failed to parse recipe '.+'! Falling back to vanilla: .+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress unknown recipe type warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Skipping recipe .+, unknown type: .+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress RecipeManager ingredient parse errors",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Error parsing recipe .+: No key tag in MapLike\\[.+\\]; No key item in MapLike\\[.+\\]",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Malum spirit drop registration",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Added spirit drops for entity with registry name: .+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Silent Gear trait decoding",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Decoding trait \".+\" in pack \".+\"",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Silent Gear material decoding",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Decoding material \".+\" in pack \".+\"",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress C2ME density function compilation",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Density function compilation finished in \\d+ ms",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Biolith unknown dimension warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Ignoring world '.+'; unknown dimension type: .+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress NoStructureOverlap startup messages",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "NoStructureOverlap: .+ level loaded - structure overlap prevention active",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress unknown data attachment warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Encountered unknown or non-serializable data attachment .+\\. Skipping\\.",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Villager API map decoration info",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Found .+ map decoration: .+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Villager API treasure map offer failures",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Failed to create treasure map offer for tag: .+ with decoration: .+\\. This usually means no structures matching the tag were found nearby, or the structure tag doesn't exist\\.",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Villager API missing buy trade item errors",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Villager type .+ does not have a corresponding item in .+ buy trade, and .+ fallback is also missing!",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Villager API dynamic decorations list",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Available dynamic decorations: \\[.*\\]",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress TMRV duplicate JEI category warnings",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "JEI category with ID `.+` already exists in .+!",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Villager API missing map decoration errors",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "Map decoration not found: .+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress TMRV load info messages",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "\\[.+\\] Loaded in .+",
+      "action": "DENY"
+    },
+    {
+      "name": "Suppress Patchouli book content load timing",
+      "enabled": true,
+      "type": "MESSAGE_REGEX",
+      "pattern": "BookContentResourceListenerLoader: Files found in .+ μs",
+      "action": "DENY"
+    }
+  ]
+}

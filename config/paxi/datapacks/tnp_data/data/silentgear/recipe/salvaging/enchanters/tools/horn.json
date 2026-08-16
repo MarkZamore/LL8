@@ -1,0 +1,25 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "ars_elemental:spell_horn"
+  },
+  "results": [
+    {
+      "id": "ars_nouveau:source_gem",
+      "count": 4
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "count": 3
+    },
+    {
+      "id": "ars_nouveau:air_essence",
+      "count": 1
+    },
+    {
+      "id": "ars_nouveau:wilden_horn",
+      "count": 1
+    }
+  ]
+}
+

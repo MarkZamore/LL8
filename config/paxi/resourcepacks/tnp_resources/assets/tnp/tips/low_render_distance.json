@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "It is recommended to play with a lower render distance (8-10) to ensure optimal performance. (Make sure simulation distance is always a step below render distance!)"
+  }
+}

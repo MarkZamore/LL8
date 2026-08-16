@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "naturesaura:infused_iron_axe"
+  },
+  "results": [
+    {
+      "id": "naturesaura:infused_iron",
+      "count": 3
+    },
+    {
+      "id": "naturesaura:ancient_stick",
+      "count": 2
+    }
+  ]
+}
+

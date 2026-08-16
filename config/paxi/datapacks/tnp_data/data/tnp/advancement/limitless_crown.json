@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "tnp:limitless_helmet"
+    },
+    "title": "Limitless: End Game Complete",
+    "description": "Acquire the Limitless End Game Crown by completing all of the End Game quests",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tnp:limitless_helmet"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

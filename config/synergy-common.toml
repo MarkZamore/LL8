@@ -1,0 +1,483 @@
+#Agriculture
+[1-agriculture]
+	#Disable Toggleable Item-Use recipes
+	optional_item_use_recipe = false
+	#Disable player right-click on crops to collect
+	#If detected farmersdelight it will turn off by default
+	harvestable_action = true
+
+#Automation
+[2-automation]
+	#Harvester
+	#Base tick rate of Harvester to check AOE blocks when actived
+	# Default: 5
+	# Range: > 1
+	harvester_tickrate = 5
+	#FE consumed every tick
+	# Default: 25
+	# Range: > 1
+	harvester_fe_rate = 25
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	harvester_fe_max = 10000
+	#Max number of harvestable blocks harvestable foreach interaction
+	# Default: 2048
+	# Range: > 1
+	harvester_limit = 2048
+	#Disable any crop-plant replantable harvest
+	harvester_disable_replant = false
+	#Disable any plant like melons and pumpkins harvest
+	harvester_disable_noreplant = false
+	#Disable any tree harvest
+	harvester_disable_tree = false
+	#Disable any cactus/bamboo/sugar canes like harvest
+	harvester_disable_bigplant = false
+	#Disable any HarvestableAPI plant harvest
+	harvester_disable_api = false
+	#Disable drop items when output full
+	harvester_disable_drop_when_full = false
+	#Tree_chopper
+	#Slot limit of upgrades applicable to the Chopper
+	# Default: 15
+	# Range: 1 ~ 64
+	chopper_upgrade_slot_limit = 15
+	#Tick delay on AOE checking the next blockpos
+	# Default: 20
+	# Range: > 1
+	chopper_tick_rate = 20
+	#FE usage every tick when upgraded
+	# Default: 25
+	# Range: > 1
+	chopper_fe_rate = 25
+	#Ticks added when consume FE
+	# Default: 5
+	# Range: > 1
+	chopper_progress_fe = 5
+	#Solar_panel
+	#FE production every tick
+	# Default: 16
+	# Range: > 1
+	solar_panel_fe_gen = 16
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	solar_panel_fe_max = 10000
+	#Disable condition to see the sky
+	solar_panel_disable_seesky = false
+	#Disable condition to be daytime
+	solar_panel_disable_daytime = false
+	#Sprinkler
+	#FE consumed every tick
+	# Default: 25
+	# Range: > 1
+	sprinkler_fe_cost = 25
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	sprinkler_fe_max = 10000
+	#Cobblestone_generator
+	#Ticks delay to produce a resource
+	# Default: 20
+	# Range: > 1
+	simple_cobblegen_tick_rate = 20
+	#Item count every time executed
+	# Default: 4
+	# Range: > 1
+	simple_cobblegen_item_count = 4
+	#Ticks delay to produce a resource
+	# Default: 5
+	# Range: > 1
+	advanced_cobblegen_tick_rate = 5
+	#Item count every time executed
+	# Default: 16
+	# Range: > 1
+	advanced_cobblegen_item_count = 16
+	#Ticks delay to produce a resource
+	# Default: 1
+	# Range: > 1
+	elite_cobblegen_tick_rate = 1
+	#Item count every time executed
+	# Default: 64
+	# Range: > 1
+	elite_cobblegen_item_count = 64
+	#Water_collector
+	#Ticks delay to produce a resource
+	# Default: 20
+	# Range: > 1
+	simple_watergen_tick_rate = 20
+	#Fluid amount every time executed
+	# Default: 200
+	# Range: > 1
+	simple_watergen_fluid_amount = 200
+	#Ticks delay to produce a resource
+	# Default: 5
+	# Range: > 1
+	advanced_watergen_tick_rate = 5
+	#Fluid amount every time executed
+	# Default: 800
+	# Range: > 1
+	advanced_watergen_fluid_amount = 800
+	#Ticks delay to produce a resource
+	# Default: 1
+	# Range: > 1
+	elite_watergen_tick_rate = 1
+	#Fluid amount every time executed
+	# Default: 3200
+	# Range: > 1
+	elite_watergen_fluid_amount = 3200
+	#Fluid capacity
+	# Default: 4000
+	# Range: > 1
+	simple_watergen_capacity = 4000
+	#Fluid capacity
+	# Default: 16000
+	# Range: > 1
+	advanced_watergen_capacity = 16000
+	#Fluid capacity
+	# Default: 64000
+	# Range: > 1
+	elite_watergen_capacity = 64000
+
+#Industrial-Machines
+[3-industrialmachines]
+	#Base Machine and Upgrades
+	#Allow to place any machine on the opposite side when pressed shift during the placement
+	enable_shift_invert_facing = false
+	#Base max energy stored
+	# Default: 100000
+	# Range: > 1
+	base_machine_max_fe = 100000
+	#Max Speed Increaser Upgrade Types usable foreach machine
+	# Default: 4
+	# Range: 0 ~ 16
+	max_speed_upgrades = 4
+	#Max Energy Efficiency Upgrade Types usable foreach machine
+	# Default: 16
+	# Range: 0 ~ 16
+	max_energy_upgrades = 16
+	#Max Secondary Output Increaser Upgrade Types usable foreach machine
+	# Default: 4
+	# Range: 0 ~ 16
+	max_luck_upgrades = 4
+	#Max Fluid Efficiency Upgrade Types usable foreach machine
+	# Default: 4
+	# Range: 0 ~ 16
+	max_fluid_upgrades = 4
+	#Minimal tick delay based on upgrade installed
+	# Default: 1
+	# Range: > 1
+	min_tick_rate = 1
+	#Minimal Energy cost based on upgrade installed
+	# Default: 5
+	# Range: > 1
+	min_fe_cost = 5
+	#Minimal Fluid cost based on upgrade installed
+	# Default: 0
+	# Range: > 1
+	min_mb_cost = 1
+	#Maximal Secondary Chance based on upgrade installed
+	# Default: 100
+	# Range: > 1
+	max_luck = 100
+	#Disable crash safer when an Industrial Machine is corrupted
+	disable_ms_firewall = false
+	#Electric_furnace
+	#Disable Vanilla Recipes
+	machine_furnace_disable_vanilla = false
+	#Vanilla Recipe Base FE consumed every tick
+	# Default: 500
+	# Range: > 1
+	machine_furnace_vanilla_fe_cost = 500
+	#Disable Vanilla Recipe Tick Reducer
+	machine_furnace_vanilla_disable_tick_reducer = false
+	#Vanilla Recipe Mininal Tick Delay
+	# Default: 100
+	# Range: > 1
+	machine_furnace_vanilla_min_tick_delay = 100
+	#Vanilla Recipe Tick Delay reduction of total Tick Delay
+	# Default: 50
+	# Range: 0 ~ 100
+	machine_furnace_vanilla_percentuage_tick_delay = 50
+
+#Laser-Stuff
+[4-laser]
+	#Laser_rotor
+	#FE production every tick
+	# Default: 10000
+	# Range: > 1
+	laser_rotor_fe_gen = 10000
+	#FE Capacity
+	# Default: 1000000
+	# Range: > 1
+	laser_rotor_fe_max = 1000000
+	#Laser_machine_gun
+	#FE production every tick
+	# Default: 10
+	# Range: > 1
+	laser_machine_fe_cost = 10
+	#FE Capacity
+	# Default: 10000
+	# Range: > 1
+	laser_machine_fe_max = 10000
+	#Laser track color Red tint
+	# Default: 255
+	# Range: 0 ~ 255
+	laser_track_red = 255
+	#Laser track color Green tint
+	# Default: 0
+	# Range: 0 ~ 255
+	laser_track_green = 0
+	#Laser track color Blue tint
+	# Default: 0
+	# Range: 0 ~ 255
+	laser_track_blue = 0
+	#FE production every tick
+	# Default: 8
+	# Range: > 1
+	laser_track_lenght = 8
+	#Laser_sensor
+	#Tick delay to check when turn off
+	# Default: 5
+	# Range: > 1
+	laser_sensor_delay = 5
+
+#NuclearReactor
+[6-nuclear]
+	#Quantum_reactor_controller
+	#FE Capacity
+	# Default: 1000000
+	# Range: > 1
+	nuclear_controller_fe_max = 1000000
+	#Cooler_base_cooling
+	#Copper Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	copper_base_cooling = 0
+	#Diamond Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	diamond_base_cooling = 0
+	#Emerald Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	emerald_base_cooling = 0
+	#Ender Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	ender_base_cooling = 0
+	#Frost Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	frost_base_cooling = 0
+	#Glowstone Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	glowstone_base_cooling = 0
+	#Gold Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	gold_base_cooling = 0
+	#Iron Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	iron_base_cooling = 0
+	#Lapis Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	lapis_base_cooling = 0
+	#Netherite Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	netherite_base_cooling = 0
+	#Quartz Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	quartz_base_cooling = 0
+	#Redstone Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	redstone_base_cooling = 0
+	#Sculk Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	sculk_base_cooling = 0
+	#Shadow Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	shadow_base_cooling = 0
+	#Water Cooler Base Cooling
+	# Default: 0
+	# Range: > -2147483648
+	water_base_cooling = 0
+	#Cooler_active_cooling
+	#Copper Cooler Active Cooling
+	# Default: -80
+	# Range: > -2147483648
+	copper_active_cooling = -80
+	#Diamond Cooler Active Cooling
+	# Default: -150
+	# Range: > -2147483648
+	diamond_active_cooling = -150
+	#Emerald Cooler Active Cooling
+	# Default: -160
+	# Range: > -2147483648
+	emerald_active_cooling = -160
+	#Ender Cooler Active Cooling
+	# Default: -120
+	# Range: > -2147483648
+	ender_active_cooling = -120
+	#Frost Cooler Active Cooling
+	# Default: -60
+	# Range: > -2147483648
+	frost_active_cooling = -60
+	#Glowstone Cooler Active Cooling
+	# Default: -130
+	# Range: > -2147483648
+	glowstone_active_cooling = -130
+	#Gold Cooler Active Cooling
+	# Default: -120
+	# Range: > -2147483648
+	gold_active_cooling = -120
+	#Iron Cooler Active Cooling
+	# Default: -80
+	# Range: > -2147483648
+	iron_active_cooling = -80
+	#Lapis Cooler Active Cooling
+	# Default: -120
+	# Range: > -2147483648
+	lapis_active_cooling = -120
+	#Netherite Cooler Active Cooling
+	# Default: -140
+	# Range: > -2147483648
+	netherite_active_cooling = -140
+	#Quartz Cooler Active Cooling
+	# Default: -90
+	# Range: > -2147483648
+	quartz_active_cooling = -90
+	#Redstone Cooler Active Cooling
+	# Default: -90
+	# Range: > -2147483648
+	redstone_active_cooling = -90
+	#Sculk Cooler Active Cooling
+	# Default: -120
+	# Range: > -2147483648
+	sculk_active_cooling = -120
+	#Shadow Cooler Active Cooling
+	# Default: -320
+	# Range: > -2147483648
+	shadow_active_cooling = -320
+	#Water Cooler Active Cooling
+	# Default: -60
+	# Range: > -2147483648
+	water_active_cooling = -60
+	#Moderator
+	#Simple Moderator FE Reducer
+	# Default: 1.1
+	# Range: 0.0 ~ 2.147483647E9
+	simple_fe_reducer = 1.1
+	#Advanced Moderator FE Reducer
+	# Default: 1.65
+	# Range: 0.0 ~ 2.147483647E9
+	advanced_fe_reducer = 1.65
+	#Elite Moderator FE Reducer
+	# Default: 3.0
+	# Range: 0.0 ~ 2.147483647E9
+	elite_fe_reducer = 3.0
+	#Simple Moderator Heat Reducer
+	# Default: 1.3
+	# Range: 0.0 ~ 2.147483647E9
+	simple_heat_reducer = 1.3
+	#Advanced Moderator Heat Reducer
+	# Default: 2.0
+	# Range: 0.0 ~ 2.147483647E9
+	advanced_heat_reducer = 2.0
+	#Elite Moderator Heat Reducer
+	# Default: 4.5
+	# Range: 0.0 ~ 2.147483647E9
+	elite_heat_reducer = 4.5
+
+#PipeBlocks
+[7-pipe]
+	#Base speed of any node without upgrades
+	# Default: 100
+	# Range: > 1
+	base_node_speed = 100
+	#Number of speed upgrades installable foreach nodes
+	# Default: 4
+	# Range: 1 ~ 4
+	node_speed_upgrades = 4
+	#Number of stack upgrades installable foreach nodes
+	# Default: 4
+	# Range: 1 ~ 4
+	node_stack_upgrades = 4
+
+#Tools
+[9-tools]
+	#Plant Mixtures
+	#Disable plant mixture effect on nether warts
+	plant_mixture_netherwart = false
+	#Disable plant mixture effect on sugar canes
+	plant_mixture_sugarcanes = false
+	#Disable plant mixture effect on cactus
+	plant_mixture_cactus = false
+	#Disable plant mixture effect on vines
+	plant_mixture_vines = false
+	#Disable plant mixture effect on plant stems
+	plant_mixture_stems = false
+	#Disable plant mixture flower spread effect
+	plant_mixture_flower_spreading = false
+	#Disable plant mixture vanilla effect fallback
+	plant_mixture_fallback = false
+
+#Survival-Expansion
+[10-survival]
+	#Dryable Bricks
+	#Disable DryingBricks decrease stage when wet
+	dryable_bricks_decrease_stage_when_wet = false
+	#Drying Racks
+	#Disable Drying Racks reduce the efficiency to prevent to dry at same speed one entire stack as a single item
+	disable_drying_rack_nerfer = false
+	#Drying Racks Speed reducer to balance Stack Nerfer
+	#Example : 64 items 
+	# 1x -> 64x time required 
+	# 4x -> 64x/4 -> 16x time required 
+	# 0.5x -> 64x/0.5 -> 128x time required 
+	# Default: 1.0
+	# Range: 0.001 ~ 2.147483647E9
+	drying_rack_nerfer_decreaser = 1.0
+	#Foundry
+	#Disable Foundry speed boost based on fluid amount
+	disable_foundry_speed_boost = false
+	#Foundry Speed increaser based on fluid amount
+	# Default: 0.25
+	# Range: 0.001 ~ 2.147483647E9
+	foundry_speed_increaser = 0.25
+
+#RolePlay-Stuff
+[11-rpg]
+	#Healer
+	#Disable healing effect
+	disable_healing_effect = false
+	#Disable fire extinguish effect
+	disable_fire_extinguish_effect = false
+
+#Skyblock-Utility
+[12-skyblock]
+	#Disable Crook behavior on breaking leaves
+	crook_event = false
+
+#Other
+[13-other]
+	#Disable End Portal Frame interaction to remove Eye of Ender
+	ender_eye_return = false
+	#Disable Forever Young effect
+	git_commit_forever_young = false
+	#Disable the reverse of Forever Young effect
+	git_revert_forever_young = false
+	#Disable Patina drop when scrapped any oxidized copper block
+	patina_drop = false
+	#Disable Redstone Acid can increase a stage of oxidation at the copper block clicked
+	redstone_acid_oxide = false
+	#Disable Honey Solution can wax the copper block clicked
+	honey_solution_wax = false

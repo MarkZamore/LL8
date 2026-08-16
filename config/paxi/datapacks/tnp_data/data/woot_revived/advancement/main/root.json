@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "killed_something": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/block/black_concrete_powder.png",
+    "description": {
+      "translate": "advancements.woot_revived.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "woot_revived:heart"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "title": {
+      "translate": "advancements.woot_revived.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_something"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

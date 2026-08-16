@@ -1,0 +1,13 @@
+{
+  "type": "cobblegengalore:blockgen",
+  "result": {
+    "id": "minecraft:basalt",
+    "count": 1
+  },
+  "left": {
+    "Name": "minecraft:blue_ice"
+  },
+  "right": {
+    "Name": "minecraft:lava"
+  }
+}

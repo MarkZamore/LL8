@@ -1,0 +1,14 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": {
+    "item": "minecraft:obsidian"
+  },
+  "output_items": [
+    {
+      "item": {
+        "id": "mekanism:dust_obsidian",
+        "count": 4
+      }
+    }
+  ]
+}

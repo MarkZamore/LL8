@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/ruby"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 4,
+    "id": "modern_industrialization:ruby_dust"
+  }
+}

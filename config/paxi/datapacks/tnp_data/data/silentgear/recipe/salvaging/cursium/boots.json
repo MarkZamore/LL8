@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cataclysm:cursium_boots"
+  },
+  "results": [
+    {
+      "id": "cataclysm:cursium_ingot",
+      "count": 1
+    },
+    {
+      "id": "minecraft:netherite_boots",
+      "count": 1
+    }
+  ]
+}
+

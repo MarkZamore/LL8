@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "id": "mysticalagriculture:magma_cube_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:magma_cube_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:imperium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "mysticalagriculture:magma_cube_crop"  
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "item": "modern_industrialization:bauxite_crushed_dust"
+  },
+  "outputs": [
+    {
+      "item": {
+        "count": 1,
+        "tag": "c:dusts/bauxite"
+      }
+    },
+    {
+      "chance": 0.25,
+      "item": {
+        "count": 1,
+      "tag": "c:dusts/bauxite"
+      }
+    }
+  ]
+}

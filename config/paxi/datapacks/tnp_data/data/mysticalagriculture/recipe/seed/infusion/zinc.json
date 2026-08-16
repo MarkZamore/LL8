@@ -1,0 +1,46 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "item": "create:zinc_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:zinc"
+    },
+    {
+      "item": "create:zinc_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:zinc"
+    },
+    {
+      "item": "create:zinc_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:zinc"
+    },
+    {
+      "item": "create:zinc_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:zinc"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:zinc"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:zinc_seeds"
+  }
+}

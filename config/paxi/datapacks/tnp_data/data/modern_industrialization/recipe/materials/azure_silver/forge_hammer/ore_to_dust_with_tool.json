@@ -1,0 +1,11 @@
+{
+  "type": "modern_industrialization:forge_hammer",
+  "damage": 50,
+  "ingredient": {
+    "tag": "c:ores/azure_silver"
+  },
+  "result": {
+    "count": 4,
+    "id": "silentgear:azure_silver_dust"
+  }
+}

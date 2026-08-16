@@ -1,0 +1,229 @@
+{
+    "type": "minecraft:advancement_location",
+    "pools": [
+        {
+            "bonus_rolls": {
+                "type": "minecraft:uniform",
+                "max": 0.02,
+                "min": 0.0
+            },
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "minecraft:silk_touch",
+                                        "levels": {
+                                            "min": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 3,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:quartz"
+                    },
+                    "weight": 150
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.1
+                            }
+                        }
+                    ],
+                    "max": 5,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:raw_gold"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.15
+                            }
+                        }
+                    ],
+                    "max": 10,
+                    "min": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:glowstone_dust"
+                    },
+                    "weight": 60
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.03
+                            }
+                        }
+                    ],
+                    "max": 1,
+                    "min": 0,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:ancient_debris"
+                    }
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": {
+                "type": "minecraft:uniform",
+                "max": 0.02,
+                "min": 0.0
+            },
+            "conditions": [
+                {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "minecraft:silk_touch",
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 4,
+                    "min": 2,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:nether_quartz_ore"
+                    },
+                    "weight": 150
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:nether_gold_ore"
+                    },
+                    "weight": 100
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 3,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:glowstone"
+                    },
+                    "weight": 60
+                },
+                {
+                    "type": "placebo:stack_entry",
+                    "max": 1,
+                    "min": 0,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:ancient_debris"
+                    }
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "position": {
+                            "y": {
+                                "max": 18.0,
+                                "min": 12.0
+                            }
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "placebo:stack_entry",
+                    "functions": [
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:binomial_with_bonus_count",
+                            "function": "minecraft:apply_bonus",
+                            "parameters": {
+                                "extra": 0,
+                                "probability": 0.03
+                            }
+                        }
+                    ],
+                    "max": 1,
+                    "min": 1,
+                    "stack": {
+                        "count": 1,
+                        "id": "minecraft:ancient_debris"
+                    },
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 97
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "apothic_enchanting:boon_netherrack_drops"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "twilightforest:arctic_chestplate"
+  },
+  "results": [
+    {
+      "id": "twilightforest:arctic_fur",
+      "count": 8
+    }
+  ]
+}
+

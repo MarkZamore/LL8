@@ -1,0 +1,8 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:saplings",
+  "preset": "tropicraft:saplings",
+  "result": {
+    "item": "tropicraft:plantain_sapling"
+  }
+}

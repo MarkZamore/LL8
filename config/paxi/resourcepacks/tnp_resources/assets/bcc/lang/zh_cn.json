@@ -1,0 +1,4 @@
+{
+  "bcc.gui.tooltip.compatible_server": "§a正确版本！可加入服务器. \n \n§7服务器: §a%s\n§7客户 (你): §a%s",
+  "bcc.gui.tooltip.incompatible_server": "§c版本错误！无法加入服务器. \n \n§7服务器: %s\n§7客户 (你): %s"
+}

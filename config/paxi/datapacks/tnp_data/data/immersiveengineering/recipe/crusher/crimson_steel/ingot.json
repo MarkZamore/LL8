@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 3000,
+  "input": {
+    "tag": "c:ingots/crimson_steel"
+  },
+  "result": {
+    "item": "silentgear:crimson_steel_dust"
+  }
+}

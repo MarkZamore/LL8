@@ -1,0 +1,14 @@
+{
+  "type": "actuallyadditions:crushing",
+  "ingredient": {
+    "item": "modern_industrialization:iridium_ore"
+  },
+  "result": [
+    {
+      "result": {
+        "count": 2,
+        "id": "modern_industrialization:raw_iridium"
+      }
+    }
+  ]
+}

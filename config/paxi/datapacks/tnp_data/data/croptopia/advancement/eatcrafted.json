@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+    "id": "croptopia:tofuburger"
+    },
+    "title": {
+      "translate": "advancements.croptopia.eatcrafted.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "description": {
+      "translate": "advancements.croptopia.eatcrafted.description"
+    }
+  },
+  "parent": "croptopia:root",
+  "criteria": {
+    "eat_crafted": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "tag": "croptopia:advancements_food_crafted"
+        }
+      }
+    }
+  }
+}

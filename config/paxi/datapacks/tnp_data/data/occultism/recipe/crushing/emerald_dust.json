@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/emerald"
+  },
+  "result": {
+    "type": "occultism:tag",
+    "count": 4,
+    "tag": "c:gems/emerald"
+  }
+}

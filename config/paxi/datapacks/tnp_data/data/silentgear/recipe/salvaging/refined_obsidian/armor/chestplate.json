@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:refined_obsidian_chestplate"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_refined_obsidian",
+      "count": 8
+    }
+  ]
+}
+

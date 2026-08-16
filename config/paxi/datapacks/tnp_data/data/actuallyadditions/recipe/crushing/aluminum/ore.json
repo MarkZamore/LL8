@@ -1,0 +1,14 @@
+{
+  "type": "actuallyadditions:crushing",
+  "ingredient": {
+    "item": "modern_industrialization:bauxite_ore"
+  },
+  "result": [
+    {
+      "result": {
+        "count": 2,
+        "id": "immersiveengineering:raw_aluminum"
+      }
+    }
+  ]
+}

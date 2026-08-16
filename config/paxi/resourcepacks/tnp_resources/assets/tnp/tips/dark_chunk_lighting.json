@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Is a whole chunk in your area completely dark after joining your world / server? Use F3 + A to reload chunks to fix this visual bug!"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "item": "modern_industrialization:aluminum_nugget"
+    },
+    "s": {
+      "tag": "c:nuggets/aluminum"
+    }
+  },
+  "pattern": [
+    "sss",
+    "sis",
+    "sss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "modern_industrialization:aluminum_ingot"
+  }
+}

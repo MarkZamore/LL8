@@ -1,0 +1,46 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "item": "immersiveengineering:dust_saltpeter"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:saltpeter"
+    },
+    {
+      "item": "immersiveengineering:dust_saltpeter"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:saltpeter"
+    },
+    {
+      "item": "immersiveengineering:dust_saltpeter"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:saltpeter"
+    },
+    {
+      "item": "immersiveengineering:dust_saltpeter"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:saltpeter"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:saltpeter"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:saltpeter_seeds"
+  }
+}

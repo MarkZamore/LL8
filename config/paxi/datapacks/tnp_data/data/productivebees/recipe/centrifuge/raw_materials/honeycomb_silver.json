@@ -1,0 +1,23 @@
+{
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "type": "productivebees:component",
+    "components": {
+      "productivebees:bee_type": "productivebees:silver"
+    },
+    "items": "productivebees:configurable_honeycomb"
+  },
+  "outputs": [
+    {
+      "item": {
+        "item": "occultism:raw_silver"
+      },
+      "chance": 0.4
+    },
+    {
+      "item": {
+        "item": "productivebees:wax"
+      }
+    }
+  ]
+}

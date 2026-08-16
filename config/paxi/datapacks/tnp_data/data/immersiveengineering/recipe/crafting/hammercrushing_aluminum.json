@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "c:ores/aluminum"
+  },
+  "result": {
+    "item": "modern_industrialization:aluminum_dust"
+  }
+}

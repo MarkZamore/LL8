@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#B#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blaze_powder"
+        },
+        "B": {
+            "tag": "minecraft:soul_fire_base_blocks"
+        }
+    },
+    "result": {
+        "id": "monsterplus:soulflame_powder",
+        "count": 1
+    }
+}

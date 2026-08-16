@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "forbidden_arcanus:darkstone"
+    },
+  "result": {
+    "id": "forbidden_arcanus:chiseled_polished_darkstone",
+    "count": 1
+}

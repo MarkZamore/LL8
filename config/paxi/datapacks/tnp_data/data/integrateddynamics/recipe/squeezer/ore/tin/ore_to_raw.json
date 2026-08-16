@@ -1,0 +1,22 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": {
+    "tag": "c:ores/tin"
+  },
+  "output_items": [
+    {
+      "item": {
+        "id": "mekanism:raw_tin",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "mekanism:raw_tin"
+      },
+      "chance": 0.75
+    }
+  ],
+  "duration": 40,
+  "neoforge:conditions": []
+}

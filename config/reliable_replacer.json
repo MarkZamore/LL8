@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "missing_id_map": {
+    "galosphere:glinted_amethyst_cluster": "minecraft:amethyst_cluster",
+    "galosphere:allurite_block": "minecraft:amethyst_block",
+    "galosphere:allurite_cluster": "minecraft:amethyst_cluster",
+    "galosphere:glinted_allurite_cluster": "minecraft:amethyst_cluster",
+    "galosphere:lumiere_block": "minecraft:amethyst_block",
+    "galosphere:lumiere_cluster": "minecraft:amethyst_cluster",
+    "galosphere:glinted_lumiere_cluster": "minecraft:amethyst_cluster",
+    "galosphere:lichen_moss": "minecraft:moss_block",
+    "galosphere:lichen_vines": "minecraft:glow_lichen",
+    "galosphere:lichen_roots": "minecraft:short_grass",
+    "galosphere:lichen_shelf": "biomeswevegone:shelf_fungi",
+    "galosphere:lichen_cordyceps": "minecraft:bamboo",
+    "galosphere:lichen_cordyceps_plant": "minecraft:bamboo",
+    "galosphere:bowl_lichen": "minecraft:fern",
+    "galosphere:palladium_ore": "minecraft:iron_ore",
+    "galosphere:deepslate_palladium_ore": "minecraft:deepslate_iron_ore",
+    "galosphere:pink_salt": "minecraft:dripstone_block",
+    "galosphere:rose_pink_salt": "minecraft:dripstone_block",
+    "galosphere:pastel_pink_salt": "minecraft:dripstone_block",
+    "galosphere:pink_salt_cluster": "pastel:glowstone_cluster",
+    "galosphere:pink_salt_straw": "minecraft:air"
+  }
+}

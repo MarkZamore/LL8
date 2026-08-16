@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "justdirethings:bow_eclipsealloy"
+  },
+  "results": [
+    {
+      "id": "justdirethings:eclipsealloy_ingot",
+      "count": 3
+    },
+    {
+      "id": "minecraft:string",
+      "count": 3
+    }
+  ]
+}
+

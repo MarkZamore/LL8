@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group" : "wooden_paths",
+    "pattern": [
+        "X ",
+        "X "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:acacia_slab"
+        }
+    },
+    "result": {
+        "id": "mcwpaths:acacia_planks_path",
+        "count": 3
+    }
+}

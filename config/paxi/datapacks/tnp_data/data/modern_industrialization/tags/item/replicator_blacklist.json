@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:bundle",
+    "extendedcrafting:singularity",
+    "mekanism:creative_energy_cube",
+    "ars_nouveau:creative_source_jar",
+    "powah:energy_cell_creative",
+    "ae2:creative_energy_cell",
+    "ironjetpacks:jetpack",
+    "moblassos:creative_lasso",
+    "lootbundles:fragment",
+    "lootbundles:loot_bundle",
+    "ftbquests:lootcrate",
+    "modern_industrialization:portable_storage_unit",
+    "#modern_industrialization:barrels"
+  ]
+}

@@ -1,0 +1,67 @@
+# AgriTech Trees Override Configuration
+# This file allows you to add custom trees and soils without modifying the core configuration.
+# Any entries here will override existing configurations for the same items/blocks.
+
+# How to use:
+# 1. Add [trees.your_tree_name] sections for new trees or to override existing ones
+# 2. Add [soils.your_soil_name] sections for new soils or to override existing ones
+# 3. Save the file and restart your game
+
+# IMPORTANT: Make sure to verify the exact item and block IDs from your mods
+# Incorrect IDs will be skipped with a warning message in the log
+# The mod uses resource location format (e.g., "minecraft:dirt" not just "dirt")
+# The easiest way to check IDs is with F3+H enabled (shows tooltip IDs) or via JEI/REI
+
+# Example trees:
+
+# [trees.example_oak]
+# sapling = "examplemod:oak_sapling"
+# soil = [
+#   "minecraft:dirt",
+#   "examplemod:rich_soil"
+# ]
+# # There are two ways to specify drops:
+# # 1. Simple drops with default settings:
+# drops = [
+#   "examplemod:oak_log",
+#   "examplemod:oak_sapling"
+# ]
+# min_count = 1  # Minimum drop count for all simple drops (default: 1)
+# max_count = 3  # Maximum drop count for all simple drops (default: 1)
+# chance = 0.75  # Drop chance for all simple drops (default: 1.0)
+
+# # 2. Detailed drops with individual settings (use this for multiple drops with different chances):
+# # [trees.example_oak_advanced]
+# # sapling = "examplemod:oak_sapling"
+# # soil = ["minecraft:dirt"]
+# # drops = [
+# #   { item = "examplemod:oak_log", min_count = 2, max_count = 6, chance = 1.0 },
+# #   { item = "examplemod:oak_sapling", min_count = 1, max_count = 2, chance = 0.5 },
+# #   { item = "minecraft:apple", min_count = 1, max_count = 2, chance = 0.2 }
+# # ]
+
+# Example soils:
+
+# [soils.example_rich_soil]
+# block = "examplemod:rich_soil"
+# growth_modifier = 1.5  # Growth speed multiplier (default: 1.0)
+
+# REAL EXAMPLE - Uncomment to use
+# This example adds support for a mod's tree
+
+# [trees.modded_tree]
+# sapling = "awesomemod:magical_sapling"
+# soil = [
+#   "minecraft:dirt",
+#   "minecraft:grass_block",
+#   "minecraft:podzol"
+# ]
+# drops = [
+#   { item = "awesomemod:magical_log", min_count = 3, max_count = 7, chance = 1.0 },
+#   { item = "awesomemod:magical_sapling", min_count = 1, max_count = 2, chance = 0.5 },
+#   { item = "awesomemod:magical_fruit", min_count = 1, max_count = 3, chance = 0.4 }
+# ]
+
+# [soils.magical_soil]
+# block = "awesomemod:magical_soil"
+# growth_modifier = 1.75

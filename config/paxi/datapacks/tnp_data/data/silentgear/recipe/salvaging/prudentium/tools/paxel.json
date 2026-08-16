@@ -1,0 +1,22 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mysticalagradditions:prudentium_paxel"
+  },
+  "results": [
+    {
+      "id": "mysticalagriculture:prudentium_axe"
+    },
+    {
+      "id": "mysticalagriculture:prudentium_pickaxe"
+    },
+    {
+      "id": "mysticalagriculture:prudentium_shovel"
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

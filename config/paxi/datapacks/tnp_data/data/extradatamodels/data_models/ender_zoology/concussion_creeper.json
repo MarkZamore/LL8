@@ -1,0 +1,45 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "enderzoology"
+		}
+    ],
+    "entity": "enderzoology:concussion_creeper",
+    "name": {
+        "translate": "entity.enderzoology.concussion_creeper",
+        "color": "#105D50"
+    },
+    "sim_cost": 192,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.concussion_creeper",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:gunpowder",
+            "count": 32
+        },
+        {
+            "id": "enderzoology:confusing_powder",
+            "count": 32
+        },
+        {
+            "id": "enderzoology:ender_fragment",
+            "count": 12
+        },
+        {
+            "optional": true,
+            "id": "reliquary:catalyzing_gland",
+            "count": 1
+        },
+        {
+            "optional": true,
+            "id": "savage_and_ravage:creeper_spores",
+            "count": 2
+        }
+    ]
+}

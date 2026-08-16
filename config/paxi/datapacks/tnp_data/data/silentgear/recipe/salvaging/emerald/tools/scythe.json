@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "pickletweaks:emerald_scythe"
+  },
+  "results": [
+    {
+      "id": "minecraft:emerald",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 3
+    }
+  ]
+}
+

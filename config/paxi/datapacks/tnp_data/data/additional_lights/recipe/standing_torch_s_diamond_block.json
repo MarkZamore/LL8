@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "standing_torch_s",
+    "pattern": [
+      "#",
+      "X"
+      ],
+  "key": {
+      "#": [
+        {
+            "tag": "tnp:any_fire"
+        },
+        {
+            "tag": "tnp:any_fire"
+        }
+    ]
+      ,
+      "X": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    "result":{
+        "id":"additional_lights:standing_torch_s_diamond_block",
+        "count":1
+      }
+}

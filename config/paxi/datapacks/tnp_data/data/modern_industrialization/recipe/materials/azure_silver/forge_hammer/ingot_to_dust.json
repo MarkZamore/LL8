@@ -1,0 +1,10 @@
+{
+  "type": "modern_industrialization:forge_hammer",
+  "ingredient": {
+    "tag": "c:ingots/azure_silver"
+  },
+  "result": {
+    "count": 1,
+    "id": "silentgear:azure_silver_dust"
+  }
+}

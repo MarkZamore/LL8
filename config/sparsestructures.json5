@@ -1,0 +1,758 @@
+// ### THE MOD REQUIRES A RESTART OF THE GAME TO APPLY CHANGES ###
+{
+  // this is the main spread factor (default is 2)
+  //
+  // tips : a spread factor can be a decimal number (such as 1.5)
+  //        a spread factor of 1 means all structure's placement are not modified (useful if you want to use only custom spread factors)
+  //        a spread factor above 1 means all structures are rarer
+  //        a spread factor below 1 means all structure are more common
+  "spreadFactor": 2.0,
+
+  // this is a list of custom spread factors
+  "customSpreadFactors": [
+    {
+      "structure": "minecraft:mineshaft",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:mineshaft_mesa",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:monument",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:nether_fossil",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:ocean_ruin_cold",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:ocean_ruin_warm",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:pillager_outpost",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:ruined_portal",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:ruined_portal_desert",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:ruined_portal_jungle",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:ruined_portal_mountain",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:ruined_portal_nether",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:ruined_portal_ocean",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:ruined_portal_swamp",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:shipwreck",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:shipwreck_beached",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:stronghold",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:swamp_hut",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:trail_ruins",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:trial_chambers",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:ancient_city",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:bastion_remnant",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:buried_treasure",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:desert_pyramid",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:end_city",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:fortress",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:igloo",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:jungle_pyramid",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:mansion",
+      "factor": 1.0
+    },
+    {
+      "structure": "minecraft:village_desert",
+      "factor": 1.5
+    },
+    {
+      "structure": "minecraft:village_plains",
+      "factor": 1.5
+    },
+    {
+      "structure": "minecraft:village_savanna",
+      "factor": 1.35
+    },
+    {
+      "structure": "minecraft:village_snowy",
+      "factor": 1.25
+    },
+    {
+      "structure": "minecraft:village_taiga",
+      "factor": 1.35
+    },
+    {
+      "structure": "biomeswevegone:village/forgotten",
+      "factor": 1.55
+    },
+    {
+      "structure": "biomeswevegone:village/pumpkin_patch",
+      "factor": 1.75
+    },
+    {
+      "structure": "biomeswevegone:village/red_rock",
+      "factor": 1.60
+    },
+    {
+      "structure": "biomeswevegone:village/salem",
+      "factor": 1.75
+    },
+    {
+      "structure": "biomeswevegone:village/skyris",
+      "factor": 1.70
+    },
+    {
+      "structure": "biomeswevegone:village/swamp",
+      "factor": 1.50
+    },
+    {
+      "structure": "betterdungeons:skeleton_dungeons",
+      "factor": 1.0
+    },
+    {
+      "structure": "betterdungeons:small_dungeons",
+      "factor": 1.0
+    },
+    {
+      "structure": "betterdungeons:small_nether_dungeons",
+      "factor": 1.0
+    },
+    {
+      "structure": "betterdungeons:spider_dungeons",
+      "factor": 1.0
+    },
+    {
+      "structure": "betterdungeons:zombie_dungeons",
+      "factor": 1.0
+    },
+    {
+      "structure": "betterfortresses:fortress",
+      "factor": 1.0
+    },
+    {
+      "structure": "betterjungletemples:jungle_temples",
+      "factor": 1.0
+    },
+    {
+      "structure": "bettermineshafts:mineshafts",
+      "factor": 1.0
+    },
+    {
+      "structure": "betteroceanmonuments:ocean_monument",
+      "factor": 1.0
+    },
+    {
+      "structure": "betterwitchhuts:witch_circle",
+      "factor": 1.0
+    },
+    {
+      "structure": "betterwitchhuts:witch_hut",
+      "factor": 1.0
+    },
+    {
+      "structure": "mmr:desert_mineshaft",
+      "factor": 1.0
+    },
+    {
+      "structure": "mmr:jungle_mineshaft",
+      "factor": 1.0
+    },
+    {
+      "structure": "mmr:mesa_mineshaft",
+      "factor": 1.0
+    },
+    {
+      "structure": "mmr:mineshaft",
+      "factor": 1.0
+    },
+    {
+      "structure": "mmr:nether_mineshaft",
+      "factor": 1.0
+    },
+    {
+      "structure": "mmr:snowy_mineshaft",
+      "factor": 1.0
+    },
+    {
+      "structure": "ae2:meteorite",
+      "factor": 1.25
+    },
+    {
+      "structure": "mostructures:killer_bunny_castle",
+      "factor": 1.75
+    },
+    {
+      "structure": "evilcraft:dark_temple",
+      "factor": 1.5
+    },
+    {
+      "structure": "dungeons_arise:major_structures",
+      "factor": 2.15
+    },
+    {
+      "structure": "dungeons_arise:minor_structures",
+      "factor": 2.25
+    },
+    {
+      "structure": "repurposed_structures:ancient_cities_end",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:ancient_cities_nether",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:ancient_cities_overworld",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:bastions_overworld",
+      "factor": 0.85
+    },
+    {
+      "structure": "repurposed_structures:cities_nether",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:cities_overworld",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:fortresses_overworld",
+      "factor": 0.85
+    },
+    {
+      "structure": "repurposed_structures:igloos_overworld",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:mansions_mangrove",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:mansions_overworld",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:mineshafts_end",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:mineshafts_nether",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:mineshafts_ocean",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:mineshafts_overworld",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:monuments_nether",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:monuments_overworld",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:outposts_end",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:outposts_nether",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:outposts_ocean",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:outposts_overworld",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:pyramids_end",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:pyramids_mushroom",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:pyramids_nether",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:pyramids_overworld",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:ruined_portals_end",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:ruins_nether",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:ruins_overworld",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:shipwrecks_end",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:shipwrecks_nether",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:strongholds_end",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:strongholds_nether",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:temples_nether",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:temples_overworld",
+      "factor": 1.0
+    },
+    {
+      "structure": "repurposed_structures:villages_mushroom",
+      "factor": 1.75
+    },
+    {
+      "structure": "repurposed_structures:villages_nether",
+      "factor": 1.75
+    },
+    {
+      "structure": "repurposed_structures:villages_overworld",
+      "factor": 1.75
+    },
+    {
+      "structure": "repurposed_structures:witch_huts_overworld",
+      "factor": 1.0
+    },
+    {
+      "structure": "twilight_treehouses:treehouse_abode",
+      "factor": 1.25
+    },
+    {
+      "structure": "twilight_treehouses:treehouse_cabin",
+      "factor": 1.25
+    },
+    {
+      "structure": "twilight_treehouses:treehouse_chalet",
+      "factor": 1.25
+    },
+    {
+      "structure": "twilight_treehouses:treehouse_lodge",
+      "factor": 1.25
+    },
+    {
+      "structure": "cataclysm:ancient_factory",
+      "factor": 0.50
+    },
+    {
+      "structure": "cataclysm:burning_area",
+      "factor": 0.5
+    },
+    {
+      "structure": "cataclysm:cursed_pyramid",
+      "factor": 0.60
+    },
+    {
+      "structure": "cataclysm:frosted_prison",
+      "factor": 0.65
+    },
+    {
+      "structure": "cataclysm:ruined_citadel",
+      "factor": 0.65
+    },
+    {
+      "structure": "cataclysm:soul_black_smith",
+      "factor": 0.65
+    },
+    {
+      "structure": "cataclysm:sunken_city",
+      "factor": 0.60
+    },
+    {
+      "structure": "mythsandlegends:ancient_vestiges",
+      "factor": 1.5
+    },
+    {
+      "structure": "mythsandlegends:graveyard",
+      "factor": 1.5
+    },
+    {
+      "structure": "mythsandlegends:old_camp",
+      "factor": 1.5
+    },
+    {
+      "structure": "mythsandlegends:scorched_nest",
+      "factor": 1.5
+    },
+    {
+      "structure": "mythsandlegends:sepulcrum_ignitum",
+      "factor": 1.5
+    },
+    {
+      "structure": "takesapillage:bastille",
+      "factor": 1.0
+    },
+    {
+      "structure": "takesapillage:pillager_camp",
+      "factor": 1.0
+    },
+    {
+      "structure": "ribbits:ribbit_village",
+      "factor": 1.75
+    },
+    {
+      "structure": "skyvillages:skyvillage",
+      "factor":  2.5
+    },
+    {
+      "structure": "ctov:small/village_plains_fortified",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_savanna",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_savanna_na",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_snowy_igloo",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_swamp",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_swamp_fortified",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_taiga",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_taiga_fortified",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_underground",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_beach",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_christmas",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_dark_forest",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_desert",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_desert_oasis",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_jungle",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_jungle_tree",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_mesa",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_mesa_fortified",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_mountain",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_mountain_alpine",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_mushroom",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:small/village_plains",
+      "factor": 1.5
+    },
+    {
+      "structure": "ctov:medium/village_mesa_fortified",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_mountain",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_mountain_alpine",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_mushroom",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_plains",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_plains_fortified",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_savanna",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_savanna_na",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_snowy_igloo",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_swamp",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_swamp_fortified",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_taiga",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_taiga_fortified",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_underground",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_beach",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_christmas",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_dark_forest",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_desert",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_desert_oasis",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_jungle",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_jungle_tree",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:medium/village_mesa",
+      "factor": 1.75
+    },
+    {
+      "structure": "ctov:large/village_mountain",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_mountain_alpine",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_mushroom",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_plains",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_plains_fortified",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_savanna",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_savanna_na",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_snowy_igloo",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_swamp",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_swamp_fortified",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_taiga",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_taiga_fortified",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_underground",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_beach",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_christmas",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_dark_forest",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_desert",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_desert_oasis",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_jungle",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_jungle_tree",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_mesa",
+      "factor": 2.05
+    },
+    {
+      "structure": "ctov:large/village_mesa_fortified",
+      "factor": 2.05
+    },
+    {
+      "structure": "integrated_stronghold:stronghold",
+      "factor": 1.0
+    }
+  ]
+}

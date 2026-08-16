@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cognition:fortuitous_amulet"
+  },
+  "results": [
+    {
+      "id": "cognition:enlightened_amulet",
+      "count": 1
+    },
+    {
+      "id": "cognition:calcarine_matrix",
+      "count": 4
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "count": 4
+    }
+  ]
+}
+

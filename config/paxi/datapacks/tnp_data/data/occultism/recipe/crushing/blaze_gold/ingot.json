@@ -1,0 +1,12 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "tag": "c:ingots/blaze_gold"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "silentgear:blaze_gold_dust"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "aquaculture:neptunium_sword"
+  },
+  "results": [
+    {
+      "id": "aquaculture:neptunium_ingot",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick"
+    }
+  ]
+}
+

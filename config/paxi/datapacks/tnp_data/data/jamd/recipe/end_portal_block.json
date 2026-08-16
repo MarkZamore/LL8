@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "minecraft:end_stone_bricks"
+    },
+    "G": {
+      "item": "minecraft:ender_pearl"
+    },
+    "P": {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  },
+  "pattern": [
+    "GOG",
+    "OPO",
+    "GOG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jamd:end_portal"
+  }
+}

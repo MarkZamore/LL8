@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "silentgear:very_crude_repair_kit"
+    },
+    "title": "Any Weaker Repair Kit.",
+    "description": "Used by quests (ignore).",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "silentgear:very_crude_repair_kit",
+              "silentgear:crude_repair_kit",
+              "silentgear:sturdy_repair_kit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

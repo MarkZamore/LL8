@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mysticalagradditions:awakened_supremium_paxel"
+  },
+  "results": [
+    {
+      "id": "mysticalagradditions:supremium_paxel",
+      "count": 1
+    },
+    {
+      "id": "mysticalagriculture:awakened_supremium_gemstone",
+      "count": 2
+    },
+    {
+      "id": "mysticalagriculture:awakened_supremium_ingot",
+      "count": 2
+    }
+  ]
+}
+

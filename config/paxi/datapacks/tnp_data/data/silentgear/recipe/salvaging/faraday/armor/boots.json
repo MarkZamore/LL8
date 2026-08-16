@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "immersiveengineering:armor_faraday_boots"
+  },
+  "results": [
+    {
+      "id": "immersiveengineering:plate_aluminum",
+      "count": 4
+    }
+  ]
+}
+

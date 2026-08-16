@@ -1,0 +1,11 @@
+{
+  "name": "Randomized",
+  "colors": [
+    "3050d1",
+    "a1ffff"
+  ],
+  "ingredient": {
+    "item": "ae2:singularity"
+  },
+  "materialCount": 2500
+}

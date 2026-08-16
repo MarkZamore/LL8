@@ -1,0 +1,11 @@
+{
+  "neruina.ticking.entity.suspended": "§e[!]: §7Caught Ticking Entity §6[%s]§7 at (%s). §cIt has been suspended. §8(This message can be ignored).",
+  "neruina.ticking.entity.killed": "§e[!]: §7Caught Ticking Entity §6[%s]§7 at (%s). It has been killed.",
+  "neruina.ticking.entity.suspend_failed": "§e[!]: §7Could not suspend Entity §6[%s]§7, killing it instead.",
+  "neruina.ticking.block_entity": "§e[!]: §7Caught Ticking Block Entity §6[%s]§7 at (%s). §8(This message can be ignored).",
+  "neruina.ticking.block_state": "§e[!]: §7Caught Ticking Block from random tick §6[%s]§7 at (%s). §8(This message can be ignored).",
+  "neruina.ticking.player": "§e[!]: §7Caught Ticking Player, §6%s§7 has been kicked. §8(This message can be ignored).",
+  "neruina.ticking.item_stack": "§e[!]: §7Caught Ticking Item Stack §6[%s]§7 in slot [%s]. You can remove it with an NBT Editor.",
+  "neruina.kick.message": "§e[!]: §7You have been kicked due to a ticking exception on the player. Server logs will contain more information.",
+  "neruina.kick.reason": "§e[!]: §7\n\nWhy was I kicked?\n\nWhen a ticking exception occurs on a normal Entity Neruina will kill it to prevent the server from crashing, but if that Entity happens to be a player, it will kick them instead. If you weren't kicked the server would have crashed.",
+}

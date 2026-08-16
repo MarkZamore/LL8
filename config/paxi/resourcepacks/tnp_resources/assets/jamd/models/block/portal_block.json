@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "up": "block/oak_log_top",
+        "down": "block/oak_log_top",
+        "north": "jamd:block/portal_block",
+        "south": "jamd:block/portal_block",
+        "east": "jamd:block/portal_block",
+        "west": "jamd:block/portal_block",
+        "particle": "jamd:block/portal_block"
+    }
+}

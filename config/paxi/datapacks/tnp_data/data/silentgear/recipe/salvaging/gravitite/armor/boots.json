@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "aether:gravitite_boots"
+  },
+  "results": [
+    {
+      "id": "aether:enchanted_gravitite",
+      "count": 4
+    }
+  ]
+}
+

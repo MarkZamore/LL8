@@ -1,0 +1,22 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "input_item": {
+    "tag": "c:ores/nickel"
+  },
+  "output_items": [
+    {
+      "item": {
+        "id": "modern_industrialization:raw_nickel",
+        "count": 2
+      }
+    },
+    {
+      "item": {
+        "id": "modern_industrialization:raw_nickel"
+      },
+      "chance": 0.75
+    }
+  ],
+  "duration": 40,
+  "neoforge:conditions": []
+}

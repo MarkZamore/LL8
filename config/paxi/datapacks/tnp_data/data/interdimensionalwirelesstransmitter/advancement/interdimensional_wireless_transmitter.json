@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "interdimensionalwirelesstransmitter:interdimensional_wireless_transmitter"
+    },
+    "title": {
+      "translate": "advancements.interdimensionalwirelesstransmitter.interdimensional_wireless_transmitter"
+    },
+    "description": "Acquire a Interdimensional Wireless Transmitter",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "refinedstorage:wireless",
+  "criteria": {
+    "interdimensional_wireless_transmitter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "interdimensionalwirelesstransmitter:interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:yellow_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:lime_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:pink_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:gray_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:light_gray_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:cyan_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:purple_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:blue_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:brown_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:green_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:red_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:black_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:white_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:orange_interdimensional_wireless_transmitter",
+              "interdimensionalwirelesstransmitter:magenta_interdimensional_wireless_transmitter"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

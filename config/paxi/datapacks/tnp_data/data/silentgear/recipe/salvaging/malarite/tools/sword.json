@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "eternal_starlight:malarite_sword"
+  },
+  "results": [
+    {
+      "id": "eternal_starlight:malarite",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick"
+    }
+  ]
+}
+

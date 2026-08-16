@@ -1,0 +1,9 @@
+{
+  "screenshot.success": "Copied to clipboard and saved screenshot as %s",
+  "screenshot.failure": "Couldn't save screenshot: %s",
+  "entity.minecraft.villager.pet_shop_owner": "Pet Shop Owner",
+  "entity.minecraft.villager.winemaker": "Winemaker",
+  "entity.minecraft.villager.fluix_researcher": "Fluix Researcher",
+  "entity.minecraft.villager.computer_scientist": "Computer Scientist",
+  "entity.minecraft.villager.archeologist": "Archeologist"
+}

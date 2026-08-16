@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:glass"
+  },
+  "result": {
+    "id": "glassential:glass_trapdoor",
+    "count": 1
+  }
+}

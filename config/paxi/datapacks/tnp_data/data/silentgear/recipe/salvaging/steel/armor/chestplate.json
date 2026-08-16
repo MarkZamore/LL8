@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:steel_chestplate"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_steel",
+      "count": 8
+    }
+  ]
+}
+

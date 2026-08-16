@@ -1,0 +1,46 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "item": "ae2:silicon"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:silicon"
+    },
+    {
+      "item": "ae2:silicon"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:silicon"
+    },
+    {
+      "item": "ae2:silicon"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:silicon"
+    },
+    {
+      "item": "ae2:silicon"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:silicon"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:silicon"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:silicon_seeds"
+  }
+}

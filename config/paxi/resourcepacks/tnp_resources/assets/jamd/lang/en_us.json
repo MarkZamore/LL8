@@ -1,0 +1,11 @@
+{
+  "block.jamd.portal_block" : "Mining Dimension (Overworld) Portal Block",
+  "block.jamd.nether_portal": "Mining Dimension (The Nether) Portal Block",
+  "block.jamd.end_portal": "Mining Dimension (The End) Portal Block",
+  "biome.jamd.mining": "Mining Dimension (Overworld)",
+  "biome.jamd.nether": "Mining Dimension (The Nether)",
+  "biome.jamd.end": "Mining Dimension (The End)",
+  "biome.jamd.mining.mining": "Mining Dimension (Overworld)",
+  "biome.jamd.nether_mining": "Mining Dimension (The Nether)",
+  "biome.jamd.end_mining": "Mining Dimension (The End)"
+}

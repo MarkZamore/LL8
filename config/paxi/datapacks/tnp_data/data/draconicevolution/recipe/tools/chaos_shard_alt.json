@@ -1,0 +1,98 @@
+{
+  "type": "draconicevolution:fusion_crafting",
+  "catalyst": {
+      "items": "draconicevolution:mob_soul",
+      "components": {
+        "draconicevolution:soul_id": "minecraft:enderman"
+      },
+      "type": "neoforge:components"
+  },
+  "ingredients": [
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "enigmaticlegacyplus:raw_etherium"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "enigmaticlegacyplus:raw_etherium"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:awakened_core"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:awakened_core"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:awakened_core"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:awakened_core"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:dragon_heart"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:dragon_heart"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:dragon_heart"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+        "item": "draconicevolution:dragon_heart"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:awakened_draconium"
+      },
+      "type": "neoforge:components"
+      }
+    },
+    {
+      "consume": true,
+      "ingredient": {
+      "items": "extendedcrafting:singularity",
+      "components": {
+        "extendedcrafting:singularity_id": "extendedcrafting:awakened_draconium"
+      },
+      "type": "neoforge:components"
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "draconicevolution:chaos_shard"
+  },
+  "techLevel": "draconic",
+  "totalEnergy": 1000000000
+}

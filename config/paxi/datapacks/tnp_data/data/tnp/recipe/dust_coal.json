@@ -1,0 +1,14 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": {
+    "item": "minecraft:coal"
+  },
+  "output_items": [
+    {
+      "item": {
+        "id": "mekanism:dust_coal"
+      }
+    }
+  ],
+  "duration": 10
+}

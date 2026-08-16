@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+    "id": "croptopia:knife"
+    },
+    "title": {
+      "translate": "advancements.croptopia.knife.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "description": {
+      "translate": "advancements.croptopia.knife.description"
+    }
+  },
+  "parent": "croptopia:mortar_and_pestle",
+  "criteria": {
+    "knife": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:tools/knives"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "jei.forbidden_arcanus.category.hephaestus_smithing": "Hephaestus Smithing",
+  "jei.forbidden_arcanus.category.hephaestus_forge_upgrading": "Hephaestus Forge",
+  "jei.forbidden_arcanus.category.clibanoCombustion": "Clibano",
+  "tooltip.forbidden_arcanus.hephaestus_forge.tier": "Requires at least tier %s"
+}

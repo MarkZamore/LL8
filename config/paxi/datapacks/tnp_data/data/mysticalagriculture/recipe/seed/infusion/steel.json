@@ -1,0 +1,46 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "item": "mekanism:ingot_steel"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:steel"
+    },
+    {
+      "item": "mekanism:ingot_steel"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:steel"
+    },
+    {
+      "item": "mekanism:ingot_steel"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:steel"
+    },
+    {
+      "item": "mekanism:ingot_steel"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:steel"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:steel"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:steel_seeds"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "modern_industrialization:forge_hammer",
+  "ingredient": {
+    "tag": "c:ingots/biosteel"
+  },
+  "result": {
+    "count": 1,
+    "id": "oritech:biosteel_dust"
+  }
+}

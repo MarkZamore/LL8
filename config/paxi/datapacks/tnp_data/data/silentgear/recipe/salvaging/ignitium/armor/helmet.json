@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cataclysm:ignitium_helmet"
+  },
+  "results": [
+    {
+      "id": "cataclysm:ignitium_ingot",
+      "count": 1
+    },
+    {
+      "id": "minecraft:netherite_helmet",
+      "count": 1
+    }
+  ]
+}
+

@@ -1,0 +1,46 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "item": "modern_industrialization:electrum_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:electrum"
+    },
+    {
+      "item": "modern_industrialization:electrum_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:electrum"
+    },
+    {
+      "item": "modern_industrialization:electrum_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:electrum"
+    },
+    {
+      "item": "modern_industrialization:electrum_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:electrum"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:electrum"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:electrum_seeds"
+  }
+}

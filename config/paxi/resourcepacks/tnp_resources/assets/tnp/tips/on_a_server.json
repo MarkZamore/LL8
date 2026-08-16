@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Playing on a public server? Make sure 'Allow All Fake Players' in your team options is set to FALSE to prevent potential griefers from causing any harm with machines like quarries, etc."
+  }
+}

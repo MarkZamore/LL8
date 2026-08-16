@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:froststeel_boots"
+  },
+  "results": [
+    {
+      "id": "undergarden:froststeel_ingot",
+      "count": 4
+    }
+  ]
+}
+

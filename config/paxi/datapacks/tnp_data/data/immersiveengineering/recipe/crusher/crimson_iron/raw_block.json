@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 54000,
+  "input": {
+    "item": "silentgear:raw_crimson_iron_block"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "silentgear:crimson_iron_dust"
+    },
+    "count": 12
+  }
+}

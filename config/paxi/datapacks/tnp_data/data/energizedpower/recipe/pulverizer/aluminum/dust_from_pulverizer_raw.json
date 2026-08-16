@@ -1,0 +1,19 @@
+{
+  "type": "energizedpower:pulverizer",
+  "ingredient": {
+    "tag": "c:raw_materials/aluminum"
+  },
+  "output": {
+    "output": {
+      "item": "modern_industrialization:aluminum_dust"
+    },
+    "percentages": [
+      1.0,
+      0.25
+    ],
+    "percentagesAdvanced": [
+      1.0,
+      0.5
+    ]
+  }
+}

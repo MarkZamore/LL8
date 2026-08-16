@@ -1,0 +1,22 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:steel_paxel"
+  },
+  "results": [
+    {
+      "id": "mekanismtools:steel_axe"
+    },
+    {
+      "id": "mekanismtools:steel_pickaxe"
+    },
+    {
+      "id": "mekanismtools:steel_shovel"
+    },
+    {
+      "id": "minecraft:iron_ingot",
+      "count": 2
+    }
+  ]
+}
+

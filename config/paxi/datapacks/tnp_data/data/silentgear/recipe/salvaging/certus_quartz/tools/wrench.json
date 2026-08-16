@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "ae2:certus_quartz_wrench"
+  },
+  "results": [
+    {
+      "id": "ae2:certus_quartz_crystal",
+      "count": 5
+    }
+  ]
+}
+

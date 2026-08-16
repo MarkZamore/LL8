@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "gag:time_sand_pouch"
+    },
+    "title": "Time is infinite..",
+    "description": "Acquire or craft a Temporal Pouch",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tnp:limitless_helmet"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

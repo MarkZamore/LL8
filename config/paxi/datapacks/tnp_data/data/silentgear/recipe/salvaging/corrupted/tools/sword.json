@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "endermanoverhaul:corrupted_blade"
+  },
+  "results": [
+    {
+      "id": "endermanoverhaul:enderman_tooth",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick"
+    }
+  ]
+}
+

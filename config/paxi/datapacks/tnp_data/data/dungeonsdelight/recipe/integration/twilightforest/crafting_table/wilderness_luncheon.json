@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "twilightforest:cooked_venison"
+    },
+    {
+      "item": "twilightforest:cooked_venison"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "item": "dungeonsdelight:torchberry_raisins"
+    },
+    {
+      "item": "twilightforest:firefly"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "dungeonsdelight:wilderness_luncheon"
+  }
+}

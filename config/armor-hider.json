@@ -1,0 +1,391 @@
+{
+  "configVersion": 12,
+  "helmetOpacity": 1.0,
+  "chestOpacity": 1.0,
+  "legsOpacity": 1.0,
+  "bootsOpacity": 1.0,
+  "helmetGlint": true,
+  "chestGlint": true,
+  "legsGlint": true,
+  "bootsGlint": true,
+  "enableCombatDetection": true,
+  "opacityAffectingElytra": false,
+  "opacityAffectingHatOrSkull": false,
+  "affectAccessories": false,
+  "affectHeadAccessory": true,
+  "affectChestAccessory": true,
+  "affectLegsAccessory": true,
+  "affectFeetAccessory": true,
+  "disableArmorHider": false,
+  "disableArmorHiderForOthers": false,
+  "usePlayerSettingsWhenUndeterminable": true,
+  "offHandOpacity": 1.0,
+  "exclusionItems": {
+    "items": {
+      "HEAD": {
+        "minecraft:leather_helmet": {
+          "displayName": "Leather Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:chainmail_helmet": {
+          "displayName": "Chainmail Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_helmet": {
+          "displayName": "Iron Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:golden_helmet": {
+          "displayName": "Golden Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_helmet": {
+          "displayName": "Diamond Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:netherite_helmet": {
+          "displayName": "Netherite Helmet",
+          "shouldIgnore": false
+        },
+        "minecraft:turtle_helmet": {
+          "displayName": "Turtle Helmet",
+          "shouldIgnore": false
+        },
+        "usefulslime:slime_helmet": {
+          "displayName": "Slime Helmet",
+          "shouldIgnore": false
+        }
+      },
+      "CHEST": {
+        "minecraft:leather_chestplate": {
+          "displayName": "Leather Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:chainmail_chestplate": {
+          "displayName": "Chainmail Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_chestplate": {
+          "displayName": "Iron Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:golden_chestplate": {
+          "displayName": "Golden Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_chestplate": {
+          "displayName": "Diamond Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:netherite_chestplate": {
+          "displayName": "Netherite Chestplate",
+          "shouldIgnore": false
+        },
+        "minecraft:elytra": {
+          "displayName": "Elytra",
+          "shouldIgnore": false
+        },
+        "mekanismtools:lapis_lazuli_chestplate": {
+          "displayName": "Mana-Touched Lapis Lazuli Chestplate",
+          "shouldIgnore": false
+        }
+      },
+      "LEGS": {
+        "minecraft:leather_leggings": {
+          "displayName": "Leather Leggings",
+          "shouldIgnore": false
+        },
+        "minecraft:chainmail_leggings": {
+          "displayName": "Chainmail Leggings",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_leggings": {
+          "displayName": "Iron Leggings",
+          "shouldIgnore": false
+        },
+        "minecraft:golden_leggings": {
+          "displayName": "Golden Leggings",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_leggings": {
+          "displayName": "Diamond Leggings",
+          "shouldIgnore": false
+        },
+        "minecraft:netherite_leggings": {
+          "displayName": "Netherite Leggings",
+          "shouldIgnore": false
+        }
+      },
+      "FEET": {
+        "minecraft:leather_boots": {
+          "displayName": "Leather Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:chainmail_boots": {
+          "displayName": "Chainmail Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_boots": {
+          "displayName": "Iron Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:golden_boots": {
+          "displayName": "Golden Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:diamond_boots": {
+          "displayName": "Diamond Boots",
+          "shouldIgnore": false
+        },
+        "minecraft:netherite_boots": {
+          "displayName": "Netherite Boots",
+          "shouldIgnore": false
+        },
+        "netherdepthsupgrade:soul_sucker_boots": {
+          "displayName": "Soul Sucker Boots",
+          "shouldIgnore": false
+        }
+      },
+      "OFFHAND": {
+        "minecraft:shield": {
+          "displayName": "Shield",
+          "shouldIgnore": false
+        },
+        "minecraft:torch": {
+          "displayName": "Torch",
+          "shouldIgnore": false
+        }
+      },
+      "MAINHAND": {
+        "minecraft:diamond_chestplate": {
+          "displayName": "Diamond Chestplate",
+          "shouldIgnore": false
+        },
+        "ftbquests:book": {
+          "displayName": "Quest Book",
+          "shouldIgnore": false
+        },
+        "refinedstorage:creative_controller": {
+          "displayName": "Creative Controller",
+          "shouldIgnore": false
+        },
+        "refinedstorage:disk_drive": {
+          "displayName": "Disk Drive",
+          "shouldIgnore": false
+        },
+        "refinedstorage:crafting_grid": {
+          "displayName": "Crafting Grid",
+          "shouldIgnore": false
+        },
+        "refinedstorage:4k_storage_disk": {
+          "displayName": "4k Storage Disk",
+          "shouldIgnore": false
+        },
+        "minecraft:quartz_block": {
+          "displayName": "Block of Quartz",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_block": {
+          "displayName": "Block of Iron",
+          "shouldIgnore": false
+        },
+        "minecraft:iron_ingot": {
+          "displayName": "Iron Ingot",
+          "shouldIgnore": false
+        },
+        "minecraft:crafting_table": {
+          "displayName": "Crafting Table",
+          "shouldIgnore": false
+        },
+        "tnp:limitless_sword": {
+          "displayName": "Limitless Sword",
+          "shouldIgnore": false
+        },
+        "tombstone:grave_key": {
+          "displayName": "Enchanted Grave Key",
+          "shouldIgnore": false
+        },
+        "minecraft:apple": {
+          "displayName": "Apple",
+          "shouldIgnore": false
+        },
+        "ftbquests:lootcrate": {
+          "displayName": "Loot Crate",
+          "shouldIgnore": false
+        },
+        "enigmaticlegacyplus:unwitnessed_amulet": {
+          "displayName": "Unwitnessed Amulet",
+          "shouldIgnore": false
+        },
+        "enigmaticlegacyplus:enigmatic_amulet_blue": {
+          "displayName": "Enigmatic Amulet",
+          "shouldIgnore": false
+        },
+        "enigmaticlegacyplus:cursed_ring": {
+          "displayName": "Ring of the Seven Curses",
+          "shouldIgnore": false
+        },
+        "enigmaticlegacyplus:enigmatic_amulet_magenta": {
+          "displayName": "Enigmatic Amulet",
+          "shouldIgnore": false
+        },
+        "enigmaticlegacyplus:enigmatic_amulet_black": {
+          "displayName": "Enigmatic Amulet",
+          "shouldIgnore": false
+        },
+        "minecraft:stone_pickaxe": {
+          "displayName": "Stone Pickaxe",
+          "shouldIgnore": false
+        },
+        "minecraft:stone_shovel": {
+          "displayName": "Stone Shovel",
+          "shouldIgnore": false
+        },
+        "minecraft:stone_axe": {
+          "displayName": "Stone Axe",
+          "shouldIgnore": false
+        },
+        "minecraft:torch": {
+          "displayName": "Torch",
+          "shouldIgnore": false
+        },
+        "minecraft:cobblestone": {
+          "displayName": "Cobblestone",
+          "shouldIgnore": false
+        },
+        "enigmaticlegacyplus:magnet_ring": {
+          "displayName": "Magnetic Ring",
+          "shouldIgnore": false
+        },
+        "mechtrowel:mech_trowel": {
+          "displayName": "Mech Trowel",
+          "shouldIgnore": false
+        },
+        "minecraft:oak_log": {
+          "displayName": "Oak Log",
+          "shouldIgnore": false
+        },
+        "ae2:certus_quartz_crystal": {
+          "displayName": "Certus Quartz Crystal",
+          "shouldIgnore": false
+        },
+        "minecraft:leather": {
+          "displayName": "Leather",
+          "shouldIgnore": false
+        },
+        "crafting_on_a_stick:crafting_table": {
+          "displayName": "Crafting Table on a Stick",
+          "shouldIgnore": false
+        },
+        "minecraft:wooden_pickaxe": {
+          "displayName": "Wooden Pickaxe",
+          "shouldIgnore": false
+        },
+        "fishofthieves:mango": {
+          "displayName": "Mango",
+          "shouldIgnore": false
+        },
+        "fishofthieves:raw_mango": {
+          "displayName": "Raw Mango",
+          "shouldIgnore": false
+        },
+        "minecraft:melon_slice": {
+          "displayName": "Melon Slice",
+          "shouldIgnore": false
+        },
+        "minecraft:gravel": {
+          "displayName": "Gravel",
+          "shouldIgnore": false
+        },
+        "minecraft:moss_carpet": {
+          "displayName": "Moss Carpet",
+          "shouldIgnore": false
+        },
+        "prefab:item_house": {
+          "displayName": "Starter House",
+          "shouldIgnore": false
+        },
+        "sophisticatedbackpacks:backpack": {
+          "displayName": "Backpack",
+          "shouldIgnore": false
+        },
+        "minecraft:smooth_quartz": {
+          "displayName": "Smooth Quartz Block",
+          "shouldIgnore": false
+        },
+        "crittersandcompanions:acorn": {
+          "displayName": "Acorn",
+          "shouldIgnore": false
+        },
+        "apotheosis:gem": {
+          "displayName": "Chipped Deepsea Heartstone",
+          "shouldIgnore": false
+        },
+        "apothic_compats:ornamented_necklace": {
+          "displayName": "Unidentified Ornamented Necklace",
+          "shouldIgnore": false
+        },
+        "biomeswevegone:red_quicksand": {
+          "displayName": "Red Quicksand",
+          "shouldIgnore": false
+        },
+        "minecraft:red_sandstone": {
+          "displayName": "Red Sandstone",
+          "shouldIgnore": false
+        },
+        "biomeswevegone:cracked_red_sand": {
+          "displayName": "Cracked Red Sand",
+          "shouldIgnore": false
+        },
+        "minecraft:bread": {
+          "displayName": "Bread",
+          "shouldIgnore": false
+        },
+        "minecraft:wheat_seeds": {
+          "displayName": "Wheat Seeds",
+          "shouldIgnore": false
+        },
+        "regions_unexplored:spruce_shrub": {
+          "displayName": "Spruce Shrub",
+          "shouldIgnore": false
+        },
+        "spelunkers_charm:ice_ball": {
+          "displayName": "Ice Ball",
+          "shouldIgnore": false
+        },
+        "regions_unexplored:white_snowbelle": {
+          "displayName": "White Snowbelle",
+          "shouldIgnore": false
+        },
+        "minecraft:stick": {
+          "displayName": "Stick",
+          "shouldIgnore": false
+        },
+        "projectvibrantjourneys:small_cactus": {
+          "displayName": "Small Cactus",
+          "shouldIgnore": false
+        },
+        "minecraft:sugar_cane": {
+          "displayName": "Sugar Cane",
+          "shouldIgnore": false
+        },
+        "tropicraft:pineapple": {
+          "displayName": "Pineapple",
+          "shouldIgnore": false
+        },
+        "wildex:wildex_book": {
+          "displayName": "Wildex",
+          "shouldIgnore": false
+        }
+      }
+    }
+  },
+  "showSettingsInSkinCustomization": false,
+  "inCombatUseDefaultModel": false,
+  "showShieldWhenBlocking": false,
+  "disableArmorHiderOnInvisibility": false,
+  "individualConfigurations": {},
+  "useGlobalOverrideForAllPlayers": false,
+  "playerId": "ec3fbd50-08b1-441b-b457-99f13a711017",
+  "playerName": "Gbergz"
+}

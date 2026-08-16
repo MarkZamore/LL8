@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:ores/aluminum"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 2,
+    "id": "modern_industrialization:aluminum_dust"
+  }
+}

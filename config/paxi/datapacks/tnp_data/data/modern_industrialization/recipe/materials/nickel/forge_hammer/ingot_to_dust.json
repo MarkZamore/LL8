@@ -1,0 +1,10 @@
+{
+  "type": "modern_industrialization:forge_hammer",
+  "ingredient": {
+    "tag": "c:ingots/nickel"
+  },
+  "result": {
+    "count": 1,
+    "id": "modern_industrialization:nickel_dust"
+  }
+}

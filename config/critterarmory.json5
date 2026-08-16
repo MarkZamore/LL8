@@ -1,0 +1,25 @@
+{
+  // min: 0, max: 2147483647, default: 6
+  "healAmount": 6,
+  // min: 0, max: 2147483647, default: 30
+  "healthIncreaseLimit": 30,
+  // min: 0, max: 2147483647, default: 6
+  "healthIncreaseAmount": 6,
+
+  // default: true
+  "renderArmors": true,
+  // default: true
+  "renderHorseArmors": true,
+  // default: true
+  "renderWolfArmors": true,
+  // default: true
+  "renderCatArmors": true,
+  // default: true
+  "renderChickenArmors": true,
+  // default: true
+  "renderCowArmors": true,
+  // default: true
+  "renderPigArmors": true,
+  // default: true
+  "modernWolfCollar": true
+}

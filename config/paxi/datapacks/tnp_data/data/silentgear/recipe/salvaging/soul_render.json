@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cataclysm:soul_render"
+  },
+  "results": [
+    {
+      "id": "cataclysm:cursium_ingot",
+      "count": 3
+    },
+    {
+      "id": "cataclysm:black_steel_ingot",
+      "count": 2
+    }
+  ]
+}
+

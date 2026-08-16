@@ -1,0 +1,28 @@
+{
+  "type": "powah:energizing",
+  "energy": 30000,
+  "ingredients": [
+    {
+      "tag": "c:ices/blue"
+    },
+    {
+      "tag": "c:ices/blue"
+    },
+    {
+      "tag": "c:ices/blue"
+    },
+    {
+      "tag": "c:ices/blue"
+    },
+    {
+      "tag": "c:ices/blue"
+    },
+    {
+      "tag": "c:ices/blue"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "powah:dry_ice"
+  }
+}

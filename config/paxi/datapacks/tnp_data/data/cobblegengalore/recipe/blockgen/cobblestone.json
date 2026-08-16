@@ -1,0 +1,14 @@
+{
+  "type": "cobblegengalore:blockgen",
+  "result": {
+    "id": "minecraft:cobblestone",
+    "count": 1
+  },
+  "speed": 2,
+  "left": {
+    "Name": "minecraft:water"
+  },
+  "right": {
+    "Name": "minecraft:lava"
+  }
+}

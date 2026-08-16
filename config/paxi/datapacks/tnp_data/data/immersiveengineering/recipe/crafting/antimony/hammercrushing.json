@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "c:ores/antimony"
+  },
+  "result": {
+    "item": "modern_industrialization:antimony_dust"
+  }
+}

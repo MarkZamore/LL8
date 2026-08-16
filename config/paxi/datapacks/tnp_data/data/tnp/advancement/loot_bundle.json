@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "lootbundles:loot_bundle"
+    },
+    "title": "Mysterious Bundles",
+    "description": "Acquire or craft your first Loot Bundle.. wonder what it contains?",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "lootbundles:loot_bundle"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

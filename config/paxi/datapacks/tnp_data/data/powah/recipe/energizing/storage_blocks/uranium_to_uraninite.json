@@ -1,0 +1,13 @@
+{
+  "type": "powah:energizing",
+  "energy": 270000,
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/uranium"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:uraninite_block"
+  }
+}

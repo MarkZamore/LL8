@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "cucumber:feature_flag",
+      "flag": "pickletweaks:watering_cans"
+    }
+  ],
+  "pattern": [
+    " BD",
+    "DWD",
+    " D "
+  ],
+  "key": {
+    "D": {
+      "tag": "c:gems/diamond"
+    },
+    "W": {
+      "item": "mysticalagriculture:watering_can"
+    },
+    "B": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "id": "pickletweaks:reinforced_watering_can"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "energizedpower:metal_press",
+  "ingredient": {
+    "tag": "c:plates/iron"
+  },
+  "output": {
+    "count": 3,
+    "item": "createaddition:iron_wire"
+  },
+  "pressMold": {
+    "item": "energizedpower:wire_press_mold"
+  }
+}

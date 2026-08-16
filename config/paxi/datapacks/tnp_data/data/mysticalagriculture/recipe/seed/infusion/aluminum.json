@@ -1,0 +1,46 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "item": "modern_industrialization:aluminum_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:aluminum"
+    },
+    {
+      "item": "modern_industrialization:aluminum_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:aluminum"
+    },
+    {
+      "item": "modern_industrialization:aluminum_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:aluminum"
+    },
+    {
+      "item": "modern_industrialization:aluminum_ingot"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:aluminum"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:aluminum"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:aluminum_seeds"
+  }
+}

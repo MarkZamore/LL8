@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:netherite_paxel"
+  },
+  "results": [
+    {
+      "id": "mekanismtools:diamond_paxel",
+      "count": 1
+    },
+    {
+      "id": "minecraft:netherite_ingot",
+      "count": 1
+    }
+  ]
+}
+

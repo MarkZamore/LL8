@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Keep track of what you're doing in EMI by using these entries [@ModName | #Tag  | $ToolTip] Try it in-game to see how it works!"
+  }
+}

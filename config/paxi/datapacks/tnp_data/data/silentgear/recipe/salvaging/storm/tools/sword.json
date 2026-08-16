@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "deep_aether:storm_sword"
+  },
+  "results": [
+    {
+      "id": "deep_aether:skyjade_sword"
+    },
+    {
+      "id": "deep_aether:squall_plate"
+    }
+  ]
+}
+

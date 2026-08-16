@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "ppfluids:fluid_pipe"
+        }
+    ],
+    "result": {
+        "id": "prettypipes:pipe",
+        "count": 1
+    }
+}

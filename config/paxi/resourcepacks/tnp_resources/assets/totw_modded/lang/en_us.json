@@ -1,0 +1,5 @@
+{
+  "item.totw_modded.example_item": "Item",
+  "block.totw_modded.example_block": "Block",
+  "itemGroup.totw_modded": "TOTW Modded"
+}

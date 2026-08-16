@@ -1,0 +1,12 @@
+{
+  "type": "occultism:crushing",
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "tag": "c:ingots/crimson_steel"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "silentgear:crimson_steel_dust"
+  }
+}

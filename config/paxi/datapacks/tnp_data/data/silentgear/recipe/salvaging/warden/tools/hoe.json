@@ -1,0 +1,21 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "deeperdarker:warden_hoe"
+  },
+  "results": [
+    {
+      "id": "deeperdarker:warden_carapace",
+      "count": 1
+    },
+    {
+      "id": "minecraft:netherite_ingot",
+      "count": 1
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

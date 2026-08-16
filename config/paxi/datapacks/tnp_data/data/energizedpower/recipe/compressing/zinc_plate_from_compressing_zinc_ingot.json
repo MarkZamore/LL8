@@ -1,0 +1,9 @@
+{
+  "type": "energizedpower:compressor",
+  "ingredient": {
+    "tag": "c:ingots/zinc"
+  },
+  "output": {
+    "item": "createaddition:zinc_sheet"
+  }
+}

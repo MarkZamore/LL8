@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "justdirethings:sensort2"
+    },
+    "title": "Craft any Advanced Machine",
+    "description": "Used by quests (ignore).",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "justdirethings:blockbreakert2",
+              "justdirethings:blockplacert2",
+              "justdirethings:clickert2",
+              "justdirethings:sensort2",
+              "justdirethings:droppert2",
+              "justdirethings:blockswappert2",
+              "justdirethings:fluidplacert2",
+              "justdirethings:fluidcollectort2"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

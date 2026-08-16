@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:lapis_lazuli_boots"
+  },
+  "results": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "count": 4
+    }
+  ]
+}
+

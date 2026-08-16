@@ -1,0 +1,184 @@
+{
+  "enabled": true,
+  "interval": 12,
+  "entries": [
+    {
+      "block": [
+        "minecraft:gold_ore",
+        "minecraft:deepslate_gold_ore",
+        "minecraft:nether_gold_ore",
+        "bigreactors:anglesite_ore",
+        "undergarden:depthrock_gold_ore",
+        "undergarden:depthrock_regalium_ore",
+        "undergarden:shiverstone_regalium_ore",
+        "modern_industrialization:platinum_ore",
+        "modern_industrialization:deepslate_platinum_ore",
+        "silentgems:citrine_ore",
+        "silentgems:deepslate_citrine_ore",
+        "silentgems:nether_citrine_ore",
+        "silentgems:end_citrine_ore",
+        "silentgems:end_heliodor_ore",
+        "silentgems:nether_heliodor_ore",
+        "silentgems:deepslate_heliodor_ore",
+        "silentgems:heliodor_ore"
+      ],
+      "particle": {
+        "color": [
+          0.99607843,
+          1.0,
+          0.7411765
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "block": [
+        "minecraft:emerald_ore",
+        "minecraft:deepslate_emerald_ore",
+        "silentgems:moldavite_ore",
+        "silentgems:deepslate_moldavite_ore",
+        "silentgems:deepslate_peridot_ore",
+        "silentgems:peridot_ore",
+        "silentgems:nether_moldavite_ore",
+        "silentgems:nether_peridot_ore",
+        "silentgems:end_moldavite_ore",
+        "silentgems:end_peridot_ore"
+      ],
+      "particle": {
+        "color": [
+          0.8509804,
+          1.0,
+          0.92156863
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "block": [
+        "silentgems:deepslate_black_diamond_ore",
+        "silentgems:black_diamond_ore",
+        "silentgems:end_black_diamond_ore",
+        "silentgems:nether_black_diamond_ore"
+      ],
+      "particle": {
+        "color": [
+          0.071,
+          0.051,
+          0.0
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "block": [
+        "silentgems:sapphire_ore",
+        "silentgems:end_sapphire_ore",
+        "silentgems:deepslate_sapphire_ore",
+        "silentgems:nether_sapphire_ore"
+      ],
+      "particle": {
+        "color": [
+          0.278,
+          0.467,
+          0.949
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "block": [
+        "silentgems:chaos_ore",
+        "silentgems:deepslate_chaos_ore",
+        "silentgems:white_diamond_ore",
+        "silentgems:deepslate_white_diamond_ore",
+        "silentgems:nether_white_diamond_ore",
+        "silentgems:end_white_diamond_ore",
+        "silentgear:bort_ore",
+        "silentgear:deepslate_bort_ore"
+      ],
+      "particle": {
+        "color": [
+          0.98,
+          0.965,
+          0.965
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "block": [
+        "silentgems:end_topaz_ore",
+        "silentgems:end_carnelian_ore",
+        "silentgems:topaz_ore",
+        "silentgems:carnelian_ore",
+        "silentgems:deepslate_topaz_ore",
+        "silentgems:deepslate_carnelian_ore",
+        "silentgems:nether_topaz_ore",
+        "silentgems:nether_carnelian_ore"
+      ],
+      "particle": {
+        "color": [
+          1.0,
+          0.388,
+          0.0
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "block": [
+        "minecraft:amethyst_cluster",
+        "silentgear:azure_silver_ore",
+        "silentgems:iolite_ore",
+        "silentgems:alexandrite_ore",
+        "silentgems:ammolite_ore",
+        "silentgems:rose_quartz_ore",
+        "silentgems:deepslate_iolite_ore",
+        "silentgems:deepslate_alexandrite_ore",
+        "silentgems:deepslate_ammolite_ore",
+        "silentgems:deepslate_rose_quartz_ore",
+        "silentgems:nether_iolite_ore",
+        "silentgems:nether_alexandrite_ore",
+        "silentgems:nether_ammolite_ore",
+        "silentgems:nether_rose_quartz_ore",
+        "silentgems:end_iolite_ore",
+        "silentgems:end_alexandrite_ore",
+        "silentgems:end_ammolite_ore",
+        "silentgems:end_rose_quartz_ore"
+      ],
+      "particle": {
+        "color": [
+          0.99607843,
+          0.79607844,
+          0.9019608
+        ],
+        "type": "visuality:sparkle"
+      }
+    },
+    {
+      "block": [
+        "minecraft:soul_sand",
+        "minecraft:soul_soil",
+        "chipped:faded_soul_sand",
+        "chipped:fine_soul_sand",
+        "chipped:glowing_soul_sand",
+        "chipped:graveled_soul_sand",
+        "chipped:happy_soul_sand",
+        "chipped:hardened_soul_sand",
+        "chipped:lauching_soul_sand",
+        "chipped:meming_soul_sand",
+        "chipped:reanimated_soul_sand",
+        "chipped:sifted_soul_sand",
+        "chipped:smoothed_soul_sand",
+        "chipped:trampled_soul_sand",
+        "chipped:scared_soul_sand",
+        "forbidden_arcanus:soulless_sand",
+        "mysticalagriculture:soulstone"
+      ],
+      "direction": "up",
+      "particle": {
+        "type": "visuality:soul"
+      }
+    }
+  ]
+}

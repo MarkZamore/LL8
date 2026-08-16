@@ -1,0 +1,14 @@
+{
+  "type": "actuallyadditions:crushing",
+  "ingredient": {
+    "item": "occultism:iesnium_ore"
+  },
+  "result": [
+    {
+      "result": {
+        "count": 2,
+        "id": "occultism:raw_iesnium"
+      }
+    }
+  ]
+}

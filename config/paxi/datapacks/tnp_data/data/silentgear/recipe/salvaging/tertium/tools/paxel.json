@@ -1,0 +1,22 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mysticalagradditions:tertium_paxel"
+  },
+  "results": [
+    {
+      "id": "mysticalagriculture:tertium_axe"
+    },
+    {
+      "id": "mysticalagriculture:tertium_pickaxe"
+    },
+    {
+      "id": "mysticalagriculture:tertium_shovel"
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

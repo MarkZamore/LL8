@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 54000,
+  "input": {
+    "item": "occultism:raw_iesnium_block"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "occultism:iesnium_dust"
+    },
+    "count": 12
+  }
+}

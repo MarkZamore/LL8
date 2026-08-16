@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:gems/ruby"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "modern_industrialization:ruby_dust"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 3000,
+  "input": {
+    "tag": "c:ingots/titanium"
+  },
+  "result": {
+    "item": "modern_industrialization:titanium_dust"
+  }
+}

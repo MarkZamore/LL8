@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Getting lag whilst in your inventory? It is most likely caused by EMI. Let the search box be empty. First page is always hidden to save on FPS. The lag is caused by many items being on screen, like animated textures, or enchantment books."
+  }
+}

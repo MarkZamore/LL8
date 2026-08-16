@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "twilightforest:giant_sword"
+  },
+  "results": [
+    {
+      "id": "twilightforest:giant_cobblestone",
+      "count": 2
+    },
+    {
+      "id": "twilightforest:giant_log"
+    }
+  ]
+}
+

@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Did you know? Lowering the Render Distance before creating a world will generate the world quite a bit faster. Simply increase it after you have fully entered the world!"
+  }
+}

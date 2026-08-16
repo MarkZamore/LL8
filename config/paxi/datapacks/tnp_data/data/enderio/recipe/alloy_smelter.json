@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "G": {
+      "tag": "c:gears/iron"
+    },
+    "B": {
+      "item": "minecraft:blast_furnace"
+    },
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "O": {
+      "tag": "c:obsidians"
+    },
+    "V": {
+      "item": "enderio:void_chassis"
+    }
+  },
+  "pattern": [
+    "GBG",
+    "FVF",
+    "IOI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "enderio:alloy_smelter"
+  }
+}

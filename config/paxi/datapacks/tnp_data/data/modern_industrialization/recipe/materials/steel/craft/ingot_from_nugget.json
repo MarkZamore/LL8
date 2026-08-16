@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "x": {
+      "tag": "c:nuggets/steel"
+    },
+    "y": {
+      "item": "mekanism:nugget_steel"
+    }
+  },
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mekanism:ingot_steel"
+  }
+}

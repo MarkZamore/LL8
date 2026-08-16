@@ -1,0 +1,23 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": {
+    "item": "modern_industrialization:bauxite_ore"
+  },
+  "outputs": [
+    {
+      "item": {
+      "count": 3,
+      "id": "modern_industrialization:bauxite_crushed_dust"
+      }
+    },
+    {
+      "chance": 0.15,
+      "item": {
+        "count": 1,
+      "id": "minecraft:cobblestone"
+      }
+    }
+  ]
+}

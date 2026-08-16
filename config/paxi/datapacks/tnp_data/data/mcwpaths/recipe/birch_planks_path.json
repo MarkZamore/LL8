@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group" : "wooden_paths",
+    "pattern": [
+        "X ",
+        "X "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:birch_slab"
+        }
+    },
+    "result": {
+        "id": "mcwpaths:birch_planks_path",
+        "count": 3
+    }
+}

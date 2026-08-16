@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:utherium_leggings"
+  },
+  "results": [
+    {
+      "id": "undergarden:utherium_crystal",
+      "count": 7
+    }
+  ]
+}
+

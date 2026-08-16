@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:tools/cutters"
+    },
+    {
+      "tag": "c:plates/electrum"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersiveengineering:wire_electrum"
+  }
+}

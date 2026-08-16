@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "twilightforest:arctic_boots"
+  },
+  "results": [
+    {
+      "id": "twilightforest:arctic_fur",
+      "count": 4
+    }
+  ]
+}
+

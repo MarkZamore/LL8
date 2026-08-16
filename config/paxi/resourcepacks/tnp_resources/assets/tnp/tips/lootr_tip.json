@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Are you on a server? Don't remove any Chests you might find around the world. The loot is per-player, per-chest meaning other players can loot the same Chest you just looted!"
+  }
+}

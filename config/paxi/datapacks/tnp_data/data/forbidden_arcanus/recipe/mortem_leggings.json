@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " X ",
+        "# #",
+        "# #"
+    
+    ],
+    
+    "key":
+    {
+        "#":
+        {
+            "tag": "minecraft:wool_carpets"
+        },
+        
+        "X":
+        {
+            "item": "minecraft:bone"
+        }
+        
+    },
+    
+  "result": {
+    "id": "forbidden_arcanus:mortem_leggings"
+    }
+}

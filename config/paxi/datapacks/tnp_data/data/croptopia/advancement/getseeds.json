@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+    "id": "croptopia:basil_seed"
+    },
+    "title": {
+      "translate": "advancements.croptopia.getseed.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "description": {
+      "translate": "advancements.croptopia.getseed.description"
+    }
+  },
+  "parent": "croptopia:root",
+  "criteria": {
+    "has_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#croptopia:advancements_seeds"
+          }
+        ]
+      }
+    }
+  }
+}

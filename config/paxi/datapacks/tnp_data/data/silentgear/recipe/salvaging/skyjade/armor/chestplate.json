@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "deep_aether:skyjade_chestplate"
+  },
+  "results": [
+    {
+      "id": "deep_aether:skyjade",
+      "count": 8
+    }
+  ]
+}
+

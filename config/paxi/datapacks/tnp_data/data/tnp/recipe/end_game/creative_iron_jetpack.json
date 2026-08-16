@@ -1,0 +1,87 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "  AABAA  ",
+    " ACBDBCA ",
+    "ACCEBECCA",
+    "ACXAPAXCA",
+    "ACEAAAECA",
+    "FGWASAZGF",
+    "FGGA AGGF",
+    "FGGF FGGF",
+    " HH   HH "
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:crystaltine_block"
+    },
+    "B": {
+      "item": "extendedcrafting:flux_star_block"
+    },
+    "X": {
+      "items": "ironjetpacks:jetpack",
+      "components": {
+        "ironjetpacks:jetpack_energy": 100000000,
+        "ironjetpacks:jetpack_id": "ironjetpacks:netherite"
+      },
+      "type": "neoforge:components"
+    },
+    "D": {
+      "item": "extendedcrafting:ultimate_singularity"
+    },
+    "S": {
+      "item": "ironjetpacks:strap"
+    },
+    "Z": {
+      "item": "mekanism:module_electrolytic_breathing_unit"
+    },
+    "W": {
+      "item": "mekanism:module_jetpack_unit"
+    },
+    "E": {
+      "item": "ironjetpacks:ultimate_coil"
+    },
+    "P": {
+      "items": "mekanism:jetpack_armored",
+      "components": {
+        "mekanism:chemicals": {
+          "chemical_tanks": [
+            {
+              "id": "mekanism:hydrogen",
+              "amount": 24000
+            }
+          ]
+        }
+      },
+      "type": "neoforge:components"
+    },
+    "F": {
+      "item": "minecraft:netherite_block"
+    },
+    "C": {
+      "items": "ironjetpacks:capacitor",
+      "components": {
+        "ironjetpacks:jetpack_id": "ironjetpacks:netherite"
+      },
+      "type": "neoforge:components"
+    },
+    "G": {
+      "items": "ironjetpacks:thruster",
+      "components": {
+        "ironjetpacks:jetpack_id": "ironjetpacks:netherite"
+      },
+      "type": "neoforge:components"
+  },
+    "H": {
+      "item": "extendedcrafting:luminessence_block"
+    }
+  },
+  "result": {
+      "id": "ironjetpacks:jetpack",
+      "components": {
+        "minecraft:rarity": "epic",
+        "ironjetpacks:jetpack_id": "ironjetpacks:creative"
+      },
+      "type": "neoforge:components"
+  }
+}

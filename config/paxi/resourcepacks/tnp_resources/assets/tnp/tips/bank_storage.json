@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Banks from @BankStorage are technically ender chests. The first button at the top can change the current filter, you can also sort your bank by using the second button."
+  }
+}

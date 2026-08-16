@@ -1,0 +1,11 @@
+{
+  "name": "Amethyst",
+  "colors": [
+    "9a80df",
+    "553c97"
+  ],
+  "ingredient": {
+    "tag": "c:storage_blocks/amethyst"
+  },
+  "materialCount": 15000
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LLL",
+        "IMI",
+        " I "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:gold_ingot"
+        },
+        "M": {
+            "item": "ppfluids:low_fluid_retrieval_module"
+        },
+        "L": {
+            "item": "minecraft:lapis_block"
+        }
+    },
+    "result": {
+        "id": "ppfluids:medium_fluid_retrieval_module"
+    }
+}

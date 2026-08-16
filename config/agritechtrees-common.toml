@@ -1,0 +1,18 @@
+#INFO: If you change any of the values below, delete 'config/agritechtrees/saplings_and_soils.json' and restart your client to regenerate the crop config!
+infoIs = true
+#Enable Ars Elemental Archwood Trees. Default: true
+addArsElementalTrees = true
+#Enable Ars Nouveau Archwood Trees. Default: true
+addArsNouveauTrees = true
+#Enable Twilight Forest Trees (Not including magic trees). Default: true
+enableTwilightForest = true
+#Enable Evilcraft Trees (Not including magic trees). Default: true
+enableEvilCraft = true
+#Enable Forbidden Arcanus Trees. Default: true
+enableForbiddenArcanus = true
+#Enable Integrated Dynamics Trees. Default: true
+enableIntegratedDynamics = true
+#Enable Occultism Trees. Default: true
+enableOccultism = true
+#Enable Hexerei Trees. Default: true
+enableHexerei = true

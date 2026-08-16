@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SGS",
+    "NEN",
+    "SGS"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "advancednetherite:netherite_gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "hangglider:reinforced_hang_glider"
+    }
+  },
+  "result": {
+    "id": "modular_angelring:gold_ring"
+  }
+}

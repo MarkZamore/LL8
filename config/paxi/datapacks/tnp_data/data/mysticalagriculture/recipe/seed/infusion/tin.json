@@ -1,0 +1,46 @@
+{
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "item": "mekanism:ingot_tin"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:tin"
+    },
+    {
+      "item": "mekanism:ingot_tin"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:tin"
+    },
+    {
+      "item": "mekanism:ingot_tin"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:tin"
+    },
+    {
+      "item": "mekanism:ingot_tin"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:tin"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:tin"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:tin_seeds"
+  }
+}

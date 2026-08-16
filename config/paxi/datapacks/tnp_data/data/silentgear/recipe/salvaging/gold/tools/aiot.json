@@ -1,0 +1,24 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "actuallyadditions:gold_aiot"
+  },
+  "results": [
+    {
+      "id": "minecraft:golden_axe"
+    },
+    {
+      "id": "minecraft:golden_pickaxe"
+    },
+    {
+      "id": "minecraft:golden_sword"
+    },
+    {
+      "id": "minecraft:golden_shovel"
+    },
+    {
+      "id": "minecraft:golden_hoe"
+    }
+  ]
+}
+

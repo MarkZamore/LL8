@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "up": "block/nether_bricks",
+        "down": "block/nether_bricks",
+        "north": "jamd:block/nether_portal",
+        "south": "jamd:block/nether_portal",
+        "east": "jamd:block/nether_portal",
+        "west": "jamd:block/nether_portal",
+        "particle": "jamd:block/nether_portal"
+    }
+}

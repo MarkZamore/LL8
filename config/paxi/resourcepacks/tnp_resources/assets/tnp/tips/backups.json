@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "A backup of your world is created once every 60 minutes. You can locate the backups in the modpack root folder. A total of 4 backups are kept to save storage. Once 4 are created the oldest one will be overwritten."
+  }
+}

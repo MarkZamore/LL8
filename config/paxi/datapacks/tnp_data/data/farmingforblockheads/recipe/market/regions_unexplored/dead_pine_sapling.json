@@ -1,0 +1,8 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:saplings",
+  "preset": "regions_unexplored:saplings",
+  "result": {
+    "item": "regions_unexplored:dead_pine_sapling"
+  }
+}

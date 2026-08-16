@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "supplementaries:gold_bars"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "quark:gold_bars"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "forbidden_arcanus:draco_arcanus_boots"
+  },
+  "results": [
+    {
+      "id": "forbidden_arcanus:obsidiansteel_ingot",
+      "count": 2
+    },
+    {
+      "id": "forbidden_arcanus:dragon_scale",
+      "count": 2
+    }
+  ]
+}
+

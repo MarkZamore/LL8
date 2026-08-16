@@ -1,0 +1,20 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mysticalagriculture:awakened_supremium_chestplate"
+  },
+  "results": [
+    {
+      "id": "mysticalagriculture:supremium_chestplate"
+    },
+    {
+      "id": "mysticalagriculture:awakened_supremium_gemstone",
+      "count": 2
+    },
+    {
+      "id": "mysticalagriculture:awakened_supremium_ingot",
+      "count": 2
+    }
+  ]
+}
+

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "minecraft:coals"
+  },
+  "result": {
+    "count": 1,
+    "id": "additional_lights:soul_fire_for_standing_torch_s"
+  }
+}

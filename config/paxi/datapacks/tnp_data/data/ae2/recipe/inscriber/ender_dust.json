@@ -1,0 +1,13 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "tag": "c:ender_pearls"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "count": 1,
+    "id": "enderio:powdered_ender_pearl"
+  }
+}

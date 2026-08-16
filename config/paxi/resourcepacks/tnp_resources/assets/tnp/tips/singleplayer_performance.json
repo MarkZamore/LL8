@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Need more performance? Consider playing on a server! The server handles most of the game processing, reducing the load on your computer. Just don't host the server on the same PC as your game client."
+  }
+}

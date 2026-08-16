@@ -1,0 +1,19 @@
+{
+  "type": "prefab:condition_crafting_shaped",
+  "configName": "Dirt Recipes",
+  "group": "Dirt Recipes",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:grass_block"
+    }
+  },
+  "result": {
+    "id": "prefab:block_grass_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values":
+    [
+      "#c:is_swamp",
+      {
+        "type": "neoforge:not",
+        "value": "#c:no_default_monsters"
+      }
+    ]
+  },
+  "spawners": {
+    "type": "monsterplus:wisp",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

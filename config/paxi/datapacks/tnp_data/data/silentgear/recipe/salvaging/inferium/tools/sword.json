@@ -1,0 +1,20 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mysticalagriculture:inferium_sword"
+  },
+  "results": [
+    {
+      "id": "minecraft:diamond_sword"
+    },
+    {
+      "id": "mysticalagriculture:inferium_gemstone",
+      "count": 2
+    },
+    {
+      "id": "mysticalagriculture:inferium_ingot",
+      "count": 2
+    }
+  ]
+}
+

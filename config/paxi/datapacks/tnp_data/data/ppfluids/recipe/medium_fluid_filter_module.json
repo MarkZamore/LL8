@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " B ",
+        "IMI",
+        " B "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "M": {
+            "item": "ppfluids:low_fluid_filter_module"
+        },
+        "B": {
+            "item": "minecraft:iron_bars"
+        }
+    },
+    "result": {
+        "id": "ppfluids:medium_fluid_filter_module"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Create an extract pipe loop that feeds right back into the @Silent Gear material grader to keep regrading until max grade."
+  }
+}

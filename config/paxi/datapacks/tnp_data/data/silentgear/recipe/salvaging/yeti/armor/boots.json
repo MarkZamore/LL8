@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "twilightforest:yeti_boots"
+  },
+  "results": [
+    {
+      "id": "twilightforest:alpha_yeti_fur",
+      "count": 4
+    }
+  ]
+}
+

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "c:dyes/black"
+    },
+    "C": {
+      "item": "minecraft:sea_pickle"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#C#",
+    " # "
+  ],
+  "result": {
+    "count": 2,
+    "id": "minecraft:ink_sac"
+  }
+}

@@ -1,0 +1,21 @@
+#Filing Index Ranges - Configure range limits for the Filing Index and upgrades
+[filing_index_ranges]
+	#Base Filing Index range (blocks)
+	#Default range with no upgrades installed
+	# Default: 8
+	# Range: 4 ~ 32
+	base_range = 8
+	#Range with Iron Range Upgrade installed (blocks)
+	# Default: 16
+	# Range: 8 ~ 64
+	iron_range = 16
+	#Range with Diamond Range Upgrade installed (blocks)
+	# Default: 32
+	# Range: 16 ~ 128
+	diamond_range = 32
+	#Range with Netherite Range Upgrade installed (blocks)
+	#WARNING: Large ranges can significantly impact server performance!
+	#A range of 64 covers a 128x128 block area - use with caution on multiplayer servers
+	# Default: 64
+	# Range: 32 ~ 256
+	netherite_range = 64

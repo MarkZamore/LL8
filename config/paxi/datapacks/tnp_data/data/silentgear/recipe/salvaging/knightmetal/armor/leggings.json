@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "twilightforest:knightmetal_leggings"
+  },
+  "results": [
+    {
+      "id": "twilightforest:knightmetal_ingot",
+      "count": 7
+    }
+  ]
+}
+

@@ -1,0 +1,56 @@
+{
+  "type": "extendedcrafting:shaped_table",
+  "pattern": [
+    "ABAABAABA",
+    "BCDEFEDCB",
+    "ADGHIHGDA",
+    "AEHJJJHEA",
+    "BFIJKJIFB",
+    "AEHJJJHEA",
+    "ADGHIHGDA",
+    "BCDEFEDCB",
+    "ABAABAABA"
+  ],
+  "key": {
+    "A": {
+      "item": "powah:dielectric_casing"
+    },
+    "B": {
+      "item": "powah:energized_steel_block"
+    },
+    "C": {
+      "item": "powah:lens_of_ender"
+    },
+    "D": {
+      "item": "powah:energizing_rod_nitro"
+    },
+    "E": {
+      "item": "powah:ender_gate_nitro"
+    },
+    "F": {
+      "item": "extendedcrafting:nether_star_block"
+    },
+    "G": {
+      "items": "powah:battery_niotic",
+      "components": {
+        "powah:energy_stored": 100000000
+      },
+      "type": "neoforge:components"
+    },
+    "H": {
+      "item": "extendedcrafting:crystaltine_block"
+    },
+    "I": {
+      "item": "powah:nitro_crystal_block"
+    },
+    "J": {
+      "item": "extendedcrafting:flux_star_block"
+    },
+    "K": {
+      "item": "extendedcrafting:ultimate_singularity"
+    }
+  },
+  "result": {
+    "id": "powah:energy_cell_creative"
+  }
+}

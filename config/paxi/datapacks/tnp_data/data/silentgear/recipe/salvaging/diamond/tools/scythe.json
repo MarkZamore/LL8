@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mysticalagriculture:diamond_scythe"
+  },
+  "results": [
+    {
+      "id": "minecraft:diamond",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 3
+    }
+  ]
+}
+

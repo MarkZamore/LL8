@@ -1,0 +1,4 @@
+{
+  "bcc.gui.tooltip.compatible_server": "§aDoğru versiyonu! Sunucu birleştirilebilir. \n \n§7Sunucu: §a%s\n§7Müşteri (Sen): §a%s",
+  "bcc.gui.tooltip.incompatible_server": "§cYanlış versiyon! Sunucu birleştirilemez. \n \n§7Sunucu: %s\n§7Müşteri (Sen): %s"
+}

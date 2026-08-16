@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "undergarden:forgotten_hoe"
+  },
+  "results": [
+    {
+      "id": "undergarden:forgotten_ingot",
+      "count": 1
+    },
+    {
+      "id": "undergarden:cloggrum_hoe"
+    }
+  ]
+}
+

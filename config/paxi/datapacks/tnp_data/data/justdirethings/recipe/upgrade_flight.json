@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "n": {
+      "item": "minecraft:nether_star"
+    },
+    "a": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "b": {
+      "item": "justdirethings:upgrade_blank"
+    },
+    "e": {
+      "item": "minecraft:end_crystal"
+    },
+    "h": {
+      "item": "hangglider:reinforced_hang_glider"
+    },
+    "f": {
+      "item": "minecraft:feather"
+    }
+  },
+  "pattern": [
+    "nen",
+    "fbf",
+    "aha"
+  ],
+  "result": {
+    "count": 1,
+    "id": "justdirethings:upgrade_flight"
+  }
+}

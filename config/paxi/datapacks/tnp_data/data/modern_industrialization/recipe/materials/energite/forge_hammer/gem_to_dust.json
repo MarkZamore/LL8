@@ -1,0 +1,10 @@
+{
+  "type": "modern_industrialization:forge_hammer",
+  "ingredient": {
+    "tag": "c:ingots/energite"
+  },
+  "result": {
+    "count": 1,
+    "id": "oritech:energite_dust"
+  }
+}

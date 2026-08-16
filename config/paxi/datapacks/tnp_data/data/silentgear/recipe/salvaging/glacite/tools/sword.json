@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "eternal_starlight:glacite_sword"
+  },
+  "results": [
+    {
+      "id": "eternal_starlight:glacite_shard",
+      "count": 2
+    },
+    {
+      "id": "minecraft:stick"
+    }
+  ]
+}
+

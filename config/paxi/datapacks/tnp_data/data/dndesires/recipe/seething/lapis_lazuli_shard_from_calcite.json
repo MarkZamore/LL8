@@ -1,0 +1,14 @@
+{
+  "type": "dndesires:seething",
+  "ingredients": [
+    {
+      "item": "minecraft:calcite"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.90,
+      "id": "solargeneration:lapis_shard"
+    }
+  ]
+}

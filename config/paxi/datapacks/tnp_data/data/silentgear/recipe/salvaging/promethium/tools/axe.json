@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "oritech:promethium_axe"
+  },
+  "results": [
+    {
+      "id": "oritech:prometheum_ingot",
+      "count": 3
+    },
+    {
+      "id": "oritech:destroyer_block",
+      "count": 2
+    }
+  ]
+}
+

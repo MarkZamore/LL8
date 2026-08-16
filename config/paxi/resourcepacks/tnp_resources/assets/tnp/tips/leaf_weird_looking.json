@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "Are the Leaves on Trees looking a little weird for you? Leaf Culling is enabled to improve FPS. (Don't like it? Go to Options > Sodium Settings > Performance > Uncheck Enable Leaf Culling at the bottom > Apply.)"
+  }
+}

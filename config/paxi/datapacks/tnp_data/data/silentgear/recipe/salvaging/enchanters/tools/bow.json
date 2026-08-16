@@ -1,0 +1,25 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "ars_nouveau:spell_bow"
+  },
+  "results": [
+    {
+      "id": "ars_nouveau:source_gem_block",
+      "count": 1
+    },
+    {
+      "id": "minecraft:gold_block",
+      "count": 1
+    },
+    {
+      "id": "ars_nouveau:manipulation_essence",
+      "count": 1
+    },
+    {
+      "id": "minecraft:bow",
+      "count": 1
+    }
+  ]
+}
+

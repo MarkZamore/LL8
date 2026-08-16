@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "justdirethings:ferricore_chestplate"
+  },
+  "results": [
+    {
+      "id": "justdirethings:ferricore_ingot",
+      "count": 8
+    }
+  ]
+}
+

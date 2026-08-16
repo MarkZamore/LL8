@@ -1,0 +1,22 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:refined_obsidian_paxel"
+  },
+  "results": [
+    {
+      "id": "mekanismtools:refined_obsidian_axe"
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_pickaxe"
+    },
+    {
+      "id": "mekanismtools:refined_obsidian_shovel"
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

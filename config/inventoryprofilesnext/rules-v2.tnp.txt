@@ -1,0 +1,4 @@
+@tnp
+    ::accumulated_count
+    ::custom_name
+    ::raw_id

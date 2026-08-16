@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " P ",
+        "LML",
+        " L "
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "P": {
+            "item": "minecraft:piston"
+        },
+        "M": {
+            "item": "prettypipes:blank_module"
+        }
+    },
+    "result": {
+        "id": "ppfluids:low_fluid_extraction_module"
+    }
+}

@@ -1,0 +1,166 @@
+[omniGrid]
+	# Default: 10000
+	# Range: 0 ~ 9223372036854775807
+	energyCapacity = 20000
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	openEnergyUsage = 10
+
+	[omniGrid."The Omni Grid recharges itself off adjacent networks while placed"]
+		# Default: 1000
+		# Range: > 0
+		" How much FE per tick should it take from the network?" = 1000
+
+	[omniGrid.CommandCosts]
+		# Default: 8
+		# Range: > 0
+		"Items moved per 1 FE (Push/Pull)" = 8
+		# Default: 250
+		# Range: > 0
+		"mB moved per 1 FE (Push/Pull)" = 250
+		# Default: 8
+		# Range: > 0
+		"Compressions per 1 FE" = 8
+		# Default: 4
+		# Range: > 0
+		"Items extracted per 1 FE (Collect)" = 4
+		# Default: 4
+		# Range: > 0
+		"Items picked up per 1 FE (Search)" = 4
+
+	[omniGrid.Monitor]
+		# Default: 60
+		# Range: > 0
+		"Monitor update interval in ticks (20 = 1s)" = 60
+		# Default: 0.2
+		# Range: 0.0 ~ 1.7976931348623157E308
+		"Energy consumption increased per monitored resource" = 0.2
+		# Default: 10
+		# Range: > 0
+		"Updating a monitors resource drains this much energy" = 10
+
+		[omniGrid.Crafting.Autocrafting]
+			# Default: 10
+			# Range: > 0
+			"FE cost per autocraft operation" = 10
+
+		[omniGrid.Crafting.Processing]
+			# Default: 2
+			# Range: > 0
+			"FE cost per processing operation" = 2
+
+	[omniGrid."Energy Penalties"]
+		"Drain FE when running the furnace ontop of fuel cost?" = true
+		# Default: 0.2
+		# Range: 0.0 ~ 1.7976931348623157E308
+		"Increase energy consumption while furnace is active by" = 0.2
+
+		[omniGrid."Utility Cores".CobblePrinter]
+			"Enable Cobble Printer utility item?" = true
+			# Default: 5
+			# Range: > 0
+			"FE cost to print 1 cobblestone" = 5
+
+		[omniGrid."Utility Cores".WaterPrinter]
+			"Enable Water Source utility item?" = true
+			# Default: 100
+			# Range: > 0
+			"How many mB of water are produced per 1 FE?" = 50
+
+		[omniGrid."Utility Cores".FireExtinguisher]
+			"Enable Fire Extinguisher utility item?" = true
+			# Default: 25
+			# Range: > 0
+			"FE cost per extinguish action" = 25
+			# Default: 100
+			# Range: > 0
+			"Water cost to extinguish burning player" = 100
+			# Default: 500
+			# Range: > 0
+			"Water cost to extinguish a lava source block" = 500
+			# Default: 50
+			# Range: > 0
+			"Water cost to extinguish regular fire" = 50
+			# Default: 250
+			# Range: > 0
+			"Water cost to extinguish flowing lava" = 250
+
+		[omniGrid."Utility Cores".Sponge]
+			"Enable Sponge utility item?" = true
+			# Default: 100
+			# Range: > 0
+			"FE cost per block absorbed" = 100
+			# Default: 16
+			# Range: > 0
+			"Maximum blocks absorbed per activation" = 16
+			# Default: 8
+			# Range: > 0
+			"Extra absorbable blocks per stack upgrade" = 8
+
+		[omniGrid."Utility Cores".Curios]
+			"Enable Curios utility item?" = true
+			# Default: 1.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			"Multiplier applied to curios effects (decimal)" = 1.0
+
+		[omniGrid."Utility Cores".DepositUtility]
+			"Enable Deposit utility?" = true
+			# Default: 10
+			# Range: > 0
+			"FE cost per deposit action" = 10
+
+		[omniGrid."Utility Cores".LootUtility]
+			"Enable Loot utility?" = true
+			# Default: 10
+			# Range: > 0
+			"FE cost per loot pickup" = 10
+
+		[omniGrid."Utility Cores".ConstructorCore]
+			"Enable Constructor Core utility item?" = true
+			# Default: 40
+			# Range: > 0
+			"FE cost per block placement by Constructor Core" = 40
+
+		[omniGrid."Utility Cores".Monitor]
+			# Default: 100
+			# Range: > 0
+			"Monitor update rate in ticks (20 = 1 second)" = 100
+
+		[omniGrid."Utility Cores".Overclocker]
+			"Enable the Omni Overclocker item?" = true
+			"Enable the Omni-Potent Overclocker? (Permanent version)" = true
+			# Default: 4.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			"While overclocked, multiply all FE consumption by this value" = 4.0
+			# Default: 500
+			# Range: > 0
+			"Initial FE cost when activating the overclocker" = 500
+
+		[omniGrid."Utility Cores"."When transferring energy to and from the Omni Grid via Refined Types Energy disks, max energy transfer per task cycle before stack/energy upgrades"]
+			# Default: 1000
+			# Range: > 0
+			"" = 1000
+
+	[omniGrid.OmniStorageProxy]
+		# Default: 10
+		# Range: > 0
+		"FE used per tick while connected to a network" = 10
+		# Default: 16
+		# Range: > 0
+		"Omni Grid can provide storage within this many blocks" = 16
+		# Default: 16
+		# Range: > 0
+		"Extra range in blocks per range upgrade in the Omni Grid" = 16
+		"Energy consumption affected by linked Omni Grid's energy upgrades?" = true
+		"Energy consumption affected by linked Omni Grid's range upgrades?" = true
+
+	[omniGrid.OmniProxyAccessor]
+		"Enable the Universal Proxy Accessor Core?" = true
+
+	[omniGrid."Remote Block Target"]
+		# Default: 4
+		# Range: > 0
+		"The maximum range remote block targets work from" = 4
+		# Default: 2
+		# Range: > 0
+		"Extra block target range per range upgrade" = 2

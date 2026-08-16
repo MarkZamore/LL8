@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:cloche",
+  "results": [
+    {
+      "id": "mysticalagriculture:dark_steel_essence",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:dark_steel_seeds"
+  },
+  "soil": {
+    "item": "mysticalagriculture:imperium_farmland"
+  },
+  "time": 800,
+  "render": {
+    "type": "immersiveengineering:crop",
+    "block": "mysticalagriculture:dark_steel_crop"
+  }
+}

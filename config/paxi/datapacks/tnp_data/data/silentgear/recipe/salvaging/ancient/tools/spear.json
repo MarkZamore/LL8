@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "cataclysm:ancient_spear"
+  },
+  "results": [
+    {
+      "id": "cataclysm:ancient_metal_ingot",
+      "count": 4
+    }
+  ]
+}
+

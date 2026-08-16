@@ -1,0 +1,162 @@
+{
+	register_alias_as_well_as_namespace: false
+	
+	register_to_namespace: false
+	
+	admin: {
+		extinguish: {
+		   enabled: true
+		}
+		
+		feed: {
+		   enabled: true
+		}
+		
+		fly: {
+		   enabled: true
+		}
+		
+		god: {
+		   enabled: true
+		}
+		
+		heal: {
+		   enabled: true
+		}
+		
+		invsee: {
+		   enabled: true
+		}
+		
+		kit: {
+		   enabled: true
+		}
+		
+		mute: {
+		   enabled: true
+		}
+		
+		speed: {
+		   enabled: true
+		}
+		
+		tp_offline: {
+		   enabled: true
+		}
+	}
+	
+	misc: {
+		anvil: {
+		   enabled: false
+		}
+		
+		crafting: {
+		   enabled: false
+		}
+		
+		enderchest: {
+		   enabled: false
+		}
+		
+		hat: {
+		   enabled: false
+		}
+		
+		kickme: {
+		   enabled: true
+		}
+		
+		leaderboard: {
+		   enabled: true
+		}
+		
+		near: {
+		   enabled: false
+		}
+		
+		nick: {
+		   enabled: false
+		}
+		
+		rec: {
+		   enabled: false
+		}
+		
+		smithing: {
+		   enabled: false
+		}
+		
+		stonecutter: {
+		   enabled: false
+		}
+		
+		trashcan: {
+		   enabled: false
+		}
+	}
+	
+	teleportation: {
+		admins_exempt_dimension_blacklists: false
+		
+		back: {
+		   cooldown: 10
+		   enabled: true
+		   max: 10
+		   only_on_death: false
+		   warmup: 2
+		}
+		
+		blacklists: {
+		   from: [ ]
+		   to: [ ]
+		}
+		home: {
+		   cooldown: 10
+		   enabled: true
+		   max: 2
+		   warmup: 3
+		}
+		
+		jump: {
+		   enabled: true
+		}
+		
+		rtp: {
+		   allow_custom_max_distance: false
+		   allow_custom_min_max_distance: false
+		   cooldown: 60
+		   dimension_blacklist: [ ]
+		   dimension_whitelist: [ ]
+		   enabled: true
+		   max_distance: 100000
+		   max_tries: 150
+		   min_distance: 10000
+		   warmup: 3
+		}
+		spawn: {
+		   cooldown: 10
+		   enabled: true
+		   warmup: 3
+		}
+		
+		tpa: {
+		   cooldown: 10
+		   enabled: true
+		   warmup: 3
+		}
+		
+		tpl: {
+		   enabled: true
+		}
+		
+		tpx: {
+		   enabled: true
+		}
+		
+		warp: {
+		   cooldown: 10
+		   enabled: true
+		   warmup: 3
+		}
+	}
+}

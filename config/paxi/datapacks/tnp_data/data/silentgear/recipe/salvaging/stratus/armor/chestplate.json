@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "deep_aether:stratus_chestplate"
+  },
+  "results": [
+    {
+      "id": "aether:gravitite_chestplate",
+      "count": 1
+    },
+    {
+      "id": "deep_aether:stratus_ingot",
+      "count": 1
+    }
+  ]
+}
+

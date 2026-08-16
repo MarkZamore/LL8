@@ -1,0 +1,13 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:osmium_helmet"
+  },
+  "results": [
+    {
+      "id": "mekanism:ingot_osmium",
+      "count": 5
+    }
+  ]
+}
+

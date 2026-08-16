@@ -1,0 +1,4 @@
+{
+  "bcc.gui.tooltip.compatible_server": "§aVersion correcte ! Serveur joignable. \n \n§7Serveur: §a%s\n§7Cliente (Toi): §a%s",
+  "bcc.gui.tooltip.incompatible_server": "§cMauvaise version! Serveur non joignable. \n \n§7Serveur: %s\n§7Cliente (Toi): %s"
+}

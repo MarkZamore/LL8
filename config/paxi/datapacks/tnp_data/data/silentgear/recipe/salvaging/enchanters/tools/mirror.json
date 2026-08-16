@@ -1,0 +1,29 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "ars_nouveau:enchanters_mirror"
+  },
+  "results": [
+    {
+      "id": "ars_nouveau:source_gem",
+      "count": 8
+    },
+    {
+      "id": "minecraft:yellow_stained_glass",
+      "count": 2
+    },
+    {
+      "id": "ars_nouveau:manipulation_essence",
+      "count": 2
+    },
+    {
+      "id": "ars_nouveau:purple_archwood_log",
+      "count": 2
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "count": 2
+    }
+  ]
+}
+

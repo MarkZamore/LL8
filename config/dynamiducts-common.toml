@@ -1,0 +1,25 @@
+[energy]
+	#Base energy transfer rate (RF/t) for Leadstone Fluxduct. Higher tiers scale from this.
+	# Default: 1000
+	# Range: 100 ~ 10000
+	baseTransfer = 1000
+
+[fluid]
+	#Base fluid capacity (mB) per duct in a fluid network.
+	# Default: 3000
+	# Range: 500 ~ 24000
+	baseCapacity = 3000
+	#Base fluid throughput (mB/t) for a fluiduct grid. Matches Thermal Dynamics 1.12 water flow.
+	# Default: 120
+	# Range: 20 ~ 6000
+	baseThroughput = 600
+
+[item]
+	#Base item travel speed in ticks per duct.
+	# Default: 40
+	# Range: 10 ~ 200
+	baseSpeed = 40
+	#Fast item travel speed in ticks per duct (Impulse Itemducts).
+	# Default: 10
+	# Range: 1 ~ 100
+	fastSpeed = 10

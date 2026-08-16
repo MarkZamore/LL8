@@ -1,0 +1,13 @@
+{
+  "itemGroup.substrate": "Substrate",
+  "block.substrate.example_block": "Substrate Block",
+  "item.substrate.example_item": "Substrate Item",
+
+  "substrate.configuration.title": "Substrate Configs",
+  "substrate.configuration.section.substrate.common.toml": "Substrate Configs",
+  "substrate.configuration.section.substrate.common.toml.title": "Substrate Configs",
+  "substrate.configuration.items": "Item List",
+  "substrate.configuration.logDirtBlock": "Log Dirt Block",
+  "substrate.configuration.magicNumberIntroduction": "Magic Number Text",
+  "substrate.configuration.magicNumber": "Magic Number"
+}

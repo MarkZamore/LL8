@@ -1,0 +1,22 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mysticalagradditions:inferium_paxel"
+  },
+  "results": [
+    {
+      "id": "mysticalagriculture:inferium_axe"
+    },
+    {
+      "id": "mysticalagriculture:inferium_pickaxe"
+    },
+    {
+      "id": "mysticalagriculture:inferium_shovel"
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

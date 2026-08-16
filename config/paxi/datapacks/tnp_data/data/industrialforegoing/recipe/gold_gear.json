@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "industrialforegoing:gold_gear"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    " P ",
+    "PNP",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "industrialforegoing:gold_gear"
+  }
+}

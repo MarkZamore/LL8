@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "A"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:stone"
+    },
+    "B": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "id": "additionallanterns:stone_chain",
+    "count": 8
+  }
+}

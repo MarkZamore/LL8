@@ -1,0 +1,11 @@
+{
+  "type": "occultism:crushing",
+  "ingredient": {
+    "tag": "c:coal_coke"
+  },
+  "result": {
+    "type": "occultism:item",
+    "count": 1,
+    "id": "modern_industrialization:coke_dust"
+  }
+}

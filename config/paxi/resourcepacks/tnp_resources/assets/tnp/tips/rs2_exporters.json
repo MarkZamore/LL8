@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "@RS2 exporters can be set to export multiple resource types. You can set them to export items, fluid, and energy all at once into machines that use all 3."
+  }
+}

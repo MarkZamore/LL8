@@ -1,0 +1,13 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": {
+    "tag": "c:ores/iesnium"
+  },
+  "result": {
+    "basePredicate": {
+      "item": "occultism:iesnium_dust"
+    },
+    "count": 2
+  }
+}

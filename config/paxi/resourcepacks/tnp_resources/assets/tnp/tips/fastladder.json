@@ -1,0 +1,6 @@
+{
+  "type": "tipsmod:simple",
+  "text": {
+    "translate": "You climb ladders much faster than in vanilla. Don't like that? You can toggle it with a keybind in Controls. (Key Binds -> Search Box -> category:ClimbLaddersFast -> bind key.)"
+  }
+}

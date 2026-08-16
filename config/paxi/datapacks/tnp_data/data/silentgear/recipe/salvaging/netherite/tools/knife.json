@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "farmersdelight:netherite_knife"
+  },
+  "results": [
+    {
+      "id": "farmersdelight:diamond_knife",
+      "count": 1
+    },
+    {
+      "id": "minecraft:netherite_ingot",
+      "count": 1
+    }
+  ]
+}
+

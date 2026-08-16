@@ -1,0 +1,19 @@
+{
+  "type": "enderio:alloy_smelting",
+  "energy": 4800,
+  "experience": 0.3,
+  "inputs": [
+    {
+      "count": 1,
+      "tag": "c:ingots/copper"
+    },
+    {
+      "count": 1,
+      "tag": "c:ingots/zinc"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "id": "create:brass_ingot"
+  }
+}

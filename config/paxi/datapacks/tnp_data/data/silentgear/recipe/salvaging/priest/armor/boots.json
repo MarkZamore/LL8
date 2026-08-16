@@ -1,0 +1,17 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "irons_spellbooks:priest_boots"
+  },
+  "results": [
+    {
+      "id": "irons_spellbooks:magic_cloth",
+      "count": 4
+    },
+    {
+      "id": "irons_spellbooks:holy_rune",
+      "count": 1
+    }
+  ]
+}
+

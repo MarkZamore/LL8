@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 3000,
+  "input": {
+    "tag": "c:ingots/azure_silver"
+  },
+  "result": {
+    "item": "silentgear:azure_silver_dust"
+  }
+}

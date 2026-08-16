@@ -1,0 +1,15 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "minecraft:mace"
+  },
+  "results": [
+    {
+      "id": "minecraft:heavy_core"
+    },
+    {
+      "id": "minecraft:breeze_rod"
+    }
+  ]
+}
+

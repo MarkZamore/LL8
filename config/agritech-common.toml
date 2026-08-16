@@ -1,0 +1,16 @@
+#INFO: If you change any of the values below, delete 'config/agritech/crops_and_soils.json' and restart your client to regenerate the crop config!
+infoIs = true
+#Enable Mystical Agriculture. Default: true
+enableMysticalAgriculture = true
+#Enable Mystical Agradditions. Default: true
+enableMysticalAgradditions = true
+#Enable Farmer's Delight. Default: true
+enableFarmersDelight = true
+#Enable Ars Nouveau. Default: true
+enableArsNouveau = true
+#Enable Silent Gear. Default: true
+enableSilentGear = true
+#Enable Just Dire Things Soils. Default: true
+enableJustDireThingsSoils = true
+#Enable Immersive Engineering Fiber. Default: true
+enableImmersiveEngineering = true

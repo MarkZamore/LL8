@@ -1,0 +1,13 @@
+{
+  "type": "energizedpower:metal_press",
+  "ingredient": {
+    "tag": "c:plates/electrum"
+  },
+  "output": {
+    "count": 3,
+    "item": "immersiveengineering:wire_electrum"
+  },
+  "pressMold": {
+    "item": "energizedpower:wire_press_mold"
+  }
+}

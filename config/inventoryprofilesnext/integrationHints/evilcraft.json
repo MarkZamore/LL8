@@ -1,0 +1,67 @@
+{
+    "org.cyclops.evilcraft.client.gui.container.ContainerScreenPrimedPendant": {
+        "ignore": true
+    },
+    "org.cyclops.evilcraft.client.gui.container.ContainerScreenBloodChest": {
+        "playerSideOnly": true
+    },
+    "org.cyclops.evilcraft.client.gui.container.ContainerScreenBloodInfuser": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 28
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 28
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 29
+            }
+        }
+    },
+    "org.cyclops.evilcraft.client.gui.container.ContainerScreenSanguinaryEnvironmentalAccumulator": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 29
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 29
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 29
+            }
+        }
+    },
+    "org.cyclops.evilcraft.client.gui.container.ContainerScreenSpiritReanimator": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 29
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 29
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 29
+            }
+        }
+    },
+    "org.cyclops.evilcraft.client.gui.container.ContainerScreenExaltedCrafter": {
+        "playerSideOnly": true,
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -42,
+                "bottom": -11
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": -30,
+                "bottom": -23
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": -18,
+                "bottom": -35
+            }
+        }
+    }
+}

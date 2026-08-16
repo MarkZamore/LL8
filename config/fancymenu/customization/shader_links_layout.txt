@@ -1,0 +1,224 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = shader_links
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1726591967387
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:79889a92-aafa-4614-9321-c78c49a3bf10-1726591961816] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/background.jpg
+  slide = false
+  repeat_texture = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+element {
+  interactable = true
+  source = ## **↳ Shaders for TNP Limitless 8?**%n%To get **Shaders** working for **TNP Limitless 8** you will need to **download** the mod **Iris**, then **add it** to your **mods folder**.%n%%n%**The mods folder is located in the modpack's root directory. How to find it?**%n%a) If you're using the **CurseForge Launcher** right-click your instance and click "**Open Folder**".%n%b) If you're using the **Prism Launcher** right-click your instance and click "**Folder**".%n%c) If you're using the **ATLauncher** click "**Open Folder**".%n%%n%## **%n%### • ↳ NOTES & DOWNLOAD LINK:%n%**You need the exact file linked on the icon here! →       (click it).**%n%**Do NOT download through a launcher as this could potentially download the wrong file.**%n%**The version linked will update whenever new a version is released and is stable enough.**%n%%n%**When downloaded. Continue on the right side of your screen. →**%n%## **
+  source_mode = direct
+  shadow = true
+  scale = 0.5
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 5ca4c3b7-6eee-48d2-b4b5-5e0b74dfbf40-1726515678552
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 233
+  height = 185
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = f2adf6b3-bf7a-466b-8cb0-2140a8df80bb-1726515678552
+  [loading_requirement_container_meta:f2adf6b3-bf7a-466b-8cb0-2140a8df80bb-1726515678552] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = ## • ↳ **When downloaded**:%n%**-** Drag and drop the downloaded **Iris jar file** into the **mods folder**.%n%**-** Restart **TNP Limitless 8**.%n%**-** Go into **Options** -> **Sodium Settings** -> **Shader Packs** top right or middle left "Iris" category.%n%**-** Now **download** a **Shader Pack** of your choice.%n%**-** When **downloaded**, **drag and drop** the **Shader Pack** onto the current screen.%n%**-** Select your **Shader Pack**, hit **Apply** at the bottom.%n%**-** A **lag spike** is now expected.%n%**-** Done, your **Shader Pack** is now **installed**, **loaded** and **ready**.%n%%n%## • ↳ Recommended Shaders: %n%**-** **Complementary Shaders - Reimagined**%n%**-** **Complementary Shaders - Unbound **%n%%n%## • ↳ Final notes: %n%Please do note that using Shaders can be highly unstable and can cause crashes, rendering issues, lag & overall instability.%n%%n%You've been informed, so use shaders with this in mind!%n%**-** Gbergz, TNP Team.%n%## 
+  source_mode = direct
+  shadow = true
+  scale = 0.5
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = e3cc70e2-2509-4611-9113-0ceef6bc44ba-1726516246900
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-right
+  x = -194
+  y = -192
+  width = 194
+  height = 192
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = ed615471-697a-49b7-ab9a-1c5a9fe2c249-1726516246900
+  [loading_requirement_container_meta:ed615471-697a-49b7-ab9a-1c5a9fe2c249-1726516246900] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = b7259304-cb34-422d-a464-001a0884f606-1726515448428
+  [executable_action_instance:5b19f248-b873-4219-ab23-8cae3cbd753e-1726515574727][action_type:openlink] = https://legacy.curseforge.com/minecraft/mc-mods/irisshaders/files/5765375
+  [executable_block:b7259304-cb34-422d-a464-001a0884f606-1726515448428][type:generic] = [executables:5b19f248-b873-4219-ab23-8cae3cbd753e-1726515574727;]
+  backgroundnormal = [source:local]/config/fancymenu/assets/iris.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/iris_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = Click me to download the correct Iris version!%n%&7(Clicking this will open your browser.)
+  label = 
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = b1d92765-e9e9-47ab-aabb-441f79ca1e0e-1726515448428
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 132
+  y = 107
+  width = 12
+  height = 11
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 508b1c34-a37b-4957-916e-1c0726c0f8fa-1726515448428
+  [loading_requirement_container_meta:508b1c34-a37b-4957-916e-1c0726c0f8fa-1726515448428] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = ↳
+  source_mode = direct
+  shadow = true
+  scale = 5.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = ce1d4d8c-c935-4f9e-ab1e-7bafb0fc88ad-1726517667757
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 7
+  y = -34
+  width = 38
+  height = 47
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 43aaa083-1ccf-46b2-9d4b-142f688f628e-1726517667757
+  [loading_requirement_container_meta:43aaa083-1ccf-46b2-9d4b-142f688f628e-1726517667757] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 4a99c163-88fb-4fe4-a4ed-b576b66bd16a-1726518219611
+  [executable_action_instance:bfe6cc11-b914-4a82-a3e6-003ec9eba9b1-1726518322424][action_type:opengui] = pause_screen
+  [executable_block:4a99c163-88fb-4fe4-a4ed-b576b66bd16a-1726518219611][type:generic] = [executables:bfe6cc11-b914-4a82-a3e6-003ec9eba9b1-1726518322424;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = Back to Game Menu
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 8b9d83f9-70bb-4465-adb6-d3b04dc86bcf-1726518219611
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-left
+  x = 7
+  y = -27
+  width = 120
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 53a833e2-9cb9-4870-a0df-944cfdcd544e-1726518219611
+  [loading_requirement_container_meta:53a833e2-9cb9-4870-a0df-944cfdcd544e-1726518219611] = [groups:][instances:]
+}
+

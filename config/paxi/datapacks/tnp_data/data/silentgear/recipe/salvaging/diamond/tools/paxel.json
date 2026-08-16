@@ -1,0 +1,22 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "mekanismtools:diamond_paxel"
+  },
+  "results": [
+    {
+      "id": "minecraft:diamond_axe"
+    },
+    {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    {
+      "id": "minecraft:diamond_shovel"
+    },
+    {
+      "id": "minecraft:stick",
+      "count": 2
+    }
+  ]
+}
+

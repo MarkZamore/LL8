@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "id": "mysticalagriculture:nausea_resistance_augment"
+    },
+    "title": "Craft any Augment",
+    "description": "Used by quests (ignore).",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mysticalagriculture:absorption_i_augment",
+              "mysticalagriculture:luck_i_augment",
+              "mysticalagriculture:health_boost_i_augment",
+              "mysticalagriculture:pathing_aoe_i_augment",
+              "mysticalagriculture:nausea_resistance_augment",
+              "mysticalagriculture:luck_ii_augment",
+              "mysticalagriculture:absorption_iii_augment",
+              "mysticalagriculture:blindness_resistance_augment",
+              "mysticalagriculture:pathing_aoe_ii_augment",
+              "mysticalagriculture:tilling_aoe_i_augment",
+              "mysticalagriculture:mining_aoe_i_augment",
+              "mysticalagriculture:speed_i_augment",
+              "mysticalagriculture:health_boost_ii_augment",
+              "mysticalagriculture:jump_boost_i_augment",
+              "mysticalagriculture:absorption_ii_augment",
+              "mysticalagriculture:water_breathing_augment",
+              "mysticalagriculture:night_vision_augment",
+              "mysticalagriculture:fire_resistance_augment",
+              "mysticalagriculture:jump_boost_ii_augment",
+              "mysticalagriculture:step_assist_augment",
+              "mysticalagriculture:health_boost_iii_augment",
+              "mysticalagriculture:strength_i_augment",
+              "mysticalagriculture:speed_ii_augment",
+              "mysticalagriculture:haste_i_augment",
+              "mysticalagriculture:no_fall_damage_augment",
+              "mysticalagriculture:slow_falling_augment",
+              "mysticalagriculture:mining_aoe_ii_augment",
+              "mysticalagriculture:attack_aoe_i_augment",
+              "mysticalagriculture:tilling_aoe_ii_augment",
+              "mysticalagriculture:attack_aoe_ii_augment",
+              "mysticalagriculture:mining_aoe_iii_augment",
+              "mysticalagriculture:haste_ii_augment",
+              "mysticalagriculture:speed_iii_augment",
+              "mysticalagriculture:strength_ii_augment",
+              "mysticalagriculture:health_boost_iv_augment",
+              "mysticalagriculture:jump_boost_iii_augment",
+              "mysticalagriculture:poison_resistance_augment",
+              "mysticalagriculture:absorption_iv_augment",
+              "mysticalagriculture:slowness_resistance_augment",
+              "mysticalagriculture:weakness_resistance_augment",
+              "mysticalagriculture:pathing_aoe_iii_augment",
+              "mysticalagriculture:tilling_aoe_iii_augment",
+              "mysticalagriculture:pathing_aoe_iv_augment",
+              "mysticalagriculture:mining_fatigue_resistance_augment",
+              "mysticalagriculture:hunger_resistance_augment",
+              "mysticalagriculture:absorption_v_augment",
+              "mysticalagriculture:luck_iii_augment",
+              "mysticalagriculture:wither_resistance_augment",
+              "mysticalagriculture:health_boost_v_augment",
+              "mysticalagriculture:strength_iii_augment",
+              "mysticalagriculture:haste_iii_augment",
+              "mysticalagriculture:flight_augment",
+              "mysticalagriculture:mining_aoe_iv_augment",
+              "mysticalagriculture:attack_aoe_iii_augment",
+              "mysticalagriculture:tilling_aoe_iv_augment"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

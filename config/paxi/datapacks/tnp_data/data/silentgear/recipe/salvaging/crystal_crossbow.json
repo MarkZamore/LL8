@@ -1,0 +1,26 @@
+{
+  "type": "silentgear:salvaging",
+  "ingredient": {
+    "item": "eternal_starlight:crystal_crossbow"
+  },
+  "results": [
+    {
+      "id": "eternal_starlight:golem_steel_ingot"
+    },
+    {
+      "id": "eternal_starlight:blue_starlight_crystal_shard",
+      "count": 2
+    },
+    {
+      "id": "eternal_starlight:red_starlight_crystal_shard"
+    },
+    {
+      "id": "minecraft:string",
+      "count": 2
+    },
+    {
+      "id": "minecraft:tripwire_hook"
+    }
+  ]
+}
+

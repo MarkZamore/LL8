@@ -1,0 +1,10 @@
+{
+  "type": "modern_industrialization:forge_hammer",
+  "ingredient": {
+    "tag": "c:ingots/iesnium"
+  },
+  "result": {
+    "count": 1,
+    "id": "occultism:iesnium_dust"
+  }
+}

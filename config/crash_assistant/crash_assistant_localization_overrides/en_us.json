@@ -1,0 +1,6 @@
+{
+  "gui.comment_under_title_screenshot_notice": "Please read the text above carefully. Screenshot of this GUI, tells us nothing! Thank you.",
+  "gui.comment_under_title": "Below are a few options to resolve this issue.\nIf you are unsure what to do with this, you can join the $CONFIG.text.support_name$.\nPost the generated message from the \"$LANG.gui.upload_all_comment$\" button in the $CONFIG.text.support_place$.",
+  "gui.title_crashed_with_report": "Whoops, $CONFIG.text.modpack_name$ crashed!",
+  "gui.title_crashed_without_report": "Whoops, $CONFIG.text.modpack_name$ crashed without a crash report!"
+}

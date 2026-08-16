@@ -1,0 +1,10 @@
+{
+  "type": "createaddition:rolling",
+  "input": {
+    "tag": "c:plates/energized_copper"
+  },
+  "result": {
+    "count": 2,
+    "id": "energizedpower:energized_copper_wire"
+  }
+}
