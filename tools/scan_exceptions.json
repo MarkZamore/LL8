@@ -1,0 +1,7 @@
+[
+  {
+    "jar": "potionbundles-1.21-1.8.jar",
+    "contains": "neoforge",
+    "reason": "declares neoforge [21.0.143,21.1) but ships in TNP Limitless 8 v1.68.1 which runs NeoForge 21.1.244 in production"
+  }
+]

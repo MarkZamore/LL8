@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "minecraftVersion": "1.21.1",
+  "loader": {
+    "type": "neoforge",
+    "version": "21.1.244"
+  },
+  "clientJar": "minecraft-1.21.1-client.jar"
+}
