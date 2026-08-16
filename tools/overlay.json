@@ -19,13 +19,6 @@
    "key": "backupsToKeep",
    "value": "6",
    "reason": "keep 6 backups instead of LL8's 4"
-  },
-  {
-   "file": "config/lightspeed-common.toml",
-   "table": "startup",
-   "key": "parallelResourceLookup",
-   "value": "false",
-   "reason": "parallel resource lookup live-locks the resource reload on this pack: the client burns a core after sprite stitching and never finishes loading"
   }
  ],
  "remove": [
