@@ -2,7 +2,7 @@
 	#Preload NeoForge path resource pack indexes on Lightspeed worker threads during startup.
 	asyncPreloadPacks = true
 	#Query safe resource-pack segments concurrently while preserving vanilla priority and filter order.
-	parallelResourceLookup = true
+	parallelResourceLookup = false
 	#Minimum safe pack segment size before Lightspeed uses parallel resource lookup. Small segments are faster sequentially.
 	# Default: 4
 	# Range: 2 ~ 64

@@ -1,21 +1,31 @@
 {
-  "schemaVersion": 1,
-  "files": [
-    {
-      "source": "tools/overlay/mods/e4steam-neoforge-mc1.20.2-26.2-v0.2.4.jar",
-      "target": "mods/e4steam-neoforge-mc1.20.2-26.2-v0.2.4.jar",
-      "sha256": "47f0c8671bb8889e226df2bef41779b1e3cdb9271a8cfe3b216cfe6eaf910420",
-      "forbidGlobs": ["e4steam-*.jar", "e4mc*.jar"],
-      "reason": "launcher-pinned Steam P2P transport; the launcher rejects any other e4steam/e4mc jar"
-    }
-  ],
-  "tomlEdits": [
-    {
-      "file": "config/simplebackups-common.toml",
-      "table": "",
-      "key": "backupsToKeep",
-      "value": "6",
-      "reason": "keep 6 backups instead of LL8's 4"
-    }
-  ]
+ "schemaVersion": 1,
+ "files": [
+  {
+   "source": "tools/overlay/mods/e4steam-neoforge-mc1.20.2-26.2-v0.2.4.jar",
+   "target": "mods/e4steam-neoforge-mc1.20.2-26.2-v0.2.4.jar",
+   "sha256": "47f0c8671bb8889e226df2bef41779b1e3cdb9271a8cfe3b216cfe6eaf910420",
+   "forbidGlobs": [
+    "e4steam-*.jar",
+    "e4mc*.jar"
+   ],
+   "reason": "launcher-pinned Steam P2P transport; the launcher rejects any other e4steam/e4mc jar"
+  }
+ ],
+ "tomlEdits": [
+  {
+   "file": "config/simplebackups-common.toml",
+   "table": "",
+   "key": "backupsToKeep",
+   "value": "6",
+   "reason": "keep 6 backups instead of LL8's 4"
+  },
+  {
+   "file": "config/lightspeed-common.toml",
+   "table": "startup",
+   "key": "parallelResourceLookup",
+   "value": "false",
+   "reason": "parallel resource lookup live-locks the resource reload on this pack: the client burns a core after sprite stitching and never finishes loading"
+  }
+ ]
 }
