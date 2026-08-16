@@ -27,5 +27,15 @@
    "value": "false",
    "reason": "parallel resource lookup live-locks the resource reload on this pack: the client burns a core after sprite stitching and never finishes loading"
   }
+ ],
+ "remove": [
+  {
+   "path": "mods/CrashAssistant-*.jar",
+   "reason": "points crash reports at the TNP support channels; this pack has its own report button"
+  },
+  {
+   "path": "config/crash_assistant",
+   "reason": "configuration of the removed mod"
+  }
  ]
 }

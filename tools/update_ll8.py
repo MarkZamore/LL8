@@ -780,6 +780,19 @@ def apply_overlay() -> list[str]:
                      f"glob of {spec['target']} ({spec.get('reason', 'pinned')}); "
                      "resolve manually and update tools/overlay.json")
         summary.append(f"pinned {spec['target']}")
+    for spec in overlay.get("remove", []):
+        # LL8 ships a few things this pack has no use for. They are deleted
+        # after staging rather than skipped during it, so a rename upstream
+        # shows up as "matched nothing" instead of silently coming back.
+        matched = sorted(REPO_ROOT.glob(spec["path"]))
+        for path in matched:
+            if path.is_dir():
+                shutil.rmtree(path)
+            else:
+                path.unlink()
+        summary.append(
+            f"removed {spec['path']} ({len(matched)} path(s))"
+            if matched else f"removed nothing for {spec['path']} - upstream may have renamed it")
     for edit in overlay.get("tomlEdits", []):
         summary.append(apply_toml_edit(edit))
     for line in summary:
