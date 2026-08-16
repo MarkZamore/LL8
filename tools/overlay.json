@@ -19,6 +19,13 @@
    "key": "backupsToKeep",
    "value": "6",
    "reason": "keep 6 backups instead of LL8's 4"
+  },
+  {
+   "file": "config/lightspeed-common.toml",
+   "table": "startup",
+   "key": "parallelResourceLookup",
+   "value": "false",
+   "reason": "deadlocks the client on this pack: a thread dump on 2026-08-17 showed the render thread and ten workers all parked on one zip filesystem lock, with lightspeed$searchSafeSegment in the stacks - the directory walk inside a jar needs the write lock and never gets it"
   }
  ],
  "remove": [
