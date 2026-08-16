@@ -419,6 +419,34 @@ class NbtFile:
 
 # ------------------------------------------------------------------ migration
 
+def long_path(path: pathlib.Path) -> str:
+    r"""Windows still stops at 260 characters unless a path says otherwise.
+
+    The waypoint store nests a player UUID under a twenty-digit revision
+    directory, and copying that into a timestamped backup folder is exactly the
+    case that overflows. The \\?\ prefix lifts the limit; it demands an
+    absolute path with no relative parts, which abspath already guarantees.
+    """
+    text = os.path.abspath(path)
+    if os.name != "nt" or text.startswith("\\\\?\\"):
+        return text
+    if text.startswith("\\\\"):
+        return "\\\\?\\UNC\\" + text[2:]
+    return "\\\\?\\" + text
+
+
+def copy_tree_long(source: pathlib.Path, destination: pathlib.Path) -> None:
+    """copytree that survives deep paths on Windows."""
+    root_source = long_path(source)
+    root_destination = long_path(destination)
+    for current, _, files in os.walk(root_source):
+        relative = os.path.relpath(current, root_source)
+        target = root_destination if relative == "." else os.path.join(root_destination, relative)
+        os.makedirs(target, exist_ok=True)
+        for name in files:
+            shutil.copy2(os.path.join(current, name), os.path.join(target, name))
+
+
 class Migration:
     """Holds the plan; every stage records what it did (or would do)."""
 
@@ -574,7 +602,7 @@ class Migration:
         self.act(f"backup {self.world} -> {self.backup_dir}")
         # The directory may already hold this run's report/cache files.
         self.backup_dir.mkdir(parents=True, exist_ok=True)
-        shutil.copytree(self.world, copy)
+        copy_tree_long(self.world, copy)
         self.log(f"backup complete: {self.backup_dir}")
 
     # -------------------------------------------------------------- scrubbing
