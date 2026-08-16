@@ -1027,6 +1027,20 @@ def changed_paths() -> list[str]:
     for record in out.stdout.split("\0"):
         if len(record) > 3:
             paths.append(record[3:])
+    # Pack content hidden from git by the pack's OWN nested .gitignore files
+    # (LL8 ships config/almostunified/.gitignore which ignores its own
+    # debug.json) must still be committed, or CI clones would publish an
+    # incomplete release. commit_slices force-adds, so listing them suffices.
+    roots = [root for root in MANAGED_ROOTS if (REPO_ROOT / root).is_dir()]
+    if roots:
+        ignored = subprocess.run(
+            ["git", "-C", str(REPO_ROOT), "ls-files", "--others", "--ignored",
+             "--exclude-standard", "-z", "--", *roots],
+            capture_output=True, text=True, encoding="utf-8")
+        if ignored.returncode == 0:
+            for record in ignored.stdout.split("\0"):
+                if record:
+                    paths.append(record)
     return paths
 
 
@@ -1072,7 +1086,9 @@ def commit_slices(paths: list[str], message_base: str,
             spec.write("\0".join(":(literal)" + p for p in chunk))
             spec_path = spec.name
         try:
-            run_git("add", "-A", "--pathspec-from-file", spec_path,
+            # -f: some shipped paths are ignored by the pack's own nested
+            # .gitignore files (see changed_paths) yet must be committed.
+            run_git("add", "-A", "-f", "--pathspec-from-file", spec_path,
                     "--pathspec-file-nul")
         finally:
             os.unlink(spec_path)
