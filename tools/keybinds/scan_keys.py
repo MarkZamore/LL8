@@ -14,8 +14,15 @@ cannot say:
   * the mappings of mods installed after that options.txt was written: they are
     missing from it entirely, yet in game they arrive on their own default key,
     on top of whatever the layout put there. Every KeyMapping the bytecode
-    builds from a literal name is read out with its default key, so a mod added
-    yesterday cannot hide from the layout until someone plays.
+    builds under a literal name is read out here, with its default key when that
+    is literal too.
+
+This last pass is a net, not a proof. A mod that glues its names together at
+runtime ("key.mekanism." + mode) or registers through a shared library hands
+the bytecode no name to read, and stays invisible until an instance has run
+with it and written its options.txt. So a fresh snapshot is still the ground
+truth; the jars only make sure a mod added since cannot land on the layout
+unannounced.
 
 The context decides which mappings may share a physical key, so the layout in
 ../../launcher/controls-preset.txt is designed and checked against this stock.
@@ -83,6 +90,12 @@ LANG_CANDIDATE = re.compile(r"^key[._]|^keybind|\.keybinding\.")
 # glues together at runtime (open_backpack; those mods are in the options
 # snapshot anyway) - and NOT_A_NAME throws out the categories and translation
 # keys that pass it.
+# Calls that mean the string beside them is half of a name, not a name.
+NAME_BUILDERS = {
+    ("net/minecraft/Util", "makeDescriptionId"), ("java/lang/String", "format"),
+    ("java/lang/String", "concat"), ("java/lang/StringBuilder", "append"),
+    ("java/lang/StringBuilder", "toString"),
+}
 MAPPING_NAME = re.compile(r"^[a-z][a-z0-9_]*(\.[a-z][A-Za-z0-9_]*)+$")
 NOT_A_NAME = re.compile(r"category|categories|itemGroup|^mod\.|%|^key\.keyboard\.|^key\.mouse\.")
 
@@ -276,8 +289,10 @@ def discover_code(code: bytes, cls: ClassFile) -> list[tuple[str, str]]:
         elif op in (INVOKESPECIAL, INVOKEVIRTUAL, INVOKESTATIC, INVOKEINTERFACE):
             member = cls.member(struct.unpack_from(">H", code, pc + 1)[0])
             if member and member[1] == "<init>" and member[0].endswith("KeyMapping"):
-                found.extend(read_construction(window[-8:]))
+                found.extend(read_construction(window[-12:]))
                 window = []
+            elif member:
+                window.append(("call", member))
 
         if op == TABLESWITCH:
             aligned = (pc + 4) & ~3
@@ -295,19 +310,30 @@ def discover_code(code: bytes, cls: ClassFile) -> list[tuple[str, str]]:
 
 
 def read_construction(window: list[tuple[str, object]]) -> list[tuple[str, str]]:
-    """One KeyMapping construction, if its name and default key are both literal."""
+    """One KeyMapping construction: its name, and its default key if that was literal.
+
+    A mapping needs a name and a category, and both are strings a mod almost
+    always writes out. Its default key is less reliable: it may be a number in
+    the code (72), a name InputConstants is asked to look up, or something
+    computed - IronJetpacks passes InputConstants.UNKNOWN.getValue(). The name
+    is what the layout needs, so a construction counts even when the key does
+    not read, and the default is left blank rather than guessed.
+    """
     strings = [value for kind, value in window if kind == "string" and value]
     numbers = [value for kind, value in window if kind == "int"]
+    if any(kind == "call" and value in NAME_BUILDERS for kind, value in window):
+        # The mod is assembling the name (Util.makeDescriptionId("key.mapping",
+        # ...)); the literal here is a prefix, not a mapping.
+        return []
     names = [text for text in strings if MAPPING_NAME.match(text) and not NOT_A_NAME.search(text)]
     keys = [text for text in strings if text.startswith(("key.keyboard.", "key.mouse."))]
-    if not names:
+    if not names or len(strings) < 2:
         return []
     if keys:
         return [(names[0], keys[0])]
-    if numbers and len(strings) >= 2:
+    if numbers:
         return [(names[0], key_name(numbers[-1]))]
-    return []
-
+    return [(names[0], "")]
 
 def scan_jar(path: Path, known: set[str]):
     """Mod ids, lang entries, (key, context) evidence and mappings from one jar."""
@@ -397,6 +423,7 @@ def main() -> int:
     evidence: dict[str, set[str]] = defaultdict(set)
     discovered: dict[str, str] = {}
     discovered_owner: dict[str, str] = {}
+    from_jars: dict[str, str] = {}
     jars = sorted(MODS.glob("*.jar"))
     for index, jar in enumerate(jars, 1):
         mod_ids, jar_lang, jar_lang_ru, jar_evidence, jar_discovered = scan_jar(jar, known)
@@ -411,6 +438,7 @@ def main() -> int:
                 lang_ru[key] = text
         for key, context in jar_evidence:
             evidence[key].add(context)
+        from_jars.update(jar_discovered)
         for key, default in jar_discovered.items():
             if key not in known and key not in discovered:
                 discovered[key] = default
@@ -418,6 +446,10 @@ def main() -> int:
         if index % 100 == 0:
             print(f"  {index}/{len(jars)} jars", file=sys.stderr)
 
+    # How wide the net is, said out loud: the mods whose names the bytecode
+    # spells out are covered, the ones that build names at runtime are not.
+    readable = len(set(from_jars) & set(live))
+    print(f"{readable} of the {len(live)} mappings in the snapshot were also readable from the jars")
     if discovered:
         known |= set(discovered)
         print(f"{len(discovered)} mapping(s) only the jars know (a mod added since that options.txt):")
