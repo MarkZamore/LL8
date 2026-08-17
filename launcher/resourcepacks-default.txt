@@ -1,0 +1,21 @@
+# Resource packs the pack switches on for a player who has already played.
+#
+# The game reads its seed options (configureddefaults/options.txt) only when an
+# instance has none, so without this list an existing player would receive these
+# files and never see them selected. The launcher applies the list once per
+# version of it - change a line and every instance gets it again - and after
+# that the choice is the player's: a pack switched off stays off.
+#
+# Order matters the way the game reads it: later lines sit above earlier ones
+# where two packs touch the same texture. Gray's Mob Overhaul is last on
+# purpose, since it and Cute Mob Models both redraw the mobs.
+#
+# "!" marks a pack built for an older game; it plays, but the game keeps such
+# packs in a list of its own and would otherwise ask about them every launch.
+
+file/AnimeMemePackv8.1.0.zip
+!file/Anime Paintings 1.0.zip
+file/Totem of GAGAGA 7tv emote 1.0.zip
+!file/MOANING MOBS by Gooey 0.1.zip
+file/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip
+file/Grays Mob Overhaul v13.zip

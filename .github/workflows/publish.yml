@@ -31,6 +31,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Fetch the files too large for git
+        # Cobblemon is 123 MB, over GitHub's per-file limit, and the meme pack
+        # would be committed twice: both are pulled here, by hash.
+        run: python tools/fetch_remote_files.py
+
       - name: Scan mods
         run: |
           if [ -f tools/scan_mods.py ]; then

@@ -1,0 +1,25 @@
+#This should under no circumstances be set to true in modpacks
+#If set to true, the mod creates a new global folder, that is global for your user on your computer.
+#The created folders will be:
+# <user_home>/.minecraft_global_packs/required_datapacks
+# <user_home>/.minecraft_global_packs/optional_datapacks
+# <user_home>/.minecraft_global_packs/required_resourcepacks
+# <user_home>/.minecraft_global_packs/optional_resourcepacks
+enable_system_global_packs = false
+config_version = 4
+log_pack_ids = false
+
+#This config allows you to add or remove folders or single files as Data-/Resourcepacks
+#For that simply specify the file path to the folder/file relative to your .minecraft or instance folder
+#With the current config you can place a Datapack into '.minecraft/global_packs/required_data' to force enable a datapack.
+[resourcepacks]
+	#Each entry is added on top of the previous one, so the last line wins where two
+	#packs touch the same texture. Gray's Mob Overhaul is last on purpose: it and
+	#Cute Mob Models both redraw the mobs.
+	required = ["config/paxi/resourcepacks", "config/paxi/resourcepacks-ours/AnimeMemePackv8.1.0.zip", "config/paxi/resourcepacks-ours/Anime Paintings 1.0.zip", "config/paxi/resourcepacks-ours/Totem of GAGAGA 7tv emote 1.0.zip", "config/paxi/resourcepacks-ours/MOANING MOBS by Gooey 0.1.zip", "config/paxi/resourcepacks-ours/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip", "config/paxi/resourcepacks-ours/Grays Mob Overhaul v13.zip"]
+	enable_builtin = []
+
+[datapacks]
+	required = ["config/paxi/datapacks"]
+	optional = ["config/paxi/optional_data"]
+	enable_builtin = []

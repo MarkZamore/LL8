@@ -161,6 +161,21 @@ key.clienttweaks.disableStepAssist	clienttweaks	UNIVERSAL	assumed	key.keyboard.u
 key.clienttweaks.hideHands	clienttweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Hide Hands	
 key.clienttweaks.hideOffhandItem	clienttweaks	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Hide Offhand Item	Переключить скрытие предмета для второй руки
 key.clienttweaks.mineSingleBlock	clienttweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Mine Single Block	
+key.cobblemon.downshiftparty	cobblemon	UNIVERSAL	assumed	key.keyboard.down		jar	Party Shift Down	Выбор Покемона в команде (Вниз)
+key.cobblemon.hideparty	cobblemon	UNIVERSAL	assumed	key.keyboard.o		jar	Hide Party Overlay	Спрятать табло с командой
+key.cobblemon.pokenavigator	cobblemon	UNIVERSAL	assumed	key.keyboard.n		jar	Open PokéNav	Открыть ПокеНав
+key.cobblemon.printmodelsettings	cobblemon	UNIVERSAL	assumed	key.keyboard.period		jar	Print Model Settings	Настройки модельки
+key.cobblemon.ridingfreelook	cobblemon	UNIVERSAL	assumed	key.keyboard.left.alt		jar	Riding Freelook	
+key.cobblemon.scaleportraitdown	cobblemon	UNIVERSAL	assumed	key.keyboard.minus		jar	Scale Portrait Down	Увеличение портрета (Вниз)
+key.cobblemon.scaleportraitup	cobblemon	UNIVERSAL	assumed	key.keyboard.equal		jar	Scale Portrait Up	Увеличение портрета (Вверх)
+key.cobblemon.summary	cobblemon	UNIVERSAL	assumed	key.keyboard.m		jar	Open Summary	Открыть описание
+key.cobblemon.throwpartypokemon	cobblemon	UNIVERSAL	assumed	key.keyboard.r		jar	Throw Selected Pokémon	Вызвать выбранного Покемона
+key.cobblemon.toggleridingstatsgui	cobblemon	UNIVERSAL	assumed	key.keyboard.semicolon		jar	Toggle Riding Stats GUI	Показатели для езды
+key.cobblemon.translateportraitdown	cobblemon	UNIVERSAL	assumed	key.keyboard.k		jar	Translate Portrait Down	Перенос портрета (Вниз)
+key.cobblemon.translateportraitleft	cobblemon	UNIVERSAL	assumed	key.keyboard.j		jar	Translate Portrait Left	Перенос портрета (Влево)
+key.cobblemon.translateportraitright	cobblemon	UNIVERSAL	assumed	key.keyboard.j		jar	Translate Portrait Right	Перенос портрета (Вправо)
+key.cobblemon.translateportraitup	cobblemon	UNIVERSAL	assumed	key.keyboard.i		jar	Translate Portrait Up	Перенос портрета (Вверх)
+key.cobblemon.upshiftparty	cobblemon	UNIVERSAL	assumed	key.keyboard.up		jar	Party Shift Up	Выбор Покемона в команде (Вверх)
 key.command	minecraft	UNIVERSAL	assumed	key.keyboard.slash	key.keyboard.slash	options+defaults		
 key.configured.open_mod_list	configured	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Open Mod List	Open Mod List
 key.constructionstick.change_direction	constructionstick	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Direction	Переключить направление

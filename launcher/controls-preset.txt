@@ -198,6 +198,23 @@ key_key.clienttweaks.hideHands:key.keyboard.unknown
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
 key_key.clienttweaks.mineSingleBlock:key.keyboard.unknown
 
+# --- cobblemon ---
+key_key.cobblemon.throwpartypokemon:key.keyboard.r  # Throw the selected Pokemon - its own default; the spell wheel moved off R
+key_key.cobblemon.summary:key.keyboard.o  # Open the summary; was m, which is the world map
+key_key.cobblemon.ridingfreelook:key.keyboard.n  # Look around while riding (hold); was left.alt, where Jade lives
+key_key.cobblemon.hideparty:key.keyboard.unknown  # unbound: hides the party overlay, one cosmetic flag
+key_key.cobblemon.upshiftparty:key.keyboard.unknown  # unbound: hold the throw key and scroll the wheel - Cobblemon does this itself
+key_key.cobblemon.downshiftparty:key.keyboard.unknown  # unbound: the same wheel, the other way
+key_key.cobblemon.pokenavigator:key.keyboard.unknown  # unbound: built but never registered in 1.7.3, so the game never shows it
+key_key.cobblemon.printmodelsettings:key.keyboard.unknown  # unbound: debug, and the debug keys only register when enableDebugKeys is on
+key_key.cobblemon.scaleportraitup:key.keyboard.unknown  # unbound: debug
+key_key.cobblemon.scaleportraitdown:key.keyboard.unknown  # unbound: debug
+key_key.cobblemon.translateportraitup:key.keyboard.unknown  # unbound: debug
+key_key.cobblemon.translateportraitdown:key.keyboard.unknown  # unbound: debug
+key_key.cobblemon.translateportraitleft:key.keyboard.unknown  # unbound: debug
+key_key.cobblemon.translateportraitright:key.keyboard.unknown  # unbound: debug, and it ships on the same key as its left-hand twin
+key_key.cobblemon.toggleridingstatsgui:key.keyboard.unknown  # unbound: debug
+
 # --- compactmachines ---
 key_key.mapping.compactmachines.exit_room:key.keyboard.unknown
 key_key.mapping.compactmachines.open_upgrade_screen:key.keyboard.unknown
@@ -389,7 +406,7 @@ key_framedblocks.key.wipe_cache:key.keyboard.unknown
 # --- ftbchunks ---
 key_key.ftbchunks.add_waypoint:key.keyboard.unknown
 key_key.ftbchunks.claim_manager:key.keyboard.unknown
-key_key.ftbchunks.map:key.keyboard.j  # Open Map
+key_key.ftbchunks.map:key.keyboard.unknown  # was j: the spell wheel took it, and FTB Chunks opens from the sidebar button in the inventory
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.unknown  # was equal: Xaero is the minimap
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.unknown  # was minus: Xaero is the minimap
 key_key.ftbchunks.toggle_minimap:key.keyboard.unknown
@@ -506,7 +523,7 @@ key_key.irons_spellbooks.spell_quick_cast_6:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_7:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_8:key.keyboard.unknown
 key_key.irons_spellbooks.spell_quick_cast_9:key.keyboard.unknown
-key_key.irons_spellbooks.spell_wheel:key.keyboard.r  # Spell Wheel Hold
+key_key.irons_spellbooks.spell_wheel:key.keyboard.j  # Spell Wheel Hold; was r, which is where Cobblemon throws from
 key_key.irons_spellbooks.spell_wheel_toggle:key.keyboard.unknown
 key_key.irons_spellbooks.spellbook_cast:key.keyboard.v  # Cast Selected Spell
 
@@ -576,7 +593,7 @@ key_key.mekanism.head_mode:key.keyboard.keypad.7  # Head Mode Switch
 key_key.mekanism.key_boost:key.keyboard.keypad.decimal  # Boost
 key_key.mekanism.key_hud:key.keyboard.unknown  # was h: MekaSuit HUD toggle; rare
 key_key.mekanism.legs_mode:key.keyboard.keypad.9  # Legs Mode Switch
-key_key.mekanism.mode:key.keyboard.n  # Item Mode Switch
+key_key.mekanism.mode:key.keyboard.unknown  # was n: riding freelook took it, and this pack already switches item modes with sneak + scroll
 key_key.mekanism.module_tweaker:key.keyboard.backslash  # Module Tweaker
 
 # --- mekanismadditions ---
@@ -942,7 +959,7 @@ key_gui.xaero_enlarge_map:key.keyboard.unknown  # was z: hold-to-enlarge nicety;
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add  # Quick Waypoint
 key_gui.xaero_minimap_server_profiles:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.unknown  # was y: reachable from the world map screen
-key_gui.xaero_new_waypoint:key.keyboard.o  # New Waypoint
+key_gui.xaero_new_waypoint:key.keyboard.unknown  # was o: the Cobblemon summary took it, and a waypoint is one right-click on the world map
 key_gui.xaero_reverse_entity_radar:key.keyboard.unknown
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_toggle_entity_radar:key.keyboard.unknown

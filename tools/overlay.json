@@ -26,6 +26,12 @@
    "reason": "the same pack carries its assets; Global Packs reads it from here"
   },
   {
+   "source": "tools/overlay/configureddefaults/options.txt",
+   "target": "configureddefaults/options.txt",
+   "sha256": "5fc5ea9a130a1b5a44db835e654c5ddb8a2cd991ea19500d0b21a1e0c751cf84",
+   "reason": "the six requested resource packs start enabled here; everything else in this file is LL8's own, so refresh this copy when LL8 changes its defaults"
+  },
+  {
    "source": "tools/overlay/mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
    "target": "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
    "sha256": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
@@ -136,6 +142,36 @@
    "target": "mods/ysm-2.6.5-neoforge+mc1.21.1-release.jar",
    "sha256": "b285c73d4ec010d9a9be3c53c1bee890cf269645be5f1bcf1c27a2e8e82807cb",
    "reason": "requested addition, kept through pack updates (yes steve model 2.6.5)"
+  },
+  {
+   "source": "tools/overlay/packs/Anime Paintings 1.0.zip",
+   "target": "resourcepacks/Anime Paintings 1.0.zip",
+   "sha256": "9b58ae7ad19f49404770b047a61fa4920768c24606400625f934a8ef444464e0",
+   "reason": "requested addition (anime paintings 1.0)"
+  },
+  {
+   "source": "tools/overlay/packs/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip",
+   "target": "resourcepacks/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip",
+   "sha256": "41a1cb8f38e0e654ba86b19e9221213fd58681f6535833b6efa3034d29cbed00",
+   "reason": "requested addition (cute mob models: resource pack 1.2.v5)"
+  },
+  {
+   "source": "tools/overlay/packs/Grays Mob Overhaul v13.zip",
+   "target": "resourcepacks/Grays Mob Overhaul v13.zip",
+   "sha256": "06be4f00809d0d2dea767ad61feeda910361a86d79dc03c958f09bfd7d5e3410",
+   "reason": "requested addition (gray's mob overhaul v13); last in the enabled list, so it sits above Cute Mob Models where both redraw a mob"
+  },
+  {
+   "source": "tools/overlay/packs/MOANING MOBS by Gooey 0.1.zip",
+   "target": "resourcepacks/MOANING MOBS by Gooey 0.1.zip",
+   "sha256": "8727fa0ad374b48adc79aab9d5f275b50412238984768f99f2bfb1142f93d601",
+   "reason": "requested addition (moaning mobs 0.1); built for 1.18, so it is listed as incompatible in the seed options - the game plays it anyway"
+  },
+  {
+   "source": "tools/overlay/packs/Totem of GAGAGA 7tv emote 1.0.zip",
+   "target": "resourcepacks/Totem of GAGAGA 7tv emote 1.0.zip",
+   "sha256": "51acd5c80c648096e64f6356c9c513d7d7240a945f716e5f0610d81e01e2de50",
+   "reason": "requested addition (totem of :GAGAGA: 7tv emote 1.0)"
   }
  ],
  "tomlEdits": [

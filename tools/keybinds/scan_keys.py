@@ -50,6 +50,10 @@ DEFAULTS = REPO / "configureddefaults" / "options.txt"
 CONTEXT_CLASS = "net/neoforged/neoforge/client/settings/KeyConflictContext"
 KEYMAPPING_CLASS = "net/minecraft/client/KeyMapping"
 INPUT_TYPE_CLASS = "com/mojang/blaze3d/platform/InputConstants$Type"
+# A mod may not call the vanilla constructor at all: Cobblemon builds its keys
+# through CobblemonKeyBinding, which passes the name up to KeyMapping itself.
+# A class whose name ends this way is a key binding whoever wrote it.
+KEYBIND_CLASSES = ("KeyMapping", "KeyBinding", "Keybinding", "KeyBind")
 KEY_LINE = re.compile(r"^key_(?P<name>[^:]+):(?P<value>.+)$")
 
 UNBOUND_KEY = "key.keyboard.unknown"
@@ -294,7 +298,7 @@ def discover_code(code: bytes, cls: ClassFile) -> list[tuple[str, str]]:
                 window.append(("input", member[1]))
         elif op in (INVOKESPECIAL, INVOKEVIRTUAL, INVOKESTATIC, INVOKEINTERFACE):
             member = cls.member(struct.unpack_from(">H", code, pc + 1)[0])
-            if member and member[1] == "<init>" and member[0].endswith("KeyMapping"):
+            if member and member[1] == "<init>" and member[0].endswith(KEYBIND_CLASSES):
                 found.extend(read_construction(window[-12:]))
                 window = []
             elif member and any(kind == "input" for kind, _ in window):
@@ -337,7 +341,14 @@ def read_construction(window: list[tuple[str, object]]) -> list[tuple[str, str]]
         # The mod is assembling the name (Util.makeDescriptionId("key.mapping",
         # ...)); the literal here is a prefix, not a mapping.
         return []
-    names = [text for text in strings if MAPPING_NAME.match(text) and not NOT_A_NAME.search(text)]
+    # The last literal a construction takes is its category, and a category is
+    # never a mapping name: Iron's Spellbooks builds "key.irons_spellbooks." +
+    # "spell_wheel" at runtime and passes key.irons_spellbooks.group_1 as the
+    # category, which otherwise reads exactly like a name. When the category is
+    # not in the window at all - a factory added it - there is a single string
+    # and the InputConstants type beside it says the string is the name.
+    candidates = strings[:-1] if len(strings) >= 2 else strings
+    names = [text for text in candidates if MAPPING_NAME.match(text) and not NOT_A_NAME.search(text)]
     named_a_key = any(kind == "input" for kind, _ in window)
     keys = [text for text in strings if text.startswith(("key.keyboard.", "key.mouse."))]
     if not names or (len(strings) < 2 and not named_a_key):
@@ -382,7 +393,10 @@ def scan_jar(path: Path, known: set[str]):
                     pass
             elif name.endswith(".class"):
                 data = archive.read(name)
-                if CONTEXT_CLASS.encode() not in data and KEYMAPPING_CLASS.encode() not in data:
+                # A mod that never names KeyMapping still has key bindings if it
+                # builds them through a class of its own (Cobblemon does), so the
+                # cheap pre-filter has to know the same names the reader does.
+                if CONTEXT_CLASS.encode() not in data and                         not any(name.encode() in data for name in KEYBIND_CLASSES):
                     continue
                 try:
                     classes.append(ClassFile(data))
@@ -392,7 +406,7 @@ def scan_jar(path: Path, known: set[str]):
         # What the jar builds comes first: a mapping the options snapshot never
         # saw still has to have its context read like everyone else's.
         for cls in classes:
-            if KEYMAPPING_CLASS not in cls.strings():
+            if not any(name.endswith(KEYBIND_CLASSES) for name in cls.strings()):
                 continue
             for code in cls.methods_code():
                 discovered.update(discover_code(code, cls))

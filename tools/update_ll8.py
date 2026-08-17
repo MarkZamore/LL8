@@ -847,6 +847,22 @@ def write_portable_pack(loader_id: str, minecraft_version: str) -> dict:
 
 # ---------------------------------------------------------------- scan gate
 
+def fetch_remote_files() -> None:
+    """Puts back the files too large for git, which sync_managed_roots just wiped.
+
+    They are not in the checkout at all (see tools/remote-files.json), so the
+    rebuilt tree is missing them until this runs - and the dependency scan that
+    follows would report a pack that is not the one players get.
+    """
+    fetcher = TOOLS_DIR / "fetch_remote_files.py"
+    if not fetcher.is_file():
+        return
+    print("\n== remote mods ==")
+    result = subprocess.run([sys.executable, str(fetcher)], cwd=REPO_ROOT, check=False)
+    if result.returncode != 0:
+        fail(EXIT_OVERLAY, "a file listed in tools/remote-files.json could not be fetched")
+
+
 def run_scan() -> None:
     result = subprocess.run(
         [sys.executable, str(TOOLS_DIR / "scan_mods.py"), "--mods", "mods",
@@ -1359,6 +1375,7 @@ def cmd_update(args) -> None:
 
     sync_managed_roots(staged)
     overlay_summary = apply_overlay()
+    fetch_remote_files()
     write_portable_pack(loader_id, manifest["minecraft"]["version"])
     run_scan()
 

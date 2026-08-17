@@ -647,6 +647,66 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
+  "key.cobblemon.downshiftparty": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.hideparty": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.pokenavigator": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.printmodelsettings": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.ridingfreelook": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.scaleportraitdown": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.scaleportraitup": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.summary": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.throwpartypokemon": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.toggleridingstatsgui": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.translateportraitdown": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.translateportraitleft": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.translateportraitright": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.translateportraitup": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cobblemon.upshiftparty": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
   "key.command": {
     "context": "UNIVERSAL",
     "source": "assumed"
