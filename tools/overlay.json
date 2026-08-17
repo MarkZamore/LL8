@@ -22,6 +22,24 @@
    "target": "mods/HatsRenewed-21.1.1-mc1.21.1-neoforge.jar",
    "sha256": "1620ba7e2d48fde4fff5d298d0625acc735e09319583c8dfe9c220a927889ab0",
    "reason": "requested addition, kept through pack updates (hats-renewed 21.1.1-mc1.21.1-neoforge)"
+  },
+  {
+   "source": "tools/overlay/mods/remorphed-4.2.jar",
+   "target": "mods/remorphed-4.2.jar",
+   "sha256": "269a2acb521cb12cf2d6acdec06363b8395ef62622c8d79cf08305b378c45cd3",
+   "reason": "requested addition, kept through pack updates (remorphed 1.21-neoforge-4.2)"
+  },
+  {
+   "source": "tools/overlay/mods/craftedcore-5.8.2.jar",
+   "target": "mods/craftedcore-5.8.2.jar",
+   "sha256": "6bbfe3c0a7c286ca2c34388e3b749d93924a68dd1e89f15c1da47695245f41ed",
+   "reason": "requested addition, kept through pack updates (crafted-core 1.21-neoforge-5.8.2)"
+  },
+  {
+   "source": "tools/overlay/mods/walkers-5.8.12.jar",
+   "target": "mods/walkers-5.8.12.jar",
+   "sha256": "72a3d70ad90b2f9656fe346fadc603338bd40ee2ecf235e45a68012e80e50fee",
+   "reason": "requested addition, kept through pack updates (woodwalkers 1.21-neoforge-5.8.12)"
   }
  ],
  "tomlEdits": [
