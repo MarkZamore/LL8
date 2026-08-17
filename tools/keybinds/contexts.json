@@ -1787,6 +1787,14 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
+  "key.rsrifle.charge_firearm": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.rsrifle.reload": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
   "key.saveToolbarActivator": {
     "context": "UNIVERSAL",
     "source": "assumed"

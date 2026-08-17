@@ -30,6 +30,18 @@
    "reason": "requested addition, kept through pack updates (orbital railgun neoforge 1.21.1 by Nxkoo, 1.4.2-neoforge-beta.2 - the author's newest build)"
   },
   {
+   "source": "tools/overlay/mods/ReinforcedBlackHoles-1.1.5.jar",
+   "target": "mods/ReinforcedBlackHoles-1.1.5.jar",
+   "sha256": "f43d8432b349499e0eaf152064efbbdbba230dd45e8ec066f075b0e398ea2f86",
+   "reason": "required by the requested Reinforced Singularity Rifle (rbh 1.1.5)"
+  },
+  {
+   "source": "tools/overlay/mods/ReinforcedSingularityRifle-1.0.5-1.21.1-neoforge.jar",
+   "target": "mods/ReinforcedSingularityRifle-1.0.5-1.21.1-neoforge.jar",
+   "sha256": "cd3f5efa85955cf4aa51be77d45e17743436d779f56924a35e22da2d1f1e1b9c",
+   "reason": "requested addition, kept through pack updates (rsrifle 1.0.5)"
+  },
+  {
    "source": "tools/overlay/mods/remorphed-4.2.jar",
    "target": "mods/remorphed-4.2.jar",
    "sha256": "269a2acb521cb12cf2d6acdec06363b8395ef62622c8d79cf08305b378c45cd3",
@@ -40,6 +52,24 @@
    "target": "mods/backrooms-2.0.0.jar",
    "sha256": "e0277f1a00bddb5a55313dc3daaa25e4d8c9fa170eb0c24f7c1b77aa4b70d7c4",
    "reason": "requested addition, kept through pack updates (the-backrooms-update 2.0.0)"
+  },
+  {
+   "source": "tools/overlay/mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+   "target": "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+   "sha256": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
+   "reason": "required by the requested Myths of The Sea (cerbons-api 1.3.0)"
+  },
+  {
+   "source": "tools/overlay/mods/MOTS-NeoForge-1.21.1-1.3.0.jar",
+   "target": "mods/MOTS-NeoForge-1.21.1-1.3.0.jar",
+   "sha256": "af3d28ef549c531c1fc1afce6ddd2f4816c8f42e78643b7edea2dbd1795611b1",
+   "reason": "requested addition, kept through pack updates (myths-of-the-sea 1.3.0)"
+  },
+  {
+   "source": "tools/overlay/mods/cave_dweller-1.3b.jar",
+   "target": "mods/cave_dweller-1.3b.jar",
+   "sha256": "9d7bde0b5a3d9c9faee393a425b38487106602e573a82118c06f504705d4a2b9",
+   "reason": "requested addition, kept through pack updates (cave-dweller-reevolved 1.3b)"
   },
   {
    "source": "tools/overlay/mods/craftedcore-5.8.2.jar",

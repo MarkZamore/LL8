@@ -242,7 +242,7 @@ key_crashutils.openscreen:key.keyboard.unknown  # was u:CONTROL: debugging aid
 key_crashutils.slottooltips:key.keyboard.unknown
 
 # --- crawl ---
-key_key.crawl:key.keyboard.c  # Crawl
+key_key.crawl:key.keyboard.pause  # was c: the rifle reloads on it; crawling is rare and never hurried
 
 # --- create ---
 key_create.keyinfo.alt_modifier:key.keyboard.right.alt  # Alt Modifier
@@ -262,7 +262,7 @@ key_key.crystalix.copy_properties:key.keyboard.unknown  # was x
 key_key.crystalix.wand_config:key.keyboard.unknown  # was v
 
 # --- curios ---
-key_key.curios.open.desc:key.keyboard.g  # Open/Close Curios Inventory
+key_key.curios.open.desc:key.keyboard.unknown  # was g: the rifle charges on it, and the Curios screen has its own button in the inventory (enableButton = true)
 
 # --- customfov ---
 key_key.customfov.profile.desc:key.keyboard.unknown
@@ -781,6 +781,10 @@ key_key.prevDestination:key.keyboard.unknown  # was left.bracket: rare
 
 # --- rftoolsbuilder ---
 key_key.unmountVehicle:key.keyboard.unknown  # was backslash: rare
+
+# --- rsrifle ---
+key_key.rsrifle.charge_firearm:key.keyboard.g  # Charge the rifle - its own default; Curios gave the key up
+key_key.rsrifle.reload:key.keyboard.c  # Reload; was crawl, and crawling is not a thing you do mid-fight
 
 # --- screenshot_viewer ---
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown

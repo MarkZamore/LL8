@@ -49,6 +49,7 @@ DEFAULTS = REPO / "configureddefaults" / "options.txt"
 
 CONTEXT_CLASS = "net/neoforged/neoforge/client/settings/KeyConflictContext"
 KEYMAPPING_CLASS = "net/minecraft/client/KeyMapping"
+INPUT_TYPE_CLASS = "com/mojang/blaze3d/platform/InputConstants$Type"
 KEY_LINE = re.compile(r"^key_(?P<name>[^:]+):(?P<value>.+)$")
 
 UNBOUND_KEY = "key.keyboard.unknown"
@@ -97,7 +98,8 @@ NAME_BUILDERS = {
     ("java/lang/StringBuilder", "toString"),
 }
 MAPPING_NAME = re.compile(r"^[a-z][a-z0-9_]*(\.[a-z][A-Za-z0-9_]*)+$")
-NOT_A_NAME = re.compile(r"category|categories|itemGroup|^mod\.|%|^key\.keyboard\.|^key\.mouse\.")
+# ... and a config file name can look just like a mapping name (lightoverlay.properties).
+NOT_A_NAME = re.compile(r"category|categories|itemGroup|^mod\.|%|^key\.keyboard\.|^key\.mouse\.|\.(properties|json|toml|cfg|txt|png|ogg|xml|ya?ml)$")
 
 # One entry per JVM opcode: how many operand bytes follow it. Variable-length
 # opcodes (tableswitch, lookupswitch, wide) are handled in the scanner.
@@ -286,9 +288,19 @@ def discover_code(code: bytes, cls: ClassFile) -> list[tuple[str, str]]:
             window.append(("int", struct.unpack_from(">h", code, pc + 1)[0]))
         elif ICONST_M1 <= op <= ICONST_5:
             window.append(("int", op - ICONST_0))
+        elif op == GETSTATIC:
+            member = cls.member(struct.unpack_from(">H", code, pc + 1)[0])
+            if member and member[0] == INPUT_TYPE_CLASS:
+                window.append(("input", member[1]))
         elif op in (INVOKESPECIAL, INVOKEVIRTUAL, INVOKESTATIC, INVOKEINTERFACE):
             member = cls.member(struct.unpack_from(">H", code, pc + 1)[0])
             if member and member[1] == "<init>" and member[0].endswith("KeyMapping"):
+                found.extend(read_construction(window[-12:]))
+                window = []
+            elif member and any(kind == "input" for kind, _ in window):
+                # A mod may hand its name and key to a factory of its own
+                # rather than to the constructor; InputConstants.Type in the
+                # same breath is what makes it a key mapping either way.
                 found.extend(read_construction(window[-12:]))
                 window = []
             elif member:
@@ -326,8 +338,9 @@ def read_construction(window: list[tuple[str, object]]) -> list[tuple[str, str]]
         # ...)); the literal here is a prefix, not a mapping.
         return []
     names = [text for text in strings if MAPPING_NAME.match(text) and not NOT_A_NAME.search(text)]
+    named_a_key = any(kind == "input" for kind, _ in window)
     keys = [text for text in strings if text.startswith(("key.keyboard.", "key.mouse."))]
-    if not names or len(strings) < 2:
+    if not names or (len(strings) < 2 and not named_a_key):
         return []
     if keys:
         return [(names[0], keys[0])]

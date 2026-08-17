@@ -446,6 +446,8 @@ key.relics.active_abilities_list	relics	UNIVERSAL	assumed	key.keyboard.left.alt	
 key.relics.research_relic	relics	UNIVERSAL	assumed	key.keyboard.left.shift	key.keyboard.left.shift	options+defaults	Research Relic Under Cursor	Исследовать реликвию под курсором
 key.remorphed_menu	remorphed	UNIVERSAL	assumed	key.keyboard.grave.accent		jar	Open menu to choose second shape	
 key.right	minecraft	UNIVERSAL	assumed	key.keyboard.d	key.keyboard.d	options+defaults		
+key.rsrifle.charge_firearm	rsrifle	UNIVERSAL	assumed	key.keyboard.g		jar		
+key.rsrifle.reload	rsrifle	UNIVERSAL	assumed	key.keyboard.r		jar		
 key.saveToolbarActivator	minecraft	UNIVERSAL	assumed	key.keyboard.c	key.keyboard.c	options+defaults		
 key.screenshot	minecraft	UNIVERSAL	assumed	key.keyboard.f2	key.keyboard.f2	options+defaults		
 key.screenshot_viewer.open_screenshots_screen	screenshot_viewer	UNIVERSAL	assumed		key.keyboard.unknown	options	Open Screenshot Manager	
