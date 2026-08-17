@@ -2031,6 +2031,10 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
+  "key.special_ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
   "key.spectatorOutlines": {
     "context": "UNIVERSAL",
     "source": "assumed"

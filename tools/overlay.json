@@ -2,20 +2,34 @@
  "schemaVersion": 1,
  "files": [
   {
-   "source": "tools/overlay/mods/e4steam-neoforge-mc1.20.2-26.2-v0.2.4.jar",
-   "target": "mods/e4steam-neoforge-mc1.20.2-26.2-v0.2.4.jar",
-   "sha256": "47f0c8671bb8889e226df2bef41779b1e3cdb9271a8cfe3b216cfe6eaf910420",
-   "forbidGlobs": [
-    "e4steam-*.jar",
-    "e4mc*.jar"
-   ],
-   "reason": "launcher-pinned Steam P2P transport; the launcher rejects any other e4steam/e4mc jar"
+   "source": "tools/overlay/config/alexscaves-general.toml",
+   "target": "config/alexscaves-general.toml",
+   "sha256": "8bf5203a6bea1432b299add1bc64bc475f3727469f8e6b9a1c383af75a945d1c",
+   "reason": "atlatitan stomps break nothing and the tremorzilla beam stays off; the game fills the rest of this file in"
   },
   {
-   "source": "tools/overlay/mods/PatPat-1.3.1+1.21.1+neoforge.jar",
-   "target": "mods/PatPat-1.3.1+1.21.1+neoforge.jar",
-   "sha256": "f4589ff2b58c08821851d49019ef5ebb7e55c40439727ccca37a70615f0add80",
-   "reason": "requested addition, kept through pack updates (patpat 1.3.1+1.21.1+neoforge)"
+   "source": "tools/overlay/packs/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
+   "target": "config/paxi/datapacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
+   "sha256": "c037a7cfa347260baffd2a1270624e9746c6a01ab75dc40f594542d8fca33f49",
+   "reason": "From The Fog has no NeoForge build for 1.21.1; its own data pack goes in through Global Packs"
+  },
+  {
+   "source": "tools/overlay/packs/ll8_pack_rules.zip",
+   "target": "config/paxi/datapacks/ll8_pack_rules.zip",
+   "sha256": "204da40144e234515f86d432485ccaf51f67f785a8e643cd5be29bd1cb64fc9f",
+   "reason": "our rules: no mob griefing, and From The Fog keeps its hands off the world"
+  },
+  {
+   "source": "tools/overlay/packs/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
+   "target": "config/paxi/resourcepacks/From-The-Fog-1.21-1.21.1-v1.9.4-Data-Resource-Pack.zip",
+   "sha256": "c037a7cfa347260baffd2a1270624e9746c6a01ab75dc40f594542d8fca33f49",
+   "reason": "the same pack carries its assets; Global Packs reads it from here"
+  },
+  {
+   "source": "tools/overlay/mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+   "target": "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+   "sha256": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
+   "reason": "required by the requested Myths of The Sea (cerbons-api 1.3.0)"
   },
   {
    "source": "tools/overlay/mods/HatsRenewed-21.1.1-mc1.21.1-neoforge.jar",
@@ -24,10 +38,16 @@
    "reason": "requested addition, kept through pack updates (hats-renewed 21.1.1-mc1.21.1-neoforge)"
   },
   {
-   "source": "tools/overlay/mods/orbital_railgun-1.4.2-neoforge-beta.2.jar",
-   "target": "mods/orbital_railgun-1.4.2-neoforge-beta.2.jar",
-   "sha256": "77a940e37b10e5127b8dfdf237760c20422a0efe5966b1ffb54dbed22d98917b",
-   "reason": "requested addition, kept through pack updates (orbital railgun neoforge 1.21.1 by Nxkoo, 1.4.2-neoforge-beta.2 - the author's newest build)"
+   "source": "tools/overlay/mods/MOTS-NeoForge-1.21.1-1.3.0.jar",
+   "target": "mods/MOTS-NeoForge-1.21.1-1.3.0.jar",
+   "sha256": "af3d28ef549c531c1fc1afce6ddd2f4816c8f42e78643b7edea2dbd1795611b1",
+   "reason": "requested addition, kept through pack updates (myths-of-the-sea 1.3.0)"
+  },
+  {
+   "source": "tools/overlay/mods/PatPat-1.3.1+1.21.1+neoforge.jar",
+   "target": "mods/PatPat-1.3.1+1.21.1+neoforge.jar",
+   "sha256": "f4589ff2b58c08821851d49019ef5ebb7e55c40439727ccca37a70615f0add80",
+   "reason": "requested addition, kept through pack updates (patpat 1.3.1+1.21.1+neoforge)"
   },
   {
    "source": "tools/overlay/mods/ReinforcedBlackHoles-1.1.5.jar",
@@ -42,10 +62,10 @@
    "reason": "requested addition, kept through pack updates (rsrifle 1.0.5)"
   },
   {
-   "source": "tools/overlay/mods/remorphed-4.2.jar",
-   "target": "mods/remorphed-4.2.jar",
-   "sha256": "269a2acb521cb12cf2d6acdec06363b8395ef62622c8d79cf08305b378c45cd3",
-   "reason": "requested addition, kept through pack updates (remorphed 1.21-neoforge-4.2)"
+   "source": "tools/overlay/mods/alexscaves-2.0.10.jar",
+   "target": "mods/alexscaves-2.0.10.jar",
+   "sha256": "6fad35bf07fcb977aaa32d3fe05bf122150c6a30ed16b057385040207a3b788f",
+   "reason": "requested addition, kept through pack updates (alex's caves unofficial port 2.0.10)"
   },
   {
    "source": "tools/overlay/mods/backrooms-2.0.0.jar",
@@ -54,28 +74,44 @@
    "reason": "requested addition, kept through pack updates (the-backrooms-update 2.0.0)"
   },
   {
-   "source": "tools/overlay/mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
-   "target": "mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
-   "sha256": "5c750762b31ab79127df6f455351fe79793d8c2b41e1a0f94b335a5a1123534d",
-   "reason": "required by the requested Myths of The Sea (cerbons-api 1.3.0)"
-  },
-  {
-   "source": "tools/overlay/mods/MOTS-NeoForge-1.21.1-1.3.0.jar",
-   "target": "mods/MOTS-NeoForge-1.21.1-1.3.0.jar",
-   "sha256": "af3d28ef549c531c1fc1afce6ddd2f4816c8f42e78643b7edea2dbd1795611b1",
-   "reason": "requested addition, kept through pack updates (myths-of-the-sea 1.3.0)"
-  },
-  {
    "source": "tools/overlay/mods/cave_dweller-1.3b.jar",
    "target": "mods/cave_dweller-1.3b.jar",
    "sha256": "9d7bde0b5a3d9c9faee393a425b38487106602e573a82118c06f504705d4a2b9",
    "reason": "requested addition, kept through pack updates (cave-dweller-reevolved 1.3b)"
   },
   {
+   "source": "tools/overlay/mods/citadel-1.21.1-2.7.6.jar",
+   "target": "mods/citadel-1.21.1-2.7.6.jar",
+   "sha256": "9e12468c49e5a95b7adbf22b3b4d05bc55565989b89c40b985cd73bdfe63c3c2",
+   "reason": "required by the requested Alex's Caves port (citadel 1.21.1-2.7.6, Raguto's port - the pack had no citadel of its own)"
+  },
+  {
    "source": "tools/overlay/mods/craftedcore-5.8.2.jar",
    "target": "mods/craftedcore-5.8.2.jar",
    "sha256": "6bbfe3c0a7c286ca2c34388e3b749d93924a68dd1e89f15c1da47695245f41ed",
    "reason": "requested addition, kept through pack updates (crafted-core 1.21-neoforge-5.8.2)"
+  },
+  {
+   "source": "tools/overlay/mods/e4steam-neoforge-mc1.20.2-26.2-v0.2.4.jar",
+   "target": "mods/e4steam-neoforge-mc1.20.2-26.2-v0.2.4.jar",
+   "sha256": "47f0c8671bb8889e226df2bef41779b1e3cdb9271a8cfe3b216cfe6eaf910420",
+   "forbidGlobs": [
+    "e4steam-*.jar",
+    "e4mc*.jar"
+   ],
+   "reason": "launcher-pinned Steam P2P transport; the launcher rejects any other e4steam/e4mc jar"
+  },
+  {
+   "source": "tools/overlay/mods/orbital_railgun-1.4.2-neoforge-beta.2.jar",
+   "target": "mods/orbital_railgun-1.4.2-neoforge-beta.2.jar",
+   "sha256": "77a940e37b10e5127b8dfdf237760c20422a0efe5966b1ffb54dbed22d98917b",
+   "reason": "requested addition, kept through pack updates (orbital railgun neoforge 1.21.1 by Nxkoo, 1.4.2-neoforge-beta.2 - the author's newest build)"
+  },
+  {
+   "source": "tools/overlay/mods/remorphed-4.2.jar",
+   "target": "mods/remorphed-4.2.jar",
+   "sha256": "269a2acb521cb12cf2d6acdec06363b8395ef62622c8d79cf08305b378c45cd3",
+   "reason": "requested addition, kept through pack updates (remorphed 1.21-neoforge-4.2)"
   },
   {
    "source": "tools/overlay/mods/walkers-5.8.12.jar",

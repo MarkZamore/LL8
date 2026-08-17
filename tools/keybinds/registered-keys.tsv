@@ -507,6 +507,7 @@ key.sophisticatedcore.transfer_to_storage	sophisticatedcore	UNIVERSAL	assumed		k
 key.sophisticateditemactions.deposit_item	sophisticateditemactions	UNIVERSAL	assumed		key.keyboard.apostrophe	options	Deposit Item into Storages	Разгрузить предметы в хранилища
 key.sophisticateditemactions.item_highlight	sophisticateditemactions	UNIVERSAL	assumed		key.keyboard.semicolon	options	Highlight Storage with Item	Подсветить хранилище с предметом
 key.sophisticateditemactions.restock_item	sophisticateditemactions	UNIVERSAL	assumed		key.keyboard.backslash	options	Restock Item from Storages	Загрузить предметы из хранилищ
+key.special_ability	alexscaves	UNIVERSAL	assumed	key.keyboard.g		jar	Alex's Caves Special Ability	Особая способность Alex's Caves
 key.spectatorOutlines	minecraft	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults		
 key.spellstoneAbility	enigmaticlegacyplus	UNIVERSAL	assumed		key.keyboard.k	options	Spellstone Active Ability	Активная способность камня:
 key.sprint	minecraft	UNIVERSAL	assumed	key.keyboard.left.control	key.keyboard.left.control	options+defaults		

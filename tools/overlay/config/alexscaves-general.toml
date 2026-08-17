@@ -1,0 +1,9 @@
+#Settings that change how mobs behave. LL8: the two lines below are ours - see
+#tools/overlay.json. Everything else in this file is Alex's Caves' own default,
+#written by the game on first run.
+["mob-behavior"]
+	#The maximum explosion resistance that a block can have to be destroyed by an atlatitan stomp. Set to zero to disable all atlatitan block breaking.
+	#Range: 0 ~ 1000000
+	atlatitan_max_block_explosion_resistance = 0
+	#True if the Tremorzilla beam breaks even more blocks.
+	devastating_tremorzilla_beam = false

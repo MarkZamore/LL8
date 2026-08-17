@@ -96,6 +96,9 @@ key_key.aether.gravitite_jump_ability.desc:key.keyboard.unknown  # was space: du
 key_key.aether.invisibility_toggle.desc:key.keyboard.unknown  # was v
 key_key.aether.open_accessories.desc:key.keyboard.unknown  # was i: the inventory has a button for it
 
+# --- alexscaves ---
+key_key.special_ability:key.keyboard.u  # Alex's Caves gear ability; was g, which the rifle charges on
+
 # --- aperture_innovations ---
 # unbound: portal gun keys mirror attack/use; bind them if you carry one
 key_aperture_innovations.portal_gun.pick_up:key.keyboard.unknown  # was g
@@ -953,7 +956,7 @@ key_gui.xaero_toggle_slime:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players_on_map:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown
-key_gui.xaero_waypoints_key:key.keyboard.u  # Open Waypoint Screen
+key_gui.xaero_waypoints_key:key.keyboard.unknown  # was u: the same list opens from the world map on M
 key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
 
