@@ -3,14 +3,19 @@
 
 Reads a live instance's options.txt for the list of key mappings (every mod's
 mappings are written there, bound or not), the pack's configureddefaults for
-upstream defaults, and every jar in mods/ for two things the options file
+upstream defaults, and every jar in mods/ for three things the options file
 cannot say:
 
-  * the English name of each mapping (assets/<mod>/lang/en_us.json), and
+  * the English name of each mapping (assets/<mod>/lang/en_us.json),
   * its NeoForge conflict context, read from the bytecode: the class that
     registers "key.foo" also references KeyConflictContext.GUI or .IN_GAME
     near it, or it does not - in which case the mapping is UNIVERSAL, which is
-    what NeoForge assumes for a mapping built with the vanilla constructor.
+    what NeoForge assumes for a mapping built with the vanilla constructor, and
+  * the mappings of mods installed after that options.txt was written: they are
+    missing from it entirely, yet in game they arrive on their own default key,
+    on top of whatever the layout put there. Every KeyMapping the bytecode
+    builds from a literal name is read out with its default key, so a mod added
+    yesterday cannot hide from the layout until someone plays.
 
 The context decides which mappings may share a physical key, so the layout in
 ../../launcher/controls-preset.txt is designed and checked against this stock.
@@ -39,6 +44,48 @@ CONTEXT_CLASS = "net/neoforged/neoforge/client/settings/KeyConflictContext"
 KEYMAPPING_CLASS = "net/minecraft/client/KeyMapping"
 KEY_LINE = re.compile(r"^key_(?P<name>[^:]+):(?P<value>.+)$")
 
+UNBOUND_KEY = "key.keyboard.unknown"
+
+# The default key a mod passes to KeyMapping is a GLFW code; options.txt writes
+# a name. Letters, digits, function and keypad keys follow a formula; the rest
+# are listed. -1 (GLFW_KEY_UNKNOWN) means the mod ships the mapping unbound.
+GLFW_NAMES = {
+    32: "space", 39: "apostrophe", 44: "comma", 45: "minus", 46: "period", 47: "slash",
+    59: "semicolon", 61: "equal", 91: "left.bracket", 92: "backslash", 93: "right.bracket",
+    96: "grave.accent", 161: "world.1", 162: "world.2", 257: "enter", 258: "tab",
+    259: "backspace", 260: "insert", 261: "delete", 262: "right", 263: "left", 264: "down",
+    265: "up", 266: "page.up", 267: "page.down", 268: "home", 269: "end", 280: "caps.lock",
+    281: "scroll.lock", 282: "num.lock", 283: "print.screen", 284: "pause",
+    330: "keypad.decimal", 331: "keypad.divide", 332: "keypad.multiply", 333: "keypad.subtract",
+    334: "keypad.add", 335: "keypad.enter", 336: "keypad.equal",
+    340: "left.shift", 341: "left.control", 342: "left.alt", 343: "left.win",
+    344: "right.shift", 345: "right.control", 346: "right.alt", 347: "right.win", 348: "menu",
+}
+GLFW_NAMES.update({code: chr(code) for code in range(48, 58)})            # 0-9
+GLFW_NAMES.update({code: chr(code + 32) for code in range(65, 91)})       # A-Z
+GLFW_NAMES.update({290 + n: f"f{n + 1}" for n in range(25)})              # F1-F25
+GLFW_NAMES.update({320 + n: f"keypad.{n}" for n in range(10)})            # keypad 0-9
+
+
+def key_name(code: int) -> str:
+    """The options.txt name of a GLFW key code, or unbound if it is not one."""
+    name = GLFW_NAMES.get(code)
+    return f"key.keyboard.{name}" if name else UNBOUND_KEY
+
+
+# Lang entries worth keeping while the list of mappings is still growing.
+LANG_CANDIDATE = re.compile(r"^key[._]|^keybind|\.keybinding\.")
+
+# A mapping name is dotted, lower case at the start of every part, made of word
+# characters: key.walkers, equipmentcompare.key.showTooltips. That shape alone
+# throws out the neighbours a constructor call drags in - class names
+# (xaero.common.IXaeroMinimap), texture paths, and bare halves of a name the mod
+# glues together at runtime (open_backpack; those mods are in the options
+# snapshot anyway) - and NOT_A_NAME throws out the categories and translation
+# keys that pass it.
+MAPPING_NAME = re.compile(r"^[a-z][a-z0-9_]*(\.[a-z][A-Za-z0-9_]*)+$")
+NOT_A_NAME = re.compile(r"category|categories|itemGroup|^mod\.|%|^key\.keyboard\.|^key\.mouse\.")
+
 # One entry per JVM opcode: how many operand bytes follow it. Variable-length
 # opcodes (tableswitch, lookupswitch, wide) are handled in the scanner.
 OPERANDS = [0] * 256
@@ -54,6 +101,7 @@ for op in (0xb9, 0xba, 0xc8, 0xc9):
 TABLESWITCH, LOOKUPSWITCH, WIDE = 0xaa, 0xab, 0xc4
 LDC, LDC_W, GETSTATIC, INVOKESPECIAL, INVOKEVIRTUAL, INVOKESTATIC, INVOKEINTERFACE = (
     0x12, 0x13, 0xb2, 0xb7, 0xb6, 0xb8, 0xb9)
+BIPUSH, SIPUSH, ICONST_M1, ICONST_0, ICONST_5 = 0x10, 0x11, 0x02, 0x03, 0x08
 
 
 def read_options(path: Path) -> dict[str, str]:
@@ -199,16 +247,80 @@ def scan_code(code: bytes, cls: ClassFile, known: set[str]) -> list[tuple[str, s
     return pairs
 
 
+def discover_code(code: bytes, cls: ClassFile) -> list[tuple[str, str]]:
+    """(mapping name, default key) for every KeyMapping this method builds.
+
+    A constructor call is read backwards: the literals that fed it are the
+    mapping's name, its GLFW default and its category (or, for the mods that
+    ask InputConstants for the key by name, that name itself). Only a
+    construction that carries both a name and a key is taken - anything less is
+    a mod gluing its name together at runtime, and those mods are in the
+    options snapshot already.
+    """
+    found: list[tuple[str, str]] = []
+    window: list[tuple[str, object]] = []
+    pc = 0
+    while pc < len(code):
+        op = code[pc]
+        if op in (LDC, LDC_W):
+            index = code[pc + 1] if op == LDC else struct.unpack_from(">H", code, pc + 1)[0]
+            text = cls.string_at(index)
+            if text is not None:
+                window.append(("string", text))
+        elif op == BIPUSH:
+            window.append(("int", code[pc + 1]))
+        elif op == SIPUSH:
+            window.append(("int", struct.unpack_from(">h", code, pc + 1)[0]))
+        elif ICONST_M1 <= op <= ICONST_5:
+            window.append(("int", op - ICONST_0))
+        elif op in (INVOKESPECIAL, INVOKEVIRTUAL, INVOKESTATIC, INVOKEINTERFACE):
+            member = cls.member(struct.unpack_from(">H", code, pc + 1)[0])
+            if member and member[1] == "<init>" and member[0].endswith("KeyMapping"):
+                found.extend(read_construction(window[-8:]))
+                window = []
+
+        if op == TABLESWITCH:
+            aligned = (pc + 4) & ~3
+            low, high = struct.unpack_from(">ii", code, aligned + 4)
+            pc = aligned + 12 + 4 * (high - low + 1)
+        elif op == LOOKUPSWITCH:
+            aligned = (pc + 4) & ~3
+            npairs = struct.unpack_from(">i", code, aligned + 4)[0]
+            pc = aligned + 8 + 8 * npairs
+        elif op == WIDE:
+            pc += 6 if code[pc + 1] == 0x84 else 4
+        else:
+            pc += 1 + OPERANDS[op]
+    return found
+
+
+def read_construction(window: list[tuple[str, object]]) -> list[tuple[str, str]]:
+    """One KeyMapping construction, if its name and default key are both literal."""
+    strings = [value for kind, value in window if kind == "string" and value]
+    numbers = [value for kind, value in window if kind == "int"]
+    names = [text for text in strings if MAPPING_NAME.match(text) and not NOT_A_NAME.search(text)]
+    keys = [text for text in strings if text.startswith(("key.keyboard.", "key.mouse."))]
+    if not names:
+        return []
+    if keys:
+        return [(names[0], keys[0])]
+    if numbers and len(strings) >= 2:
+        return [(names[0], key_name(numbers[-1]))]
+    return []
+
+
 def scan_jar(path: Path, known: set[str]):
-    """Mod ids, lang entries and (key, context) evidence from one jar."""
+    """Mod ids, lang entries, (key, context) evidence and mappings from one jar."""
     mod_ids: list[str] = []
     lang: dict[str, str] = {}
     lang_ru: dict[str, str] = {}
     evidence: list[tuple[str, str]] = []
+    discovered: dict[str, str] = {}
     try:
         archive = zipfile.ZipFile(path)
     except zipfile.BadZipFile:
-        return mod_ids, lang, lang_ru, evidence
+        return mod_ids, lang, lang_ru, evidence, discovered
+    classes: list[ClassFile] = []
     with archive:
         names = archive.namelist()
         for toml in ("META-INF/neoforge.mods.toml", "META-INF/mods.toml"):
@@ -231,17 +343,27 @@ def scan_jar(path: Path, known: set[str]):
                     pass
             elif name.endswith(".class"):
                 data = archive.read(name)
-                if CONTEXT_CLASS.encode() not in data:
+                if CONTEXT_CLASS.encode() not in data and KEYMAPPING_CLASS.encode() not in data:
                     continue
                 try:
-                    cls = ClassFile(data)
+                    classes.append(ClassFile(data))
                 except (ValueError, struct.error, IndexError):
                     continue
-                if not (cls.strings() & known):
-                    continue
-                for code in cls.methods_code():
-                    evidence.extend(scan_code(code, cls, known))
-    return mod_ids, lang, lang_ru, evidence
+
+        # What the jar builds comes first: a mapping the options snapshot never
+        # saw still has to have its context read like everyone else's.
+        for cls in classes:
+            if KEYMAPPING_CLASS not in cls.strings():
+                continue
+            for code in cls.methods_code():
+                discovered.update(discover_code(code, cls))
+        wider = known | set(discovered)
+        for cls in classes:
+            if not (cls.strings() & wider):
+                continue
+            for code in cls.methods_code():
+                evidence.extend(scan_code(code, cls, wider))
+    return mod_ids, lang, lang_ru, evidence, discovered
 
 
 def guess_mod(name: str, mod_ids: set[str]) -> str:
@@ -273,22 +395,34 @@ def main() -> int:
     lang_ru: dict[str, str] = {}
     lang_owner: dict[str, str] = {}
     evidence: dict[str, set[str]] = defaultdict(set)
+    discovered: dict[str, str] = {}
+    discovered_owner: dict[str, str] = {}
     jars = sorted(MODS.glob("*.jar"))
     for index, jar in enumerate(jars, 1):
-        mod_ids, jar_lang, jar_lang_ru, jar_evidence = scan_jar(jar, known)
+        mod_ids, jar_lang, jar_lang_ru, jar_evidence, jar_discovered = scan_jar(jar, known)
         all_mod_ids.update(mod_ids)
         owner = mod_ids[0] if mod_ids else jar.stem
         for key, text in jar_lang.items():
-            if key in known and key not in lang:
+            if (key in known or LANG_CANDIDATE.search(key)) and key not in lang:
                 lang[key] = text
                 lang_owner[key] = owner
         for key, text in jar_lang_ru.items():
-            if key in known and key not in lang_ru:
+            if (key in known or LANG_CANDIDATE.search(key)) and key not in lang_ru:
                 lang_ru[key] = text
         for key, context in jar_evidence:
             evidence[key].add(context)
+        for key, default in jar_discovered.items():
+            if key not in known and key not in discovered:
+                discovered[key] = default
+                discovered_owner[key] = owner
         if index % 100 == 0:
             print(f"  {index}/{len(jars)} jars", file=sys.stderr)
+
+    if discovered:
+        known |= set(discovered)
+        print(f"{len(discovered)} mapping(s) only the jars know (a mod added since that options.txt):")
+        for name in sorted(discovered):
+            print(f"  {name} -> {discovered[name]} ({discovered_owner[name]})")
 
     contexts: dict[str, dict] = {}
     for name in sorted(known):
@@ -302,16 +436,22 @@ def main() -> int:
         contexts[name] = {"context": context, "source": how}
     (HERE / "contexts.json").write_text(json.dumps(contexts, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    rows = ["name\tmod\tcontext\tcontext_source\tdefault\tlive\tenglish\trussian"]
+    rows = ["name\tmod\tcontext\tcontext_source\tdefault\tlive\tseen\tenglish\trussian"]
     for name in sorted(known):
-        mod = lang_owner.get(name) or guess_mod(name, all_mod_ids) or ("minecraft" if lang.get(name) is None and "." not in name.split(".", 1)[-1] else "")
+        # Where a mapping was seen decides whether the pack really has it:
+        # configureddefaults still carries lines of mods LL8 has dropped.
+        where = [source for source, yes in
+                 (("options", name in live), ("defaults", name in defaults), ("jar", name in discovered))
+                 if yes]
+        mod = discovered_owner.get(name) or lang_owner.get(name) or guess_mod(name, all_mod_ids) or ("minecraft" if lang.get(name) is None and "." not in name.split(".", 1)[-1] else "")
         rows.append("\t".join([
             name,
             mod,
             contexts[name]["context"],
             contexts[name]["source"],
-            defaults.get(name, ""),
+            defaults.get(name) or discovered.get(name, ""),
             live.get(name, ""),
+            "+".join(where),
             lang.get(name, ""),
             lang_ru.get(name, ""),
         ]))

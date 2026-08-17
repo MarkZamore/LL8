@@ -351,7 +351,7 @@ key_key.spellstoneAbility:key.mouse.5  # Spellstone Active Ability
 key_key.entityculling.toggle:key.keyboard.unknown
 
 # --- equipmentcompare ---
-key_equipmentcompare.key.showTooltips:key.keyboard.left.shift  # Show Comparison Tooltip
+key_equipmentcompare.key.showTooltips:key.keyboard.left.alt  # Show Comparison Tooltip; was left.shift, now that the jetpack descends on it - Alt is Jade's in the world only, so screens are free
 
 # --- eternal_starlight ---
 key_key.eternal_starlight.switch_crest:key.keyboard.unknown  # was h: rare
@@ -415,11 +415,14 @@ key_key.guideme.guide:key.keyboard.unknown  # was g: the AE2 guide is an item an
 # --- hammerlib ---
 key_key.hammerlib.render_item:key.keyboard.unknown
 
+# --- hats ---
+key_key.hats.open_menu:key.keyboard.f9  # Open the hat menu; the jetpack hover left F9 free
+
 # --- hostilenetworks ---
 key_key.hostilenetworks.open_deep_learner:key.keyboard.unknown  # was u: the deep learner opens by use
 
 # --- immersive_aircraft ---
-key_key.immersive_aircraft.boost:key.keyboard.p  # Rocket boost
+key_key.immersive_aircraft.boost:key.keyboard.backspace  # Rocket boost; was p, which the jetpack hover now holds
 key_key.immersive_aircraft.dismount:key.keyboard.i  # Dismount
 key_key.immersive_aircraft.fallback_control_backward:key.keyboard.unknown
 key_key.immersive_aircraft.fallback_control_down:key.keyboard.unknown
@@ -477,9 +480,9 @@ key_iris.keybind.wireframe:key.keyboard.unknown
 # --- ironjetpacks ---
 key_keybind.ironjetpacks.ascend:key.keyboard.unknown
 key_keybind.ironjetpacks.decrement_throttle:key.keyboard.page.down  # Decrease Throttle
-key_keybind.ironjetpacks.descend:key.keyboard.unknown
+key_keybind.ironjetpacks.descend:key.keyboard.left.shift  # Descend; shares Shift with sneak on purpose - see allowed-conflicts.json
 key_keybind.ironjetpacks.engine:key.keyboard.f8  # Toggle Engine
-key_keybind.ironjetpacks.hover:key.keyboard.f9  # Toggle Hover Mode
+key_keybind.ironjetpacks.hover:key.keyboard.p  # Toggle Hover Mode; was f9
 key_keybind.ironjetpacks.hud:key.keyboard.unknown
 key_keybind.ironjetpacks.increment_throttle:key.keyboard.page.up  # Increase Throttle
 
@@ -666,6 +669,9 @@ key_Speed Module:key.keyboard.unknown  # was k: orphan of a removed mod (Modular
 key_key.overenchanted.echo_sight:key.keyboard.unknown  # was r
 key_key.overenchanted.lumberjack:key.keyboard.unknown  # was c
 
+# --- patpat ---
+key_patpat.keybinding.pat:key.keyboard.scroll.lock  # Pat a mob; the mod itself ships this unbound
+
 # --- placebo ---
 key_placebo.toggleTrails:key.keyboard.unknown  # was keypad.9: supporter cosmetics
 key_placebo.toggleWings:key.keyboard.unknown  # was keypad.8: supporter cosmetics
@@ -766,6 +772,9 @@ key_key.relics.research_relic:key.keyboard.unknown  # was left.shift: held-key o
 # --- reliquary ---
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown
 
+# --- remorphed ---
+key_key.remorphed_menu:key.keyboard.enter  # Choose the second shape; was ` (FTB Ultimine keeps it)
+
 # --- rftoolsbase ---
 key_key.nextDestination:key.keyboard.unknown  # was right.bracket: rare
 key_key.prevDestination:key.keyboard.unknown  # was left.bracket: rare
@@ -811,6 +820,9 @@ key_key.shetiphiancore.tool.previous:key.keyboard.unknown  # was page.down: rare
 # --- showcaseitem ---
 key_key.showcaseitem.showcaseitem:key.keyboard.t  # Showcase Item
 
+# --- shut_up_gl_error ---
+key_shut_up_gl_error.test:key.keyboard.unknown  # unbound: a library mod's own test key, default g
+
 # --- silentgear ---
 key_key.silentgear.cycle.back:key.keyboard.unknown  # was z: rare
 key_key.silentgear.cycle.next:key.keyboard.unknown  # was c: rare
@@ -823,6 +835,7 @@ key_key.silentgear.openItem:key.keyboard.unknown  # was x: rare
 key_simplemagnets.keys.toggle:key.keyboard.unknown  # was h: the magnet is toggled by using it
 
 # --- smallships ---
+key_key.smallships.cannon_barrel_enter:key.keyboard.unknown  # unbound: niche; was f, which is the offhand swap
 key_key.smallships.ship_sail:key.keyboard.f10  # Toggle Sail
 
 # --- sophisticatedbackpacks ---
@@ -906,6 +919,12 @@ key_key.twilightforest.zoom:key.keyboard.unknown  # was z: Ok Zoomer zooms
 key_key.universalgrid.open_wireless_universal_grid:key.keyboard.unknown
 key_key.universalgrid.switch_wireless_universal_grid_type:key.keyboard.unknown
 
+# --- walkers ---
+key_key.walkers:key.keyboard.0  # Transform to your other shape; was g (Curios keeps it)
+key_key.walkers_ability:key.keyboard.equal  # Use a shape ability; was r (the spell wheel keeps it)
+key_key.walkers_unlock:key.keyboard.unknown  # unbound: in this pack a shape is unlocked by killing the mob
+key_key.walkers_variants:key.keyboard.unknown  # unbound: the Remorphed menu on Enter has its own variants button
+
 # --- wildex ---
 key_key.wildex.open:key.keyboard.unknown  # was b:SHIFT: needed a modifier combo; rare
 
@@ -968,6 +987,7 @@ key_gui.xaero_open_map:key.keyboard.m  # Open World Map
 key_gui.xaero_open_settings:key.keyboard.unknown  # was right.bracket: reachable from the world map screen
 key_gui.xaero_quick_confirm:key.keyboard.keypad.enter  # Quick Manual Confirmation
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
+key_gui.xaero_toggle_tracked_players:key.keyboard.unknown  # registered only when the minimap is absent
 key_gui.xaero_world_map_server_settings:key.keyboard.unknown
 
 # --- xycraft_core ---

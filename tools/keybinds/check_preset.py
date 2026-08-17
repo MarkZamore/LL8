@@ -17,6 +17,11 @@ checks the file lists every mapping in registered-keys.tsv, names only known
 keys, has no duplicate lines, and keeps the four right-hand modifier keys and
 Left Alt in the roles design.md gives them.
 
+A pair listed in allowed-conflicts.json is a conflict someone decided to live
+with: the screen still marks it red, and the reason is written down beside it.
+An allowance that no longer matches a real conflict is itself an error, so the
+file cannot quietly outlive the layout it excuses.
+
     python tools/keybinds/check_preset.py [--report]
 
 Exit code 0 means the layout is clean; anything else prints why.
@@ -37,6 +42,7 @@ PRESET = REPO / "launcher" / "controls-preset.txt"
 KEYS = HERE / "registered-keys.tsv"
 CONTEXTS = HERE / "contexts.json"
 OVERRIDES = HERE / "contexts.overrides.json"
+ALLOWED = HERE / "allowed-conflicts.json"
 
 UNBOUND = "key.keyboard.unknown"
 MODIFIERS = {"SHIFT", "CONTROL", "ALT"}
@@ -102,6 +108,14 @@ def same(this: Mapping, other: Mapping) -> bool:
     return False
 
 
+def load_allowances() -> dict[frozenset, str]:
+    """Conflicting pairs someone signed off on: the pair by name, and why."""
+    if not ALLOWED.exists():
+        return {}
+    listed = json.loads(ALLOWED.read_text(encoding="utf-8")).get("pairs", [])
+    return {frozenset(entry["mappings"]): entry["reason"] for entry in listed}
+
+
 def load_preset() -> tuple[list[Mapping], list[str]]:
     problems: list[str] = []
     contexts = json.loads(CONTEXTS.read_text(encoding="utf-8")) if CONTEXTS.exists() else {}
@@ -141,7 +155,11 @@ def main() -> int:
 
     # Completeness against the stock of registered mappings.
     if KEYS.exists():
-        registered = {row["name"] for row in csv.DictReader(KEYS.open(encoding="utf-8"), delimiter="\t") if row["live"]}
+        # A mapping counts as registered when the live instance wrote it down or
+        # a jar was caught building it. A line only configureddefaults knows is a
+        # leftover of a mod the pack no longer has.
+        registered = {row["name"] for row in csv.DictReader(KEYS.open(encoding="utf-8"), delimiter="\t")
+                      if {"options", "jar"} & set(row.get("seen", "options").split("+"))}
         for name in sorted(registered - set(by_name)):
             problems.append(f"{name} is registered by the pack but missing from the preset")
         for name in sorted(set(by_name) - registered):
@@ -166,15 +184,19 @@ def main() -> int:
         if m.bound and m.modifier != "NONE":
             problems.append(f"line {m.line}: {m.name} uses a {m.modifier} combo; the layout has none")
 
+    allowances = load_allowances()
     bound = [m for m in mappings if m.bound]
     conflicts: list[tuple[Mapping, Mapping]] = []
+    allowed: list[tuple[Mapping, Mapping]] = []
     for i, a in enumerate(bound):
         for b in bound[i + 1:]:
             if same(a, b) or same(b, a):
-                conflicts.append((a, b))
+                (allowed if frozenset((a.name, b.name)) in allowances else conflicts).append((a, b))
     for a, b in conflicts:
         problems.append(
             f"CONFLICT on {a.key}: {a.name} [{a.context}] vs {b.name} [{b.context}] (lines {a.line}, {b.line})")
+    for pair in allowances.keys() - {frozenset((a.name, b.name)) for a, b in allowed}:
+        problems.append(" and ".join(sorted(pair)) + " are allowed to conflict but do not: drop the allowance")
 
     by_key: dict[str, list[Mapping]] = defaultdict(list)
     for m in bound:
@@ -182,6 +204,9 @@ def main() -> int:
 
     print(f"{len(mappings)} mappings, {len(bound)} bound, {len(mappings) - len(bound)} unbound, "
           f"{len(by_key)} physical keys in use, {len(conflicts)} conflicts")
+    for a, b in allowed:
+        print(f"  allowed on {a.key.replace('key.keyboard.', '')}: {a.name} with {b.name}"
+              f" - {allowances[frozenset((a.name, b.name))]}")
     if args.report:
         for key in sorted(by_key, key=lambda k: (not k.startswith("key.keyboard."), k)):
             print(f"  {key.replace('key.keyboard.', ''):22} " +

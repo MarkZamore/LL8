@@ -1,0 +1,9 @@
+{
+ "schemaVersion": 1,
+ "pairs": [
+  {
+   "mappings": ["key.sneak", "keybind.ironjetpacks.descend"],
+   "reason": "asked for: holding left Shift is how a jetpack goes down, and it is also sneak. The Controls screen marks the pair red; both still fire, and sneaking mid-air is what the descent looks like anyway."
+  }
+ ]
+}

@@ -223,6 +223,10 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
+  "gui.xaero_toggle_tracked_players": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
   "gui.xaero_toggle_tracked_players_in_world": {
     "context": "UNIVERSAL",
     "source": "assumed"
@@ -1039,6 +1043,10 @@
     "context": "GUI",
     "source": "bytecode"
   },
+  "key.hats.open_menu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
   "key.hostilenetworks.open_deep_learner": {
     "context": "UNIVERSAL",
     "source": "assumed"
@@ -1771,6 +1779,10 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
+  "key.remorphed_menu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
   "key.right": {
     "context": "UNIVERSAL",
     "source": "assumed"
@@ -1920,6 +1932,10 @@
     "source": "assumed"
   },
   "key.silentgear.openItem": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.smallships.cannon_barrel_enter": {
     "context": "UNIVERSAL",
     "source": "assumed"
   },
@@ -2183,6 +2199,22 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
+  "key.walkers": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.walkers_ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.walkers_unlock": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.walkers_variants": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
   "key.wildex.open": {
     "context": "IN_GAME",
     "source": "bytecode"
@@ -2250,6 +2282,10 @@
   "options.narrator": {
     "context": "UNIVERSAL",
     "source": "bytecode"
+  },
+  "patpat.keybinding.pat": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
   },
   "placebo.toggleTrails": {
     "context": "UNIVERSAL",
@@ -2528,6 +2564,10 @@
     "source": "assumed"
   },
   "quark.keybind.variant_selector": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "shut_up_gl_error.test": {
     "context": "UNIVERSAL",
     "source": "assumed"
   },
