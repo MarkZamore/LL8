@@ -120,6 +120,12 @@
    "reason": "requested addition, kept through pack updates (remorphed 1.21-neoforge-4.2)"
   },
   {
+   "source": "tools/overlay/mods/sexmod-1.1.0-neoforge.1.jar",
+   "target": "mods/sexmod-1.1.0-neoforge.1.jar",
+   "sha256": "27a7e28452a48cbcbc54b36a52af11312e6965edf893e7e7c92eef6106f47d32",
+   "reason": "requested addition, kept through pack updates (jenny's mod, Mine335's NeoForge port 1.1.0-neoforge.1)"
+  },
+  {
    "source": "tools/overlay/mods/walkers-5.8.12.jar",
    "target": "mods/walkers-5.8.12.jar",
    "sha256": "72a3d70ad90b2f9656fe346fadc603338bd40ee2ecf235e45a68012e80e50fee",
