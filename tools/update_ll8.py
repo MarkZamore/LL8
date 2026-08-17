@@ -752,6 +752,25 @@ def apply_toml_edit(edit: dict) -> str:
          "update tools/overlay.json")
 
 
+def apply_json_edit(edit: dict) -> str:
+    """Set one top-level key in a JSON config LL8 ships.
+
+    Rewritten through json so the mod's own save on launch - two-space indent,
+    same key order - reproduces the file byte for byte and the pack sync never
+    mistakes it for a player's edit.
+    """
+    path = REPO_ROOT / edit["file"]
+    if not path.is_file():
+        fail(EXIT_OVERLAY, f"json edit target missing: {edit['file']}")
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if edit["key"] not in data:
+        fail(EXIT_OVERLAY, f"{edit['file']} has no key {edit['key']}; update tools/overlay.json")
+    before = data[edit["key"]]
+    data[edit["key"]] = edit["value"]
+    path.write_text(json.dumps(data, indent=2), encoding="utf-8")
+    return f"{edit['file']}: {edit['key']} {before!r} -> {edit['value']!r}"
+
+
 def apply_overlay() -> list[str]:
     try:
         overlay = json.loads(OVERLAY_FILE.read_text(encoding="utf-8"))
@@ -795,6 +814,8 @@ def apply_overlay() -> list[str]:
             if matched else f"removed nothing for {spec['path']} - upstream may have renamed it")
     for edit in overlay.get("tomlEdits", []):
         summary.append(apply_toml_edit(edit))
+    for edit in overlay.get("jsonEdits", []):
+        summary.append(apply_json_edit(edit))
     for line in summary:
         print(f"overlay: {line}")
     return summary

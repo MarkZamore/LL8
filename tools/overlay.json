@@ -37,5 +37,13 @@
    "path": "config/crash_assistant",
    "reason": "configuration of the removed mod"
   }
+ ],
+ "jsonEdits": [
+  {
+   "file": "config/kerria.json",
+   "key": "fastUpload",
+   "value": false,
+   "reason": "Fast Texture Upload crashes the JVM (EXCEPTION_ACCESS_VIOLATION in UnifiedBuffer::upload) after a resource reload; upstream issue #18 is open against this very pack and the author's own advice is to turn it off"
+  }
  ]
 }
