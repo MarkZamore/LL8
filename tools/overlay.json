@@ -24,6 +24,12 @@
    "reason": "requested addition, kept through pack updates (hats-renewed 21.1.1-mc1.21.1-neoforge)"
   },
   {
+   "source": "tools/overlay/mods/orbital_railgun-1.4.2-neoforge-beta.2.jar",
+   "target": "mods/orbital_railgun-1.4.2-neoforge-beta.2.jar",
+   "sha256": "77a940e37b10e5127b8dfdf237760c20422a0efe5966b1ffb54dbed22d98917b",
+   "reason": "requested addition, kept through pack updates (orbital railgun neoforge 1.21.1 by Nxkoo, 1.4.2-neoforge-beta.2 - the author's newest build)"
+  },
+  {
    "source": "tools/overlay/mods/remorphed-4.2.jar",
    "target": "mods/remorphed-4.2.jar",
    "sha256": "269a2acb521cb12cf2d6acdec06363b8395ef62622c8d79cf08305b378c45cd3",
