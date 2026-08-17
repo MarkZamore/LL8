@@ -30,6 +30,12 @@
    "reason": "requested addition, kept through pack updates (remorphed 1.21-neoforge-4.2)"
   },
   {
+   "source": "tools/overlay/mods/backrooms-2.0.0.jar",
+   "target": "mods/backrooms-2.0.0.jar",
+   "sha256": "e0277f1a00bddb5a55313dc3daaa25e4d8c9fa170eb0c24f7c1b77aa4b70d7c4",
+   "reason": "requested addition, kept through pack updates (the-backrooms-update 2.0.0)"
+  },
+  {
    "source": "tools/overlay/mods/craftedcore-5.8.2.jar",
    "target": "mods/craftedcore-5.8.2.jar",
    "sha256": "6bbfe3c0a7c286ca2c34388e3b749d93924a68dd1e89f15c1da47695245f41ed",
