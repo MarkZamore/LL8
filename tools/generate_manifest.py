@@ -7,9 +7,11 @@ Usage:
 
 Behavior:
     * Collects the shipped file set: everything under the roots
-      mods/, config/, kubejs/, scripts/, defaultconfigs/, data/ (recursively,
-      absent roots are skipped) plus the root files portable-pack.json and the
-      client jar named by portable-pack.json's "clientJar" field.
+      mods/, config/, kubejs/, scripts/, defaultconfigs/, data/, resourcepacks/,
+      shaderpacks/, configureddefaults/, launcher/ (recursively, absent roots
+      are skipped) plus the root files portable-pack.json and the client jar
+      named by portable-pack.json's "clientJar" field. launcher/ carries data
+      the launcher reads (the controls preset), not the game.
     * Stages release assets into <distDir>/assets/:
         - every file under mods/ becomes its own byte-for-byte asset (kind "jar");
         - every other non-empty top-level root becomes ONE deterministic zip
@@ -39,9 +41,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 SCAN_ROOTS = ("mods", "config", "kubejs", "scripts", "defaultconfigs", "data",
-              "resourcepacks", "shaderpacks", "configureddefaults")
+              "resourcepacks", "shaderpacks", "configureddefaults", "launcher")
 ZIP_ROOTS = ("config", "kubejs", "scripts", "defaultconfigs", "data",
-             "resourcepacks", "shaderpacks", "configureddefaults")
+             "resourcepacks", "shaderpacks", "configureddefaults", "launcher")
 # Launcher-local marker/state files that must never ship inside the pack.
 EXCLUDED_BASENAMES = {".portable-pack-sync.json", "portable-pack-source.json"}
 EXCLUDED_TOP_DIRS = {"tools", "dist"}

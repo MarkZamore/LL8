@@ -1,0 +1,2654 @@
+{
+  "Build Current Structure": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "Inertia Module": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "Magnet Module": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "Night Vision Module": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "Speed Module": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "accessories.key.open_accessories_screen": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "aperture_innovations.portal_gun.pick_up": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "aperture_innovations.portal_gun.primary_fire": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "aperture_innovations.portal_gun.reset": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "aperture_innovations.portal_gun.secondary_fire": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "artifacts.key.charm_of_shrinking.toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "artifacts.key.charm_of_sinking.toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "artifacts.key.helium_flamingo.activate": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "artifacts.key.night_vision_goggles.toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "artifacts.key.scarf_of_invisibility.toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "artifacts.key.universal_attractor.toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "crafting_on_a_stick.key.open_curios": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "crashutils.copycontainer": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "crashutils.openscreen": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "crashutils.slottooltips": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "create.keyinfo.alt_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "create.keyinfo.ctrl_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "create.keyinfo.rotate_menu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "create.keyinfo.shift_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "create.keyinfo.toolbelt": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "create.keyinfo.toolmenu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "dndesires.keyinfo.drill_active": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "dndesires.keyinfo.saw_active": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "equipmentcompare.key.showTooltips": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "framedblocks.key.update_cull": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "framedblocks.key.wipe_cache": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "ftbultimine.change_shape.next": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "ftbultimine.change_shape.prev": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_alternative_list_players": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_display_all_sets": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_enlarge_map": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_instant_waypoint": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_map_zoom_in": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_map_zoom_out": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_minimap_server_profiles": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_minimap_settings": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_new_waypoint": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_open_map": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_open_settings": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_quick_confirm": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_reverse_entity_radar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_switch_waypoint_set": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_dimension": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_entity_radar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_grid": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_light_overlay": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_manual_cave_mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_map": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_map_waypoints": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_pac_chunk_claims": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_slime": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_tracked_players_in_world": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_tracked_players_on_map": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_toggle_waypoints": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_waypoints_key": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_world_map_server_settings": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_zoom_in": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "gui.xaero_zoom_out": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "iris.keybind.reload": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "iris.keybind.shaderPackSelection": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "iris.keybind.toggleShaders": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "iris.keybind.wireframe": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "justdirethings.key.toggle_tool": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "justdirethings.key.toolUI": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.actualladditions.crafting_stick_open.desc": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.adhooks.main_hand.jumping": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.adhooks.main_hand.launching": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.adhooks.main_hand.loosening": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.adhooks.main_hand.pulling": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.adhooks.main_hand.unhooking": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.adhooks.off_hand.jumping": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.adhooks.off_hand.launching": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.adhooks.off_hand.loosening": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.adhooks.off_hand.pulling": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.adhooks.off_hand.unhooking": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.advanced_ae.pattern_encoder_action": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.advanced_ae.pick_craft": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.advanced_ae.portable_workbench": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.advanced_ae.quantum_armor_config": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.advanced_ae.quantum_auto_stock_upgrade": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.advanced_ae.quantum_magnet_upgrade": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.advanced_ae.quantum_night_vision_upgrade": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.advancements": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ae2.ae2wtlib_magnet": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ae2.ae2wtlib_restock": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ae2.ae2wtlib_stow": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ae2.mouse_wheel_item_modifier": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.ae2.part_placement_opposite": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.ae2.portable_fluid_cell": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ae2.portable_item_cell": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ae2.wireless_pattern_access_terminal": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ae2.wireless_pattern_encoding_terminal": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ae2.wireless_quantum_crafter_terminal": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ae2.wireless_requester_terminal": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ae2.wireless_terminal": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.aether.gravitite_jump_ability.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.aether.invisibility_toggle.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.aether.open_accessories.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.apotheosis.compare_equipment": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.apotheosis.link_item_to_chat": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.apotheosis.open_world_tier_select": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.apotheosis.toggle_radial_mining": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.armorhider.open_settings": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.armorhider.preset": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.armorhider.toggle_keybind": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_additions.open_lectern": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.ars_elemental.open_pouch": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.familiar_toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.head_curio_hotkey": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.next_slot": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.open_book": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.open_documentation": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.previous_slot": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.qc1": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.qc10": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.qc2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.qc3": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.qc4": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.qc5": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.qc6": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.qc7": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.qc8": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.qc9": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ars_nouveau.selection_hud": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.attack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.back": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.bankstorage.cyclebuildmode": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.bankstorage.enablescroll": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.bankstorage.lockslot": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.bankstorage.openbankfromkeybind": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.bankstorage.togglebuildmode": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.bankstorage.togglepickupmode": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.betterblockz.cycle_pillar_axis": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.betterblockz.scroll_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.betterblockz.switch": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.blockprints.cancel_selection": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.blockprints.confirm_selection": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.blockprints.open_menu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.blockprints.tool_menu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.bridgingmod.toggle_bridging": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.buildinggadgets2.anchor": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.buildinggadgets2.range": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.buildinggadgets2.settings_menu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.buildinggadgets2.undo": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.calmtheleaks.panel": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.cataclysm.ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cataclysm.boots_ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cataclysm.chestplate_ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cataclysm.helmet_ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.changeMysticCode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.chat": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.clienttweaks.disableLogStripping": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.clienttweaks.disableStepAssist": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.clienttweaks.hideHands": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.clienttweaks.hideOffhandItem": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.clienttweaks.mineSingleBlock": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.command": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.configured.open_mod_list": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.constructionstick.change_direction": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.constructionstick.change_restriction": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.constructionstick.change_upgrade": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.constructionstick.open_gui": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.constructionstick.show_previous": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.constructionstick.toggle_random": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.constructionstick.undo": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.balance": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.clear": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.compress_all": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.compress_one": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.compress_stack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.decompress_all": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.decompress_one": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.decompress_stack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.force_clear": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.refill_last": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.refill_last_stack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.rotate": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.rotate_counter_clockwise": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.spread": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.craftingtweaks.transfer_stack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.crawl": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.crystalix.apply_colorless": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.crystalix.copy_properties": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.crystalix.wand_config": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.curios.open.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.customfov.profile.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.cycle_stone_generator.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.deep_aether.slider_eye_ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.deep_aether.stratus_dash_ability.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.deep_aether.toggle_skyjade_transparency": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.deeperdarker.boost": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.deeperdarker.transmit": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.doggytalents.whistle.1": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.doggytalents.whistle.2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.doggytalents.whistle.3": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.doggytalents.whistle.4": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.draconicevolution.dislocator_blink": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.draconicevolution.dislocator_down": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.draconicevolution.dislocator_gui": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.draconicevolution.dislocator_teleport": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.draconicevolution.dislocator_up": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.draconicevolution.place_item": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.draconicevolution.toggle_flight": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.draconicevolution.toggle_magnet": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.draconicevolution.tool_config": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.draconicevolution.tool_modules": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.drawMahoujin": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.drop": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.dynamic_fps.toggle_disabled": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.dynamic_fps.toggle_forced": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.easy_villagers.cycle_trades": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.easy_villagers.pick_up": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.emiaddon.share_hovered_item": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.enderRing": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.enderchests.open.bag": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.enderchests.open.pouch": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.enderio.toggle_magnet": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.enderio.travel_staff": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.energizedpower.teleporter.use": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.entityculling.toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.eternal_starlight.switch_crest": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.evilcraft.exaltedCrafting": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.evilcraft.fart": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.extended_industrialization.toggle_boots_ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.extended_industrialization.toggle_chestplate_ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.extended_industrialization.toggle_helmet_ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.extended_industrialization.toggle_leggings_ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.extended_industrialization.toggle_main_hand_ability": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.extendedae.set_amount": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.extendedae.viewpattern": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.findme.pull_one": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.findme.pull_stack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.findme.search": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.fireNobu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.forward": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.add_waypoint": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.claim_manager": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.map": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.minimap.zoomIn": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.minimap.zoomOut": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.toggle_minimap": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbchunks.waypoint_manager": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbquests.quests": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbteams.open_gui": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ftbultimine": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.fullscreen": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.gmut.vertical_speed": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.gravelminer.toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.gui_primary_action.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.gui_secondary_action.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.gui_tertiary_action.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.guideme.guide": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.gunDown": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.gunUp": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hammerlib.render_item": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.hostilenetworks.open_deep_learner": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.1": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.3": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.4": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.5": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.6": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.7": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.8": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hotbar.9": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.hypertube.tube_escape": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersive_aircraft.boost": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersive_aircraft.dismount": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersive_aircraft.fallback_control_backward": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersive_aircraft.fallback_control_down": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersive_aircraft.fallback_control_forward": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersive_aircraft.fallback_control_left": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersive_aircraft.fallback_control_pull": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersive_aircraft.fallback_control_push": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersive_aircraft.fallback_control_right": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersive_aircraft.fallback_control_up": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersive_aircraft.fallback_use": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersiveengineering.chemthrowerSwitch": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersiveengineering.magnetEquip": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersiveengineering.railgunZoom": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.immersivepetroleum.projector.flip": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.industrialforegoing.backpack.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.industrialization_overdrive.terminal_mode_switch": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.integrateddynamics.logic_programmer_focus_search": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.integrateddynamics.logic_programmer_open_rename": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.integratedterminals.terminal.craftinggrid.balance": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.integratedterminals.terminal.craftinggrid.clearplayer": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.integratedterminals.terminal.craftinggrid.clearstorage": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.integratedterminals.terminal.portable.open": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.integratedterminals.terminal.tab.next": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.integratedterminals.terminal.tab.previous": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.inventory": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.inventoryessentials.dump_to_container": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.inventoryessentials.restock_container": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.inventoryessentials.restock_inventory": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.inventoryessentials.screen_bulk_drop": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.inventoryessentials.single_transfer": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.inventoryessentials.sort_inventory": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_bar_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_1": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_10": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_11": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_12": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_13": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_14": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_15": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_3": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_4": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_5": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_6": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_7": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_8": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_quick_cast_9": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_wheel": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spell_wheel_toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.irons_spellbooks.spellbook_cast": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.config": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.narrate": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.show_details": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.show_overlay": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.show_recipes": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.show_uses": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jade.toggle_liquid": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.create_waypoint": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen.disable_buttons": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen.east": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen.north": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen.south": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen.west": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen_chat_position": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen_create_waypoint": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen_follow_player": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen_options": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.fullscreen_waypoints": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.map_toggle_alt": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.minimap_preset": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.minimap_toggle_alt": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.minimap_type": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.toggle_entity_names": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.toggle_render_waypoints": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.toggle_render_waypoints_map": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.toggle_render_waypoints_world": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.toggle_waypoints": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.zoom_in": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.journeymap.zoom_out": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.jump": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.kubejs.kubedex": {
+    "context": "UNIVERSAL",
+    "source": "bytecode"
+  },
+  "key.left": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.libtooltips.expand": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.lightoverlay.enable_overlay": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.loadToolbarActivator": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.logisticsnetworks.toggle_slot_numbers": {
+    "context": "UNIVERSAL",
+    "source": "bytecode"
+  },
+  "key.logisticsnetworks.toggle_wrench_hud": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mapping.compactmachines.exit_room": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mapping.compactmachines.open_upgrade_screen": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mechtrowel.open_palette": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.mechtrowel.open_radial_menu": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.mechtrowel.restriction_modifier": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.mechtrowel.switch_last_mode": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.mechtrowel.toggle_build_mode": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.mechtrowel.toggle_chipped": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.mechtrowel.toggle_replace": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.mekanism.chest_mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mekanism.description": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mekanism.details": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mekanism.feet_mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mekanism.head_mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mekanism.key_boost": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mekanism.key_hud": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mekanism.legs_mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mekanism.mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mekanism.module_tweaker": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.mekanismadditions.voice": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.modern_industrialization.toggle_3x3": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.modern_industrialization.toggle_flight": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.modernfix.config": {
+    "context": "UNIVERSAL",
+    "source": "bytecode"
+  },
+  "key.modularrouters.configure": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.modularrouters.moduleInfo": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.myotus.open.terminal_setting": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.myotus.toggle.upgrade_terminal_panel": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.neovitae.blood_shield": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.neovitae.edit_hud": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.neovitae.lex_beam": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.neovitae.lex_mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.neovitae.open_guide": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.nextDestination": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.next_item.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.observable.profile": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.backpack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.ender_bag": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.bat_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.beaver_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.beholder_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.blacksmith_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.chimera_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.cthulhu_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.deer_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.devil_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.dragon_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.fairy_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.goat_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.greedy_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.guardian_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.headless_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.mummy_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.otherworld_bird": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.familiar.shub_niggurath_familiar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.occultism.storage_remote": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ok_zoomer.decrease_zoom": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ok_zoomer.increase_zoom": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ok_zoomer.reset_zoom": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ok_zoomer.zoom": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.omnigrid.open_omni_grid": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.openManual": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.openNotes": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.open_deepnull.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.open_menu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.open_muffler_gui": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.oracle_index.open": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.oracle_index.search": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.oritech.augment_screen": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.overenchanted.echo_sight": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.overenchanted.lumberjack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.pickItem": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.playerlist": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.ponder.ponder": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.prevDestination": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.previous_item.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.refinedstorage.clear_crafting_grid_matrix_to_inventory": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.refinedstorage.clear_crafting_grid_matrix_to_network": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.refinedstorage.focus_search_bar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.refinedstorage.open_portable_grid": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.refinedstorage.open_wireless_autocrafting_monitor": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.refinedstorage.open_wireless_grid": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.refinedstorage_quartz_arsenal.open_wireless_crafting_grid": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.relics.active_abilities_list": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.relics.research_relic": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.right": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.saveToolbarActivator": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.screenshot": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.screenshot_viewer.open_screenshots_screen": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.scrollAbility": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.securitycraft.cameraActivateNightVision": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.securitycraft.cameraEmitRedstone": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.securitycraft.cameraZoomIn": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.securitycraft.cameraZoomOut": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.securitycraft.setDefaultViewingDirection": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.selectiveDisplacement": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.settingsGUI": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.container_inspector.activation_key": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.item_inspector.activation_key": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.label_gun.clear_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.label_gun.contiguous_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.label_gun.next_label": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.label_gun.open_gui": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.label_gun.pick_block_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.label_gun.previous_label": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.label_gun.pull_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.label_gun.scroll_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.label_gun.target_manager_modifier": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.manager.text_editor": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.more_info": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.text_editor.accept_intellisense": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.title_screen.text_editor": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.toggle_label_view_key": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sfm.toggle_network_tool_overlay": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.shetiphiancore.tool.next": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.shetiphiancore.tool.previous": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.showcaseitem.showcaseitem": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.silentgear.cycle.back": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.silentgear.cycle.next": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.silentgear.displayItemConstruction": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.silentgear.displayItemProperties": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.silentgear.displayTraitDescriptions": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.silentgear.openItem": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.smallships.ship_sail": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.smoothCamera": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sneak": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.socialInteractions": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.inventory_interaction": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.open_backpack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.toggle_upgrade_1": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.toggle_upgrade_2": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.toggle_upgrade_3": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.toggle_upgrade_4": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.toggle_upgrade_5": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedbackpacks.tool_swap": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedcore.deposit_item": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedcore.item_highlight": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedcore.restock_item": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedcore.sort": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedcore.transfer_to_inventory": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticatedcore.transfer_to_storage": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticateditemactions.deposit_item": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticateditemactions.item_highlight": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sophisticateditemactions.restock_item": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.spectatorOutlines": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.spellstoneAbility": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.sprint": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.starcatcher.expand_tournament": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.starcatcher.minigame_hit": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.starcatcher.open_guide": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.stellaris.freeze_planet_menu": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.stellaris.jetsuit_mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.stellaris.tablet_info": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.stickit.place": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.swapOffhand": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.tankstorage.lockslot": {
+    "context": "GUI",
+    "source": "bytecode"
+  },
+  "key.tankstorage.opentankfromkeybind": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.tankstorage.toggleinsertmode": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.tankstorage.toggleinteractionmode": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.the_bumblezone.beehemoth_down": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.the_bumblezone.beehemoth_up": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.theurgy.change_item_mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.togglePerspective": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toggle_auto_feeding.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toggle_auto_pickup.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toggle_auto_smelting.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toggle_global_auto_pickup.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toggle_hud.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toggle_sponge.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toggle_transfer_direction.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toggle_transfer_lock.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toms_storage.open_terminal": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.toolbelt.cycle.left": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toolbelt.cycle.right": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toolbelt.open": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.toolbelt.slot": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.trashslot.delete": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.trashslot.delete_all": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.trashslot.toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.trashslot.toggle_lock": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.twilightforest.item_display_map_cycle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.twilightforest.red_thread_vision": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.twilightforest.swap_hotbar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.twilightforest.zoom": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.universalgrid.open_wireless_universal_grid": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.universalgrid.switch_wireless_universal_grid_type": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.unmountVehicle": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.use": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.wildex.open": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.xycraft_core.modifier_key": {
+    "context": "UNIVERSAL",
+    "source": "bytecode"
+  },
+  "keybind.advancedperipherals.description": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "keybind.ironjetpacks.ascend": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "keybind.ironjetpacks.decrement_throttle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "keybind.ironjetpacks.descend": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "keybind.ironjetpacks.engine": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "keybind.ironjetpacks.hover": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "keybind.ironjetpacks.hud": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "keybind.ironjetpacks.increment_throttle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "keybind.luggage.call": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "keybind.luggage.wait": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "keybind.reliquary.fortune_coin": {
+    "context": "UNIVERSAL",
+    "source": "bytecode"
+  },
+  "keyinfo.copycats.fill_copycat": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "legendarytooltips.key.scrollTooltips": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "mininggadgets.text.open_gui": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "options.narrator": {
+    "context": "UNIVERSAL",
+    "source": "bytecode"
+  },
+  "placebo.toggleTrails": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "placebo.toggleWings": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.options": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "pneumaticcraft.armor.upgrade.air_conditioning": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.block_tracker": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.block_tracker.module.end_portal": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.block_tracker.module.energy": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.block_tracker.module.fluids": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.block_tracker.module.hackables": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.block_tracker.module.inventories": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.block_tracker.module.misc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.block_tracker.module.spawner": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.charging": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.coordinate_tracker": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.core_components": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.elytra": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.ender_visor": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.entity_tracker": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.fall_protection": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.jet_boots": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.jet_boots.module.builder_mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.jet_boots.module.flight_stabilizers": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.jet_boots.module.hover": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.jet_boots.module.smart_hover": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.jump_boost": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.magnet": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.night_vision": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.reach_distance": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.run_speed": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.scuba": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.search": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.step_assist": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.armor.upgrade.stomp": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "pneumaticcraft.boots.jet_boots": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "pneumaticcraft.boots.kick": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "pneumaticcraft.chestplate.launcher": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "pneumaticcraft.helmet.debugging.drone": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "pneumaticcraft.helmet.hack": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "psimisc.keybind": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.cheer": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.clap": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.facepalm": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.headbang": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.no": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.point": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.salute": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.shrug": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.think": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.wave": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.weep": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.emote.yes": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.autorun": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.back": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.camera_mode": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.change_hotbar": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.lock_rotation": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.narrator_full_readout": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.narrator_readout": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.patreon_emote.dab": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.patreon_emote.dance": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.patreon_emote.exorcist": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.patreon_emote.jet": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.patreon_emote.tpose": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.patreon_emote.zombie": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.shift_lock": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.sort_container": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.sort_player": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.transfer_extract": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.transfer_insert": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "quark.keybind.variant_selector": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "simplemagnets.keys.toggle": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "supplementaries.keybind.quiver": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "tombstone.message.compendium": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "tombstone.message.config": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "tombstone.message.knowledge_of_death": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.gui.world_map.start_drawing": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.keybind.switch_to_end": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.keybind.switch_to_nether": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.keybind.switch_to_overworld": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.keybind.switch_waypoints_to_end": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.keybind.switch_waypoints_to_nether": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.keybind.switch_waypoints_to_overworld": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.keybind.world_map_baritone_elytra_here": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.keybind.world_map_baritone_goal_here": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.keybind.world_map_baritone_path_here": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.2b2t_highways_enabled": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.beacons_overlay": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.lava_columns": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.map_art_grid": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.new_chunks_highlighting": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.old_biomes_enabled": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.old_chunks_highlighting": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.palette_new_chunks_highlighting": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.player_spawn_chunks": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.portal_skip_detection": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.portals": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.region_grid": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.show_render_distance": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.spawn_chunks": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "xaeroplus.setting.world_tools": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  }
+}

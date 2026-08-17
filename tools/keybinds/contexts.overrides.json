@@ -1,0 +1,20 @@
+{
+  "equipmentcompare.key.showTooltips": "GUI",
+  "legendarytooltips.key.scrollTooltips": "GUI",
+  "key.mekanism.details": "GUI",
+  "key.trashslot.delete": "GUI",
+  "key.trashslot.delete_all": "GUI",
+  "key.inventoryessentials.single_transfer": "GUI",
+  "key.inventoryessentials.screen_bulk_drop": "GUI",
+  "key.craftingtweaks.compress_all": "GUI",
+  "key.craftingtweaks.compress_one": "GUI",
+  "key.craftingtweaks.compress_stack": "GUI",
+  "key.craftingtweaks.refill_last": "GUI",
+  "key.craftingtweaks.refill_last_stack": "GUI",
+  "key.sophisticatedcore.sort": "GUI",
+  "key.sophisticatedcore.transfer_to_inventory": "GUI",
+  "key.sophisticatedcore.transfer_to_storage": "GUI",
+  "key.refinedstorage.focus_search_bar": "GUI",
+  "key.refinedstorage.clear_crafting_grid_matrix_to_network": "GUI",
+  "key.jade.show_details": "IN_GAME"
+}

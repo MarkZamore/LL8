@@ -1,0 +1,974 @@
+# LL8 controls preset - a complete key layout with no conflicts.
+#
+# Applied by the launcher's "Пресет настроек управления" button into the
+# instance's options.txt (one line per mapping, options.txt syntax). Blank
+# lines and # comments are ours; the game never sees this file. Every mapping
+# the pack registers is listed, bound or not, so tools/keybinds/check_preset.py
+# can prove the layout has no two mappings that the Controls screen would mark
+# red. Read tools/keybinds/design.md before changing a key.
+
+# --- Minecraft ---
+key_key.advancements:key.keyboard.l
+key_key.attack:key.mouse.left
+key_key.back:key.keyboard.s
+key_key.chat:key.keyboard.t
+key_key.command:key.keyboard.slash
+key_key.drop:key.keyboard.q
+key_key.forward:key.keyboard.w
+key_key.fullscreen:key.keyboard.f11
+key_key.hotbar.1:key.keyboard.1
+key_key.hotbar.2:key.keyboard.2
+key_key.hotbar.3:key.keyboard.3
+key_key.hotbar.4:key.keyboard.4
+key_key.hotbar.5:key.keyboard.5
+key_key.hotbar.6:key.keyboard.6
+key_key.hotbar.7:key.keyboard.7
+key_key.hotbar.8:key.keyboard.8
+key_key.hotbar.9:key.keyboard.9
+key_key.inventory:key.keyboard.e
+key_key.jump:key.keyboard.space
+key_key.left:key.keyboard.a
+key_key.loadToolbarActivator:key.keyboard.unknown
+key_key.pickItem:key.mouse.middle
+key_key.playerlist:key.keyboard.tab
+key_key.right:key.keyboard.d
+key_key.saveToolbarActivator:key.keyboard.unknown
+key_key.screenshot:key.keyboard.f2
+key_key.smoothCamera:key.keyboard.unknown
+key_key.sneak:key.keyboard.left.shift
+key_key.socialInteractions:key.keyboard.unknown
+key_key.spectatorOutlines:key.keyboard.unknown
+key_key.sprint:key.keyboard.left.control
+key_key.swapOffhand:key.keyboard.f
+key_key.togglePerspective:key.keyboard.f5
+key_key.use:key.mouse.right
+key_options.narrator:key.keyboard.unknown
+
+# --- accessories ---
+key_accessories.key.open_accessories_screen:key.keyboard.unknown  # was h: the inventory has a button for it; Curios owns G
+
+# --- actuallyadditions ---
+key_key.actualladditions.crafting_stick_open.desc:key.keyboard.unknown
+
+# --- adhooks ---
+# unbound: Hook Launcher: its keys deliberately mirror attack/use/jump/sneak/sprint; bind them if you use the hook
+key_key.adhooks.main_hand.jumping:key.keyboard.unknown  # was space
+key_key.adhooks.main_hand.launching:key.keyboard.unknown  # was mouse left
+key_key.adhooks.main_hand.loosening:key.keyboard.unknown  # was left.control
+key_key.adhooks.main_hand.pulling:key.keyboard.unknown  # was mouse left
+key_key.adhooks.main_hand.unhooking:key.keyboard.unknown  # was left.shift
+key_key.adhooks.off_hand.jumping:key.keyboard.unknown  # was space
+key_key.adhooks.off_hand.launching:key.keyboard.unknown  # was mouse right
+key_key.adhooks.off_hand.loosening:key.keyboard.unknown  # was left.control
+key_key.adhooks.off_hand.pulling:key.keyboard.unknown  # was mouse right
+key_key.adhooks.off_hand.unhooking:key.keyboard.unknown  # was left.shift
+
+# --- advanced_ae ---
+key_key.advanced_ae.pattern_encoder_action:key.keyboard.unknown
+key_key.advanced_ae.pick_craft:key.keyboard.unknown
+key_key.advanced_ae.portable_workbench:key.keyboard.unknown
+key_key.advanced_ae.quantum_armor_config:key.keyboard.unknown
+key_key.advanced_ae.quantum_auto_stock_upgrade:key.keyboard.unknown
+key_key.advanced_ae.quantum_magnet_upgrade:key.keyboard.unknown
+key_key.advanced_ae.quantum_night_vision_upgrade:key.keyboard.unknown
+key_key.ae2.wireless_quantum_crafter_terminal:key.keyboard.unknown
+
+# --- advancedperipherals ---
+key_keybind.advancedperipherals.description:key.keyboard.unknown  # was left.control: held-key on Ctrl
+
+# --- ae2 ---
+key_key.ae2.mouse_wheel_item_modifier:key.keyboard.unknown  # was left.shift: duplicated sneak
+key_key.ae2.part_placement_opposite:key.keyboard.unknown  # was left.control: duplicated sprint
+key_key.ae2.portable_fluid_cell:key.keyboard.unknown
+key_key.ae2.portable_item_cell:key.keyboard.unknown
+key_key.ae2.wireless_terminal:key.keyboard.unknown
+
+# --- ae2wtlib ---
+key_key.ae2.ae2wtlib_magnet:key.keyboard.unknown
+key_key.ae2.ae2wtlib_restock:key.keyboard.unknown
+key_key.ae2.ae2wtlib_stow:key.keyboard.unknown
+key_key.ae2.wireless_pattern_access_terminal:key.keyboard.unknown
+key_key.ae2.wireless_pattern_encoding_terminal:key.keyboard.unknown
+
+# --- aether ---
+# unbound: situational
+key_key.aether.gravitite_jump_ability.desc:key.keyboard.unknown  # was space: duplicated jump
+key_key.aether.invisibility_toggle.desc:key.keyboard.unknown  # was v
+key_key.aether.open_accessories.desc:key.keyboard.unknown  # was i: the inventory has a button for it
+
+# --- aperture_innovations ---
+# unbound: portal gun keys mirror attack/use; bind them if you carry one
+key_aperture_innovations.portal_gun.pick_up:key.keyboard.unknown  # was g
+key_aperture_innovations.portal_gun.primary_fire:key.keyboard.unknown  # was mouse left
+key_aperture_innovations.portal_gun.reset:key.keyboard.unknown  # was r
+key_aperture_innovations.portal_gun.secondary_fire:key.keyboard.unknown  # was mouse right
+
+# --- apotheosis ---
+key_key.apotheosis.compare_equipment:key.keyboard.unknown  # was left.shift: Equipment Compare does the same on Shift
+key_key.apotheosis.link_item_to_chat:key.keyboard.unknown  # was t:SHIFT: Showcase Item does the same on T
+key_key.apotheosis.open_world_tier_select:key.keyboard.unknown  # was t:CONTROL: needed a modifier combo; rare
+key_key.apotheosis.toggle_radial_mining:key.keyboard.minus  # Change Radial Mining Mode
+
+# --- armor_hider ---
+key_key.armorhider.open_settings:key.keyboard.unknown
+key_key.armorhider.preset:key.keyboard.unknown
+key_key.armorhider.toggle_keybind:key.keyboard.unknown
+
+# --- ars_additions ---
+key_key.ars_additions.open_lectern:key.keyboard.unknown
+
+# --- ars_elemental ---
+key_key.ars_elemental.open_pouch:key.keyboard.unknown  # was j: the pouch opens by use
+
+# --- ars_nouveau ---
+key_key.ars_nouveau.familiar_toggle:key.keyboard.unknown
+key_key.ars_nouveau.head_curio_hotkey:key.keyboard.unknown  # was g: rare
+key_key.ars_nouveau.next_slot:key.keyboard.period  # (Spell Book) Next Slot
+key_key.ars_nouveau.open_book:key.keyboard.k  # (Spell Book) Open Book
+key_key.ars_nouveau.open_documentation:key.keyboard.unknown  # was left.control: duplicated sprint; the book has the docs
+key_key.ars_nouveau.previous_slot:key.keyboard.comma  # (Spell Book) Previous Slot
+key_key.ars_nouveau.qc1:key.keyboard.unknown
+key_key.ars_nouveau.qc10:key.keyboard.unknown
+key_key.ars_nouveau.qc2:key.keyboard.unknown
+key_key.ars_nouveau.qc3:key.keyboard.unknown
+key_key.ars_nouveau.qc4:key.keyboard.unknown
+key_key.ars_nouveau.qc5:key.keyboard.unknown
+key_key.ars_nouveau.qc6:key.keyboard.unknown
+key_key.ars_nouveau.qc7:key.keyboard.unknown
+key_key.ars_nouveau.qc8:key.keyboard.unknown
+key_key.ars_nouveau.qc9:key.keyboard.unknown
+key_key.ars_nouveau.selection_hud:key.keyboard.unknown  # was v: HUD toggle; rare
+
+# --- artifacts ---
+key_artifacts.key.charm_of_shrinking.toggle:key.keyboard.unknown
+key_artifacts.key.charm_of_sinking.toggle:key.keyboard.unknown
+key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
+key_artifacts.key.night_vision_goggles.toggle:key.keyboard.unknown
+key_artifacts.key.scarf_of_invisibility.toggle:key.keyboard.unknown
+key_artifacts.key.universal_attractor.toggle:key.keyboard.unknown
+
+# --- bankstorage ---
+# unbound: held-key on Alt; Jade owns Alt
+key_key.bankstorage.cyclebuildmode:key.keyboard.unknown
+key_key.bankstorage.enablescroll:key.keyboard.unknown
+key_key.bankstorage.lockslot:key.keyboard.unknown  # was left.alt
+key_key.bankstorage.openbankfromkeybind:key.keyboard.unknown
+key_key.bankstorage.togglebuildmode:key.keyboard.unknown
+key_key.bankstorage.togglepickupmode:key.keyboard.unknown
+
+# --- betterblockz ---
+# unbound: niche building tool
+key_key.betterblockz.cycle_pillar_axis:key.keyboard.unknown  # was r
+key_key.betterblockz.scroll_modifier:key.keyboard.unknown  # was left.alt
+key_key.betterblockz.switch:key.keyboard.unknown  # was v
+
+# --- blockprints ---
+# unbound: niche schematic tool
+key_key.blockprints.cancel_selection:key.keyboard.unknown  # was backspace
+key_key.blockprints.confirm_selection:key.keyboard.unknown  # was enter
+key_key.blockprints.open_menu:key.keyboard.unknown
+key_key.blockprints.tool_menu:key.keyboard.unknown  # was left.alt
+
+# --- bridgingmod ---
+key_key.bridgingmod.toggle_bridging:key.keyboard.unknown  # was comma: rare toggle
+
+# --- buildinggadgets2 ---
+# unbound: gadgets configure from their own screen
+key_key.buildinggadgets2.anchor:key.keyboard.unknown  # was h
+key_key.buildinggadgets2.range:key.keyboard.unknown  # was r
+key_key.buildinggadgets2.settings_menu:key.keyboard.unknown  # was g
+key_key.buildinggadgets2.undo:key.keyboard.unknown  # was u
+
+# --- calmtheleaks ---
+key_key.calmtheleaks.panel:key.keyboard.unknown  # was f8: diagnostics panel
+
+# --- cataclysm ---
+key_key.cataclysm.ability:key.keyboard.semicolon  # Cataclysm Ability
+key_key.cataclysm.boots_ability:key.keyboard.unknown  # was v: the main ability keeps the key; armour pieces are situational
+key_key.cataclysm.chestplate_ability:key.keyboard.unknown  # was y: the main ability keeps the key; armour pieces are situational
+key_key.cataclysm.helmet_ability:key.keyboard.unknown  # was c: the main ability keeps the key; armour pieces are situational
+
+# --- clienttweaks ---
+key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
+key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
+key_key.clienttweaks.hideHands:key.keyboard.unknown
+key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
+key_key.clienttweaks.mineSingleBlock:key.keyboard.unknown
+
+# --- compactmachines ---
+key_key.mapping.compactmachines.exit_room:key.keyboard.unknown
+key_key.mapping.compactmachines.open_upgrade_screen:key.keyboard.unknown
+
+# --- configured ---
+key_key.configured.open_mod_list:key.keyboard.unknown
+
+# --- constructionstick ---
+key_key.constructionstick.change_direction:key.keyboard.unknown
+key_key.constructionstick.change_restriction:key.keyboard.unknown
+key_key.constructionstick.change_upgrade:key.keyboard.unknown
+key_key.constructionstick.open_gui:key.keyboard.unknown
+key_key.constructionstick.show_previous:key.keyboard.unknown
+key_key.constructionstick.toggle_random:key.keyboard.unknown
+key_key.constructionstick.undo:key.keyboard.unknown
+
+# --- copycats ---
+# unbound: rare
+key_keyinfo.copycats.fill_copycat:key.keyboard.unknown  # was left.alt
+
+# --- crafting_on_a_stick ---
+key_crafting_on_a_stick.key.open_curios:key.keyboard.unknown  # was v: the item opens by use
+
+# --- craftingtweaks ---
+# unbound: the crafting screen has buttons for all of these
+key_key.craftingtweaks.balance:key.keyboard.unknown
+key_key.craftingtweaks.clear:key.keyboard.unknown
+key_key.craftingtweaks.compress_all:key.keyboard.unknown  # was k:SHIFT
+key_key.craftingtweaks.compress_one:key.keyboard.unknown  # was k:CONTROL
+key_key.craftingtweaks.compress_stack:key.keyboard.unknown  # was k
+key_key.craftingtweaks.decompress_all:key.keyboard.unknown
+key_key.craftingtweaks.decompress_one:key.keyboard.unknown
+key_key.craftingtweaks.decompress_stack:key.keyboard.unknown
+key_key.craftingtweaks.force_clear:key.keyboard.unknown
+key_key.craftingtweaks.refill_last:key.keyboard.unknown  # was tab:CONTROL
+key_key.craftingtweaks.refill_last_stack:key.keyboard.unknown  # was tab
+key_key.craftingtweaks.rotate:key.keyboard.unknown
+key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown
+key_key.craftingtweaks.spread:key.keyboard.unknown
+key_key.craftingtweaks.transfer_stack:key.keyboard.unknown
+
+# --- crashutilities ---
+key_crashutils.copycontainer:key.keyboard.unknown
+key_crashutils.openscreen:key.keyboard.unknown  # was u:CONTROL: debugging aid
+key_crashutils.slottooltips:key.keyboard.unknown
+
+# --- crawl ---
+key_key.crawl:key.keyboard.c  # Crawl
+
+# --- create ---
+key_create.keyinfo.alt_modifier:key.keyboard.right.alt  # Alt Modifier
+key_create.keyinfo.ctrl_modifier:key.keyboard.right.control  # Ctrl Modifier
+key_create.keyinfo.rotate_menu:key.keyboard.unknown
+key_create.keyinfo.shift_modifier:key.keyboard.right.shift  # Shift Modifier
+key_create.keyinfo.toolbelt:key.keyboard.caps.lock  # Access Nearby Toolboxes
+key_create.keyinfo.toolmenu:key.keyboard.menu  # Focus Schematic Overlay
+
+# --- create_hypertube ---
+key_key.hypertube.tube_escape:key.keyboard.unknown  # was left.shift: duplicated sneak; the tube ends on its own
+
+# --- crystalix ---
+# unbound: niche
+key_key.crystalix.apply_colorless:key.keyboard.unknown  # was left.control
+key_key.crystalix.copy_properties:key.keyboard.unknown  # was x
+key_key.crystalix.wand_config:key.keyboard.unknown  # was v
+
+# --- curios ---
+key_key.curios.open.desc:key.keyboard.g  # Open/Close Curios Inventory
+
+# --- customfov ---
+key_key.customfov.profile.desc:key.keyboard.unknown
+
+# --- deep_aether ---
+# unbound: armour abilities; situational
+key_key.deep_aether.slider_eye_ability:key.keyboard.unknown  # was left.alt
+key_key.deep_aether.stratus_dash_ability.desc:key.keyboard.unknown  # was r
+key_key.deep_aether.toggle_skyjade_transparency:key.keyboard.unknown  # was v
+
+# --- deeperdarker ---
+key_key.deeperdarker.boost:key.keyboard.f4  # Boost Soul Elytra
+key_key.deeperdarker.transmit:key.keyboard.unknown  # was v: rare
+
+# --- deepnullreforged ---
+# unbound: the DeepNull UI is off by default; bind its buttons if you turn it on
+key_key.cycle_stone_generator.desc:key.keyboard.unknown
+key_key.gui_primary_action.desc:key.keyboard.unknown  # was mouse left
+key_key.gui_secondary_action.desc:key.keyboard.unknown  # was mouse right
+key_key.gui_tertiary_action.desc:key.keyboard.unknown  # was mouse middle
+key_key.next_item.desc:key.keyboard.unknown
+key_key.open_deepnull.desc:key.keyboard.unknown
+key_key.previous_item.desc:key.keyboard.unknown
+key_key.toggle_auto_feeding.desc:key.keyboard.unknown
+key_key.toggle_auto_pickup.desc:key.keyboard.unknown
+key_key.toggle_auto_smelting.desc:key.keyboard.unknown
+key_key.toggle_global_auto_pickup.desc:key.keyboard.unknown
+key_key.toggle_hud.desc:key.keyboard.unknown
+key_key.toggle_sponge.desc:key.keyboard.unknown
+key_key.toggle_transfer_direction.desc:key.keyboard.unknown
+key_key.toggle_transfer_lock.desc:key.keyboard.unknown
+
+# --- dndesires ---
+# unbound: niche
+key_dndesires.keyinfo.drill_active:key.keyboard.unknown  # was left.alt
+key_dndesires.keyinfo.saw_active:key.keyboard.unknown  # was left.alt
+
+# --- doggytalents ---
+# unbound: whistles needed Shift+digit combos; whistle items exist
+key_key.doggytalents.whistle.1:key.keyboard.unknown  # was 1:SHIFT
+key_key.doggytalents.whistle.2:key.keyboard.unknown  # was 2:SHIFT
+key_key.doggytalents.whistle.3:key.keyboard.unknown  # was 3:SHIFT
+key_key.doggytalents.whistle.4:key.keyboard.unknown  # was 4:SHIFT
+
+# --- draconicevolution ---
+key_key.draconicevolution.dislocator_blink:key.keyboard.unknown
+key_key.draconicevolution.dislocator_down:key.keyboard.unknown
+key_key.draconicevolution.dislocator_gui:key.keyboard.unknown
+key_key.draconicevolution.dislocator_teleport:key.keyboard.unknown
+key_key.draconicevolution.dislocator_up:key.keyboard.unknown
+key_key.draconicevolution.place_item:key.keyboard.unknown  # was p: rare
+key_key.draconicevolution.toggle_flight:key.keyboard.home  # Toggle Flight
+key_key.draconicevolution.toggle_magnet:key.keyboard.unknown
+key_key.draconicevolution.tool_config:key.keyboard.f6  # Tool Config
+key_key.draconicevolution.tool_modules:key.keyboard.keypad.subtract  # Tool Modules
+
+# --- dynamic_fps ---
+key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
+key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
+
+# --- easy_villagers ---
+# unbound: villagers are picked up by use
+key_key.easy_villagers.cycle_trades:key.keyboard.unknown  # was c
+key_key.easy_villagers.pick_up:key.keyboard.unknown  # was v
+
+# --- emiaddon ---
+key_key.emiaddon.share_hovered_item:key.keyboard.unknown  # was y: rare
+
+# --- enderchests ---
+key_key.enderchests.open.bag:key.keyboard.unknown
+key_key.enderchests.open.pouch:key.keyboard.unknown
+
+# --- enderio ---
+key_key.enderio.toggle_magnet:key.keyboard.unknown  # was m: the magnet is toggled by using it
+key_key.enderio.travel_staff:key.keyboard.end  # Staff of Travelling
+
+# --- energizedpower ---
+key_key.energizedpower.teleporter.use:key.keyboard.unknown  # was v: rare
+
+# --- enigmaticlegacyplus ---
+key_key.enderRing:key.keyboard.unknown  # was i: rare
+key_key.scrollAbility:key.keyboard.unknown  # was j: rare
+key_key.spellstoneAbility:key.mouse.5  # Spellstone Active Ability
+
+# --- entityculling ---
+key_key.entityculling.toggle:key.keyboard.unknown
+
+# --- equipmentcompare ---
+key_equipmentcompare.key.showTooltips:key.keyboard.left.shift  # Show Comparison Tooltip
+
+# --- eternal_starlight ---
+key_key.eternal_starlight.switch_crest:key.keyboard.unknown  # was h: rare
+
+# --- evilcraft ---
+key_key.evilcraft.exaltedCrafting:key.keyboard.unknown  # was c: the crafter opens by use
+key_key.evilcraft.fart:key.keyboard.unknown
+
+# --- extended_industrialization ---
+key_key.extended_industrialization.toggle_boots_ability:key.keyboard.unknown
+key_key.extended_industrialization.toggle_chestplate_ability:key.keyboard.unknown
+key_key.extended_industrialization.toggle_helmet_ability:key.keyboard.unknown
+key_key.extended_industrialization.toggle_leggings_ability:key.keyboard.unknown
+key_key.extended_industrialization.toggle_main_hand_ability:key.keyboard.unknown
+
+# --- extendedae ---
+key_key.extendedae.set_amount:key.keyboard.unknown  # was mouse middle: duplicated Pick Block
+key_key.extendedae.viewpattern:key.keyboard.unknown  # was p: rare
+
+# --- extremesoundmuffler ---
+key_key.open_muffler_gui:key.keyboard.unknown
+
+# --- findme ---
+key_key.findme.pull_one:key.keyboard.unknown  # was keypad.0: rare; search remains on keypad 5
+key_key.findme.pull_stack:key.keyboard.unknown  # was keypad.1: rare; search remains on keypad 5
+key_key.findme.search:key.keyboard.keypad.5  # Search Nearby Inventories For Items
+
+# --- framedblocks ---
+key_framedblocks.key.update_cull:key.keyboard.unknown  # was f9: debugging aid
+key_framedblocks.key.wipe_cache:key.keyboard.unknown
+
+# --- ftbchunks ---
+key_key.ftbchunks.add_waypoint:key.keyboard.unknown
+key_key.ftbchunks.claim_manager:key.keyboard.unknown
+key_key.ftbchunks.map:key.keyboard.j  # Open Map
+key_key.ftbchunks.minimap.zoomIn:key.keyboard.unknown  # was equal: Xaero is the minimap
+key_key.ftbchunks.minimap.zoomOut:key.keyboard.unknown  # was minus: Xaero is the minimap
+key_key.ftbchunks.toggle_minimap:key.keyboard.unknown
+key_key.ftbchunks.waypoint_manager:key.keyboard.unknown
+
+# --- ftbquests ---
+key_key.ftbquests.quests:key.keyboard.y  # Open Quests
+
+# --- ftbteams ---
+key_key.ftbteams.open_gui:key.keyboard.unknown
+
+# --- ftbultimine ---
+key_ftbultimine.change_shape.next:key.keyboard.up  # Cycle to Next Shape
+key_ftbultimine.change_shape.prev:key.keyboard.down  # Cycle to Previous Shape
+key_key.ftbultimine:key.keyboard.grave.accent  # FTB Ultimine
+
+# --- gmut ---
+key_key.gmut.vertical_speed:key.keyboard.unknown
+
+# --- gravelminer ---
+key_key.gravelminer.toggle:key.keyboard.unknown
+
+# --- guideme ---
+key_key.guideme.guide:key.keyboard.unknown  # was g: the AE2 guide is an item and a screen button
+
+# --- hammerlib ---
+key_key.hammerlib.render_item:key.keyboard.unknown
+
+# --- hostilenetworks ---
+key_key.hostilenetworks.open_deep_learner:key.keyboard.unknown  # was u: the deep learner opens by use
+
+# --- immersive_aircraft ---
+key_key.immersive_aircraft.boost:key.keyboard.p  # Rocket boost
+key_key.immersive_aircraft.dismount:key.keyboard.i  # Dismount
+key_key.immersive_aircraft.fallback_control_backward:key.keyboard.unknown
+key_key.immersive_aircraft.fallback_control_down:key.keyboard.unknown
+key_key.immersive_aircraft.fallback_control_forward:key.keyboard.unknown
+key_key.immersive_aircraft.fallback_control_left:key.keyboard.unknown
+key_key.immersive_aircraft.fallback_control_pull:key.keyboard.unknown
+key_key.immersive_aircraft.fallback_control_push:key.keyboard.unknown
+key_key.immersive_aircraft.fallback_control_right:key.keyboard.unknown
+key_key.immersive_aircraft.fallback_control_up:key.keyboard.unknown
+key_key.immersive_aircraft.fallback_use:key.keyboard.unknown
+
+# --- immersiveengineering ---
+key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
+key_key.immersiveengineering.magnetEquip:key.keyboard.unknown  # was s: double-tap on S duplicated Walk Backwards
+key_key.immersiveengineering.railgunZoom:key.keyboard.unknown  # was mouse middle: duplicated Pick Block
+
+# --- immersivepetroleum ---
+key_key.immersivepetroleum.projector.flip:key.keyboard.unknown  # was m: rare
+
+# --- industrialforegoing ---
+key_key.industrialforegoing.backpack.desc:key.keyboard.unknown
+
+# --- industrialization_overdrive ---
+key_key.industrialization_overdrive.terminal_mode_switch:key.keyboard.unknown  # was v: rare
+
+# --- integrateddynamics ---
+# unbound: needed Alt combos; niche
+key_key.integrateddynamics.logic_programmer_focus_search:key.keyboard.unknown  # was f:ALT
+key_key.integrateddynamics.logic_programmer_open_rename:key.keyboard.unknown  # was r:ALT
+
+# --- integratedterminals ---
+# unbound: niche terminal keys
+key_key.integratedterminals.terminal.craftinggrid.balance:key.keyboard.unknown  # was b
+key_key.integratedterminals.terminal.craftinggrid.clearplayer:key.keyboard.unknown  # was c:SHIFT
+key_key.integratedterminals.terminal.craftinggrid.clearstorage:key.keyboard.unknown  # was c
+key_key.integratedterminals.terminal.portable.open:key.keyboard.unknown  # was c: duplicated Crawl
+key_key.integratedterminals.terminal.tab.next:key.keyboard.unknown  # was tab
+key_key.integratedterminals.terminal.tab.previous:key.keyboard.unknown  # was tab:SHIFT
+
+# --- inventoryessentials ---
+# unbound: Ctrl/Shift+click could not stay conflict-free next to sneak/sprint
+key_key.inventoryessentials.dump_to_container:key.keyboard.unknown
+key_key.inventoryessentials.restock_container:key.keyboard.unknown
+key_key.inventoryessentials.restock_inventory:key.keyboard.unknown
+key_key.inventoryessentials.screen_bulk_drop:key.keyboard.unknown  # was mouse left:SHIFT
+key_key.inventoryessentials.single_transfer:key.keyboard.unknown  # was mouse left:CONTROL
+key_key.inventoryessentials.sort_inventory:key.keyboard.unknown
+
+# --- iris ---
+key_iris.keybind.reload:key.keyboard.unknown  # was r: shaders reload from the video settings
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown  # was o: shader packs are chosen in the video settings
+key_iris.keybind.toggleShaders:key.keyboard.f12  # Toggle Shaders
+key_iris.keybind.wireframe:key.keyboard.unknown
+
+# --- ironjetpacks ---
+key_keybind.ironjetpacks.ascend:key.keyboard.unknown
+key_keybind.ironjetpacks.decrement_throttle:key.keyboard.page.down  # Decrease Throttle
+key_keybind.ironjetpacks.descend:key.keyboard.unknown
+key_keybind.ironjetpacks.engine:key.keyboard.f8  # Toggle Engine
+key_keybind.ironjetpacks.hover:key.keyboard.f9  # Toggle Hover Mode
+key_keybind.ironjetpacks.hud:key.keyboard.unknown
+key_keybind.ironjetpacks.increment_throttle:key.keyboard.page.up  # Increase Throttle
+
+# --- irons_spellbooks ---
+key_key.irons_spellbooks.spell_bar_modifier:key.keyboard.unknown  # was left.alt: held-key on Alt; Jade owns Alt, and the spell wheel selects spells
+key_key.irons_spellbooks.spell_quick_cast_1:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_10:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_11:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_12:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_13:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_14:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_15:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_2:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_3:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_4:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_5:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_6:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_7:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_8:key.keyboard.unknown
+key_key.irons_spellbooks.spell_quick_cast_9:key.keyboard.unknown
+key_key.irons_spellbooks.spell_wheel:key.keyboard.r  # Spell Wheel Hold
+key_key.irons_spellbooks.spell_wheel_toggle:key.keyboard.unknown
+key_key.irons_spellbooks.spellbook_cast:key.keyboard.v  # Cast Selected Spell
+
+# --- jade ---
+key_key.jade.config:key.keyboard.keypad.0  # Open Config
+key_key.jade.narrate:key.keyboard.unknown  # was keypad.5: screen-reader feature
+key_key.jade.show_details:key.keyboard.left.alt  # Show Details
+key_key.jade.show_overlay:key.keyboard.keypad.1  # Show Overlay
+key_key.jade.show_recipes:key.keyboard.keypad.3  # Show Recipes
+key_key.jade.show_uses:key.keyboard.keypad.4  # Show Uses
+key_key.jade.toggle_liquid:key.keyboard.keypad.2  # Toggle Fluid
+
+# --- justdirethings ---
+key_justdirethings.key.toggle_tool:key.keyboard.unknown  # was v: tools configure in their own screen
+key_justdirethings.key.toolUI:key.keyboard.unknown
+
+# --- kubejs ---
+key_key.kubejs.kubedex:key.keyboard.unknown  # was k: developer tool
+
+# --- legendarytooltips ---
+key_legendarytooltips.key.scrollTooltips:key.keyboard.left.control  # Scroll Tooltips
+
+# --- libtooltips ---
+key_key.libtooltips.expand:key.keyboard.unknown  # was left.shift: held-key on Shift; Equipment Compare owns Shift in screens
+
+# --- lightoverlay ---
+key_key.lightoverlay.enable_overlay:key.keyboard.f7  # Toggle Light Overlay
+
+# --- logisticsnetworks ---
+# unbound: rare
+key_key.logisticsnetworks.toggle_slot_numbers:key.keyboard.unknown  # was i:ALT
+key_key.logisticsnetworks.toggle_wrench_hud:key.keyboard.unknown  # was h
+
+# --- luggage ---
+key_keybind.luggage.call:key.keyboard.unknown
+key_keybind.luggage.wait:key.keyboard.unknown
+
+# --- mahoutsukai ---
+# unbound: Mahou Tsukai: niche; every key sat on a shared letter
+key_key.changeMysticCode:key.keyboard.unknown  # was y
+key_key.drawMahoujin:key.keyboard.unknown  # was m
+key_key.fireNobu:key.keyboard.unknown  # was mouse left
+key_key.gunDown:key.keyboard.unknown  # was down
+key_key.gunUp:key.keyboard.unknown  # was up
+key_key.selectiveDisplacement:key.keyboard.unknown  # was h
+key_key.settingsGUI:key.keyboard.unknown  # was period
+
+# --- mcjtylib ---
+key_key.openManual:key.keyboard.f1  # Open Manual
+
+# --- mechtrowel ---
+# unbound: niche building tool
+key_key.mechtrowel.open_palette:key.keyboard.unknown  # was g
+key_key.mechtrowel.open_radial_menu:key.keyboard.unknown  # was left.alt
+key_key.mechtrowel.restriction_modifier:key.keyboard.unknown
+key_key.mechtrowel.switch_last_mode:key.keyboard.unknown
+key_key.mechtrowel.toggle_build_mode:key.keyboard.unknown  # was r
+key_key.mechtrowel.toggle_chipped:key.keyboard.unknown
+key_key.mechtrowel.toggle_replace:key.keyboard.unknown  # was v
+
+# --- mekanism ---
+key_key.mekanism.chest_mode:key.keyboard.keypad.8  # Chest Mode Switch
+key_key.mekanism.description:key.keyboard.unknown  # was n:SHIFT: duplicate of the details key; needed a modifier combo
+key_key.mekanism.details:key.keyboard.tab  # Show Details
+key_key.mekanism.feet_mode:key.keyboard.keypad.6  # Feet Mode Switch
+key_key.mekanism.head_mode:key.keyboard.keypad.7  # Head Mode Switch
+key_key.mekanism.key_boost:key.keyboard.keypad.decimal  # Boost
+key_key.mekanism.key_hud:key.keyboard.unknown  # was h: MekaSuit HUD toggle; rare
+key_key.mekanism.legs_mode:key.keyboard.keypad.9  # Legs Mode Switch
+key_key.mekanism.mode:key.keyboard.n  # Item Mode Switch
+key_key.mekanism.module_tweaker:key.keyboard.backslash  # Module Tweaker
+
+# --- mekanismadditions ---
+key_key.mekanismadditions.voice:key.keyboard.unknown  # was u: walkie-talkie; rare
+
+# --- merequester ---
+key_key.ae2.wireless_requester_terminal:key.keyboard.unknown
+
+# --- minemenu ---
+key_key.open_menu:key.keyboard.unknown  # was r: MineMenu is not configured in this pack
+
+# --- mininggadgets ---
+key_mininggadgets.text.open_gui:key.keyboard.unknown
+
+# --- modern_industrialization ---
+key_key.modern_industrialization.toggle_3x3:key.keyboard.unknown  # was y: rare
+key_key.modern_industrialization.toggle_flight:key.keyboard.keypad.divide  # Toggle Flight
+
+# --- modernfix ---
+key_key.modernfix.config:key.keyboard.unknown
+
+# --- modularrouters ---
+# unbound: router keys clashed with Crawl and Dismount
+key_key.modularrouters.configure:key.keyboard.unknown  # was c
+key_key.modularrouters.moduleInfo:key.keyboard.unknown  # was i
+
+# --- myotus ---
+# unbound: needed Ctrl combos; niche
+key_key.myotus.open.terminal_setting:key.keyboard.unknown  # was period:CONTROL
+key_key.myotus.toggle.upgrade_terminal_panel:key.keyboard.unknown  # was comma:CONTROL
+
+# --- neovitae ---
+# unbound: rare
+key_key.neovitae.blood_shield:key.keyboard.unknown  # was mouse right
+key_key.neovitae.edit_hud:key.keyboard.unknown  # was h
+key_key.neovitae.lex_beam:key.keyboard.unknown
+key_key.neovitae.lex_mode:key.keyboard.unknown  # was period
+key_key.neovitae.open_guide:key.keyboard.unknown
+
+# --- notes ---
+key_key.openNotes:key.keyboard.unknown  # was n: rare
+
+# --- observable ---
+key_key.observable.profile:key.keyboard.unknown
+
+# --- occultism ---
+key_key.occultism.backpack:key.keyboard.unknown  # was b: the satchel opens by use
+key_key.occultism.ender_bag:key.keyboard.unknown  # was v: the satchel opens by use
+key_key.occultism.familiar.bat_familiar:key.keyboard.unknown
+key_key.occultism.familiar.beaver_familiar:key.keyboard.unknown
+key_key.occultism.familiar.beholder_familiar:key.keyboard.unknown
+key_key.occultism.familiar.blacksmith_familiar:key.keyboard.unknown
+key_key.occultism.familiar.chimera_familiar:key.keyboard.unknown
+key_key.occultism.familiar.cthulhu_familiar:key.keyboard.unknown
+key_key.occultism.familiar.deer_familiar:key.keyboard.unknown
+key_key.occultism.familiar.devil_familiar:key.keyboard.unknown
+key_key.occultism.familiar.dragon_familiar:key.keyboard.unknown
+key_key.occultism.familiar.fairy_familiar:key.keyboard.unknown
+key_key.occultism.familiar.goat_familiar:key.keyboard.unknown
+key_key.occultism.familiar.greedy_familiar:key.keyboard.unknown
+key_key.occultism.familiar.guardian_familiar:key.keyboard.unknown
+key_key.occultism.familiar.headless_familiar:key.keyboard.unknown
+key_key.occultism.familiar.mummy_familiar:key.keyboard.unknown
+key_key.occultism.familiar.otherworld_bird:key.keyboard.unknown
+key_key.occultism.familiar.shub_niggurath_familiar:key.keyboard.unknown
+key_key.occultism.storage_remote:key.keyboard.insert  # Open Storage Accessor
+
+# --- ok_zoomer ---
+key_key.ok_zoomer.decrease_zoom:key.keyboard.unknown
+key_key.ok_zoomer.increase_zoom:key.keyboard.unknown
+key_key.ok_zoomer.reset_zoom:key.keyboard.unknown
+key_key.ok_zoomer.zoom:key.keyboard.x  # Zoom
+
+# --- omnigrid ---
+key_key.omnigrid.open_omni_grid:key.keyboard.unknown
+
+# --- oracle_index ---
+key_key.oracle_index.open:key.keyboard.unknown  # was i: rare
+key_key.oracle_index.search:key.keyboard.unknown
+
+# --- oritech ---
+key_key.oritech.augment_screen:key.keyboard.unknown  # was g: held-key on G; Curios owns G
+
+# --- Orphans of removed mods ---
+key_Build Current Structure:key.keyboard.unknown  # was b:ALT: orphan of a removed mod
+key_Inertia Module:key.keyboard.unknown  # was l: orphan of a removed mod (Modular Angel Ring)
+key_Magnet Module:key.keyboard.unknown  # was p: orphan of a removed mod (Modular Angel Ring)
+key_Night Vision Module:key.keyboard.unknown  # was n: orphan of a removed mod (Modular Angel Ring)
+key_Speed Module:key.keyboard.unknown  # was k: orphan of a removed mod (Modular Angel Ring)
+
+# --- overenchanted ---
+# unbound: rare enchantment triggers
+key_key.overenchanted.echo_sight:key.keyboard.unknown  # was r
+key_key.overenchanted.lumberjack:key.keyboard.unknown  # was c
+
+# --- placebo ---
+key_placebo.toggleTrails:key.keyboard.unknown  # was keypad.9: supporter cosmetics
+key_placebo.toggleWings:key.keyboard.unknown  # was keypad.8: supporter cosmetics
+
+# --- pneumaticcraft ---
+# unbound: PneumaticCraft armour: only jet boots thrust and the options screen kept keys
+key_pneumaticcraft.armor.options:key.keyboard.keypad.multiply  # Pneumatic Armor General Options
+key_pneumaticcraft.armor.upgrade.air_conditioning:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.block_tracker:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.block_tracker.module.end_portal:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.block_tracker.module.energy:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.block_tracker.module.fluids:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.block_tracker.module.hackables:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.block_tracker.module.inventories:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.block_tracker.module.misc:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.block_tracker.module.spawner:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.charging:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.coordinate_tracker:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.core_components:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.elytra:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.ender_visor:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.entity_tracker:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.fall_protection:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.jet_boots:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.jet_boots.module.builder_mode:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.jet_boots.module.flight_stabilizers:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.jet_boots.module.hover:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.jet_boots.module.smart_hover:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.jump_boost:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.magnet:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.night_vision:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.reach_distance:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.run_speed:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.scuba:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.search:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.step_assist:key.keyboard.unknown
+key_pneumaticcraft.armor.upgrade.stomp:key.keyboard.unknown
+key_pneumaticcraft.boots.jet_boots:key.keyboard.z  # Pneumatic Jet Boots Thrust
+key_pneumaticcraft.boots.kick:key.keyboard.unknown  # was x:CONTROL
+key_pneumaticcraft.chestplate.launcher:key.keyboard.unknown  # was c:CONTROL
+key_pneumaticcraft.helmet.debugging.drone:key.keyboard.unknown  # was y
+key_pneumaticcraft.helmet.hack:key.keyboard.unknown  # was h
+
+# --- ponder ---
+key_key.ponder.ponder:key.keyboard.unknown  # was w: Ponder opens from the item screen; duplicated Walk Forwards
+
+# --- psi ---
+key_psimisc.keybind:key.keyboard.unknown
+
+# --- quark ---
+key_quark.emote.cheer:key.keyboard.unknown
+key_quark.emote.clap:key.keyboard.unknown
+key_quark.emote.facepalm:key.keyboard.unknown
+key_quark.emote.headbang:key.keyboard.unknown
+key_quark.emote.no:key.keyboard.unknown
+key_quark.emote.point:key.keyboard.unknown
+key_quark.emote.salute:key.keyboard.unknown
+key_quark.emote.shrug:key.keyboard.unknown
+key_quark.emote.think:key.keyboard.unknown
+key_quark.emote.wave:key.keyboard.unknown
+key_quark.emote.weep:key.keyboard.unknown
+key_quark.emote.yes:key.keyboard.unknown
+key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.back:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.unknown  # was f12: F1 already hides the HUD
+key_quark.keybind.change_hotbar:key.keyboard.unknown
+key_quark.keybind.lock_rotation:key.keyboard.unknown
+key_quark.keybind.narrator_full_readout:key.keyboard.unknown
+key_quark.keybind.narrator_readout:key.keyboard.unknown
+key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
+key_quark.keybind.patreon_emote.dance:key.keyboard.unknown
+key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
+key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
+key_quark.keybind.patreon_emote.tpose:key.keyboard.unknown
+key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_quark.keybind.shift_lock:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.transfer_extract:key.keyboard.unknown
+key_quark.keybind.transfer_insert:key.keyboard.unknown
+key_quark.keybind.variant_selector:key.keyboard.unknown  # was r: rare
+
+# --- refinedstorage ---
+key_key.refinedstorage.clear_crafting_grid_matrix_to_inventory:key.keyboard.unknown
+key_key.refinedstorage.clear_crafting_grid_matrix_to_network:key.keyboard.unknown  # was x:CONTROL: the grid has a clear button
+key_key.refinedstorage.focus_search_bar:key.keyboard.unknown  # was tab: the search bar is a click away
+key_key.refinedstorage.open_portable_grid:key.keyboard.unknown
+key_key.refinedstorage.open_wireless_autocrafting_monitor:key.keyboard.unknown
+key_key.refinedstorage.open_wireless_grid:key.keyboard.unknown
+
+# --- refinedstorage_quartz_arsenal ---
+key_key.refinedstorage_quartz_arsenal.open_wireless_crafting_grid:key.keyboard.unknown
+
+# --- relics ---
+key_key.relics.active_abilities_list:key.mouse.4  # Active Abilities Menu
+key_key.relics.research_relic:key.keyboard.unknown  # was left.shift: held-key on Shift; the abilities menu remains on mouse 4
+
+# --- reliquary ---
+key_keybind.reliquary.fortune_coin:key.keyboard.unknown
+
+# --- rftoolsbase ---
+key_key.nextDestination:key.keyboard.unknown  # was right.bracket: rare
+key_key.prevDestination:key.keyboard.unknown  # was left.bracket: rare
+
+# --- rftoolsbuilder ---
+key_key.unmountVehicle:key.keyboard.unknown  # was backslash: rare
+
+# --- screenshot_viewer ---
+key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
+
+# --- securitycraft ---
+# unbound: camera-view keys; the camera screen shows its own hints
+key_key.securitycraft.cameraActivateNightVision:key.keyboard.unknown  # was n
+key_key.securitycraft.cameraEmitRedstone:key.keyboard.unknown  # was r
+key_key.securitycraft.cameraZoomIn:key.keyboard.unknown  # was equal
+key_key.securitycraft.cameraZoomOut:key.keyboard.unknown  # was minus
+key_key.securitycraft.setDefaultViewingDirection:key.keyboard.unknown  # was u
+
+# --- sfm ---
+# unbound: Super Factory Manager: every key duplicated Shift/Ctrl/Alt or needed a combo; the label gun works from its screen
+key_key.sfm.container_inspector.activation_key:key.keyboard.unknown  # was i:CONTROL
+key_key.sfm.item_inspector.activation_key:key.keyboard.unknown
+key_key.sfm.label_gun.clear_modifier:key.keyboard.unknown  # was left.shift
+key_key.sfm.label_gun.contiguous_modifier:key.keyboard.unknown  # was left.control
+key_key.sfm.label_gun.next_label:key.keyboard.unknown
+key_key.sfm.label_gun.open_gui:key.keyboard.unknown
+key_key.sfm.label_gun.pick_block_modifier:key.keyboard.unknown  # was left.alt
+key_key.sfm.label_gun.previous_label:key.keyboard.unknown
+key_key.sfm.label_gun.pull_modifier:key.keyboard.unknown  # was left.shift
+key_key.sfm.label_gun.scroll_modifier:key.keyboard.unknown  # was left.shift
+key_key.sfm.label_gun.target_manager_modifier:key.keyboard.unknown  # was right.alt
+key_key.sfm.manager.text_editor:key.keyboard.unknown  # was e:CONTROL
+key_key.sfm.more_info:key.keyboard.unknown  # was left.shift
+key_key.sfm.text_editor.accept_intellisense:key.keyboard.unknown  # was backslash
+key_key.sfm.title_screen.text_editor:key.keyboard.unknown  # was e:CONTROL
+key_key.sfm.toggle_label_view_key:key.keyboard.unknown  # was left.alt
+key_key.sfm.toggle_network_tool_overlay:key.keyboard.unknown  # was left.alt
+
+# --- shetiphiancore ---
+key_key.shetiphiancore.tool.next:key.keyboard.unknown  # was page.up: rare
+key_key.shetiphiancore.tool.previous:key.keyboard.unknown  # was page.down: rare
+
+# --- showcaseitem ---
+key_key.showcaseitem.showcaseitem:key.keyboard.t  # Showcase Item
+
+# --- silentgear ---
+key_key.silentgear.cycle.back:key.keyboard.unknown  # was z: rare
+key_key.silentgear.cycle.next:key.keyboard.unknown  # was c: rare
+key_key.silentgear.displayItemConstruction:key.keyboard.unknown  # was left.alt: held-key on Alt; Jade owns Alt
+key_key.silentgear.displayItemProperties:key.keyboard.unknown  # was left.control: held-key on Ctrl; the tooltip shows the essentials
+key_key.silentgear.displayTraitDescriptions:key.keyboard.unknown  # was left.shift: held-key on Shift; Equipment Compare owns Shift in screens
+key_key.silentgear.openItem:key.keyboard.unknown  # was x: rare
+
+# --- simplemagnets ---
+key_simplemagnets.keys.toggle:key.keyboard.unknown  # was h: the magnet is toggled by using it
+
+# --- smallships ---
+key_key.smallships.ship_sail:key.keyboard.f10  # Toggle Sail
+
+# --- sophisticatedbackpacks ---
+key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown  # was c: rare
+key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b  # Open Backpack
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown  # was z:ALT: needed a modifier combo; upgrades toggle in the backpack screen
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown  # was x:ALT: needed a modifier combo; upgrades toggle in the backpack screen
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
+key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
+
+# --- sophisticatedcore ---
+key_key.sophisticatedcore.sort:key.keyboard.unknown  # was mouse middle: duplicated Pick Block; the storage screens have a sort button
+key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.unknown  # was right.bracket: the storage screens have transfer buttons
+key_key.sophisticatedcore.transfer_to_storage:key.keyboard.unknown  # was left.bracket: the storage screens have transfer buttons
+
+# --- sophisticateditemactions ---
+key_key.sophisticateditemactions.deposit_item:key.keyboard.apostrophe  # Deposit Item into Storages
+key_key.sophisticateditemactions.item_highlight:key.keyboard.unknown  # was semicolon: rare; deposit kept the apostrophe
+key_key.sophisticateditemactions.restock_item:key.keyboard.unknown  # was backslash: rare; deposit kept the apostrophe
+
+# --- starcatcher ---
+key_key.starcatcher.expand_tournament:key.keyboard.unknown  # was tab: overlay toggle; rare
+key_key.starcatcher.minigame_hit:key.keyboard.h  # Minigame Hit
+key_key.starcatcher.open_guide:key.keyboard.unknown
+
+# --- stellaris ---
+# unbound: space-suit keys; situational
+key_key.stellaris.freeze_planet_menu:key.keyboard.unknown  # was x
+key_key.stellaris.jetsuit_mode:key.keyboard.unknown  # was v
+key_key.stellaris.tablet_info:key.keyboard.unknown  # was n
+
+# --- stickit ---
+key_key.stickit.place:key.keyboard.unknown  # was p: rare
+
+# --- supplementaries ---
+key_supplementaries.keybind.quiver:key.keyboard.unknown  # was v: the quiver opens by use
+
+# --- tankstorage ---
+# unbound: held-key on Alt; Jade owns Alt
+key_key.tankstorage.lockslot:key.keyboard.unknown  # was left.alt
+key_key.tankstorage.opentankfromkeybind:key.keyboard.unknown
+key_key.tankstorage.toggleinsertmode:key.keyboard.unknown
+key_key.tankstorage.toggleinteractionmode:key.keyboard.unknown
+
+# --- the_bumblezone ---
+key_key.the_bumblezone.beehemoth_down:key.keyboard.unknown  # was caps.lock: rare mount
+key_key.the_bumblezone.beehemoth_up:key.keyboard.unknown  # was space: duplicated jump
+
+# --- theurgy ---
+key_key.theurgy.change_item_mode:key.keyboard.unknown
+
+# --- tombstone ---
+key_tombstone.message.compendium:key.keyboard.unknown
+key_tombstone.message.config:key.keyboard.unknown
+key_tombstone.message.knowledge_of_death:key.keyboard.unknown
+
+# --- toms_storage ---
+key_key.toms_storage.open_terminal:key.keyboard.right.bracket  # [Tom's Simple Storage] Open Terminal
+
+# --- toolbelt ---
+key_key.toolbelt.cycle.left:key.keyboard.left  # Cycle Tool Left
+key_key.toolbelt.cycle.right:key.keyboard.right  # Cycle Tool Right
+key_key.toolbelt.open:key.keyboard.left.bracket  # Swap Tool
+key_key.toolbelt.slot:key.keyboard.unknown  # was v: the belt opens by use
+
+# --- trashslot ---
+key_key.trashslot.delete:key.keyboard.delete  # Delete Item
+key_key.trashslot.delete_all:key.keyboard.unknown  # was delete:SHIFT: needed a modifier combo; the trash slot itself remains
+key_key.trashslot.toggle:key.keyboard.unknown
+key_key.trashslot.toggle_lock:key.keyboard.unknown
+
+# --- twilightforest ---
+key_key.twilightforest.item_display_map_cycle:key.keyboard.unknown  # was c: rare
+key_key.twilightforest.red_thread_vision:key.keyboard.unknown
+key_key.twilightforest.swap_hotbar:key.keyboard.unknown  # was v: rare
+key_key.twilightforest.zoom:key.keyboard.unknown  # was z: Ok Zoomer zooms
+
+# --- universalgrid ---
+key_key.universalgrid.open_wireless_universal_grid:key.keyboard.unknown
+key_key.universalgrid.switch_wireless_universal_grid_type:key.keyboard.unknown
+
+# --- wildex ---
+key_key.wildex.open:key.keyboard.unknown  # was b:SHIFT: needed a modifier combo; rare
+
+# --- xaerominimap ---
+key_gui.xaero_alternative_list_players:key.keyboard.unknown
+key_gui.xaero_display_all_sets:key.keyboard.unknown
+key_gui.xaero_enlarge_map:key.keyboard.unknown  # was z: hold-to-enlarge nicety; Z went to a flight key
+key_gui.xaero_instant_waypoint:key.keyboard.keypad.add  # Quick Waypoint
+key_gui.xaero_minimap_server_profiles:key.keyboard.unknown
+key_gui.xaero_minimap_settings:key.keyboard.unknown  # was y: reachable from the world map screen
+key_gui.xaero_new_waypoint:key.keyboard.o  # New Waypoint
+key_gui.xaero_reverse_entity_radar:key.keyboard.unknown
+key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
+key_gui.xaero_toggle_entity_radar:key.keyboard.unknown
+key_gui.xaero_toggle_grid:key.keyboard.unknown
+key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
+key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown
+key_gui.xaero_toggle_map:key.keyboard.unknown
+key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
+key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
+key_gui.xaero_toggle_slime:key.keyboard.unknown
+key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown
+key_gui.xaero_toggle_tracked_players_on_map:key.keyboard.unknown
+key_gui.xaero_toggle_waypoints:key.keyboard.unknown
+key_gui.xaero_waypoints_key:key.keyboard.u  # Open Waypoint Screen
+key_gui.xaero_zoom_in:key.keyboard.unknown
+key_gui.xaero_zoom_out:key.keyboard.unknown
+
+# --- xaeroplus ---
+key_xaeroplus.gui.world_map.start_drawing:key.keyboard.unknown
+key_xaeroplus.keybind.switch_to_end:key.keyboard.unknown
+key_xaeroplus.keybind.switch_to_nether:key.keyboard.unknown
+key_xaeroplus.keybind.switch_to_overworld:key.keyboard.unknown
+key_xaeroplus.keybind.switch_waypoints_to_end:key.keyboard.unknown
+key_xaeroplus.keybind.switch_waypoints_to_nether:key.keyboard.unknown
+key_xaeroplus.keybind.switch_waypoints_to_overworld:key.keyboard.unknown
+key_xaeroplus.keybind.world_map_baritone_elytra_here:key.keyboard.unknown
+key_xaeroplus.keybind.world_map_baritone_goal_here:key.keyboard.unknown
+key_xaeroplus.keybind.world_map_baritone_path_here:key.keyboard.unknown
+key_xaeroplus.setting.2b2t_highways_enabled:key.keyboard.unknown
+key_xaeroplus.setting.beacons_overlay:key.keyboard.unknown
+key_xaeroplus.setting.lava_columns:key.keyboard.unknown
+key_xaeroplus.setting.map_art_grid:key.keyboard.unknown
+key_xaeroplus.setting.new_chunks_highlighting:key.keyboard.unknown
+key_xaeroplus.setting.old_biomes_enabled:key.keyboard.unknown
+key_xaeroplus.setting.old_chunks_highlighting:key.keyboard.unknown
+key_xaeroplus.setting.palette_new_chunks_highlighting:key.keyboard.unknown
+key_xaeroplus.setting.player_spawn_chunks:key.keyboard.unknown
+key_xaeroplus.setting.portal_skip_detection:key.keyboard.unknown
+key_xaeroplus.setting.portals:key.keyboard.unknown
+key_xaeroplus.setting.region_grid:key.keyboard.unknown
+key_xaeroplus.setting.show_render_distance:key.keyboard.unknown
+key_xaeroplus.setting.spawn_chunks:key.keyboard.unknown
+key_xaeroplus.setting.world_tools:key.keyboard.unknown
+
+# --- xaeroworldmap ---
+key_gui.xaero_map_zoom_in:key.keyboard.unknown
+key_gui.xaero_map_zoom_out:key.keyboard.unknown
+key_gui.xaero_open_map:key.keyboard.m  # Open World Map
+key_gui.xaero_open_settings:key.keyboard.unknown  # was right.bracket: reachable from the world map screen
+key_gui.xaero_quick_confirm:key.keyboard.keypad.enter  # Quick Manual Confirmation
+key_gui.xaero_toggle_dimension:key.keyboard.unknown
+key_gui.xaero_world_map_server_settings:key.keyboard.unknown
+
+# --- xycraft_core ---
+key_key.xycraft_core.modifier_key:key.keyboard.unknown  # was left.control: held-key on Ctrl

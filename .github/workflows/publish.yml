@@ -39,6 +39,10 @@ jobs:
             echo "::warning::tools/scan_mods.py not found - skipping mod scan"
           fi
 
+      - name: Check the controls preset
+        # A layout with a conflict, or one that forgot a mapping, does not ship.
+        run: python tools/keybinds/check_preset.py
+
       - name: Generate manifest and stage assets
         run: python tools/generate_manifest.py --pack . --out dist --revision "$GITHUB_SHA"
 

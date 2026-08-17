@@ -1,0 +1,91 @@
+# Раскладка LL8: как устроен `launcher/controls-preset.txt`
+
+Пресет — полная раскладка: все 638 клавиш, которые регистрируют моды сборки, по одной строке в синтаксисе `options.txt`. Лаунчер по кнопке «Пресет настроек управления» записывает эти строки в `options.txt` инстанса; игра читает файл при старте. Скрипт `check_preset.py` доказывает, что ни одну пару экран «Управление» не покрасит красным.
+
+## Откуда взяты цифры
+
+Живой инстанс (`options.txt` после запуска сборки) регистрирует 638 клавиш; назначено было 316, из них 247 (78 %) стояли в 44 конфликтных группах: V — 22 бинда, LShift — 18, LAlt — 18, C — 14, R — 13, LCtrl — 13, G и H — по 9. Пятнадцать из 34 ванильных клавиш делили кнопку с модами; шесть биндов принадлежали удалённым модам.
+
+## Правила конфликтов (NeoForge 1.21.1, `KeyMapping.same`)
+
+Экран красит пару красным ровно тогда, когда:
+
+1. контексты биндов пересекаются: `UNIVERSAL` — со всеми, `GUI` — с `GUI`, `IN_GAME` — с `IN_GAME`; **и**
+2. либо у одного бинда модификатор Shift/Ctrl/Alt, а другой стоит на самой клавише этого модификатора (любой `Shift+X` против sneak); либо клавиша одна и та же и модификаторы совпадают; либо клавиша одна, модификаторы разные, но кто-то из пары `UNIVERSAL`/`IN_GAME` и у одного модификатор пустой (голая `E` срабатывает и под `Shift+E`).
+
+Контекст задаёт мод; мод, взявший ванильный конструктор, получает `UNIVERSAL` — так делает большинство. NeoForge переводит в `IN_GAME` только тринадцать ванильных клавиш: WASD, прыжок, sneak, sprint, attack, chat, playerlist, command, F5, smoothCamera. Остальные ванильные (E, Q, F, ПКМ, СКМ, F2, F11, 1–9, L) — `UNIVERSAL`, их клавиши недоступны никому.
+
+`scan_keys.py` читает контексты из байткода там, где класс их выдаёт (77 биндов), остальным приписывает `UNIVERSAL` — самое строгое предположение. `contexts.overrides.json` уточняет несколько известных экранных биндов (Equipment Compare, Legendary Tooltips, детали Mekanism, TrashSlot, Balm-моды) и Jade (`IN_GAME`).
+
+## Следствия, из которых выросла раскладка
+
+- **Одна клавиша — один бинд.** `UNIVERSAL`/`IN_GAME` бинды не могут делить клавишу ни с кем ни при каком модификаторе. Физических клавиш под моды около семидесяти: 17 букв (после освобождения C, X, P), `` ` - = [ ] \ ; ' , . ``, F4/F6–F10/F12, Insert/Home/End/PgUp/PgDn, стрелки, цифровой блок, CapsLock/Menu, правые Shift/Ctrl/Alt, левый Alt, боковые кнопки мыши.
+- **Сочетаний с модификаторами нет вообще.** Любое `Shift+X` в игровом контексте конфликтует со sneak, `Ctrl+X` — со sprint; а стоило бы разрешить сочетания хотя бы экранным биндам, правые Shift/Ctrl/Alt пришлось бы держать пустыми. Без сочетаний правые Shift/Ctrl/Alt, левый Alt и CapsLock — обычные клавиши для удерживаемых действий.
+- **Экранные бинды (`GUI`) живут на клавишах, которые сама игра использует только вне экранов**: LShift (Equipment Compare), LCtrl (Legendary Tooltips), Tab (детали Mekanism), T (Showcase Item), Delete (TrashSlot), F1 (руководство McJtyLib). Если какой-то из них на деле `UNIVERSAL`, экран покажет одну красную пару — тогда бинд переезжает, файл правится, `check_preset.py` подтверждает.
+- **Ваниль не тронута**, кроме трёх снятых: сохранение/загрузка панели (только творческий режим — освободили C и X) и «Социальные взаимодействия» (P). `options.narrator` снят: мод rebind_narrator существует ради того, чтобы Ctrl+B перестал включать диктора.
+- **Клавиши получили ~70 самых нужных игровых функций**, остальные 215 из ранее назначенных **сняты** (`key.keyboard.unknown`) с причиной в комментарии — их всегда можно назначить самому, они не конфликтуют, пока не назначены. Свободными оставлены `=`, `0`, Enter, Backspace, ScrollLock, Pause, PrintScreen, NumLock, мышь 6–8 — для личных биндов.
+
+## Раскладка
+
+Рука на WASD; ближние буквы — самым частым действиям.
+
+| Клавиша | Действие |
+|---|---|
+| **B** | Sophisticated Backpacks: открыть рюкзак |
+| **C** | Crawl: ползти |
+| **G** | Curios: открыть слоты |
+| **H** | Starcatcher: удар в мини-игре рыбалки («hook») |
+| **I** | Immersive Aircraft: спешиться |
+| **J** | FTB Chunks: карта и клеймы |
+| **K** | Ars Nouveau: книга заклинаний |
+| **M** | Xaero: карта мира |
+| **N** | Mekanism: режим предмета |
+| **O** | Xaero: новая точка (как в LL8 из коробки) |
+| **P** | Immersive Aircraft: ускорение |
+| **R** | Iron's Spellbooks: колесо заклинаний (удерживать) |
+| **U** | Xaero: список точек |
+| **V** | Iron's Spellbooks: применить заклинание |
+| **X** | Ok Zoomer: приближение |
+| **Y** | FTB Quests: квесты |
+| **Z** | PneumaticCraft: тяга реактивных ботинок |
+| `` ` `` | FTB Ultimine |
+| `-` | Apotheosis: режим радиальной добычи |
+| `[` `]` | Tool Belt: пояс · Tom's Storage: терминал |
+| `\` | Mekanism: настройка модулей |
+| `;` | Cataclysm: способность |
+| `'` | Sophisticated Item Actions: сложить предмет в хранилища |
+| `,` `.` | Ars Nouveau: предыдущий/следующий слот заклинания |
+| F4 | Deeper Darker: ускорение элитр души |
+| F6 | Draconic Evolution: настройка инструмента |
+| F7 | Light Overlay |
+| F8 · F9 | Iron Jetpacks: двигатель · парение |
+| F10 | Small Ships: парус |
+| F12 | Iris: шейдеры вкл/выкл |
+| Insert · Home · End | Occultism: удалённое хранилище · Draconic: полёт · Ender IO: посох путешествий |
+| PgUp · PgDn | Iron Jetpacks: тяга + / − |
+| ↑ ↓ | FTB Ultimine: форма |
+| ← → | Tool Belt: инструмент влево/вправо |
+| Num 0–4 | Jade: настройки · оверлей · жидкости · рецепты · применения |
+| Num 5 | FindMe: искать в хранилищах |
+| Num 6–9 | Mekanism: режим ботинок · шлема · нагрудника · поножей |
+| Num + · Enter | Xaero: быстрая точка · быстрое подтверждение |
+| Num − · × · ÷ · . | Draconic: модули · PneumaticCraft: настройки брони · MI: полёт · Mekanism: ускорение |
+| **LAlt** (удерживать) | Jade: подробности |
+| RShift · RCtrl · RAlt | Create: модификаторы Shift/Ctrl/Alt (в Create они назначаемы, на левых стоят sneak/sprint/Jade) |
+| CapsLock (удерживать) | Create: ближайшие ящики инструментов |
+| Menu | Create: оверлей схематики |
+| Мышь 4 · 5 | Relics: меню способностей (удерживать) · Enigmatic Legacy: способность камня |
+| В экранах: LShift · LCtrl · Tab · T · Delete · F1 | Equipment Compare · Legendary Tooltips · детали Mekanism · Showcase Item · TrashSlot · McJtyLib |
+
+## Что снято и почему
+
+Целиком (см. комментарии `# unbound:` в файле): Hook Launcher (10 биндов повторяют attack/use/jump/sneak/sprint), Super Factory Manager (13), Mahou Tsukai (7), SecurityCraft (клавиши режима камеры), Building Gadgets 2, MechTrowel, BlockZ, Crystalix, Blockprints, Aether/Deep Aether (способности брони), Stellaris, Easy Villagers, Doggy Talents (свистки на Shift+цифра), Crafting Tweaks (у экрана крафта есть кнопки), Inventory Essentials (Ctrl/Shift+клик рядом со sneak/sprint без конфликта не стоит), Integrated Terminals/Dynamics, Modular Routers, Myotus, DeepNull (его UI выключен по умолчанию), Aperture Innovations (клавиши портальной пушки повторяют attack/use).
+
+Точечно: у Xaero сняты «увеличить миникарту», обе кнопки настроек (доступны с карты мира) и зум FTB Chunks; у Mekanism — описание и HUD; у Sophisticated Core — сортировка (дублировала Pick Block, в экранах есть кнопка) и переносы; у RS — фокус поиска и очистка сетки; у Silent Gear — три удерживаемых клавиши подсказок; ссылка на предмет Apotheosis (то же делает Showcase Item на T); ключи, дублирующие Shift/Ctrl/Alt в игре (Create Hypertube escape, AE2 modifier, xycraft, Advanced Peripherals, Relics research). Каждая строка в файле помнит прежнюю клавишу: `# was v`.
+
+## Как править
+
+1. Правьте `launcher/controls-preset.txt` (одна строка — один бинд; `key.keyboard.unknown` — снято).
+2. `python tools/keybinds/check_preset.py` — ноль проблем; `--report` печатает раскладку по клавишам.
+3. После добавления/удаления модов: `python tools/keybinds/scan_keys.py --options <options.txt инстанса, запускавшего сборку>` — обновит `registered-keys.tsv` и `contexts.json`; новые клавиши нужно внести в пресет (checker скажет, каких не хватает).
+4. Коммит и push — `publish.yml` прогоняет checker и публикует пак; у игроков кнопка в лаунчере разблокируется и предлагает применить новую версию.
