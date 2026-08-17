@@ -7,8 +7,8 @@
 		ftbchunks.max_claimed: 500
 		ftbchunks.max_force_loaded: 100
 		command.ae2things: false
-		command.back: false
-		command.delhome: false
+		command.back: true
+		command.delhome: true
 		command.delwarp.name: false
 		command.delwarp: false
 		command.ftbbackups3: false
@@ -49,8 +49,8 @@
 		command.ftbteams.server: false
 		command.ftbultimine: false
 		command.ftbultimine.clientconfig: true
-		command.home.name: false
-		command.home: false
+		command.home.name: true
+		command.home: true
 		command.kubejs: true
 		command.listhomes: false
 		command.listwarps: true
@@ -58,12 +58,12 @@
 		command.msg: true
 		command.openguiscreen: false
 		command.rtp: true
-		command.sethome.name: false
-		command.sethome: false
+		command.sethome.name: true
+		command.sethome: true
 		command.setwarp.name: false
 		command.setwarp: false
 		command.showmahou: true
-		command.spawn: false
+		command.spawn: true
 		command.tbacceptteleport: false
 		command.tbbind: false
 		command.tbgui: true

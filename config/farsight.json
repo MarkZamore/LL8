@@ -9,7 +9,7 @@
   },
   "chunkPreview": {
     "descEnable:": "Enables chunk preview feature, which enables saving and loading previously visited chunks to/from disk, default false",
-    "enabled": false,
+    "enabled": true,
     "descSpeed:": "Set the speed at which chunk preview loads chunks from disk, default and minimum 1 Chunk per tick(20 per second)",
     "previewChunkLoadSpeed": 1
   },
