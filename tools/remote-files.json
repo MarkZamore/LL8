@@ -3,13 +3,6 @@
  "_comment": "Files too heavy to keep in git - GitHub refuses anything over 100 MB, and a 65 MB pack would be committed twice (pack tree plus overlay source). tools/fetch_remote_files.py puts each one where it belongs before anything reads those folders, and refuses any file whose sha256 does not match.",
  "files": [
   {
-   "target": "mods/Cobblemon-neoforge-1.7.3+1.21.1.jar",
-   "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/S1TrAn8c/Cobblemon-neoforge-1.7.3%2B1.21.1.jar",
-   "sha256": "962d75df4fb649d94863a7a7d130d4d2b3de4da9b3cae4c44b1ce90f37ec0ed5",
-   "size": 128748941,
-   "reason": "requested addition (cobblemon 1.7.3+1.21.1); 122.8 MiB is over GitHub's per-file limit, so it is fetched rather than committed"
-  },
-  {
    "target": "resourcepacks/AnimeMemePackv8.1.0.zip",
    "url": "https://cdn.modrinth.com/data/NlV6RQjs/versions/rlWW3TDt/AnimeMemePackv8.1.0.zip",
    "sha256": "c4b0b499508f935f30e553a7c24bb858ff603c58e133678ee1ae828ea9fe46c5",
