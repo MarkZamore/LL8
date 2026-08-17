@@ -2,6 +2,7 @@
  "CerbonsAPI-*.jar",
  "HatsRenewed-*.jar",
  "MOTS-NeoForge-*.jar",
+ "OtakoMod-*.jar",
  "PatPat-*.jar",
  "ReinforcedBlackHoles-*.jar",
  "ReinforcedSingularityRifle-*.jar",
@@ -13,5 +14,6 @@
  "e4steam-*.jar",
  "orbital_railgun-*.jar",
  "remorphed-*.jar",
- "walkers-*.jar"
+ "walkers-*.jar",
+ "ysm-*.jar"
 ]

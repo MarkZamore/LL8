@@ -558,6 +558,11 @@ key.walkers_unlock	walkers	UNIVERSAL	assumed	key.keyboard.u		jar	Scan a mob
 key.walkers_variants	walkers	UNIVERSAL	assumed	key.keyboard.v		jar	Open the Variants Menu	
 key.wildex.open	wildex	IN_GAME	bytecode		key.keyboard.b:SHIFT	options	Open Wildex	
 key.xycraft_core.modifier_key	xycraft_core	UNIVERSAL	bytecode	key.keyboard.left.control	key.keyboard.left.control	options+defaults	Modifier Key	
+key.yes_steve_model.animation_roulette.desc	yes_steve_model	IN_GAME	bytecode	key.keyboard.z		jar	Open Animation Roulette	Открыть рулетку анимаций
+key.yes_steve_model.debug_animation.desc	yes_steve_model	IN_GAME	bytecode	key.keyboard.b		jar	Open Animation Debug	Открыть меню отладки анимаций
+key.yes_steve_model.lock_roulette.desc	yes_steve_model	IN_GAME	bytecode	key.keyboard.l		jar	Lock Roulette	Заблокировать рулетку
+key.yes_steve_model.open_extra_player_render.desc	yes_steve_model	IN_GAME	bytecode	key.keyboard.p		jar	Extra Player Render Config	Дополнительная конфигурация визуализации игрока
+key.yes_steve_model.player_model.desc	yes_steve_model	IN_GAME	bytecode	key.keyboard.y		jar	Open Player Model GUI	Открыть интерфейс моделей игрока
 keybind.advancedperipherals.description	advancedperipherals	UNIVERSAL	assumed	key.keyboard.left.control	key.keyboard.left.control	options+defaults	Show Description	Показать описание
 keybind.ironjetpacks.ascend	ironjetpacks	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Ascend	
 keybind.ironjetpacks.decrement_throttle	ironjetpacks	UNIVERSAL	assumed	key.keyboard.comma	key.keyboard.comma	options+defaults	Decrease Throttle	Убавить газ
