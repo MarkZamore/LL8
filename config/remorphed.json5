@@ -1,0 +1,13 @@
+{
+	// Формы остаются навсегда: убийства копятся и не расходуются,
+	// поэтому одного убийства хватает, чтобы облик был доступен всегда.
+	"creativeUnlockAll": true,
+	"killToUnlock": 1,
+	"killToUnlockPlayers": 2,
+	"autoTransform": false,
+	// false = превращаться можно свободно, без запрета.
+	"lockTransform": false,
+	"unlockFriendlyNormal": false,
+	"killToUnlockByType": {},
+	"loadMenuAsynchronous": true
+}

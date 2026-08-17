@@ -1,0 +1,7 @@
+{
+	// Облик не отбирается при смерти и не имеет срока действия.
+	"revoke2ndShapeOnDeath": false,
+	"unlockTimer": 0.0,
+	"unlockOverridesCurrentShape": false,
+	"unlockEveryVariant": true
+}
