@@ -24,6 +24,20 @@
 # the older pack formats. Fifteen packs came off the selection that way; the
 # game said so itself: "Removed resource pack ... from incompatibility list
 # because it's now compatible".
+#
+# The block below the packs of the build is what the mods themselves carry:
+# optional sets they ship switched off. They are named first, so they sit at
+# the bottom of the selection - under every pack of the build, showing only
+# where nothing above them draws anything at all.
+
+programmer_art
+high_contrast
+mod/iceandfire:resourcepacks/iaf_legacy
+touhou_little_maid_legacy_resources_pack
+touhou_little_maid_spell_legacy_textures
+mod/cobblemon:resourcepacks/gyaradosjump
+mod/cobblemon:resourcepacks/regionbiasforms
+mod/cobblemon:resourcepacks/uniqueshinyforms
 
 file/Stay True 1.21.zip
 file/Authentic Shadows_1.21+.zip
