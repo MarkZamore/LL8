@@ -8,7 +8,11 @@
  "Cobblemon-*.jar",
  "craftedcore-*.jar",
  "e4steam-*.jar",
+ "entity_model_features-*.jar",
+ "entity_texture_features_*.jar",
  "HatsRenewed-*.jar",
+ "iceandfire-*.jar",
+ "jupiter-*.jar",
  "MOTS-NeoForge-*.jar",
  "orbital_railgun-*.jar",
  "OtakoMod-*.jar",
@@ -17,6 +21,7 @@
  "ReinforcedSingularityRifle-*.jar",
  "remorphed-*.jar",
  "sexmod-*.jar",
+ "uranus-*.jar",
  "walkers-*.jar",
  "ysm-*.jar"
 ]

@@ -33,3 +33,4 @@ file/The Brazilian Project [1.21.1-1.3.0].zip
 file/Pretty X Smart Pipez.zip
 file/waystones_1.21.1.zip
 file/Grays Mob Overhaul v13.zip
+!file/Skeleton Girlies.zip

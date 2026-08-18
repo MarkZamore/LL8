@@ -1023,3 +1023,15 @@ key_key.yes_steve_model.animation_roulette.desc:key.keyboard.num.lock  # Emote w
 key_key.yes_steve_model.lock_roulette.desc:key.keyboard.unknown  # unbound: locks the emote wheel open; was l (advancements)
 key_key.yes_steve_model.open_extra_player_render.desc:key.keyboard.unknown  # unbound: a second render window; was p, which the jetpack hovers on
 key_key.yes_steve_model.debug_animation.desc:key.keyboard.unknown  # unbound: the mod's own debug key; was b (backpack)
+key_key.dragon_change_view:key.keyboard.unknown  # was f7: taken by the light overlay
+key_key.dragon_down:key.keyboard.unknown  # was x: taken by the zoom
+key_key.dragon_fireAttack:key.keyboard.unknown  # was r: taken by Cobblemon
+key_key.dragon_strike:key.keyboard.unknown  # was g: taken by the rifle
+key_key.yes_steve_model.extra_animation.0.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
+key_key.yes_steve_model.extra_animation.1.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
+key_key.yes_steve_model.extra_animation.2.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
+key_key.yes_steve_model.extra_animation.3.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
+key_key.yes_steve_model.extra_animation.4.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
+key_key.yes_steve_model.extra_animation.5.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
+key_key.yes_steve_model.extra_animation.6.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
+key_key.yes_steve_model.extra_animation.7.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted

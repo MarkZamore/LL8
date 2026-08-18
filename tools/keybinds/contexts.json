@@ -907,6 +907,22 @@
     "context": "IN_GAME",
     "source": "bytecode"
   },
+  "key.dragon_change_view": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.dragon_down": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.dragon_fireAttack": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.dragon_strike": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
   "key.drawMahoujin": {
     "context": "UNIVERSAL",
     "source": "assumed"
@@ -2302,6 +2318,38 @@
   "key.yes_steve_model.debug_animation.desc": {
     "context": "IN_GAME",
     "source": "bytecode"
+  },
+  "key.yes_steve_model.extra_animation.0.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.yes_steve_model.extra_animation.1.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.yes_steve_model.extra_animation.2.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.yes_steve_model.extra_animation.3.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.yes_steve_model.extra_animation.4.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.yes_steve_model.extra_animation.5.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.yes_steve_model.extra_animation.6.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
+  "key.yes_steve_model.extra_animation.7.desc": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
   },
   "key.yes_steve_model.lock_roulette.desc": {
     "context": "IN_GAME",
