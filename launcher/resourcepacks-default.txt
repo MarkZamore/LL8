@@ -13,8 +13,17 @@
 # Refreshed, THICC villagers over Luigi and Slavic, Betty over the other
 # witches, CowGirl over Standing Cow, Jax over the monster-girl enderman).
 #
-# "!" marks a pack built for an older or newer game; it plays, but the game
-# keeps such packs in a list of its own and would otherwise ask every launch.
+# The packs under config/paxi/resourcepacks are not named here: Paxi loads
+# them itself, always and for everyone, under a name without the "file/" in
+# front. A copy in resourcepacks/ next to them is one the game never sees -
+# it warned "doesn't seem to exist anymore" about all five every launch.
+#
+# No line is marked "!". That mark put a pack into the game's own list of
+# incompatible ones, and the game deselects a pack it finds in that list and
+# then judges compatible - which is every pack here, because NeoForge accepts
+# the older pack formats. Fifteen packs came off the selection that way; the
+# game said so itself: "Removed resource pack ... from incompatibility list
+# because it's now compatible".
 
 file/Stay True 1.21.zip
 file/Authentic Shadows_1.21+.zip
@@ -24,42 +33,37 @@ file/GEO - v1.109.0.zip
 file/GEO - v1.109.0 - Fusion.zip
 file/Anime Paintings 1.0.zip
 file/Totem of GAGAGA 7tv emote 1.0.zip
-!file/MOANING MOBS by Gooey 0.1.zip
+file/MOANING MOBS by Gooey 0.1.zip
 file/Fresh Animations v1.10.4.zip
 file/Torturable Healthbars 2.4.3.zip
 file/3D Reinforced Armor v1.zip
 file/Baby Animals Remastered 1.21 v1.3.zip
 file/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip
-file/The Brazilian Project [1.21.1-1.3.0].zip
-!file/EclecticTrove-noconfig-1.20.2-1.3.0.zip
-!file/EmbellishedStone-1.19-1.0.0.zip
-file/Pretty X Smart Pipez.zip
-file/waystones_1.21.1.zip
 file/3D Items-Vanillaism-1.21.1.zip
 file/Grays Mob Overhaul v13.zip
 file/Skeletons Hands 67.zip
-!file/Skeleton Girlies.zip
+file/Skeleton Girlies.zip
 file/Cherry_Creeper_remake(3.0).zip
 file/Only Glass GUI v0.2.zip
-!file/The Sky Sun and Moon.zip
-!file/zazu sun and moon.zip
+file/The Sky Sun and Moon.zip
+file/zazu sun and moon.zip
 file/funnyrain.zip
-!file/Lilac Jackson.zip
-!file/3D Beetroots to Tomatoes.zip
-!file/Bad Dream Death.zip
+file/Lilac Jackson.zip
+file/3D Beetroots to Tomatoes.zip
+file/Bad Dream Death.zip
 file/Slavic Villagers.zip
 file/Luigi Villagers.zip
 file/Blues Better Zombies v0.13.zip
 file/Azus Enhanced Zombie Variants FA v1.2.zip
 file/Golems Refreshed v2.1.zip
-!file/Thicc Villagers v1.2.zip
-!file/LLama Girls.zip
+file/Thicc Villagers v1.2.zip
+file/LLama Girls.zip
 file/My Monster Girls.zip
 file/Neco-Arc Cats.zip
-!file/Breeze Girl v1.0.zip
-!file/Betty Witch v1.0.zip
+file/Breeze Girl v1.0.zip
+file/Betty Witch v1.0.zip
 file/Muggets Standing Cow v1.0.zip
 file/CowGirl v1.zip
-!file/Thicc Phantom.zip
-!file/Jax Enderman.zip
+file/Thicc Phantom.zip
+file/Jax Enderman.zip
 file/Gigachad Villager.zip
