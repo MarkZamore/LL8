@@ -16,5 +16,8 @@
   "key.sophisticatedcore.transfer_to_storage": "GUI",
   "key.refinedstorage.focus_search_bar": "GUI",
   "key.refinedstorage.clear_crafting_grid_matrix_to_network": "GUI",
-  "key.jade.show_details": "IN_GAME"
+  "key.jade.show_details": "IN_GAME",
+  "key.mekanism.key_boost": "IN_GAME",
+  "key.relics.research_relic": "GUI",
+  "key.starcatcher.minigame_hit": "GUI"
 }

@@ -2,8 +2,25 @@
  "schemaVersion": 1,
  "pairs": [
   {
-   "mappings": ["key.sneak", "keybind.ironjetpacks.descend"],
+   "mappings": [
+    "key.sneak",
+    "keybind.ironjetpacks.descend"
+   ],
    "reason": "asked for: holding left Shift is how a jetpack goes down, and it is also sneak. The Controls screen marks the pair red; both still fire, and sneaking mid-air is what the descent looks like anyway."
+  },
+  {
+   "mappings": [
+    "key.jump",
+    "pneumaticcraft.boots.jet_boots"
+   ],
+   "reason": "PneumaticCraft's own default: holding jump is how the jet boots thrust. Both are IN_GAME on Space, so the Controls screen marks the pair red; both fire, and with the boots on, jumping IS thrusting - the mod's shipped behaviour."
+  },
+  {
+   "mappings": [
+    "key.sprint",
+    "key.mekanism.key_boost"
+   ],
+   "reason": "Mekanism's own default: holding sprint is how the MekaSuit gravitational unit boosts. Both are IN_GAME on Left Ctrl, so the Controls screen marks the pair red; both fire, and boost only does anything while flying in a MekaSuit - the mod's shipped behaviour."
   }
  ]
 }

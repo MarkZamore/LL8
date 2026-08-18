@@ -590,7 +590,7 @@ key_key.mekanism.description:key.keyboard.unknown  # was n:SHIFT: duplicate of t
 key_key.mekanism.details:key.keyboard.tab  # Show Details
 key_key.mekanism.feet_mode:key.keyboard.keypad.6  # Feet Mode Switch
 key_key.mekanism.head_mode:key.keyboard.keypad.7  # Head Mode Switch
-key_key.mekanism.key_boost:key.keyboard.keypad.decimal  # Boost
+key_key.mekanism.key_boost:key.keyboard.left.control  # was numpad decimal: back to the mod default, hold sprint to boost in a MekaSuit
 key_key.mekanism.key_hud:key.keyboard.unknown  # was h: MekaSuit HUD toggle; rare
 key_key.mekanism.legs_mode:key.keyboard.keypad.9  # Legs Mode Switch
 key_key.mekanism.mode:key.keyboard.unknown  # was n: riding freelook took it, and this pack already switches item modes with sneak + scroll
@@ -729,7 +729,7 @@ key_pneumaticcraft.armor.upgrade.scuba:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.search:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.step_assist:key.keyboard.unknown
 key_pneumaticcraft.armor.upgrade.stomp:key.keyboard.unknown
-key_pneumaticcraft.boots.jet_boots:key.keyboard.z  # Pneumatic Jet Boots Thrust
+key_pneumaticcraft.boots.jet_boots:key.keyboard.space  # was z: back to the mod default, hold jump to thrust; frees Z for the dragon
 key_pneumaticcraft.boots.kick:key.keyboard.unknown  # was x:CONTROL
 key_pneumaticcraft.chestplate.launcher:key.keyboard.unknown  # was c:CONTROL
 key_pneumaticcraft.helmet.debugging.drone:key.keyboard.unknown  # was y
@@ -787,7 +787,7 @@ key_key.refinedstorage_quartz_arsenal.open_wireless_crafting_grid:key.keyboard.u
 
 # --- relics ---
 key_key.relics.active_abilities_list:key.mouse.4  # Active Abilities Menu
-key_key.relics.research_relic:key.keyboard.unknown  # was left.shift: held-key on Shift; the abilities menu remains on mouse 4
+key_key.relics.research_relic:key.keyboard.f5  # F5, screen only
 
 # --- reliquary ---
 key_keybind.reliquary.fortune_coin:key.keyboard.unknown
@@ -803,8 +803,8 @@ key_key.prevDestination:key.keyboard.unknown  # was left.bracket: rare
 key_key.unmountVehicle:key.keyboard.unknown  # was backslash: rare
 
 # --- rsrifle ---
-key_key.rsrifle.charge_firearm:key.keyboard.g  # Charge the rifle - its own default; Curios gave the key up
-key_key.rsrifle.reload:key.keyboard.c  # Reload; was crawl, and crawling is not a thing you do mid-fight
+key_key.rsrifle.charge_firearm:key.keyboard.h  # was g: slid two keys right, the corner went to the dragon
+key_key.rsrifle.reload:key.keyboard.y  # was c: slid two keys right, the corner went to the dragon
 
 # --- screenshot_viewer ---
 key_key.screenshot_viewer.open_screenshots_screen:key.keyboard.unknown
@@ -884,7 +884,7 @@ key_key.sophisticateditemactions.restock_item:key.keyboard.unknown  # was backsl
 
 # --- starcatcher ---
 key_key.starcatcher.expand_tournament:key.keyboard.unknown  # was tab: overlay toggle; rare
-key_key.starcatcher.minigame_hit:key.keyboard.h  # Minigame Hit
+key_key.starcatcher.minigame_hit:key.keyboard.space  # was h: back to the mod default; read only inside the minigame screen, which names the key itself
 key_key.starcatcher.open_guide:key.keyboard.unknown
 
 # --- stellaris ---
@@ -922,8 +922,8 @@ key_tombstone.message.knowledge_of_death:key.keyboard.unknown
 key_key.toms_storage.open_terminal:key.keyboard.right.bracket  # [Tom's Simple Storage] Open Terminal
 
 # --- toolbelt ---
-key_key.toolbelt.cycle.left:key.keyboard.left  # Cycle Tool Left
-key_key.toolbelt.cycle.right:key.keyboard.right  # Cycle Tool Right
+key_key.toolbelt.cycle.left:key.keyboard.unknown  # unbound: the radial menu on [ picks by click, the mod ships this unbound too; arrows went to the dragon and the ender pocket
+key_key.toolbelt.cycle.right:key.keyboard.unknown  # unbound: the radial menu on [ picks by click, the mod ships this unbound too; arrows went to the dragon and the ender pocket
 key_key.toolbelt.open:key.keyboard.left.bracket  # Swap Tool
 key_key.toolbelt.slot:key.keyboard.unknown  # was v: the belt opens by use
 
@@ -1009,7 +1009,7 @@ key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_open_map:key.keyboard.m  # Open World Map
 key_gui.xaero_open_settings:key.keyboard.unknown  # was right.bracket: reachable from the world map screen
-key_gui.xaero_quick_confirm:key.keyboard.keypad.enter  # Quick Manual Confirmation
+key_gui.xaero_quick_confirm:key.keyboard.unknown  # unbound: Num Enter went to the maid voice chat; Enter confirms the same dialogs
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_gui.xaero_toggle_tracked_players:key.keyboard.unknown  # registered only when the minimap is absent
 key_gui.xaero_world_map_server_settings:key.keyboard.unknown
@@ -1018,15 +1018,15 @@ key_gui.xaero_world_map_server_settings:key.keyboard.unknown
 key_key.xycraft_core.modifier_key:key.keyboard.unknown  # was left.control: held-key on Ctrl
 
 # --- yes_steve_model ---
-key_key.yes_steve_model.player_model.desc:key.keyboard.y  # Choose your model - its own default; FTB Quests gave the key up
+key_key.yes_steve_model.player_model.desc:key.keyboard.keypad.decimal  # was y: Y went to the rifle reload
 key_key.yes_steve_model.animation_roulette.desc:key.keyboard.num.lock  # Emote wheel; was z, which flies the pneumatic boots. NumLock is the last key here that does nothing else
 key_key.yes_steve_model.lock_roulette.desc:key.keyboard.unknown  # unbound: locks the emote wheel open; was l (advancements)
 key_key.yes_steve_model.open_extra_player_render.desc:key.keyboard.unknown  # unbound: a second render window; was p, which the jetpack hovers on
 key_key.yes_steve_model.debug_animation.desc:key.keyboard.unknown  # unbound: the mod's own debug key; was b (backpack)
-key_key.dragon_change_view:key.keyboard.unknown  # was f7: taken by the light overlay
-key_key.dragon_down:key.keyboard.unknown  # was x: taken by the zoom
-key_key.dragon_fireAttack:key.keyboard.unknown  # was r: taken by Cobblemon
-key_key.dragon_strike:key.keyboard.unknown  # was g: taken by the rifle
+key_key.dragon_change_view:key.keyboard.right  # dragon camera: Right arrow, was the tool belt cycle
+key_key.dragon_down:key.keyboard.z  # dragon down: Z, the corner under the left hand; inert without a dragon
+key_key.dragon_fireAttack:key.keyboard.c  # dragon breath: C, was the rifle reload
+key_key.dragon_strike:key.keyboard.g  # dragon strike: G, was the rifle charge
 key_key.yes_steve_model.extra_animation.0.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
 key_key.yes_steve_model.extra_animation.1.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
 key_key.yes_steve_model.extra_animation.2.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
@@ -1035,6 +1035,6 @@ key_key.yes_steve_model.extra_animation.4.desc:key.keyboard.unknown  # ysm anima
 key_key.yes_steve_model.extra_animation.5.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
 key_key.yes_steve_model.extra_animation.6.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
 key_key.yes_steve_model.extra_animation.7.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
-key_key.touhou_little_maid.dismount.desc:key.keyboard.unknown  # was c: taken by the rifle reload
-key_key.touhou_little_maid.stt_chat.desc:key.keyboard.unknown  # was x: taken by the zoom; voice chat, rarely wanted
-key_key.touhou_little_maid_spell.open_ender_pocket:key.keyboard.unknown  # was u: taken by the special ability
+key_key.touhou_little_maid.dismount.desc:key.keyboard.delete  # off the maid broom: Delete is TrashSlot only inside a screen, this only in game; they never meet
+key_key.touhou_little_maid.stt_chat.desc:key.keyboard.keypad.enter  # voice chat to a maid: Num Enter, rarely wanted
+key_key.touhou_little_maid_spell.open_ender_pocket:key.keyboard.left  # ender pocket: Left arrow, was the tool belt cycle
