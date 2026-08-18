@@ -1,31 +1,34 @@
 # Every resource pack the pack ships, switched on for a player who has already
-# played.
-#
-# The game reads its seed options (configureddefaults/options.txt) only when an
-# instance has none, so without this list an existing player would receive these
-# files and never see them selected. The launcher applies the list once per
-# version of it - change a line and every instance gets it again - and after
-# that the choice is the player's: a pack switched off stays off.
+# played. The launcher applies this list once per version of it: the pack's
+# packs go on in this order, what the pack dropped comes off, and the player's
+# own packs are never touched.
 #
 # Order is the game's own: a later line sits above an earlier one where two
-# packs redraw the same thing, and the launcher gives the whole list this order
-# in an instance that already has some of it. Gray's Mob Overhaul is last, and
-# so on top, since it and Cute Mob Models both redraw the mobs. The five packs
-# the pack shipped without ever switching on sit directly beneath it: none of
-# them touches a mob, so the order above them is the one the pack has always
-# had.
+# packs redraw the same thing. Bottom to top: Stay True as the base coat under
+# everything; the shadow, vignette and ore packs; the world's mob packs with
+# Fresh Animations under them (it animates vanilla models, a pack with its own
+# model wins for that mob); Gray's Mob Overhaul, then the skeleton girls and
+# the cherry creeper; and on top the single-mob jokes and overlays, where a
+# later joke beats an earlier one for the same mob (Gigachad golem over Golems
+# Refreshed, THICC villagers over Luigi and Slavic, Betty over the other
+# witches, CowGirl over Standing Cow, Jax over the monster-girl enderman).
 #
-# "!" marks a pack built for an older game; it plays, but the game keeps such
-# packs in a list of its own and would otherwise ask about them every launch.
+# "!" marks a pack built for an older or newer game; it plays, but the game
+# keeps such packs in a list of its own and would otherwise ask every launch.
 
+file/Stay True 1.21.zip
 file/Authentic Shadows_1.21+.zip
 file/No Vignette 1.21.zip
 file/AE2Blackout-V1.2.8.zip
 file/GEO - v1.109.0.zip
 file/GEO - v1.109.0 - Fusion.zip
-!file/Anime Paintings 1.0.zip
+file/Anime Paintings 1.0.zip
 file/Totem of GAGAGA 7tv emote 1.0.zip
 !file/MOANING MOBS by Gooey 0.1.zip
+file/Fresh Animations v1.10.4.zip
+file/Torturable Healthbars 2.4.3.zip
+file/3D Reinforced Armor v1.zip
+file/Baby Animals Remastered 1.21 v1.3.zip
 file/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip
 file/The Brazilian Project [1.21.1-1.3.0].zip
 !file/EclecticTrove-noconfig-1.20.2-1.3.0.zip
@@ -34,5 +37,29 @@ file/Pretty X Smart Pipez.zip
 file/waystones_1.21.1.zip
 file/3D Items-Vanillaism-1.21.1.zip
 file/Grays Mob Overhaul v13.zip
+file/Skeletons Hands 67.zip
 !file/Skeleton Girlies.zip
 file/Cherry_Creeper_remake(3.0).zip
+file/Only Glass GUI v0.2.zip
+!file/The Sky Sun and Moon.zip
+!file/zazu sun and moon.zip
+file/funnyrain.zip
+!file/Lilac Jackson.zip
+!file/3D Beetroots to Tomatoes.zip
+!file/Bad Dream Death.zip
+file/Slavic Villagers.zip
+file/Luigi Villagers.zip
+file/Blues Better Zombies v0.13.zip
+file/Azus Enhanced Zombie Variants FA v1.2.zip
+file/Golems Refreshed v2.1.zip
+!file/Thicc Villagers v1.2.zip
+!file/LLama Girls.zip
+file/My Monster Girls.zip
+file/Neco-Arc Cats.zip
+!file/Breeze Girl v1.0.zip
+!file/Betty Witch v1.0.zip
+file/Muggets Standing Cow v1.0.zip
+file/CowGirl v1.zip
+!file/Thicc Phantom.zip
+!file/Jax Enderman.zip
+file/Gigachad Villager.zip
