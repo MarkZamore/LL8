@@ -56,8 +56,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod/seamless:resourcepacks/default_seamless","fabric","file/AnimeMemePackv8.1.0.zip","file/Anime Paintings 1.0.zip","file/Totem of GAGAGA 7tv emote 1.0.zip","file/MOANING MOBS by Gooey 0.1.zip","file/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip","file/Grays Mob Overhaul v13.zip"]
-incompatibleResourcePacks:["file/MOANING MOBS by Gooey 0.1.zip","file/Anime Paintings 1.0.zip"]
+resourcePacks:["mod/seamless:resourcepacks/default_seamless","fabric","programmer_art","high_contrast","mod/iceandfire:resourcepacks/iaf_legacy","touhou_little_maid_legacy_resources_pack","touhou_little_maid_spell_legacy_textures","mod/cobblemon:resourcepacks/gyaradosjump","mod/cobblemon:resourcepacks/regionbiasforms","mod/cobblemon:resourcepacks/uniqueshinyforms","file/Stay True 1.21.zip","file/Authentic Shadows_1.21+.zip","file/No Vignette 1.21.zip","file/AE2Blackout-V1.2.8.zip","file/GEO - v1.109.0.zip","file/GEO - v1.109.0 - Fusion.zip","file/Anime Paintings 1.0.zip","file/Totem of GAGAGA 7tv emote 1.0.zip","file/MOANING MOBS by Gooey 0.1.zip","file/Fresh Animations v1.10.4.zip","file/Torturable Healthbars 2.4.3.zip","file/3D Reinforced Armor v1.zip","file/Baby Animals Remastered 1.21 v1.3.zip","file/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip","file/3D Items-Vanillaism-1.21.1.zip","file/Grays Mob Overhaul v13.zip","file/Skeletons Hands 67.zip","file/Skeleton Girlies.zip","file/Cherry_Creeper_remake(3.0).zip","file/Only Glass GUI v0.2.zip","file/The Sky Sun and Moon.zip","file/zazu sun and moon.zip","file/funnyrain.zip","file/Lilac Jackson.zip","file/3D Beetroots to Tomatoes.zip","file/Bad Dream Death.zip","file/Slavic Villagers.zip","file/Luigi Villagers.zip","file/Blues Better Zombies v0.13.zip","file/Azus Enhanced Zombie Variants FA v1.2.zip","file/Golems Refreshed v2.1.zip","file/Thicc Villagers v1.2.zip","file/LLama Girls.zip","file/My Monster Girls.zip","file/Neco-Arc Cats.zip","file/Breeze Girl v1.0.zip","file/Betty Witch v1.0.zip","file/Muggets Standing Cow v1.0.zip","file/CowGirl v1.zip","file/Thicc Phantom.zip","file/Jax Enderman.zip","file/Gigachad Villager.zip"]
+incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -378,10 +378,7 @@ key_key.doggytalents.whistle.1:key.keyboard.1:SHIFT
 key_key.doggytalents.whistle.2:key.keyboard.2:SHIFT
 key_key.doggytalents.whistle.3:key.keyboard.3:SHIFT
 key_key.doggytalents.whistle.4:key.keyboard.4:SHIFT
-key_key.sophisticatedcore.item_highlight:key.keyboard.semicolon
 key_key.sophisticatedcore.sort:key.mouse.middle
-key_key.sophisticatedcore.deposit_item:key.keyboard.apostrophe
-key_key.sophisticatedcore.restock_item:key.keyboard.backslash
 key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.b
@@ -554,28 +551,6 @@ key_dndesires.keyinfo.saw_active:key.keyboard.left.alt
 key_dndesires.keyinfo.drill_active:key.keyboard.left.alt
 key_framedblocks.key.update_cull:key.keyboard.f9
 key_framedblocks.key.wipe_cache:key.keyboard.unknown
-key_key.journeymap.zoom_in:key.keyboard.equal
-key_key.journeymap.zoom_out:key.keyboard.minus
-key_key.journeymap.minimap_type:key.keyboard.left.bracket
-key_key.journeymap.minimap_preset:key.keyboard.backslash
-key_key.journeymap.create_waypoint:key.keyboard.o
-key_key.journeymap.toggle_render_waypoints:key.keyboard.unknown
-key_key.journeymap.toggle_render_waypoints_world:key.keyboard.unknown
-key_key.journeymap.toggle_render_waypoints_map:key.keyboard.unknown
-key_key.journeymap.toggle_waypoints:key.keyboard.unknown
-key_key.journeymap.fullscreen_create_waypoint:key.keyboard.o
-key_key.journeymap.fullscreen_chat_position:key.keyboard.c
-key_key.journeymap.map_toggle_alt:key.keyboard.j
-key_key.journeymap.fullscreen_waypoints:key.keyboard.unknown
-key_key.journeymap.minimap_toggle_alt:key.keyboard.j:CONTROL
-key_key.journeymap.fullscreen_options:key.keyboard.o
-key_key.journeymap.fullscreen.north:key.keyboard.up
-key_key.journeymap.fullscreen.south:key.keyboard.down
-key_key.journeymap.fullscreen.east:key.keyboard.right
-key_key.journeymap.fullscreen.west:key.keyboard.left
-key_key.journeymap.fullscreen_follow_player:key.keyboard.f
-key_key.journeymap.fullscreen.disable_buttons:key.keyboard.unknown
-key_key.journeymap.toggle_entity_names:key.keyboard.g
 key_key.guideme.guide:key.keyboard.g
 key_key.customfov.profile.desc:key.keyboard.unknown
 key_key.toolbelt.open:key.keyboard.r

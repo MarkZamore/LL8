@@ -28,8 +28,8 @@
   {
    "source": "tools/overlay/configureddefaults/options.txt",
    "target": "configureddefaults/options.txt",
-   "sha256": "5fc5ea9a130a1b5a44db835e654c5ddb8a2cd991ea19500d0b21a1e0c751cf84",
-   "reason": "the six requested resource packs start enabled here; everything else in this file is LL8's own, so refresh this copy when LL8 changes its defaults"
+   "sha256": "b1a3960a1e274c7c8cac5e672c8bfee2ac04d7669eba9bb1d4579241577a616d",
+   "reason": "every resource pack of the build starts selected, in the build's order, and none is seeded as incompatible (the game deselects a pack it was told is incompatible and then finds compatible); the ghost JourneyMap/sophisticatedcore keys are gone; refresh this copy when LL8 changes its defaults"
   },
   {
    "source": "tools/overlay/mods/CerbonsAPI-NeoForge-1.21-1.3.0.jar",
