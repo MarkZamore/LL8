@@ -56,7 +56,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["mod/seamless:resourcepacks/default_seamless","fabric","file/Authentic Shadows_1.21+.zip","file/No Vignette 1.21.zip","file/AE2Blackout-V1.2.8.zip","file/GEO - v1.109.0.zip","file/GEO - v1.109.0 - Fusion.zip","file/AnimeMemePackv8.1.0.zip","file/Anime Paintings 1.0.zip","file/Totem of GAGAGA 7tv emote 1.0.zip","file/MOANING MOBS by Gooey 0.1.zip","file/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip","file/The Brazilian Project [1.21.1-1.3.0].zip","file/EclecticTrove-noconfig-1.20.2-1.3.0.zip","file/EmbellishedStone-1.19-1.0.0.zip","file/Pretty X Smart Pipez.zip","file/waystones_1.21.1.zip","file/Grays Mob Overhaul v13.zip"]
+resourcePacks:["mod/seamless:resourcepacks/default_seamless","fabric","file/Authentic Shadows_1.21+.zip","file/No Vignette 1.21.zip","file/AE2Blackout-V1.2.8.zip","file/GEO - v1.109.0.zip","file/GEO - v1.109.0 - Fusion.zip","file/Anime Paintings 1.0.zip","file/Totem of GAGAGA 7tv emote 1.0.zip","file/MOANING MOBS by Gooey 0.1.zip","file/CMMRP_Release_1.2.v5_[1.20.6-1.21.1].zip","file/The Brazilian Project [1.21.1-1.3.0].zip","file/EclecticTrove-noconfig-1.20.2-1.3.0.zip","file/EmbellishedStone-1.19-1.0.0.zip","file/Pretty X Smart Pipez.zip","file/waystones_1.21.1.zip","file/Grays Mob Overhaul v13.zip"]
 incompatibleResourcePacks:["file/Anime Paintings 1.0.zip","file/MOANING MOBS by Gooey 0.1.zip","file/EclecticTrove-noconfig-1.20.2-1.3.0.zip","file/EmbellishedStone-1.19-1.0.0.zip"]
 lastServer:
 lang:en_us

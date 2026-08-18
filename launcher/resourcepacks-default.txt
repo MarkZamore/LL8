@@ -23,7 +23,6 @@ file/No Vignette 1.21.zip
 file/AE2Blackout-V1.2.8.zip
 file/GEO - v1.109.0.zip
 file/GEO - v1.109.0 - Fusion.zip
-file/AnimeMemePackv8.1.0.zip
 !file/Anime Paintings 1.0.zip
 file/Totem of GAGAGA 7tv emote 1.0.zip
 !file/MOANING MOBS by Gooey 0.1.zip
