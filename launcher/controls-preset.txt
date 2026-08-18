@@ -205,15 +205,6 @@ key_key.cobblemon.ridingfreelook:key.keyboard.n  # Look around while riding (hol
 key_key.cobblemon.hideparty:key.keyboard.unknown  # unbound: hides the party overlay, one cosmetic flag
 key_key.cobblemon.upshiftparty:key.keyboard.unknown  # unbound: hold the throw key and scroll the wheel - Cobblemon does this itself
 key_key.cobblemon.downshiftparty:key.keyboard.unknown  # unbound: the same wheel, the other way
-key_key.cobblemon.pokenavigator:key.keyboard.unknown  # unbound: built but never registered in 1.7.3, so the game never shows it
-key_key.cobblemon.printmodelsettings:key.keyboard.unknown  # unbound: debug, and the debug keys only register when enableDebugKeys is on
-key_key.cobblemon.scaleportraitup:key.keyboard.unknown  # unbound: debug
-key_key.cobblemon.scaleportraitdown:key.keyboard.unknown  # unbound: debug
-key_key.cobblemon.translateportraitup:key.keyboard.unknown  # unbound: debug
-key_key.cobblemon.translateportraitdown:key.keyboard.unknown  # unbound: debug
-key_key.cobblemon.translateportraitleft:key.keyboard.unknown  # unbound: debug
-key_key.cobblemon.translateportraitright:key.keyboard.unknown  # unbound: debug, and it ships on the same key as its left-hand twin
-key_key.cobblemon.toggleridingstatsgui:key.keyboard.unknown  # unbound: debug
 
 # --- compactmachines ---
 key_key.mapping.compactmachines.exit_room:key.keyboard.unknown
@@ -845,7 +836,6 @@ key_key.shetiphiancore.tool.previous:key.keyboard.unknown  # was page.down: rare
 key_key.showcaseitem.showcaseitem:key.keyboard.t  # Showcase Item
 
 # --- shut_up_gl_error ---
-key_shut_up_gl_error.test:key.keyboard.unknown  # unbound: a library mod's own test key, default g
 
 # --- silentgear ---
 key_key.silentgear.cycle.back:key.keyboard.unknown  # was z: rare
@@ -859,7 +849,6 @@ key_key.silentgear.openItem:key.keyboard.unknown  # was x: rare
 key_simplemagnets.keys.toggle:key.keyboard.unknown  # was h: the magnet is toggled by using it
 
 # --- smallships ---
-key_key.smallships.cannon_barrel_enter:key.keyboard.unknown  # unbound: niche; was f, which is the offhand swap
 key_key.smallships.ship_sail:key.keyboard.f10  # Toggle Sail
 
 # --- sophisticatedbackpacks ---
@@ -1011,7 +1000,6 @@ key_gui.xaero_open_map:key.keyboard.m  # Open World Map
 key_gui.xaero_open_settings:key.keyboard.unknown  # was right.bracket: reachable from the world map screen
 key_gui.xaero_quick_confirm:key.keyboard.unknown  # unbound: Num Enter went to the maid voice chat; Enter confirms the same dialogs
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
-key_gui.xaero_toggle_tracked_players:key.keyboard.unknown  # registered only when the minimap is absent
 key_gui.xaero_world_map_server_settings:key.keyboard.unknown
 
 # --- xycraft_core ---

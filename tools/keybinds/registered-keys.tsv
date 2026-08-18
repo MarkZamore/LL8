@@ -55,7 +55,6 @@ gui.xaero_toggle_map	xaerominimap	UNIVERSAL	assumed	key.keyboard.unknown	key.key
 gui.xaero_toggle_map_waypoints	xaerominimap	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle On-Map Waypoints	Вкл/Выкл метки на мини-карте
 gui.xaero_toggle_pac_chunk_claims	xaerominimap	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Chunk Claims	Отобразить чанки участков
 gui.xaero_toggle_slime	xaerominimap	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Slime Chunks	Вкл/выкл подсветку чанков слизней
-gui.xaero_toggle_tracked_players	xaeroworldmap	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Tracked Players	
 gui.xaero_toggle_tracked_players_in_world	xaerominimap	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Tracked Players In World	
 gui.xaero_toggle_tracked_players_on_map	xaerominimap	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle Tracked Players On Map	
 gui.xaero_toggle_waypoints	xaerominimap	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Toggle In-World Waypoints	Вкл/Выкл метки в мире
@@ -163,18 +162,9 @@ key.clienttweaks.hideOffhandItem	clienttweaks	UNIVERSAL	assumed	key.keyboard.unk
 key.clienttweaks.mineSingleBlock	clienttweaks	UNIVERSAL	assumed		key.keyboard.unknown	options	Mine Single Block	
 key.cobblemon.downshiftparty	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Party Shift Down	Выбор Покемона в команде (Вниз)
 key.cobblemon.hideparty	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Hide Party Overlay	Спрятать табло с командой
-key.cobblemon.pokenavigator	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Open PokéNav	Открыть ПокеНав
-key.cobblemon.printmodelsettings	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Print Model Settings	Настройки модельки
 key.cobblemon.ridingfreelook	cobblemon	UNIVERSAL	assumed		key.keyboard.n	options	Riding Freelook	
-key.cobblemon.scaleportraitdown	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Scale Portrait Down	Увеличение портрета (Вниз)
-key.cobblemon.scaleportraitup	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Scale Portrait Up	Увеличение портрета (Вверх)
 key.cobblemon.summary	cobblemon	UNIVERSAL	assumed		key.keyboard.o	options	Open Summary	Открыть описание
 key.cobblemon.throwpartypokemon	cobblemon	UNIVERSAL	assumed		key.keyboard.r	options	Throw Selected Pokémon	Вызвать выбранного Покемона
-key.cobblemon.toggleridingstatsgui	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Toggle Riding Stats GUI	Показатели для езды
-key.cobblemon.translateportraitdown	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Translate Portrait Down	Перенос портрета (Вниз)
-key.cobblemon.translateportraitleft	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Translate Portrait Left	Перенос портрета (Влево)
-key.cobblemon.translateportraitright	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Translate Portrait Right	Перенос портрета (Вправо)
-key.cobblemon.translateportraitup	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Translate Portrait Up	Перенос портрета (Вверх)
 key.cobblemon.upshiftparty	cobblemon	UNIVERSAL	assumed		key.keyboard.unknown	options	Party Shift Up	Выбор Покемона в команде (Вверх)
 key.command	minecraft	UNIVERSAL	assumed	key.keyboard.slash	key.keyboard.slash	options+defaults		
 key.configured.open_mod_list	configured	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Open Mod List	Open Mod List
@@ -504,7 +494,6 @@ key.silentgear.displayItemConstruction	silentgear	UNIVERSAL	assumed	key.keyboard
 key.silentgear.displayItemProperties	silentgear	UNIVERSAL	assumed	key.keyboard.left.control	key.keyboard.unknown	options+defaults	Display Properties and Traits	
 key.silentgear.displayTraitDescriptions	silentgear	UNIVERSAL	assumed	key.keyboard.left.shift	key.keyboard.unknown	options+defaults	Display Trait Descriptions	
 key.silentgear.openItem	silentgear	UNIVERSAL	assumed	key.keyboard.x	key.keyboard.unknown	options+defaults	Open Item	Открыть предмет
-key.smallships.cannon_barrel_enter	smallships	UNIVERSAL	assumed		key.keyboard.unknown	options		
 key.smallships.ship_sail	smallships	UNIVERSAL	assumed	key.keyboard.r	key.keyboard.f10	options+defaults	Toggle Sail	Контроль паруса
 key.smoothCamera	minecraft	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults		
 key.sneak	minecraft	UNIVERSAL	assumed	key.keyboard.left.shift	key.keyboard.left.shift	options+defaults		
@@ -679,7 +668,6 @@ quark.keybind.sort_player	quark	UNIVERSAL	assumed	key.keyboard.unknown	key.keybo
 quark.keybind.transfer_extract	quark	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Extract Items	Извлечь предметы
 quark.keybind.transfer_insert	quark	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Insert Items	Положить предметы
 quark.keybind.variant_selector	quark	UNIVERSAL	assumed	key.keyboard.r	key.keyboard.unknown	options+defaults	Variant Selector	Выбор варианта
-shut_up_gl_error.test	minecraft	UNIVERSAL	assumed		key.keyboard.unknown	options		
 simplemagnets.keys.toggle	simplemagnets	UNIVERSAL	assumed	key.keyboard.h	key.keyboard.unknown	options+defaults	Toggle Magnet	Включить магнит
 supplementaries.keybind.quiver	supplementaries	UNIVERSAL	assumed	key.keyboard.v	key.keyboard.unknown	options+defaults	Quiver	Колчан
 tombstone.message.compendium	tombstone	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Compendium	Компендиум

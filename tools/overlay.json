@@ -172,6 +172,18 @@
    "target": "resourcepacks/Totem of GAGAGA 7tv emote 1.0.zip",
    "sha256": "51acd5c80c648096e64f6356c9c513d7d7240a945f716e5f0610d81e01e2de50",
    "reason": "requested addition (totem of :GAGAGA: 7tv emote 1.0)"
+  },
+  {
+   "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/minecraft/models/item/totem_of_undying_credits.txt",
+   "target": "config/paxi/resourcepacks/tnp_resources/assets/minecraft/models/item/totem_of_undying_credits.txt",
+   "sha256": "fa06d9222472f58418b99c6136d0586bab40bf28862e095d3b8efe68375217d0",
+   "reason": "credit note for the totem texture; the shipped name has spaces and capitals, which is not a resource path, so the game logs it as invalid on every load"
+  },
+  {
+   "source": "tools/overlay/config/paxi/resourcepacks/tnp_resources/assets/tnp/textures/item/coins_credit.txt",
+   "target": "config/paxi/resourcepacks/tnp_resources/assets/tnp/textures/item/coins_credit.txt",
+   "sha256": "771ed8c9ceb93740a29166f8069c75d9bc89e9122254c615fb450ed92fba3be6",
+   "reason": "credit note for the coin textures; same reason, the shipped name is not a resource path"
   }
  ],
  "tomlEdits": [
@@ -198,6 +210,14 @@
   {
    "path": "config/crash_assistant",
    "reason": "configuration of the removed mod"
+  },
+  {
+   "path": "config/paxi/resourcepacks/tnp_resources/assets/minecraft/models/item/TOTEM OF UNDYING CREDITS.txt",
+   "reason": "renamed by this overlay to a valid resource path; the credit text is kept beside it"
+  },
+  {
+   "path": "config/paxi/resourcepacks/tnp_resources/assets/tnp/textures/item/coins credit.txt",
+   "reason": "renamed by this overlay to a valid resource path; the credit text is kept beside it"
   }
  ],
  "jsonEdits": [
