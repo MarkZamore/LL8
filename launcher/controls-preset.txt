@@ -1035,3 +1035,6 @@ key_key.yes_steve_model.extra_animation.4.desc:key.keyboard.unknown  # ysm anima
 key_key.yes_steve_model.extra_animation.5.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
 key_key.yes_steve_model.extra_animation.6.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
 key_key.yes_steve_model.extra_animation.7.desc:key.keyboard.unknown  # ysm animation slot, bound in game if wanted
+key_key.touhou_little_maid.dismount.desc:key.keyboard.unknown  # was c: taken by the rifle reload
+key_key.touhou_little_maid.stt_chat.desc:key.keyboard.unknown  # was x: taken by the zoom; voice chat, rarely wanted
+key_key.touhou_little_maid_spell.open_ender_pocket:key.keyboard.unknown  # was u: taken by the special ability

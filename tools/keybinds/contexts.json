@@ -2239,6 +2239,18 @@
     "context": "UNIVERSAL",
     "source": "assumed"
   },
+  "key.touhou_little_maid.dismount.desc": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.touhou_little_maid.stt_chat.desc": {
+    "context": "IN_GAME",
+    "source": "bytecode"
+  },
+  "key.touhou_little_maid_spell.open_ender_pocket": {
+    "context": "UNIVERSAL",
+    "source": "assumed"
+  },
   "key.trashslot.delete": {
     "context": "UNIVERSAL",
     "source": "assumed"

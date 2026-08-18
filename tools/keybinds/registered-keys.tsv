@@ -559,6 +559,9 @@ key.toolbelt.cycle.left	toolbelt	UNIVERSAL	assumed	key.keyboard.unknown	key.keyb
 key.toolbelt.cycle.right	toolbelt	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.right	options+defaults	Cycle Tool Right	Циклический инструмент справа
 key.toolbelt.open	toolbelt	UNIVERSAL	assumed	key.keyboard.r	key.keyboard.left.bracket	options+defaults	Swap Tool	Заменить инструмент
 key.toolbelt.slot	toolbelt	UNIVERSAL	assumed	key.keyboard.v	key.keyboard.unknown	options+defaults	Open Belt Slot Inventory	Открыть слот инвентарь Пояса
+key.touhou_little_maid.dismount.desc	touhou_little_maid	IN_GAME	bytecode	key.keyboard.c		jar	Broom Dismount	Спешивание с метлы
+key.touhou_little_maid.stt_chat.desc	touhou_little_maid	IN_GAME	bytecode	key.keyboard.x		jar	STT AI Chat	STT AI чат
+key.touhou_little_maid_spell.open_ender_pocket	touhou_little_maid_spell	UNIVERSAL	assumed	key.keyboard.u		jar	Open Ender Pocket	
 key.trashslot.delete	trashslot	UNIVERSAL	assumed	key.keyboard.delete	key.keyboard.delete	options+defaults	Delete Item	Удалить предмет
 key.trashslot.delete_all	trashslot	UNIVERSAL	assumed	key.keyboard.delete:SHIFT	key.keyboard.unknown	options+defaults	Delete All Items of Type	
 key.trashslot.toggle	trashslot	UNIVERSAL	assumed	key.keyboard.unknown	key.keyboard.unknown	options+defaults	Show/Hide TrashSlot	Показать/скрыть слот для мусорки
